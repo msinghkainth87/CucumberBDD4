@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/karate/TrowDataComparePosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="539" column="42" selection-start-line="539" selection-start-column="42" selection-end-line="539" selection-end-column="42" />
+            <state relative-caret-position="391">
+              <caret line="543" column="32" selection-start-line="543" selection-start-column="32" selection-end-line="543" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#37698#37714#0" expanded="true" />
@@ -323,7 +323,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560203012299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560203628402" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -1034,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/karate/TrowDataComparePosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="539" column="42" selection-start-line="539" selection-start-column="42" selection-end-line="539" selection-end-column="42" />
+        <state relative-caret-position="391">
+          <caret line="543" column="32" selection-start-line="543" selection-start-column="32" selection-end-line="543" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#37698#37714#0" expanded="true" />
