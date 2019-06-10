@@ -1,0 +1,12 @@
+<testsuite failures="0" name="src/test/resources/features/KARATE.feature" skipped="0" tests="1" time="59.883456">
+  <testcase classname="src.test.resources.features.KARATE" name="Validate Positions Files" time="59.883456">
+    <system-out>Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Derma_0607.csv') . passed
+Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Trioptima_0607.csv') . passed
+Given def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping__POC2.csv') . passed
+When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet) . passed
+And def csv = Java.type('karate.TrowDataComparePosition') ................. passed
+And def js = new csv() .................................................... passed
+Then def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,"CRDSecid") . passed
+Then print result ......................................................... passed</system-out>
+  </testcase>
+</testsuite>

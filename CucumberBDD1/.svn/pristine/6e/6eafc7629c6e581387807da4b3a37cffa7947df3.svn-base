@@ -1,0 +1,7 @@
+def GetDate(hello) {
+    import java.util.*;
+    import java.text.SimpleDateFormat;
+
+    return new SimpleDateFormat("ddMMyyyy").format(Calendar.getInstance().getTime());
+}
+GetDate(1);

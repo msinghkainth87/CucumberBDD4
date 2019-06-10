@@ -1,0 +1,20 @@
+access:
+  db: access
+  url: C:\\Users\\vs197hg\\Desktop\\Database1.accdb
+  driverClassName: net.ucanaccess.jdbc.UcanaccessDriver
+sql:
+  db: sql
+  url: jdbc:sqlserver://localhost\\SQLEXPRESS
+  databaseName: Demo
+  driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+access2:
+  db: access
+  url: C:\\Users\\vs197hg\\Desktop\\Database2.accdb
+  driverClassName: net.ucanaccess.jdbc.UcanaccessDriver
+MySQL:
+  db: MySQL
+  url: jdbc:mysql://localhost:3306/SELLER
+  databaseName: SELLER
+  driverClassName: com.mysql.jdbc.Driver
+  username: root
+  password: 123456

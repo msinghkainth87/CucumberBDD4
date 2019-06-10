@@ -1,0 +1,78 @@
+{
+  "TRANS_SUB_TYPE": [
+
+    { "Assignment":"FULL_ASSGN" ,
+      "Terminated":"FULL_UNWD" ,
+      "Contract Create/New":"OPEN",
+      "Part Assignment":"PART_ASSGN",
+      "Part Terminated":"PART_UNWD",
+      "Undo Partial Termination": "NAN"
+    }
+  ],
+  "EXEC_BROKER": [
+
+    { "GSILGB2XXXX": "JPM",
+      "BOFAUS3DEQN":"MLCO",
+      "CITIUS33XXX": "CITI",
+      "CHASGB2LDPC": "MLCO",
+      "MSCSUS33XXX": "MSCO",
+      "ICUSUS33XXX": "MCRO",
+      "CSFPGB2LXXX":"CSFPGB2LX",
+      "XCMEUS4FXXX": "XCMEUS4FXXX",
+      "LCHLGB22XXX": "LCHLGB22XXX",
+      "BNPAFRPPXXX": "FXBP",
+      "ROYCCAT2XXX": "ROYCCAT2XXX",
+      "MIDLUS22XXX": "FXHS"
+
+    }
+  ],
+
+
+  "EXEC_BROKER1": [
+
+    { "Citi":"CITIUS33XXX",
+      "SBOP":"CITIUS33XXX",
+      "SBPT":"CITIUS33XXX",
+      "SBSH":"CITIUS33XXX",
+      "SSAE":"CITIUS33XXX",
+      "SSAL": "CITIUS33XXX",
+      "AST1": "CHASGB2LDPC",
+      "JPHQ": "CHASGB2LDPC",
+      "JPOP": "CHASGB2LDPC",
+      "JPPT": "CHASGB2LDPC",
+      "JPM-BB": "CHASGB2LDPC",
+      "JPM-MA": "CHASGB2LDPC",
+      "FXCH": "CHASGB2LDPC",
+      "BXS1": "MSCSUS33XXX",
+      "MSCO": "MSCSUS33XXX",
+      "MSCO-BB": "MSCSUS33XXX",
+      "MCSO-MA": "MSCSUS33XXX",
+      "MSOP": "MSCSUS33XXX",
+      "MSPT": "MSCSUS33XXX",
+      "GSAT": "GSILGB2XXXX",
+      "GSCO": "GSILGB2XXXX",
+      "GSCO-BB": "GSILGB2XXXX",
+      "GSCO-MA": "GSILGB2XXXX",
+      "GSDX": "GSILGB2XXXX",
+      "GSOP": "GSILGB2XXXX",
+      "GSPT": "GSILGB2XXXX",
+      "UBPT": "UBSWUS33XXX",
+      "UBS": "UBSWUS33XXX",
+      "UBSA": "UBSWUS33XXX",
+      "UBST": "UBSWUS33XXX",
+      "UBSW": "UBSWUS33XXX",
+      "FXML": "BOFAUS3DEQN",
+      "MLCO": "BOFAUS3DEQN",
+      "MLOP": "BOFAUS3DEQN",
+      "MLPT": "BOFAUS3DEQN",
+      "CSFB": "CSFPGB2LXXX",
+      "CSNY": "CSFPGB2LXXX",
+      "FBOP": "CSFPGB2LXXX",
+      "FXCS": "CSFPGB2LXXX"
+    }
+  ]
+
+
+
+
+}

@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Tag: @transaction_cr</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberBDD</td>
+            <td>19 May 2019, 15:11</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@transaction_cr</td>
+          <td      class="passed"    >9</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">9</td>
+
+          <td  class="passed"    >1</td>
+          <td >0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="8155530319">8.155</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_src-test-resources-features-KARATE-feature.html">src/test/resources/features/KARATE.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_transaction_cr.html">@transaction_cr</a>
+      </div>
+
+  
+  <span class="lead-duration duration">8.155</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Validate CSV Files</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Day_3_JUAT_Results.csv')</span>
+  
+  <span class="lead-duration duration">0.158</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TradeBlotterTRS_0517_v1.csv')</span>
+  
+  <span class="lead-duration duration">0.053</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_TRP_C.csv')</span>
+  
+  <span class="lead-duration duration">0.007</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def transformationData = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/PositionTranformation.json')</span>
+  
+  <span class="lead-duration duration">0.004</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
+  
+  <span class="lead-duration duration">0.556</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def csv = Java.type('karate.DataCompare')</span>
+  
+  <span class="lead-duration duration">0.012</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def js = new csv()</span>
+  
+  <span class="lead-duration duration">0.005</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,&quot;TRADE_ID&quot;,transformationData,&quot;Trade ID&quot;)</span>
+  
+  <span class="lead-duration duration">7.351</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print result</span>
+  
+  <span class="lead-duration duration">0.006</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>15:11:13.658 [print] 
+
+Trade ID :77025399 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025398 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025397 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025400 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015404 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025385 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025388 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025387 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025386 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025392 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025390 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025389 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025391 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015421 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015420 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015422 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015427 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015428 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015431 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015429 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015430 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015432 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015435 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015433 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015434 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015436 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025395 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025393 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025394 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025396 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025379 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025380 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025378 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025377 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031383 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031381 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031382 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031380 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015458 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015456 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015455 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015457 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015453 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015451 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015447 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015452 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015454 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015459 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015462 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015461 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015460 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015449 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015446 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015445 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015448 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015450 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015443 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015442 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015441 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015444 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027383 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027379 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027377 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027376 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027381 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027380 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027375 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027378 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027382 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027384 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027395 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027393 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027394 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027396 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025427 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025428 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025429 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025418 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025421 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025420 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025419 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015470 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015468 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015467 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015469 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015474 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015472 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015471 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015473 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015483 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015486 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015485 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015484 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015476 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015475 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015477 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015478 not found in Target sheet. RESULT: FAILED
+
+Mismatch at Row :41 for Trade ID : 77025422 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN | Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 41 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+Mismatch at Row :40 for Trade ID : 77025425 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN | Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 40 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+Mismatch at Row :39 for Trade ID : 77025424 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN | Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 39 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+Mismatch at Row :38 for Trade ID : 77025423 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN | Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 38 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+Trade ID :77015480 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015479 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015481 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015482 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027427 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027417 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027415 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027416 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027418 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027413 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027412 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027414 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015487 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015490 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015489 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015488 not found in Target sheet. RESULT: FAILED
+
+Mismatch at Row :7 for Trade ID : 77019910 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Trade Date  |Expected: 5/14/2019 0:00 | Actual: 5/15/2019 | Row 7 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 5/15/2019 |
+Mismatch at Row :8 for Trade ID : 77019910 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Trade Date  |Expected: 5/14/2019 0:00 | Actual: 5/15/2019 | Row 7 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 5/15/2019 | Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Row 8 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Undo Partial Termination |
+
+Mismatch at Row :3 for Trade ID : 77019908 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Trade Date  |Expected: 5/14/2019 0:00 | Actual: 5/15/2019 | Row 3 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 5/15/2019 |
+Mismatch at Row :4 for Trade ID : 77019908 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Trade Date  |Expected: 5/14/2019 0:00 | Actual: 5/15/2019 | Row 3 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 5/15/2019 | Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Row 4 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Undo Partial Termination |
+
+Mismatch at Row :1 for Trade ID : 77019907 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Trade Date  |Expected: 5/14/2019 0:00 | Actual: 5/15/2019 | Row 1 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 5/15/2019 |
+Mismatch at Row :2 for Trade ID : 77019907 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Trade Date  |Expected: 5/14/2019 0:00 | Actual: 5/15/2019 | Row 1 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 5/15/2019 | Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Row 2 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Undo Partial Termination |
+
+Mismatch at Row :5 for Trade ID : 77019909 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Trade Date  |Expected: 5/14/2019 0:00 | Actual: 5/15/2019 | Row 5 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 5/15/2019 |
+Mismatch at Row :6 for Trade ID : 77019909 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Trade Date  |Expected: 5/14/2019 0:00 | Actual: 5/15/2019 | Row 5 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 5/15/2019 | Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Row 6 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 | Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Undo Partial Termination |
+
+Mismatch at Row :171 for Trade ID : 77031396 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: S INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2425000 | Row 171 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+Mismatch at Row :169 for Trade ID : 77031394 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: S INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2425000 | Row 169 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+Mismatch at Row :168 for Trade ID : 77031393 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: S INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2425000 | Row 168 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+Mismatch at Row :170 for Trade ID : 77031395 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN | Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: S INDEX_CDS / Index CDS | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2425000 | Row 170 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+Trade ID :77019918 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77019916 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77019915 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77019917 not found in Target sheet. RESULT: FAILED
+
+Mismatch at Row :174 for Trade ID : 77020876 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.91300%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 174 Mismatch Column Name =Leg1 Rate  |Expected: 1.913 | Actual: 191.3 |
+
+Mismatch at Row :172 for Trade ID : 77020874 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.91300%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 172 Mismatch Column Name =Leg1 Rate  |Expected: 1.913 | Actual: 191.3 |
+
+Mismatch at Row :173 for Trade ID : 77020875 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.91300%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 173 Mismatch Column Name =Leg1 Rate  |Expected: 1.913 | Actual: 191.3 |
+
+Mismatch at Row :175 for Trade ID : 77020877 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.91300%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 175 Mismatch Column Name =Leg1 Rate  |Expected: 1.913 | Actual: 191.3 |
+
+Mismatch at Row :179 for Trade ID : 77020878 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 179 Mismatch Column Name =Leg1 Rate  |Expected: 2.1675 | Actual: 216.75 |
+
+Mismatch at Row :178 for Trade ID : 77020881 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 178 Mismatch Column Name =Leg1 Rate  |Expected: 2.1675 | Actual: 216.75 |
+
+Mismatch at Row :177 for Trade ID : 77020880 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 177 Mismatch Column Name =Leg1 Rate  |Expected: 2.1675 | Actual: 216.75 |
+
+Mismatch at Row :176 for Trade ID : 77020879 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 176 Mismatch Column Name =Leg1 Rate  |Expected: 2.1675 | Actual: 216.75 |
+
+Mismatch at Row :180 for Trade ID : 77020882 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.01750%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 5000000 | Actual: -5000000 | Row 180 Mismatch Column Name =Leg1 Rate  |Expected: 2.0175 | Actual: 201.75 |
+
+Mismatch at Row :181 for Trade ID : 77020883 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.01750%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 5000000 | Actual: -5000000 | Row 181 Mismatch Column Name =Leg1 Rate  |Expected: 2.0175 | Actual: 201.75 |
+
+Mismatch at Row :183 for Trade ID : 77020885 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 183 Mismatch Column Name =Leg1 Rate  |Expected: 1.9125 | Actual: 191.25 |
+
+Mismatch at Row :186 for Trade ID : 77020888 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 186 Mismatch Column Name =Leg1 Rate  |Expected: 1.9125 | Actual: 191.25 |
+
+Mismatch at Row :182 for Trade ID : 77020884 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 182 Mismatch Column Name =Leg1 Rate  |Expected: 1.9125 | Actual: 191.25 |
+
+Mismatch at Row :184 for Trade ID : 77020886 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 184 Mismatch Column Name =Leg1 Rate  |Expected: 1.9125 | Actual: 191.25 |
+
+Mismatch at Row :185 for Trade ID : 77020887 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 185 Mismatch Column Name =Leg1 Rate  |Expected: 1.9125 | Actual: 191.25 |
+
+Mismatch at Row :188 for Trade ID : 77020890 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.37800%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 188 Mismatch Column Name =Leg1 Rate  |Expected: 2.378 | Actual: 237.8 |
+
+Mismatch at Row :187 for Trade ID : 77020889 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.37800%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 187 Mismatch Column Name =Leg1 Rate  |Expected: 2.378 | Actual: 237.8 |
+
+Mismatch at Row :190 for Trade ID : 77020892 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.37800%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 190 Mismatch Column Name =Leg1 Rate  |Expected: 2.378 | Actual: 237.8 |
+
+Mismatch at Row :189 for Trade ID : 77020891 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.37800%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 189 Mismatch Column Name =Leg1 Rate  |Expected: 2.378 | Actual: 237.8 |
+
+Mismatch at Row :191 for Trade ID : 77020893 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.37800%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 191 Mismatch Column Name =Leg1 Rate  |Expected: 2.378 | Actual: 237.8 |
+
+Mismatch at Row :193 for Trade ID : 77020895 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 193 Mismatch Column Name =Leg1 Rate  |Expected: 1.9125 | Actual: 191.25 |
+
+Mismatch at Row :192 for Trade ID : 77020894 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 192 Mismatch Column Name =Leg1 Rate  |Expected: 1.9125 | Actual: 191.25 |
+
+Mismatch at Row :194 for Trade ID : 77020896 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 194 Mismatch Column Name =Leg1 Rate  |Expected: 1.9125 | Actual: 191.25 |
+
+Mismatch at Row :195 for Trade ID : 77020897 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MSIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Row 195 Mismatch Column Name =Leg1 Rate  |Expected: 1.9125 | Actual: 191.25 |
+
+Mismatch at Row :200 for Trade ID : 77020898 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.86300%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 200 Mismatch Column Name =Leg1 Rate  |Expected: 1.863 | Actual: 186.3 |
+
+Mismatch at Row :197 for Trade ID : 77020900 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.86300%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 197 Mismatch Column Name =Leg1 Rate  |Expected: 1.863 | Actual: 186.3 |
+
+Mismatch at Row :196 for Trade ID : 77020899 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.86300%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 196 Mismatch Column Name =Leg1 Rate  |Expected: 1.863 | Actual: 186.3 |
+
+Mismatch at Row :198 for Trade ID : 77020901 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.86300%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 198 Mismatch Column Name =Leg1 Rate  |Expected: 1.863 | Actual: 186.3 |
+
+Mismatch at Row :199 for Trade ID : 77020902 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.86300%SGDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.95971 | Actual: SIBOR | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 199 Mismatch Column Name =Leg1 Rate  |Expected: 1.863 | Actual: 186.3 |
+
+Mismatch at Row :59 for Trade ID : 77020903 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 7.83000%MXNFIXEDMont | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 59 Mismatch Column Name =Leg1 Rate  |Expected: 7.83 | Actual: 783 |
+
+Mismatch at Row :52 for Trade ID : 77020906 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 7.83000%MXNFIXEDMont | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 52 Mismatch Column Name =Leg1 Rate  |Expected: 7.83 | Actual: 783 |
+
+Mismatch at Row :60 for Trade ID : 77020904 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 7.83000%MXNFIXEDMont | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 60 Mismatch Column Name =Leg1 Rate  |Expected: 7.83 | Actual: 783 |
+
+Mismatch at Row :51 for Trade ID : 77020905 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 7.83000%MXNFIXEDMont | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 51 Mismatch Column Name =Leg1 Rate  |Expected: 7.83 | Actual: 783 |
+
+Mismatch at Row :58 for Trade ID : 77020907 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 7.83000%MXNFIXEDMont | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 | Row 58 Mismatch Column Name =Leg1 Rate  |Expected: 7.83 | Actual: 783 |
+
+Mismatch at Row :57 for Trade ID : 77020908 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1MTIIE+Mont | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Row 57 Mismatch Column Name =Leg1 Rate  |Expected: 8.16 | Actual: 816 |
+
+Mismatch at Row :54 for Trade ID : 77020910 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1MTIIE+Mont | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Row 54 Mismatch Column Name =Leg1 Rate  |Expected: 8.16 | Actual: 816 |
+
+Mismatch at Row :53 for Trade ID : 77020909 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1MTIIE+Mont | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Row 53 Mismatch Column Name =Leg1 Rate  |Expected: 8.16 | Actual: 816 |
+
+Mismatch at Row :55 for Trade ID : 77020911 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1MTIIE+Mont | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Row 55 Mismatch Column Name =Leg1 Rate  |Expected: 8.16 | Actual: 816 |
+
+Mismatch at Row :56 for Trade ID : 77020912 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1MTIIE+Mont | Mismatch Column Name =Leg2 Index  |Expected: 8.5061 | Actual: TIIE | Row 56 Mismatch Column Name =Leg1 Rate  |Expected: 8.16 | Actual: 816 |
+
+Trade ID :77020915 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020914 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020913 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020916 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020919 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020917 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020918 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020920 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020923 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020922 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020921 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020924 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020925 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020927 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020926 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020928 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020929 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020933 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020931 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020930 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020932 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020934 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020936 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020935 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020937 not found in Target sheet. RESULT: FAILED
+
+Mismatch at Row :96 for Trade ID : 77020938 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 96 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 |
+Mismatch at Row :97 for Trade ID : 77020938 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 96 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 97 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 |
+
+Mismatch at Row :90 for Trade ID : 77020940 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 90 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 |
+Mismatch at Row :91 for Trade ID : 77020940 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 90 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 91 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 |
+
+Mismatch at Row :98 for Trade ID : 77020939 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 98 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 |
+Mismatch at Row :99 for Trade ID : 77020939 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 98 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 99 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 |
+
+Mismatch at Row :73 for Trade ID : 77020941 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 73 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 |
+Mismatch at Row :74 for Trade ID : 77020941 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 73 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.57500%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 74 Mismatch Column Name =Leg1 Rate  |Expected: 3.575 | Actual: 357.5 |
+
+Mismatch at Row :94 for Trade ID : 77020942 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 94 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 |
+Mismatch at Row :95 for Trade ID : 77020942 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 94 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 95 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 |
+
+Mismatch at Row :103 for Trade ID : 77020944 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 103 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 |
+Mismatch at Row :104 for Trade ID : 77020944 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 103 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 104 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 |
+
+Mismatch at Row :101 for Trade ID : 77020943 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 101 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 |
+Mismatch at Row :102 for Trade ID : 77020943 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 101 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 102 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 |
+
+Mismatch at Row :92 for Trade ID : 77020945 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 92 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 |
+Mismatch at Row :93 for Trade ID : 77020945 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 92 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MKLIBO+Quar | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Row 93 Mismatch Column Name =Leg1 Rate  |Expected: 3.612153 | Actual: 361.2153 |
+
+Mismatch at Row :64 for Trade ID : 77020946 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 64 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 |
+Mismatch at Row :65 for Trade ID : 77020946 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 64 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 65 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 |
+
+Mismatch at Row :66 for Trade ID : 77020948 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 66 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 |
+Mismatch at Row :67 for Trade ID : 77020948 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 66 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 67 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 |
+
+Mismatch at Row :82 for Trade ID : 77020947 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 82 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 |
+Mismatch at Row :83 for Trade ID : 77020947 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 82 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 83 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 |
+
+Mismatch at Row :84 for Trade ID : 77020949 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 84 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 |
+Mismatch at Row :85 for Trade ID : 77020949 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 84 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3.85000%MYRFIXEDQuar | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 3.46 | Actual: KLIBO | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 85 Mismatch Column Name =Leg1 Rate  |Expected: 3.85 | Actual: 385 |
+
+Mismatch at Row :86 for Trade ID : 77020950 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 86 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 |
+Mismatch at Row :87 for Trade ID : 77020950 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 86 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 87 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 |
+
+Mismatch at Row :88 for Trade ID : 77020952 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 88 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 |
+Mismatch at Row :89 for Trade ID : 77020952 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 88 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 89 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 |
+
+Mismatch at Row :79 for Trade ID : 77020951 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 79 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 |
+Mismatch at Row :80 for Trade ID : 77020951 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 79 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 80 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 |
+
+Mismatch at Row :69 for Trade ID : 77020953 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 69 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 |
+Mismatch at Row :70 for Trade ID : 77020953 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 69 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Row 70 Mismatch Column Name =Leg1 Rate  |Expected: 1.875 | Actual: 187.5 |
+
+Mismatch at Row :61 for Trade ID : 77020955 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 61 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 |
+Mismatch at Row :62 for Trade ID : 77020955 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 61 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 62 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 |
+
+Mismatch at Row :71 for Trade ID : 77020954 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 71 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 |
+Mismatch at Row :72 for Trade ID : 77020954 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 71 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 72 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 |
+
+Mismatch at Row :75 for Trade ID : 77020956 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 75 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 |
+Mismatch at Row :76 for Trade ID : 77020956 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 75 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 76 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 |
+
+Mismatch at Row :77 for Trade ID : 77020957 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 77 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 |
+Mismatch at Row :78 for Trade ID : 77020957 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 77 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.12000%THBFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.7435 | Actual: BIBOR | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 78 Mismatch Column Name =Leg1 Rate  |Expected: 2.12 | Actual: 212 |
+
+Mismatch at Row :68 for Trade ID : 77020958 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.3718 | Actual: BIBOR | Row 68 Mismatch Column Name =Leg1 Rate  |Expected: 1.835 | Actual: 183.5 |
+
+Mismatch at Row :63 for Trade ID : 77020960 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.3718 | Actual: BIBOR | Row 63 Mismatch Column Name =Leg1 Rate  |Expected: 1.835 | Actual: 183.5 |
+
+Mismatch at Row :81 for Trade ID : 77020959 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.3718 | Actual: BIBOR | Row 81 Mismatch Column Name =Leg1 Rate  |Expected: 1.835 | Actual: 183.5 |
+
+Mismatch at Row :100 for Trade ID : 77020961 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBIBOR+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.3718 | Actual: BIBOR | Row 100 Mismatch Column Name =Leg1 Rate  |Expected: 1.835 | Actual: 183.5 |
+
+Trade ID :77020980 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020978 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020979 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020981 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020984 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020983 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020982 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020985 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020988 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020986 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020987 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020989 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020993 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020991 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020990 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020992 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020994 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020997 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020996 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020995 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021000 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020999 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020998 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021001 not found in Target sheet. RESULT: FAILED
+
+Mismatch at Row :111 for Trade ID : 77021005 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 111 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX |
+Mismatch at Row :112 for Trade ID : 77021005 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 111 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 112 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :107 for Trade ID : 77021003 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 107 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX |
+Mismatch at Row :108 for Trade ID : 77021003 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 107 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 108 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :105 for Trade ID : 77021002 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 105 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX |
+Mismatch at Row :106 for Trade ID : 77021002 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 105 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 106 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :109 for Trade ID : 77021004 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 109 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX |
+Mismatch at Row :110 for Trade ID : 77021004 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 109 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.18430%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 110 Mismatch Column Name =Leg1 Rate  |Expected: 2.1843 | Actual: 218.43 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :119 for Trade ID : 77021009 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 119 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX |
+Mismatch at Row :120 for Trade ID : 77021009 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 119 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 120 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :115 for Trade ID : 77021007 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 115 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX |
+Mismatch at Row :116 for Trade ID : 77021007 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 115 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 116 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :113 for Trade ID : 77021006 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 113 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX |
+Mismatch at Row :114 for Trade ID : 77021006 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 113 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 114 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :117 for Trade ID : 77021008 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 117 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX |
+Mismatch at Row :118 for Trade ID : 77021008 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 117 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 3MLIB3M+Quar | Mismatch Column Name =Leg2 Index  |Expected: 2.518 | Actual: LIB3M | Row 118 Mismatch Column Name =Leg1 Rate  |Expected: 2.162 | Actual: 216.2 | Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :122 for Trade ID : 77021011 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.27900%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.32938 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 122 Mismatch Column Name =Leg1 Rate  |Expected: 2.278999 | Actual: 227.8999 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :121 for Trade ID : 77021010 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.27900%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.32938 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 121 Mismatch Column Name =Leg1 Rate  |Expected: 2.278999 | Actual: 227.8999 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :123 for Trade ID : 77021012 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.27900%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.32938 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 123 Mismatch Column Name =Leg1 Rate  |Expected: 2.278999 | Actual: 227.8999 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :124 for Trade ID : 77021013 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 2.27900%USDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.32938 | Actual: LIB3M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 124 Mismatch Column Name =Leg1 Rate  |Expected: 2.278999 | Actual: 227.8999 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :166 for Trade ID : 77039986 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 166 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX |
+Mismatch at Row :167 for Trade ID : 77039986 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 166 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 167 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :162 for Trade ID : 77039984 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 162 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX |
+Mismatch at Row :163 for Trade ID : 77039984 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 162 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 163 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :160 for Trade ID : 77039983 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 160 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX |
+Mismatch at Row :161 for Trade ID : 77039983 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 160 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 161 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :164 for Trade ID : 77039985 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 164 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX |
+Mismatch at Row :165 for Trade ID : 77039985 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 164 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 165 Mismatch Column Name =Leg1 Rate  |Expected: -0.036 | Actual: -3.6 | Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :152 for Trade ID : 77021020 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 152 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX |
+Mismatch at Row :153 for Trade ID : 77021020 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 152 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 153 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :148 for Trade ID : 77021018 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 148 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX |
+Mismatch at Row :149 for Trade ID : 77021018 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 148 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 149 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :150 for Trade ID : 77021019 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 150 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX |
+Mismatch at Row :151 for Trade ID : 77021019 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 150 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 151 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :154 for Trade ID : 77021021 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 154 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX |
+Mismatch at Row :155 for Trade ID : 77021021 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 154 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MEUR6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: -0.311 | Actual: EUR6M | Row 155 Mismatch Column Name =Leg1 Rate  |Expected: -0.0366 | Actual: -3.66 | Mismatch Column Name =Customer  |Expected: CITIUS33XXX | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :158 for Trade ID : 77021024 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.251 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 158 Mismatch Column Name =Leg1 Rate  |Expected: -0.256739 | Actual: -25.6739 | Mismatch Column Name =Customer  |Expected: A | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :156 for Trade ID : 77021022 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.251 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 156 Mismatch Column Name =Leg1 Rate  |Expected: -0.256739 | Actual: -25.6739 | Mismatch Column Name =Customer  |Expected: A | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :157 for Trade ID : 77021023 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.251 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 157 Mismatch Column Name =Leg1 Rate  |Expected: -0.256739 | Actual: -25.6739 | Mismatch Column Name =Customer  |Expected: A | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :159 for Trade ID : 77021025 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY %EURFIXEDAnnu | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: -0.251 | Actual: EUR6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 159 Mismatch Column Name =Leg1 Rate  |Expected: -0.256739 | Actual: -25.6739 | Mismatch Column Name =Customer  |Expected: A | Actual: XCMEUS4FXXX |
+
+Mismatch at Row :129 for Trade ID : 77021028 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 129 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX |
+Mismatch at Row :130 for Trade ID : 77021028 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 129 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 130 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX |
+
+Mismatch at Row :125 for Trade ID : 77021026 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 125 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX |
+Mismatch at Row :126 for Trade ID : 77021026 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 125 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 126 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX |
+
+Mismatch at Row :127 for Trade ID : 77021027 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 127 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX |
+Mismatch at Row :128 for Trade ID : 77021027 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 127 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 128 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX |
+
+Mismatch at Row :131 for Trade ID : 77021029 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 131 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX |
+Mismatch at Row :132 for Trade ID : 77021029 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 131 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.55400%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 132 Mismatch Column Name =Leg1 Rate  |Expected: 1.554 | Actual: 155.4 | Mismatch Column Name =Customer  |Expected: CSFPGB2LXXX | Actual: LCHLGB22XXX |
+
+Mismatch at Row :139 for Trade ID : 77021030 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 139 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX |
+Mismatch at Row :140 for Trade ID : 77021030 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 139 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 140 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX |
+
+Mismatch at Row :137 for Trade ID : 77021033 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 137 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX |
+Mismatch at Row :138 for Trade ID : 77021033 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 137 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 138 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX |
+
+Mismatch at Row :135 for Trade ID : 77021032 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 135 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX |
+Mismatch at Row :136 for Trade ID : 77021032 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 135 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 136 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX |
+
+Mismatch at Row :133 for Trade ID : 77021031 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 133 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX |
+Mismatch at Row :134 for Trade ID : 77021031 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 133 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 6MBSW6M+Semi | Mismatch Column Name =Leg2 Index  |Expected: 1.6367 | Actual: BSW6M | Row 134 Mismatch Column Name =Leg1 Rate  |Expected: 1.64 | Actual: 164 | Mismatch Column Name =Customer  |Expected: CHASGB2LDPC | Actual: LCHLGB22XXX |
+
+Mismatch at Row :142 for Trade ID : 77021034 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 142 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX |
+Mismatch at Row :143 for Trade ID : 77021034 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 142 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 143 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX |
+
+Mismatch at Row :141 for Trade ID : 77021037 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 141 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX |
+
+Mismatch at Row :144 for Trade ID : 77021035 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 144 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX |
+Mismatch at Row :145 for Trade ID : 77021035 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 144 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 145 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX |
+
+Mismatch at Row :146 for Trade ID : 77021036 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 146 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX |
+Mismatch at Row :147 for Trade ID : 77021036 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 146 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX | Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1.64830%AUDFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 2.01 | Actual: BSW6M | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 147 Mismatch Column Name =Leg1 Rate  |Expected: 1.6483 | Actual: 164.83 | Mismatch Column Name =Customer  |Expected: MSCSUS33XXX | Actual: LCHLGB22XXX |
+
+Mismatch at Row :46 for Trade ID : 77021041 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 5.90750%INRFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 6.05 | Actual: FBIL | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 46 Mismatch Column Name =Leg1 Rate  |Expected: 5.9075 | Actual: 590.75 |
+
+Mismatch at Row :44 for Trade ID : 77021039 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 5.90750%INRFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 6.05 | Actual: FBIL | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 44 Mismatch Column Name =Leg1 Rate  |Expected: 5.9075 | Actual: 590.75 |
+
+Mismatch at Row :43 for Trade ID : 77021038 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 5.90750%INRFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 6.05 | Actual: FBIL | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 43 Mismatch Column Name =Leg1 Rate  |Expected: 5.9075 | Actual: 590.75 |
+
+Mismatch at Row :45 for Trade ID : 77021040 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 5.90750%INRFIXEDSemi | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL | Mismatch Column Name =Leg2 Index  |Expected: 6.05 | Actual: FBIL | Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 | Row 45 Mismatch Column Name =Leg1 Rate  |Expected: 5.9075 | Actual: 590.75 |
+
+Mismatch at Row :49 for Trade ID : 77021044 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1DFBIL+Semi | Mismatch Column Name =Leg2 Index  |Expected: 6.05 | Actual: FBIL | Row 49 Mismatch Column Name =Leg1 Rate  |Expected: 6.059211 | Actual: 605.9211 |
+
+Mismatch at Row :48 for Trade ID : 77021043 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1DFBIL+Semi | Mismatch Column Name =Leg2 Index  |Expected: 6.05 | Actual: FBIL | Row 48 Mismatch Column Name =Leg1 Rate  |Expected: 6.059211 | Actual: 605.9211 |
+
+Mismatch at Row :47 for Trade ID : 77021042 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1DFBIL+Semi | Mismatch Column Name =Leg2 Index  |Expected: 6.05 | Actual: FBIL | Row 47 Mismatch Column Name =Leg1 Rate  |Expected: 6.059211 | Actual: 605.9211 |
+
+Mismatch at Row :50 for Trade ID : 77021045 SWAPIRS  Mismatch Column Name =Description  |Expected: NAN | Actual: SW/PAY 1DFBIL+Semi | Mismatch Column Name =Leg2 Index  |Expected: 6.05 | Actual: FBIL | Row 50 Mismatch Column Name =Leg1 Rate  |Expected: 6.059211 | Actual: 605.9211 |
+
+Trade ID :77044757 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044756 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044755 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044758 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044761 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044759 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044760 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044762 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044764 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044763 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044765 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044766 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044770 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044768 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044767 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044769 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044771 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044774 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044773 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044772 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044775 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044776 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044779 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044778 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044777 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044781 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044780 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044782 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044783 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044785 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044784 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044788 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044787 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044786 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044789 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044792 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044790 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044791 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044794 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044793 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044797 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044796 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044795 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044800 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044798 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044799 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044801 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044804 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044803 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044802 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044805 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044806 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044808 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044807 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044809 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044813 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044811 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044810 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044812 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044816 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044815 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044814 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044817 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044820 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044819 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044818 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044821 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044822 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044824 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044823 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044825 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044829 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044827 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044826 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044828 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044832 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044831 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044830 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044833 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044836 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044835 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044834 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044837 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044838 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044840 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044839 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044841 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044845 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044843 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044842 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044844 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044848 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044847 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044846 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044849 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044852 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044851 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044850 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044853 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044854 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044856 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044855 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044857 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044861 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044859 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044858 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044860 not found in Target sheet. RESULT: FAILED
+
+TOTAL Trade IDs Validated: 415 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 415|</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

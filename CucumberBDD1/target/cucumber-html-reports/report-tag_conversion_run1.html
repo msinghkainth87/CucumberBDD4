@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Tag: @conversion_run1</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberBDD</td>
+            <td>09 Jun 2019, 18:40</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@conversion_run1</td>
+          <td      class="passed"    >9</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">9</td>
+
+          <td  class="passed"    >1</td>
+          <td >0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="68020684323">1:8.020</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_src-test-resources-features-KARATE-feature.html">src/test/resources/features/KARATE.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_conversion_run1.html">@conversion_run1</a>
+      </div>
+
+  
+  <span class="lead-duration duration">1:8.020</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Validate Conversion Files</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/JUATConversion_0605.csv')</span>
+  
+  <span class="lead-duration duration">0.702</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TriOptimaConversion_0605.csv')</span>
+  
+  <span class="lead-duration duration">0.917</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Conversion.csv')</span>
+  
+  <span class="lead-duration duration">0.009</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Transformation.csv')</span>
+  
+  <span class="lead-duration duration">0.006</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
+  
+  <span class="lead-duration duration">4.237</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def csv = Java.type('karate.DataCompareConversion')</span>
+  
+  <span class="lead-duration duration">0.019</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def js = new csv()</span>
+  
+  <span class="lead-duration duration">0.009</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,&quot;CRDSecid&quot;)</span>
+  
+  <span class="lead-duration duration">1:2.114</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print result</span>
+  
+  <span class="lead-duration duration">0.003</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>18:40:02.705 [print] 
+
+Mismatch at Row :442 for Trade ID :68757160 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 442 Mismatch Column Name =Broker Id  |Expected: HSBC | Actual: MRMDUS33XXX |
+
+
+Mismatch at Row :1570 for Trade ID :71559669 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1570 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1668 for Trade ID :71559674 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1668 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1630 for Trade ID :71559677 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1630 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1569 for Trade ID :71635889 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1569 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1667 for Trade ID :71635894 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1667 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1758 for Trade ID :71635895 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1758 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1629 for Trade ID :71635897 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1629 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1714 for Trade ID :71559673 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1714 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1759 for Trade ID :71559675 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1759 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1571 for Trade ID :71831649 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1571 Mismatch Column Name =First Payment Date  |Expected: 2/23/2019 0:00 | Actual: 2/25/2019 |
+
+
+Mismatch at Row :1573 for Trade ID :71910643 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1573 Mismatch Column Name =Effective Date  |Expected: 2/28/2018 0:00 | Actual: 3/1/2018 |
+
+
+No Match Found for  Trade ID :76974070 | SEC_TYP_CD :SWAPIRS  
+ RESULT: Failed
+
+Mismatch at Row :1521 for Trade ID :73775232 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1521 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1504 for Trade ID :73799970 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1504 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :130 for Trade ID :72220379 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 130 Mismatch Column Name =First Payment Date  |Expected: 6/20/2018 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 12/20/2017 |
+
+
+Mismatch at Row :287 for Trade ID :72220380 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 287 Mismatch Column Name =First Payment Date  |Expected: 6/20/2018 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 12/20/2017 |
+
+
+Mismatch at Row :1578 for Trade ID :72227653 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1578 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
+
+
+Mismatch at Row :1673 for Trade ID :72227656 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1673 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
+
+
+Mismatch at Row :463 for Trade ID :76991017 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Mismatch Column Name =Issuer Name  |Expected: CDX EM CDSI S31 5Y 06/20/2024 | Actual: CDX.EM.31_V1 |
+ Row 463
+
+Mismatch at Row :1564 for Trade ID :73362737 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1564 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
+
+
+Mismatch at Row :1763 for Trade ID :73362742 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1763 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
+
+
+Mismatch at Row :1633 for Trade ID :73362744 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1633 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
+
+
+Mismatch at Row :471 for Trade ID :76365500 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 471 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1580 for Trade ID :73775231 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1580 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :473 for Trade ID :76356277 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 473 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1719 for Trade ID :73775235 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1719 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1674 for Trade ID :73775236 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1674 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1765 for Trade ID :73775237 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1765 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1635 for Trade ID :73775239 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1635 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1581 for Trade ID :73799969 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1581 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :474 for Trade ID :76425942 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 474 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1625 for Trade ID :73799977 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1625 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1675 for Trade ID :73799974 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1675 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1766 for Trade ID :73799975 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1766 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1583 for Trade ID :74183729 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1583 Mismatch Column Name =First Payment Date  |Expected: 2/2/2019 0:00 | Actual: 2/4/2019 |
+
+
+Mismatch at Row :1720 for Trade ID :74183733 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1720 Mismatch Column Name =First Payment Date  |Expected: 2/2/2019 0:00 | Actual: 2/4/2019 |
+
+
+Mismatch at Row :1721 for Trade ID :74200761 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1721 Mismatch Column Name =Effective Date  |Expected: 8/7/2018 0:00 | Actual: 8/6/2018 |
+
+
+Mismatch at Row :1723 for Trade ID :74214174 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1723 Mismatch Column Name =Effective Date  |Expected: 8/8/2018 0:00 | Actual: 8/9/2018 |
+
+
+Mismatch at Row :154 for Trade ID :74793103 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 154 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :295 for Trade ID :74793107 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 295 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :424 for Trade ID :74793108 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 424 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :260 for Trade ID :74793110 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 260 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :6 for Trade ID :74809678 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 6 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :1516 for Trade ID :71910644 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1516 Mismatch Column Name =Effective Date  |Expected: 2/28/2018 0:00 | Actual: 3/1/2018 |
+
+
+Mismatch at Row :1509 for Trade ID :72227654 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1509 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
+
+
+Mismatch at Row :1590 for Trade ID :75503637 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1590 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1797 for Trade ID :75503639 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1797 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1728 for Trade ID :75503641 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1728 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1680 for Trade ID :75503642 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1680 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1773 for Trade ID :75503643 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1773 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :472 for Trade ID :76356248 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 472 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1531 for Trade ID :75636381 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1531 Mismatch Column Name =Effective Date  |Expected: 11/13/2018 0:00 | Actual: 11/14/2018 |
+
+
+Mismatch at Row :1528 for Trade ID :75503638 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1528 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1510 for Trade ID :71559670 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1510 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1503 for Trade ID :71635890 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1503 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1514 for Trade ID :71831650 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1514 Mismatch Column Name =First Payment Date  |Expected: 2/23/2019 0:00 | Actual: 2/25/2019 |
+
+
+Mismatch at Row :1790 for Trade ID :75992314 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1790 Mismatch Column Name =First Payment Date  |Expected: 12/11/2019 0:00 | Actual: 6/11/2019 |
+
+
+Mismatch at Row :496 for Trade ID :76356247 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 496 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1519 for Trade ID :73362738 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1519 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
+
+
+Mismatch at Row :566 for Trade ID :76356252 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 566 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :548 for Trade ID :76356253 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 548 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :585 for Trade ID :76356254 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 585 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :529 for Trade ID :76356256 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 529 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :497 for Trade ID :76356276 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 497 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :567 for Trade ID :76356281 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 567 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :549 for Trade ID :76356282 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 549 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :586 for Trade ID :76356283 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 586 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :521 for Trade ID :76356285 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 521 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :495 for Trade ID :76365499 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 495 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :547 for Trade ID :76365504 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 547 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :583 for Trade ID :76365505 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 583 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :528 for Trade ID :76365507 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 528 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+No Match Found for  Trade ID :76366139 | SEC_TYP_CD :SWAPIRS  
+ RESULT: Failed
+
+Mismatch at Row :498 for Trade ID :76425941 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 498 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :539 for Trade ID :76425946 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 539 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :587 for Trade ID :76425947 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 587 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :530 for Trade ID :76425949 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 530 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :64 for Trade ID :74793104 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 64 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :457 for Trade ID :76602822 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 457 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :588 for Trade ID :76626012 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 588 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :597 for Trade ID :76753011 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Mismatch Column Name =Notional  |Expected: ALC_EXEC_QTY * SEC_FACTOR 804080.0 | Actual: 874000 |
+ Mismatch Column Name =Settle Date  |Expected: 43546 | Actual: 3/22/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 43545 | Actual: 3/21/2019 |
+ Row 597 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name=Issuer Name Trans  |Expected: CDX EM CDSI S21 5YR PRC 06/20/2019 | Actual: ITRAXX_EUROPE_30_1 |
+ Mismatch Column Name =First Payment Date  |Expected: 43636 | Actual: 6/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 43363 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 43636 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :590 for Trade ID :76753013 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Mismatch Column Name =Notional  |Expected: ALC_EXEC_QTY * SEC_FACTOR 135424.0 | Actual: 147200 |
+ Mismatch Column Name =Settle Date  |Expected: 43546 | Actual: 3/22/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 43545 | Actual: 3/21/2019 |
+ Row 590 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name=Issuer Name Trans  |Expected: CDX EM CDSI S21 5YR PRC 06/20/2019 | Actual: ITRAXX_EUROPE_30_1 |
+ Mismatch Column Name =First Payment Date  |Expected: 43636 | Actual: 6/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 43363 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 43636 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1594 for Trade ID :76974068 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
+ Mismatch Column Name =Pay/Receive  |Expected: R | Actual: Receive |
+ Row 1594 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
+ Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =First Payment Date  |Expected: 4/16/2022 0:00 | Actual: 4/18/2022 |
+
+
+Mismatch at Row :1730 for Trade ID :76974069 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
+ Mismatch Column Name =Pay/Receive  |Expected: R | Actual: Receive |
+ Row 1730 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
+ Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =First Payment Date  |Expected: 4/16/2022 0:00 | Actual: 4/18/2022 |
+
+
+Mismatch at Row :1775 for Trade ID :76974071 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
+ Mismatch Column Name =Pay/Receive  |Expected: R | Actual: Receive |
+ Row 1775 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
+ Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =First Payment Date  |Expected: 4/16/2022 0:00 | Actual: 4/18/2022 |
+
+
+No Match Found for  Trade ID :0 | SEC_TYP_CD :0  
+ RESULT: Failed
+
+No Match Found for  Trade ID :0 | SEC_TYP_CD :0  
+ RESULT: Failed
+
+TOTAL CRDSecids Validated: 641 | TOTAL ROWS PASSED: 557 | TOTAL ROWS WITH MISMATCHES: 84|| TOTAL ROWS NOT FOUND:4|
+
+76974070,76366139,0,0,</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

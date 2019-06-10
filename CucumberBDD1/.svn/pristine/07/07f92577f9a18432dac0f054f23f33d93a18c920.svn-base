@@ -1,0 +1,388 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SSO into GWCC",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14635250715,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to ClaimCenter cc login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cc",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginPageStepDefinitions.navigate_to(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283102790,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter \"su\" into input field login.username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "su",
+                  "offset": 9
+                },
+                {
+                  "val": "login.username",
+                  "offset": 30
+                }
+              ],
+              "location": "ReusableStepDefinitions.enter_text(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217339986,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"gw\" into input field login.password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gw",
+                  "offset": 9
+                },
+                {
+                  "val": "login.password",
+                  "offset": 30
+                }
+              ],
+              "location": "ReusableStepDefinitions.enter_text(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 302183417,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginPageStepDefinitions.iClickLoginButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4172339824,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I land on activities page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "activities",
+                  "offset": 10
+                }
+              ],
+              "location": "ReusableStepDefinitions.iLandOnPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111192399,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the element general.gwlogo is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "general.gwlogo",
+                  "offset": 12
+                }
+              ],
+              "location": "ReusableStepDefinitions.ele_display(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1480803804,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.pageObjectInitialize()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "short-form BDD compliant - needs Happy path fill methods",
+        "description": "",
+        "id": "login;short-form-bdd-compliant---needs-happy-path-fill-methods",
+        "after": [
+          {
+            "result": {
+              "duration": 26275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ReusableStepDefinitions.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 86625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ReusableStepDefinitions.takeScreenShot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 975653274,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I search for \"NewClaim\" in the information bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NewClaim",
+                  "offset": 14
+                }
+              ],
+              "location": "ActivitiesPageStepDefinitions.iSearchForInTheInformationBar(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4274749370,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I land on fnolsearchorcreatepolicy page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fnolsearchorcreatepolicy",
+                  "offset": 10
+                }
+              ],
+              "location": "ReusableStepDefinitions.iLandOnPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5760972818,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I fill the fnol search or create policy page and continue",
+            "match": {
+              "location": "FNOLSearchOrCreatePolicyPageStepDefinitions.fillFNOLSearchOrCreatePolicyPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4169286989,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I land on fnolbasicinformation page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fnolbasicinformation",
+                  "offset": 10
+                }
+              ],
+              "location": "ReusableStepDefinitions.iLandOnPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6900478247,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I fill the fnol basic information page and continue",
+            "match": {
+              "location": "FNOLBasicInformationPageStepDefinitions.fillFNOLBasicInformationPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4143836711,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I land on fnollossdetails page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fnollossdetails",
+                  "offset": 10
+                }
+              ],
+              "location": "ReusableStepDefinitions.iLandOnPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5468858910,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I fill the fnol loss details page and continue",
+            "match": {
+              "location": "FNOLLossDetailsPageStepDefinitions.fillFNOLLossDetailsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4151215899,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I land on fnolservices page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fnolservices",
+                  "offset": 10
+                }
+              ],
+              "location": "ReusableStepDefinitions.iLandOnPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 194925710,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I fill the fnol services page and continue",
+            "match": {
+              "location": "FNOLServicesPageStepDefinitions.fillFNOLServicesPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4166649629,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I land on fnolassignment page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fnolassignment",
+                  "offset": 10
+                }
+              ],
+              "location": "ReusableStepDefinitions.iLandOnPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 164351792,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I fill the fnol assignment page and continue",
+            "match": {
+              "location": "FNOLAssignmentPageStepDefinitions.fillFNOLAssignmentPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4141678460,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I land on fnolclaimsaved page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fnolclaimsaved",
+                  "offset": 10
+                }
+              ],
+              "location": "ReusableStepDefinitions.iLandOnPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53280914,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the element fnolclaimsaved.view_created_claim is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fnolclaimsaved.view_created_claim",
+                  "offset": 12
+                }
+              ],
+              "location": "ReusableStepDefinitions.ele_display(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "features/Login.feature"
+  }
+]

@@ -1,0 +1,15 @@
+url=https://smiwa-int.amfam.com/siteminderagent/forms/login.fcc?TYPE=33554433&REALMOID=06-000b8716-1ff2-1673-8fa8-020c0a5a40d7&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=RQDTgalfzUYw4suhDDCR8VMXQ1u63uQtijGWDAEVN4LsNW3Y2IDyaotB9hmIhlRO&TARGET=-SM-https%3a%2f%2fintaq80g%2eamfam%2ecom%2fccforms
+debug=false
+
+#Property to specify what format input data is stored and retrieved as
+input_data_type=YAML
+
+gluepackage=info.seleniumcucumber.stepdefinitions
+#extent reports
+#reporttype=extent_reports
+#reporting="com.sitture.ExtentFormatter:output/extent-report/index.html"
+
+#cucumber-pro
+reporttype=cucumber-pro
+reporting="com.sitture.ExtentFormatter:output/extent-report/index.html"
+

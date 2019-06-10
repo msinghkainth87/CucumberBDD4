@@ -1,0 +1,8 @@
+Input_File_Field,Output_File_Field
+CRDSecid,ID2
+HiNetSedol,Equity Underlying Identifier
+AcnoMinor,Account Abbreviation
+InstrCode,Product Type
+MaturityDate,Maturity Date 
+Price,InitialEqtyPrice
+IssueCurrency,Currency Code

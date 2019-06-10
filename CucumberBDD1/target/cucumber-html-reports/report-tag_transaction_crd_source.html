@@ -1,0 +1,4047 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Tag: @transaction_crd_source</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberBDD</td>
+            <td>24 May 2019, 14:12</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@transaction_crd_source</td>
+          <td      class="passed"    >9</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">9</td>
+
+          <td  class="passed"    >1</td>
+          <td >0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="61484326352">1:1.484</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_src-test-resources-features-KARATE-feature.html">src/test/resources/features/KARATE.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_transaction_crd_source.html">@transaction_crd_source</a>
+      </div>
+
+  
+  <span class="lead-duration duration">1:1.484</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Validate Transaction Files ( CRD as Source)</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/CRDextract_0523.csv')</span>
+  
+  <span class="lead-duration duration">0.398</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TradeBlotter_0523.csv')</span>
+  
+  <span class="lead-duration duration">0.105</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_TRP_C.csv')</span>
+  
+  <span class="lead-duration duration">0.008</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def transformationData = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/PositionTranformation.json')</span>
+  
+  <span class="lead-duration duration">0.005</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
+  
+  <span class="lead-duration duration">2.973</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def csv = Java.type('karate.DataCompareTransactionNew')</span>
+  
+  <span class="lead-duration duration">0.024</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def js = new csv()</span>
+  
+  <span class="lead-duration duration">0.007</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,&quot;TRADE_ID&quot;,transformationData,&quot;Trade ID&quot;)</span>
+  
+  <span class="lead-duration duration">57.932</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print result</span>
+  
+  <span class="lead-duration duration">0.028</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>14:12:14.984 [print] 
+
+Trade ID :77015402 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015401 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015400 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015403 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025399 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025398 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025397 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025400 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015404 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015412 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015415 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015414 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015413 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025385 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025388 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025387 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025386 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015419 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015417 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015416 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015418 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025392 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025390 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025389 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025391 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015421 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015420 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015422 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015427 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015428 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015431 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015429 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015430 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015432 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015435 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015433 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015434 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015436 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015439 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015437 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015438 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015440 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025395 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025393 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025394 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025396 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025379 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025380 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025378 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025377 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025384 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025382 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025383 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025381 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031383 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031381 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031382 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031380 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015458 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015456 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015455 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015457 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015453 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015451 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015447 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015452 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015454 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060507 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060510 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060509 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060508 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060493 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060491 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060490 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060492 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060494 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015443 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015442 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015441 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015444 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027383 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027379 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027377 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027376 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027381 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :779 for Trade ID : 77060483 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
+ Row 779 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :780 for Trade ID : 77060481 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
+ Row 780 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :766 for Trade ID : 77060482 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
+ Row 766 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :764 for Trade ID : 77060484 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
+ Row 764 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :776 for Trade ID : 77060485 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
+ Row 776 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :765 for Trade ID : 77060517 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Row 765 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :778 for Trade ID : 77060515 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Row 778 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :772 for Trade ID : 77060516 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Row 772 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :767 for Trade ID : 77060518 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Row 767 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
+
+Trade ID :77060461 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060460 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060462 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060463 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060503 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060506 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060505 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060504 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060498 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060496 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060495 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060497 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015474 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015472 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015471 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015473 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :793 for Trade ID : 77060464 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
+ Row 793 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :770 for Trade ID : 77060467 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
+ Row 770 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :792 for Trade ID : 77060466 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
+ Row 792 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :760 for Trade ID : 77060465 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
+ Row 760 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :790 for Trade ID : 77060487 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Row 790 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :784 for Trade ID : 77060486 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Row 784 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :782 for Trade ID : 77060488 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Row 782 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :774 for Trade ID : 77060489 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Row 774 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :773 for Trade ID : 77060519 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
+ Row 773 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :785 for Trade ID : 77060522 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
+ Row 785 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :777 for Trade ID : 77060521 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
+ Row 777 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+
+Mismatch at Row :798 for Trade ID : 77060520 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
+ Row 798 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+
+
+Trade ID :77015480 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015479 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015481 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015482 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027427 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027417 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027415 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027416 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027418 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :761 for Trade ID : 77060479 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 286.3868 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -1973320 |
+ Row 761 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :788 for Trade ID : 77060477 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 286.3868 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -1973320 |
+ Row 788 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :797 for Trade ID : 77060476 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 286.3868 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -1973320 |
+ Row 797 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :791 for Trade ID : 77060478 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 286.3868 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -1973320 |
+ Row 791 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :787 for Trade ID : 77060480 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 286.3868 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -1973320 |
+ Row 787 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :758 for Trade ID : 77060511 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 286.3868 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2466650 |
+ Row 758 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :794 for Trade ID : 77060514 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 286.3868 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2466650 |
+ Row 794 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :769 for Trade ID : 77060513 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 286.3868 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2466650 |
+ Row 769 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+
+
+Mismatch at Row :795 for Trade ID : 77060512 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 286.3868 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2466650 |
+ Row 795 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+
+Trade ID :77029375 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77029376 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77029377 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77029378 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :771 for Trade ID : 77060471 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2425000 |
+ Row 771 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :796 for Trade ID : 77060469 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2425000 |
+ Row 796 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :786 for Trade ID : 77060468 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2425000 |
+ Row 786 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :775 for Trade ID : 77060470 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2425000 |
+ Row 775 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :759 for Trade ID : 77060475 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2425000 |
+ Row 759 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :799 for Trade ID : 77060473 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2425000 |
+ Row 799 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :781 for Trade ID : 77060472 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2425000 |
+ Row 781 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :768 for Trade ID : 77060474 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2425000 |
+ Row 768 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :762 for Trade ID : 77060502 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2425000 |
+ Row 762 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :783 for Trade ID : 77060500 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2425000 |
+ Row 783 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :789 for Trade ID : 77060499 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2425000 |
+ Row 789 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+
+Mismatch at Row :763 for Trade ID : 77060501 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 320.8921 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: CDX HY CDSI S31 V4 5Y PRC | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2425000 |
+ Row 763 Mismatch Column Name =Leg1 Rate  |Expected: 5 | Actual: 0 |
+
+
+Trade ID :77020876 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020874 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020875 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020877 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020878 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020881 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020880 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020879 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020882 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020883 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031397 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031398 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031400 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031403 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031399 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031401 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031402 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020885 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020888 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020884 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020886 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020887 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020890 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020889 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020892 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020891 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020893 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020895 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020894 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020896 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020897 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020898 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020900 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020899 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020901 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020902 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020903 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020906 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020904 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020905 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020907 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020908 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020910 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020909 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020911 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020912 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031404 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040032 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040031 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040030 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040033 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040036 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040034 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040035 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040037 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040040 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040039 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040038 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040041 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060401 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060403 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060402 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060404 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025442 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025444 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025443 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025445 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025446 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020933 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020931 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020930 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020932 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020934 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020936 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020935 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020937 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020938 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020940 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020939 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020941 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020942 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020944 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020943 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020945 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020946 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020948 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020947 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020949 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031412 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031413 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031415 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031414 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031416 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020950 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020952 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020951 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020953 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020955 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020954 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020956 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020957 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020958 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020960 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020959 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020961 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039989 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039987 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039988 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039990 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020984 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020983 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020982 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020985 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020988 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020986 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020987 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020989 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033413 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033412 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020993 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020991 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020990 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020992 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020994 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020997 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020996 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020995 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021005 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021003 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021002 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021004 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021009 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021007 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021006 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021008 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021011 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021010 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021012 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021013 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039986 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039984 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039983 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039985 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021020 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021018 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021019 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021021 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021028 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021026 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021027 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021029 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021030 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021033 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021032 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021031 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021034 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021037 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021035 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021036 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021041 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021039 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021038 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021040 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021044 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021043 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021042 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77021045 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072442 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072443 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072445 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072446 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072447 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072444 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040023 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040022 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040021 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040024 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040001 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039999 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040000 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040002 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040013 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040012 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040014 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040015 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033419 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033418 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033420 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033421 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040010 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040008 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040007 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040009 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040011 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044774 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044774 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044773 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044773 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044772 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044772 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044775 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044775 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044776 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044776 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044779 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044779 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044778 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044778 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044777 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044777 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040026 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040025 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040027 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040028 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044785 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044785 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044784 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044784 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044788 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044788 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044787 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044787 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044786 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044786 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033422 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033422 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040003 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040006 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040004 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040005 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040017 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040016 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040020 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040019 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77040018 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039993 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039991 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039992 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039994 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044804 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044803 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044802 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044805 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044806 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044808 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044807 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044809 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062391 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062393 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062392 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062394 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044813 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044811 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044810 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044812 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044816 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044815 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044814 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044817 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039997 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039996 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039995 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77039998 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044822 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044824 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044823 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044825 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044829 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044827 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044826 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044828 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060390 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060388 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060387 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060389 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044832 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044831 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044830 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044833 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044836 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044835 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044834 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044837 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044838 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044840 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044839 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044841 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044845 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044843 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044842 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044844 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044848 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044847 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044846 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044849 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062389 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062388 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062387 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062390 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044852 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044851 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044850 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044853 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044854 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044856 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044855 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044857 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044861 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044859 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044858 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77044860 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072440 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072441 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072438 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77072439 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045136 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045139 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045137 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045138 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045141 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045140 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045142 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045143 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066449 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066448 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066450 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066451 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045145 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045144 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045147 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045146 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045149 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045150 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045148 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045151 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066453 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066454 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066452 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066455 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045154 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045153 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045152 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045155 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045156 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045162 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045161 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045163 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045164 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045166 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045165 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045168 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045167 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045172 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045170 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045169 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045171 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066459 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066457 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066456 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066458 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045176 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045174 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045173 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045175 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045177 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045180 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045179 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045178 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045181 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066437 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066436 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066435 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066438 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045182 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045184 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045183 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045185 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045189 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045187 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045186 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045188 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066442 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066440 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066439 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066441 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045192 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045191 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045190 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045193 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045194 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045196 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045195 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045197 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045198 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045201 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045199 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045200 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045203 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045202 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045204 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045205 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045207 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045208 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045206 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77045209 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066432 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066433 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066431 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066434 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054362 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054364 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054363 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054365 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033414 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033415 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033416 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033417 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033431 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033431 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033432 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033432 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033433 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033433 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033434 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033434 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033435 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033435 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033436 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033437 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033438 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033439 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77033440 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054394 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054395 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054396 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054397 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054398 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054399 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054400 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054401 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77054402 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058421 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058420 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058422 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058443 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058442 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058441 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058444 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062395 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062397 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062396 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062398 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058428 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058427 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :7 for Trade ID : 77058393 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 7 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+
+
+Mismatch at Row :8 for Trade ID : 77058393 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 7 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Unit  |Expected: 2500000 | Actual: 8567.24 |
+ Row 8 Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+
+
+Mismatch at Row :9 for Trade ID : 77058393 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 7 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Unit  |Expected: 2500000 | Actual: 8567.24 |
+ Row 8 Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/22/2019 |
+ Row 9 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Part Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+
+
+
+Mismatch at Row :4 for Trade ID : 77058392 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 4 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+
+
+Mismatch at Row :5 for Trade ID : 77058392 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 4 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Unit  |Expected: 2500000 | Actual: 8567.24 |
+ Row 5 Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+
+
+Mismatch at Row :6 for Trade ID : 77058392 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 4 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Unit  |Expected: 2500000 | Actual: 8567.24 |
+ Row 5 Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/22/2019 |
+ Row 6 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Part Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+
+
+
+Mismatch at Row :1 for Trade ID : 77058391 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 1 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+
+
+Mismatch at Row :2 for Trade ID : 77058391 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 1 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Unit  |Expected: 2500000 | Actual: 8567.24 |
+ Row 2 Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+
+
+Mismatch at Row :3 for Trade ID : 77058391 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 1 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Unit  |Expected: 2500000 | Actual: 8567.24 |
+ Row 2 Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/22/2019 |
+ Row 3 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Part Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+
+
+
+Mismatch at Row :10 for Trade ID : 77058394 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 10 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+
+
+Mismatch at Row :11 for Trade ID : 77058394 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 10 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Unit  |Expected: 2500000 | Actual: 8567.24 |
+ Row 11 Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+
+
+Mismatch at Row :12 for Trade ID : 77058394 SWAPTOTB  Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 10 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 5/21/2019 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Unit  |Expected: 2500000 | Actual: 8567.24 |
+ Row 11 Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+ Mismatch Column Name =Traded Spread  |Expected: 291.8094 | Actual: NAN |
+ Mismatch Column Name =Description  |Expected: IBOXX USD LIQUID IG INDEX | Actual: EX/BUY IBOXIG |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 291.8094 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/22/2019 |
+ Row 12 Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Part Terminated | Mismatch Column Name =Maturity Date  |Expected: 6/20/2020 0:00 | Actual: 6/22/2020 |
+
+
+Trade ID :77058404 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058430 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058429 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058431 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058432 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058390 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058388 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058387 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058389 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058416 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058419 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058417 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058418 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058437 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058439 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058438 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058440 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058403 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058401 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058400 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058402 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062402 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062400 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062399 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062401 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062403 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062404 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77062406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058414 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058412 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058413 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058415 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058433 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :15 for Trade ID : 77058436 SWAPTOTB  Mismatch Column Name =Description  |Expected: DEVON ENERGY CORP | Actual: EX/SELL |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 3317125 | Actual: -3317125 |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 1.32685 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 15 Mismatch Column Name =Leg1 Rate  |Expected: 7.95 | Actual: 0 |
+ Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 3/20/2020 0:00 | Actual: 3/20/2019 |
+
+
+
+Mismatch at Row :14 for Trade ID : 77058435 SWAPTOTB  Mismatch Column Name =Description  |Expected: DEVON ENERGY CORP | Actual: EX/SELL |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 3317125 | Actual: -3317125 |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 1.32685 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 14 Mismatch Column Name =Leg1 Rate  |Expected: 7.95 | Actual: 0 |
+ Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 3/20/2020 0:00 | Actual: 3/20/2019 |
+
+
+
+Mismatch at Row :13 for Trade ID : 77058434 SWAPTOTB  Mismatch Column Name =Description  |Expected: DEVON ENERGY CORP | Actual: EX/SELL |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 2.63263 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 3317125 | Actual: -3317125 |
+ Mismatch Column Name =Return Leg Price  |Expected: NAN | Actual: 1.32685 |
+ Mismatch Column Name =Trade Date  |Expected: 5/20/2019 0:00 | Actual: 5/21/2019 |
+ Row 13 Mismatch Column Name =Leg1 Rate  |Expected: 7.95 | Actual: 0 |
+ Mismatch Column Name =Trade State  |Expected: Contract Create/New | Actual: Terminated | Mismatch Column Name =Maturity Date  |Expected: 3/20/2020 0:00 | Actual: 3/20/2019 |
+
+
+Trade ID :77058396 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058395 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058397 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058398 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058399 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066412 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066413 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066414 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066415 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066416 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066417 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066418 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066768 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066769 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066770 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066771 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066427 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066428 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066429 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066430 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066443 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066444 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066445 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066446 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066447 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056472 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056471 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056470 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056473 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056478 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056480 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056479 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056481 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060391 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060392 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060393 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060394 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060395 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060396 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060412 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060413 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056513 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056506 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056510 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056519 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056516 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056507 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056511 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056520 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056514 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060444 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058450 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056502 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056508 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060448 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056503 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056518 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056515 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056517 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056509 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056505 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056521 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056525 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056522 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056533 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056538 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056539 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060429 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058452 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056534 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056524 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056526 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056530 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056541 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056523 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056537 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056529 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056532 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060434 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056536 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056527 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056531 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056555 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056560 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056553 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056542 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060449 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056551 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056546 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056548 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056544 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056545 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056550 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056543 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056549 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056554 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056556 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060451 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058447 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056552 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056558 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056557 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056561 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056574 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056563 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060441 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056581 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056573 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056578 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056564 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056572 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056577 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056570 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056567 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056565 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056562 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056575 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056580 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056566 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056569 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056568 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056576 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056601 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056596 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056583 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056598 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056597 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056587 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056584 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056588 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056594 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056591 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056600 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056585 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056592 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056589 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056586 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056593 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056599 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056590 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056602 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056621 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056612 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056619 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056617 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056610 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056604 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056605 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060430 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056606 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056613 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060442 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058453 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056618 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056603 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056611 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056620 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060440 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056616 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060456 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056631 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056632 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058446 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056622 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060438 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060446 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056641 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056630 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056637 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056626 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056628 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056633 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060447 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056640 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056636 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056639 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060437 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056623 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056629 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060450 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056660 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056654 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056645 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056646 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056649 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056658 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056659 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060439 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058457 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056642 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060435 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056661 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056647 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056656 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056643 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056651 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056655 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056653 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056652 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056650 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060445 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066556 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056668 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056662 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056673 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056670 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060443 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058454 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056679 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056675 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056664 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056666 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056669 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056674 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056665 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056667 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056663 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060432 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058448 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056672 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056671 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056680 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056678 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056684 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060452 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056696 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060433 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056701 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056685 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056686 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056690 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056695 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060453 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056688 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056691 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056692 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056698 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056682 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77060455 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056687 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056694 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056700 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77056699 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066560 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066563 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066573 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066572 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066571 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066564 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066559 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066566 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066562 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066569 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066561 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066575 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066675 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :705 for Trade ID : 77066574 SWAPTOT  Mismatch Column Name =Description  |Expected: SYNLOGIC INC | Actual: EX/BUY SYBX |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 340639.2 | Actual: 341714.45 |
+ Row 705 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066558 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :702 for Trade ID : 77066567 SWAPTOT  Mismatch Column Name =Description  |Expected: WYNDHAM DESTINATIONS INC | Actual: EX/SELL WYND |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 22586.44 | Actual: -22573.29 |
+ Row 702 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :703 for Trade ID : 77066568 SWAPTOT  Mismatch Column Name =Description  |Expected: XTERA COMMUNICATIONS INC | Actual: EX/SELL XCOMQ |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 307740.004 | Actual: -100714.91 |
+ Row 703 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066565 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066557 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :704 for Trade ID : 77066570 SWAPTOT  Mismatch Column Name =Description  |Expected: ACCO BRANDS CORP | Actual: EX/SELL ACCO |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 18220.25 | Actual: -18161.47 |
+ Row 704 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066535 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :679 for Trade ID : 77066483 SWAPTOT  Mismatch Column Name =Description  |Expected: BENEFITFOCUS INC | Actual: EX/SELL BNFT |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 37088 | Actual: -37057.6 |
+ Row 679 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066497 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066492 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066494 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058458 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :682 for Trade ID : 77066486 SWAPTOT  Mismatch Column Name =Description  |Expected: WILLIAM LYON HOMES-CL A | Actual: EX/SELL WLH |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 205608.5 | Actual: -205335.38 |
+ Row 682 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :689 for Trade ID : 77066499 SWAPTOT  Mismatch Column Name =Description  |Expected: TRIBUNE PUBLISHING CO | Actual: EX/SELL TPCO |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 146343.21 | Actual: -145999.04 |
+ Row 689 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :673 for Trade ID : 77066477 SWAPTOT  Mismatch Column Name =Description  |Expected: TRINITY PLACE HOLDINGS INC | Actual: EX/BUY TPHS |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 320377.05 | Actual: 320979.26 |
+ Row 673 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :677 for Trade ID : 77066481 SWAPTOT  Mismatch Column Name =Description  |Expected: NEVADA ENERGY METALS INC | Actual: EX/SELL SSMLF |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 43180.074 | Actual: -41319.71 |
+ Row 677 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066498 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :686 for Trade ID : 77066490 SWAPTOT  Mismatch Column Name =Description  |Expected: ESSITY AKTIEBOLAG-B SHS | Actual: EX/SELL ESSITYB |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 1543287.2 | Actual: -1541743.91 |
+ Row 686 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :675 for Trade ID : 77066479 SWAPTOT  Mismatch Column Name =Description  |Expected: SENSEONICS HOLDINGS INC | Actual: EX/SELL SENS |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 183021.3 | Actual: -182367.65 |
+ Row 675 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :674 for Trade ID : 77066478 SWAPTOT  Mismatch Column Name =Description  |Expected: SECUREWORKS CORP - A | Actual: EX/BUY SCWX |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 289390.67 | Actual: 289816.5 |
+ Row 674 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :684 for Trade ID : 77066488 SWAPTOT  Mismatch Column Name =Description  |Expected: STELLAR BIOTECHNOLOGIES INC | Actual: EX/SELL SBOT |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 302980.86 | Actual: -301177.4 |
+ Row 684 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :678 for Trade ID : 77066482 SWAPTOT  Mismatch Column Name =Description  |Expected: AMSTERDAM COMMODITIES NV | Actual: EX/BUY ACOMO |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 46599.84 | Actual: 46646.54 |
+ Row 678 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066476 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066495 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :676 for Trade ID : 77066480 SWAPTOT  Mismatch Column Name =Description  |Expected: INSULET CORP | Actual: EX/SELL PODD |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 221586.32 | Actual: -221533.1 |
+ Row 676 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066496 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :680 for Trade ID : 77066484 SWAPTOT  Mismatch Column Name =Description  |Expected: NANOCO GROUP PLC | Actual: EX/BUY NANO |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 270985.95 | Actual: 271287.05 |
+ Row 680 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066589 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066583 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066591 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066578 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066582 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066588 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066595 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066577 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066586 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066592 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058456 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066581 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :709 for Trade ID : 77066594 SWAPTOT  Mismatch Column Name =Description  |Expected: BIONOMICS LTD | Actual: EX/BUY BNO |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 419152.2 | Actual: 419501.49 |
+ Row 709 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066584 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066585 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :706 for Trade ID : 77066579 SWAPTOT  Mismatch Column Name =Description  |Expected: SPO GLOBAL INC | Actual: EX/BUY SPOM |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 308039.992 | Actual: 353061.22 |
+ Row 706 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :708 for Trade ID : 77066590 SWAPTOT  Mismatch Column Name =Description  |Expected: RURALCO HOLDINGS LTD | Actual: EX/SELL RHL |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 34888.95 | Actual: -34846.63 |
+ Row 708 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :707 for Trade ID : 77066580 SWAPTOT  Mismatch Column Name =Description  |Expected: WESTERN UNION CO | Actual: EX/SELL WU |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 35421.66 | Actual: -35375.61 |
+ Row 707 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066593 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066576 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066587 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :701 for Trade ID : 77066538 SWAPTOT  Mismatch Column Name =Description  |Expected: ZEDGE INC CL B | Actual: EX/SELL ZDGE |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 105221.76 | Actual: -104869.46 |
+ Row 701 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066532 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066536 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :700 for Trade ID : 77066534 SWAPTOT  Mismatch Column Name =Description  |Expected: WESTLAKE CHEMICAL CORP | Actual: EX/SELL WLK |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 63861.72 | Actual: -63836.37 |
+ Row 700 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :687 for Trade ID : 77066491 SWAPTOT  Mismatch Column Name =Description  |Expected: STARS GROUP INC | Actual: EX/BUY TSG |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 5616 | Actual: 5623.8 |
+ Row 687 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066543 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066541 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066531 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066533 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :683 for Trade ID : 77066487 SWAPTOT  Mismatch Column Name =Description  |Expected: RAYONIER ADVANCED MATERIALS INC | Actual: EX/SELL RYAM |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 188861.42 | Actual: -188256.87 |
+ Row 683 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066529 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066537 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :681 for Trade ID : 77066485 SWAPTOT  Mismatch Column Name =Description  |Expected: PREMIER INC-CLASS A | Actual: EX/BUY PINC |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 123010.02 | Actual: 123091.57 |
+ Row 681 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066540 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :688 for Trade ID : 77066493 SWAPTOT  Mismatch Column Name =Description  |Expected: ANTIBE THERAPEUTICS INC | Actual: EX/SELL ATBPF |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 110140.0541 | Actual: -108313.2 |
+ Row 688 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066542 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066539 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066528 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :685 for Trade ID : 77066489 SWAPTOT  Mismatch Column Name =Description  |Expected: ELEVATE CREDIT INC | Actual: EX/SELL ELVT |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 229220.06 | Actual: -228841.39 |
+ Row 685 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066530 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066514 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066522 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :693 for Trade ID : 77066516 SWAPTOT  Mismatch Column Name =Description  |Expected: ALGOLD RESOURCES LTD | Actual: EX/BUY ALGDF |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 358299.84 | Actual: 365204.58 |
+ Row 693 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066504 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066524 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066552 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066506 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066510 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066511 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066548 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066554 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066508 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066500 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :694 for Trade ID : 77066518 SWAPTOT  Mismatch Column Name =Description  |Expected: TORCHLIGHT ENERGY RESOURCES | Actual: EX/SELL TRCH |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 36240.12 | Actual: -36024.4 |
+ Row 694 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :691 for Trade ID : 77066512 SWAPTOT  Mismatch Column Name =Description  |Expected: EXTENDED STAY AMERICA INC | Actual: EX/SELL STAY |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 15540.72 | Actual: -15534.13 |
+ Row 691 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :698 for Trade ID : 77066526 SWAPTOT  Mismatch Column Name =Description  |Expected: SKY NETWORK TELEVISION LTD | Actual: EX/BUY SKT |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 481985.22 | Actual: 482123.72 |
+ Row 698 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066502 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :696 for Trade ID : 77066520 SWAPTOT  Mismatch Column Name =Description  |Expected: AEGON NV | Actual: EX/SELL AEGOF |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 15560.04 | Actual: -15537.07 |
+ Row 696 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066509 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :732 for Trade ID : 77066739 SWAPTOT  Mismatch Column Name =Description  |Expected: BLOOMIN  BRANDS INC | Actual: EX/BUY BLMN |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 25122.56 | Actual: 25131.68 |
+ Row 732 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :733 for Trade ID : 77066740 SWAPTOT  Mismatch Column Name =Description  |Expected: QIAGEN N.V. | Actual: EX/SELL QGEN |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 258841.44 | Actual: -258763.45 |
+ Row 733 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066678 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :714 for Trade ID : 77066691 SWAPTOT  Mismatch Column Name =Description  |Expected: TRIUMPH BANCORP INC | Actual: EX/SELL TBK |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 27505.38 | Actual: -27498.61 |
+ Row 714 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :713 for Trade ID : 77066690 SWAPTOT  Mismatch Column Name =Description  |Expected: VIEWRAY INC | Actual: EX/BUY VRAY |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 101417.26 | Actual: 101505.09 |
+ Row 713 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066687 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058451 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :727 for Trade ID : 77066734 SWAPTOT  Mismatch Column Name =Description  |Expected: CTI LOGISTICS LTD | Actual: EX/BUY CLX |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 251450.36 | Actual: 251527.33 |
+ Row 727 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066686 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :728 for Trade ID : 77066735 SWAPTOT  Mismatch Column Name =Description  |Expected: LULULEMON ATHLETICA INC | Actual: EX/BUY LULU |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 88816.5 | Actual: 88820.32 |
+ Row 728 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066676 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :731 for Trade ID : 77066738 SWAPTOT  Mismatch Column Name =Description  |Expected: NEXGEN MINING INC | Actual: EX/BUY NXGM |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 346499.9976 | Actual: 465121.62 |
+ Row 731 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066677 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066693 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :730 for Trade ID : 77066737 SWAPTOT  Mismatch Column Name =Description  |Expected: HORNBACH HOLDING AG &amp; CO KGAA | Actual: EX/BUY NXGM |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 277934.8 | Actual: 278018.43 |
+ Row 730 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :738 for Trade ID : 77066747 SWAPTOT  Mismatch Column Name =Description  |Expected: CAESARSTONE LTD | Actual: EX/SELL CSTE |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 209931.04 | Actual: -209822.3 |
+ Row 738 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066692 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066688 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :729 for Trade ID : 77066736 SWAPTOT  Mismatch Column Name =Description  |Expected: CAPITAL &amp; COUNTIES PROPERTIES | Actual: EX/BUY CAPC |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 2542.248 | Actual: 2543.03 |
+ Row 729 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066689 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066546 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066545 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :697 for Trade ID : 77066521 SWAPTOT  Mismatch Column Name =Description  |Expected: ARMSTRONG FLOORING INC | Actual: EX/BUY AFI |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 61491.68 | Actual: 61532.28 |
+ Row 697 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066507 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066547 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066503 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066544 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066525 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066549 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066551 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066553 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :692 for Trade ID : 77066513 SWAPTOT  Mismatch Column Name =Description  |Expected: ANGIODYNAMICS INC | Actual: EX/BUY ANGO |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 181337.52 | Actual: 181407.92 |
+ Row 692 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066523 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066505 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :690 for Trade ID : 77066501 SWAPTOT  Mismatch Column Name =Description  |Expected: THIRD POINT REINSURANCE LTD | Actual: EX/BUY TPRE |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 225875.79 | Actual: 226040.42 |
+ Row 690 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :695 for Trade ID : 77066519 SWAPTOT  Mismatch Column Name =Description  |Expected: TRUPANION INC | Actual: EX/SELL TRUP |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 200976.3 | Actual: -200927.14 |
+ Row 695 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :699 for Trade ID : 77066527 SWAPTOT  Mismatch Column Name =Description  |Expected: TRI POINTE GROUP INC | Actual: EX/BUY TPH |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 138192.96 | Actual: 138271.96 |
+ Row 699 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066517 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066515 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066555 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :711 for Trade ID : 77066679 SWAPTOT  Mismatch Column Name =Description  |Expected: TIMKENSTEEL CORP | Actual: EX/BUY TMST |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 22538.88 | Actual: 22607.68 |
+ Row 711 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :715 for Trade ID : 77066696 SWAPTOT  Mismatch Column Name =Description  |Expected: TRANSDIGM GROUP INC | Actual: EX/BUY TDG |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 128768.29 | Actual: 128775.47 |
+ Row 715 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066702 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066706 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066680 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :716 for Trade ID : 77066698 SWAPTOT  Mismatch Column Name =Description  |Expected: ARTISAN PARTNERS ASSET MANAGEMENT INC | Actual: EX/BUY APAM |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 78861.86 | Actual: 78940.79 |
+ Row 716 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :712 for Trade ID : 77066684 SWAPTOT  Mismatch Column Name =Description  |Expected: APTIV PLC | Actual: EX/BUY APTV |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 44438.03 | Actual: 44453.31 |
+ Row 712 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066703 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066704 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :717 for Trade ID : 77066718 SWAPTOT  Mismatch Column Name =Description  |Expected: AMERIPRISE FINANCIAL INC | Actual: EX/SELL AMP |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 193728.64 | Actual: -193695.44 |
+ Row 717 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066710 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066682 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066681 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066712 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066700 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066714 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066708 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :800 for Trade ID : 77066716 SWAPTOT  Mismatch Column Name =Description  |Expected: GREEN PLAINS INC | Actual: EX/BUY GPRE |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 100570.47 | Actual: 100733 |
+ Row 800 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066694 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :737 for Trade ID : 77066746 SWAPTOT  Mismatch Column Name =Description  |Expected: GRAPHIC PACKAGING HOLDING CO | Actual: EX/SELL GPK |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 14731.5 | Actual: -14702.75 |
+ Row 737 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :734 for Trade ID : 77066743 SWAPTOT  Mismatch Column Name =Description  |Expected: GOLDEN ARROW RESOURCES CORP | Actual: EX/SELL GARWF |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 328360.11 | Actual: -322575.37 |
+ Row 734 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :718 for Trade ID : 77066724 SWAPTOT  Mismatch Column Name =Description  |Expected: FIVE9 INC | Actual: EX/SELL FIVN |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 145720.4 | Actual: -145647.1 |
+ Row 718 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066742 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058455 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :726 for Trade ID : 77066733 SWAPTOT  Mismatch Column Name =Description  |Expected: ASSURED GUARANTY LTD | Actual: EX/SELL AGO |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 18528.4 | Actual: -18517.4 |
+ Row 726 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :725 for Trade ID : 77066732 SWAPTOT  Mismatch Column Name =Description  |Expected: ATRICURE INC | Actual: EX/BUY ATRC |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 148255.81 | Actual: 148381.83 |
+ Row 725 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :803 for Trade ID : 77066722 SWAPTOT  Mismatch Column Name =Description  |Expected: NEW MEDIA INVESTMENT GROUP INC | Actual: EX/BUY NEWM |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 174075.25 | Actual: 174512.63 |
+ Row 803 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066728 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :802 for Trade ID : 77066721 SWAPTOT  Mismatch Column Name =Description  |Expected: ADESTO TECHNOLOGIES CORP | Actual: EX/BUY IOTS |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 344394.4 | Actual: 345603.65 |
+ Row 802 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :723 for Trade ID : 77066730 SWAPTOT  Mismatch Column Name =Description  |Expected: IRIDIUM COMMUNICATIONS INC | Actual: EX/SELL IRDM |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 65689.38 | Actual: -65618.65 |
+ Row 723 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :801 for Trade ID : 77066720 SWAPTOT  Mismatch Column Name =Description  |Expected: MICHAELS COS INC | Actual: EX/SELL MIK |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 213261 | Actual: -212730.5 |
+ Row 801 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :720 for Trade ID : 77066726 SWAPTOT  Mismatch Column Name =Description  |Expected: LIBERTY MEDIA COR-SIRIUSXM A | Actual: EX/BUY LSXMA |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 304147.94 | Actual: 304348.09 |
+ Row 720 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :722 for Trade ID : 77066729 SWAPTOT  Mismatch Column Name =Description  |Expected: MEDIDATA SOLUTIONS INC | Actual: EX/SELL MDSO |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 115069.03 | Actual: -115036.81 |
+ Row 722 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :724 for Trade ID : 77066731 SWAPTOT  Mismatch Column Name =Description  |Expected: SCIENCE APPLICATIONS INTERNATIONAL CORP | Actual: EX/BUY SAIC |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 183295.2 | Actual: 183353.5 |
+ Row 724 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :735 for Trade ID : 77066744 SWAPTOT  Mismatch Column Name =Description  |Expected: SPIRIT AEROSYSTEMS HOLD-CL A | Actual: EX/SELL SPR |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 50101.78 | Actual: -50086.61 |
+ Row 735 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :736 for Trade ID : 77066745 SWAPTOT  Mismatch Column Name =Description  |Expected: ATLASSIAN CORP PLC CL A | Actual: EX/BUY TEAM |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 210240.4 | Actual: 210282.6 |
+ Row 736 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :721 for Trade ID : 77066727 SWAPTOT  Mismatch Column Name =Description  |Expected: VOCERA COMMUNICATIONS INC | Actual: EX/SELL VCRA |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 181576.12 | Actual: -181438.89 |
+ Row 721 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066723 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :719 for Trade ID : 77066725 SWAPTOT  Mismatch Column Name =Description  |Expected: UMAX GROUP CORP | Actual: EX/BUY UMAX |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 342099.94 | Actual: 352099.78 |
+ Row 719 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066741 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77058449 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :751 for Trade ID : 77066761 SWAPTOT  Mismatch Column Name =Description  |Expected: ZUR ROSE GROUP AG | Actual: EX/BUY ROSE |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 301300.8 | Actual: 301602.1 |
+ Row 751 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :755 for Trade ID : 77066765 SWAPTOT  Mismatch Column Name =Description  |Expected: DOMTAR CORP | Actual: EX/BUY UFS |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 66066.4 | Actual: 66104.77 |
+ Row 755 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :746 for Trade ID : 77066755 SWAPTOT  Mismatch Column Name =Description  |Expected: WAGEWORKS INC | Actual: EX/BUY WAGE |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 19411.92 | Actual: 19421.6 |
+ Row 746 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :742 for Trade ID : 77066751 SWAPTOT  Mismatch Column Name =Description  |Expected: SQUARE INC - A | Actual: EX/BUY SQ |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 89373.32 | Actual: 89408.02 |
+ Row 742 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :757 for Trade ID : 77066767 SWAPTOT  Mismatch Column Name =Description  |Expected: QURATE RETAIL INC | Actual: EX/BUY QRTEA |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 176607 | Actual: 176934.05 |
+ Row 757 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :756 for Trade ID : 77066766 SWAPTOT  Mismatch Column Name =Description  |Expected: UNIQURE NV | Actual: EX/BUY QURE |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 36037.2 | Actual: 36051.95 |
+ Row 756 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :743 for Trade ID : 77066752 SWAPTOT  Mismatch Column Name =Description  |Expected: RING ENERGY INC | Actual: EX/BUY REI |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 204437.91 | Actual: 204787.18 |
+ Row 743 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :740 for Trade ID : 77066749 SWAPTOT  Mismatch Column Name =Description  |Expected: KNOWLES CORP | Actual: EX/SELL KN |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 176307.21 | Actual: -176043.44 |
+ Row 740 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :749 for Trade ID : 77066758 SWAPTOT  Mismatch Column Name =Description  |Expected: ASIA DEVELOPMENT CAPITAL CO LTD | Actual: EX/BUY 9318 |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 7240000 | Actual: 7247240 |
+ Row 749 Mismatch Column Name =Maturity Date  |Expected: 1/20/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :754 for Trade ID : 77066764 SWAPTOT  Mismatch Column Name =Description  |Expected: IZEA WORLDWIDE INC | Actual: EX/SELL IZEA |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 346740.12 | Actual: -345144.69 |
+ Row 754 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :745 for Trade ID : 77066754 SWAPTOT  Mismatch Column Name =Description  |Expected: GRUPO SANBORNS SAB DE CV | Actual: EX/BUY GSANBOB1 |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 5514009 | Actual: 5522280.01 |
+ Row 745 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :739 for Trade ID : 77066748 SWAPTOT  Mismatch Column Name =Description  |Expected: MASSROOTS | Actual: EX/SELL MSRT |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 334760 | Actual: -315406.69 |
+ Row 739 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :744 for Trade ID : 77066753 SWAPTOT  Mismatch Column Name =Description  |Expected: PRESTIGE CONSUMER HEALTHCARE INC | Actual: EX/SELL PBH |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 71847.36 | Actual: -71786.76 |
+ Row 744 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :752 for Trade ID : 77066762 SWAPTOT  Mismatch Column Name =Description  |Expected: ORAMED PHARMACEUTICALS INC | Actual: EX/BUY ORMP |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 92778.47 | Actual: 93005.13 |
+ Row 752 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :748 for Trade ID : 77066757 SWAPTOT  Mismatch Column Name =Description  |Expected: POST HOLDINGS INC | Actual: EX/BUY POST |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 160305 | Actual: 160342.5 |
+ Row 748 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :753 for Trade ID : 77066763 SWAPTOT  Mismatch Column Name =Description  |Expected: CAPRI HOLDINGS LTD | Actual: EX/SELL CPRI |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 23576.4 | Actual: -23561.65 |
+ Row 753 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :741 for Trade ID : 77066750 SWAPTOT  Mismatch Column Name =Description  |Expected: CREDIT AGRICOLE SA | Actual: EX/SELL CRARF |
+ Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: SELL |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 287123 | Actual: -286512.1 |
+ Row 741 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :747 for Trade ID : 77066756 SWAPTOT  Mismatch Column Name =Description  |Expected: AMBAC FINANCIAL GROUP INC | Actual: EX/BUY AMBC |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 199984.8 | Actual: 200288.17 |
+ Row 747 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+
+Mismatch at Row :750 for Trade ID : 77066759 SWAPTOT  Mismatch Column Name =Description  |Expected: GODADDY INC - CLASS A | Actual: EX/BUY GDDY |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 176990.85 | Actual: 177050.48 |
+ Row 750 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066614 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066617 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066620 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066613 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066625 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066619 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066600 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066618 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066615 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066602 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066612 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066624 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066622 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :710 for Trade ID : 77066621 SWAPTOT  Mismatch Column Name =Description  |Expected: VERISANTE TECHNOLOGY INC | Actual: EX/BUY VRSEF |
+ Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
+ Mismatch Column Name =Notional  |Expected: 157500 | Actual: 6142500 |
+ Row 710 Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 |
+
+
+Trade ID :77066616 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066623 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066601 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066599 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066611 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066605 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066606 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066645 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066654 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066596 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066641 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066604 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066597 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066642 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066607 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066644 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066647 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066643 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066603 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066610 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066609 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066608 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066598 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066646 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066640 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066632 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066638 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066634 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066635 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066639 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066652 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066649 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066653 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066648 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066636 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066626 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066629 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066631 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066628 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066633 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066637 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066650 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066627 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066651 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066630 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066669 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066657 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066671 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066673 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066662 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066674 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066655 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066658 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066663 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066667 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066664 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066670 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066660 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066656 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066672 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066661 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066665 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066666 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066659 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066668 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066697 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066701 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066683 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066705 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066699 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066717 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066709 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066707 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066695 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066685 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066711 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066713 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066719 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066715 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77076436 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77076437 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77076435 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77076434 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77076441 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77076439 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77076440 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77076438 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066788 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066789 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066790 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066791 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066792 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066793 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066794 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066795 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066796 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066797 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066798 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066799 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066800 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066801 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066802 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066803 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066804 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066805 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066806 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066807 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066808 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066809 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066810 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77066811 not found in Target sheet. RESULT: FAILED
+
+TOTAL Trade IDs Validated: 1292 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 1292|</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

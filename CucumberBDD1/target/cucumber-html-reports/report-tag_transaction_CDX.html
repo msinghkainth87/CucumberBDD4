@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Tag: @transaction_CDX</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberBDD</td>
+            <td>20 May 2019, 10:47</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@transaction_CDX</td>
+          <td      class="passed"    >9</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">9</td>
+
+          <td  class="passed"    >1</td>
+          <td >0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="2295666583">2.295</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_src-test-resources-features-KARATE-feature.html">src/test/resources/features/KARATE.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_transaction_CDX.html">@transaction_CDX</a>
+      </div>
+
+  
+  <span class="lead-duration duration">2.295</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Validate CSV Files</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TRD_SRC_TRS_DAY3.csv')</span>
+  
+  <span class="lead-duration duration">0.131</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Day_3_JUAT_Results.csv')</span>
+  
+  <span class="lead-duration duration">0.023</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_POC_1.csv')</span>
+  
+  <span class="lead-duration duration">0.005</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def transformationData = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Transformation.json')</span>
+  
+  <span class="lead-duration duration">0.004</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
+  
+  <span class="lead-duration duration">0.306</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def csv = Java.type('karate.DataCompare')</span>
+  
+  <span class="lead-duration duration">0.009</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def js = new csv()</span>
+  
+  <span class="lead-duration duration">0.005</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,&quot;ClientRefID&quot;,transformationData,&quot;Trade ID&quot;)</span>
+  
+  <span class="lead-duration duration">1.804</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print result</span>
+  
+  <span class="lead-duration duration">0.004</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>10:47:09.425 [print] 
+
+
+Mismatch at Row :303 for Trade ID : 77021038  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 5.9075 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 303 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :302 for Trade ID : 77021039  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 5.9075 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 302 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :304 for Trade ID : 77021040  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 5.9075 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 304 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :301 for Trade ID : 77021041  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 5.9075 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 301 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :307 for Trade ID : 77021042  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 6.059211 | Row 307 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :306 for Trade ID : 77021043  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 6.059211 | Row 306 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :305 for Trade ID : 77021044  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 6.059211 | Row 305 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :308 for Trade ID : 77021045  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 6.059211 | Row 308 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :185 for Trade ID : 77020905  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 7.83 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 185 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :183 for Trade ID : 77020906  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 7.83 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 183 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :189 for Trade ID : 77020909  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 8.16 | Row 189
+
+
+Mismatch at Row :188 for Trade ID : 77020910  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 8.16 | Row 188
+
+
+Mismatch at Row :190 for Trade ID : 77020911  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 8.16 | Row 190
+
+
+Mismatch at Row :191 for Trade ID : 77020912  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 8.16 | Row 191
+
+
+Mismatch at Row :187 for Trade ID : 77020908  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 8.16 | Row 187
+
+
+Mismatch at Row :186 for Trade ID : 77020907  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 7.83 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 186 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :182 for Trade ID : 77020903  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 7.83 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 182 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :184 for Trade ID : 77020904  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 7.83 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 184 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :233 for Trade ID : 77020955  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.12 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 233 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :233 for Trade ID : 77020955  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.12 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 233 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :238 for Trade ID : 77020960  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.835 | Row 238 Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO |
+
+
+Mismatch at Row :225 for Trade ID : 77020946  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.85 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 225 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :225 for Trade ID : 77020946  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.85 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 225 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :226 for Trade ID : 77020948  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.85 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 226 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :226 for Trade ID : 77020948  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.85 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 226 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :237 for Trade ID : 77020958  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.835 | Row 237 Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO |
+
+
+Mismatch at Row :232 for Trade ID : 77020953  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.875 | Row 232
+
+
+Mismatch at Row :232 for Trade ID : 77020953  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.875 | Row 232
+
+
+Mismatch at Row :234 for Trade ID : 77020954  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.12 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 234 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :234 for Trade ID : 77020954  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.12 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 234 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :220 for Trade ID : 77020941  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.575 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 220 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :220 for Trade ID : 77020941  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.575 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 220 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :235 for Trade ID : 77020956  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.12 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 235 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :235 for Trade ID : 77020956  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.12 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 235 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :236 for Trade ID : 77020957  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.12 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 236 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :236 for Trade ID : 77020957  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.12 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 236 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :231 for Trade ID : 77020951  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.875 | Row 231
+
+
+Mismatch at Row :231 for Trade ID : 77020951  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.875 | Row 231
+
+
+Mismatch at Row :239 for Trade ID : 77020959  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.835 | Row 239 Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO |
+
+
+Mismatch at Row :227 for Trade ID : 77020947  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.85 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 227 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :227 for Trade ID : 77020947  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.85 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 227 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :228 for Trade ID : 77020949  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.85 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 228 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :228 for Trade ID : 77020949  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.85 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 228 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :229 for Trade ID : 77020950  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.875 | Row 229
+
+
+Mismatch at Row :229 for Trade ID : 77020950  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.875 | Row 229
+
+
+Mismatch at Row :230 for Trade ID : 77020952  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.875 | Row 230
+
+
+Mismatch at Row :230 for Trade ID : 77020952  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.875 | Row 230
+
+
+Mismatch at Row :218 for Trade ID : 77020940  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.575 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 218 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :218 for Trade ID : 77020940  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.575 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 218 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :224 for Trade ID : 77020945  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.612153 | Row 224 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :224 for Trade ID : 77020945  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.612153 | Row 224 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :221 for Trade ID : 77020942  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.612153 | Row 221 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :221 for Trade ID : 77020942  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.612153 | Row 221 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :217 for Trade ID : 77020938  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.575 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 217 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :217 for Trade ID : 77020938  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.575 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 217 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :219 for Trade ID : 77020939  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.575 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 219 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :219 for Trade ID : 77020939  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.575 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 219 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :240 for Trade ID : 77020961  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.835 | Row 240 Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO |
+
+
+Mismatch at Row :223 for Trade ID : 77020943  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.612153 | Row 223 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :223 for Trade ID : 77020943  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.612153 | Row 223 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :222 for Trade ID : 77020944  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.612153 | Row 222 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :222 for Trade ID : 77020944  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 3.612153 | Row 222 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :267 for Trade ID : 77021002  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1843 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 267 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :267 for Trade ID : 77021002  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1843 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 267 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :266 for Trade ID : 77021003  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1843 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 266 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :266 for Trade ID : 77021003  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1843 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 266 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :268 for Trade ID : 77021004  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1843 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 268 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :268 for Trade ID : 77021004  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1843 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 268 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :265 for Trade ID : 77021005  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1843 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 265 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :265 for Trade ID : 77021005  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1843 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 265 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :271 for Trade ID : 77021006  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.162 | Row 271 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MLCO |
+
+
+Mismatch at Row :271 for Trade ID : 77021006  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.162 | Row 271 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MLCO |
+
+
+Mismatch at Row :270 for Trade ID : 77021007  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.162 | Row 270 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MLCO |
+
+
+Mismatch at Row :270 for Trade ID : 77021007  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.162 | Row 270 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MLCO |
+
+
+Mismatch at Row :272 for Trade ID : 77021008  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.162 | Row 272 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MLCO |
+
+
+Mismatch at Row :272 for Trade ID : 77021008  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.162 | Row 272 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MLCO |
+
+
+Mismatch at Row :269 for Trade ID : 77021009  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.162 | Row 269 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MLCO |
+
+
+Mismatch at Row :269 for Trade ID : 77021009  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.162 | Row 269 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MLCO |
+
+
+Mismatch at Row :274 for Trade ID : 77021010  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.278999 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 274 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :273 for Trade ID : 77021011  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.278999 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 273 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :275 for Trade ID : 77021012  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.278999 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 275 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :276 for Trade ID : 77021013  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.278999 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 276 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :290 for Trade ID : 77021026  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.554 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 290 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :290 for Trade ID : 77021026  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.554 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 290 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :291 for Trade ID : 77021027  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.554 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 291 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :291 for Trade ID : 77021027  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.554 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 291 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :289 for Trade ID : 77021028  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.554 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 289 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :289 for Trade ID : 77021028  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.554 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 289 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :292 for Trade ID : 77021029  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.554 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 292 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :292 for Trade ID : 77021029  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.554 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 292 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :296 for Trade ID : 77021031  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.64 | Row 296 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: JPM |
+
+
+Mismatch at Row :296 for Trade ID : 77021031  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.64 | Row 296 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: JPM |
+
+
+Mismatch at Row :295 for Trade ID : 77021032  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.64 | Row 295 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: JPM |
+
+
+Mismatch at Row :295 for Trade ID : 77021032  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.64 | Row 295 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: JPM |
+
+
+Mismatch at Row :294 for Trade ID : 77021033  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.64 | Row 294 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: JPM |
+
+
+Mismatch at Row :294 for Trade ID : 77021033  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.64 | Row 294 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: JPM |
+
+
+Mismatch at Row :293 for Trade ID : 77021030  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.64 | Row 293 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: JPM |
+
+
+Mismatch at Row :293 for Trade ID : 77021030  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.64 | Row 293 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: JPM |
+
+
+Mismatch at Row :298 for Trade ID : 77021037  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.6483 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 298 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :297 for Trade ID : 77021034  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.6483 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 297 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :297 for Trade ID : 77021034  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.6483 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 297 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :299 for Trade ID : 77021035  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.6483 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 299 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :299 for Trade ID : 77021035  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.6483 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 299 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :300 for Trade ID : 77021036  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.6483 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 300 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :300 for Trade ID : 77021036  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.6483 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 300 Mismatch Column Name =EXEC_BROKER  |Expected: LCHLGB22XXX | Actual: MSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :282 for Trade ID : 77021018  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.0366 | Row 282 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: CITI |
+
+
+Mismatch at Row :282 for Trade ID : 77021018  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.0366 | Row 282 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: CITI |
+
+
+Mismatch at Row :283 for Trade ID : 77021019  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.0366 | Row 283 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: CITI |
+
+
+Mismatch at Row :283 for Trade ID : 77021019  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.0366 | Row 283 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: CITI |
+
+
+Mismatch at Row :281 for Trade ID : 77021020  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.0366 | Row 281 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: CITI |
+
+
+Mismatch at Row :281 for Trade ID : 77021020  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.0366 | Row 281 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: CITI |
+
+
+Mismatch at Row :284 for Trade ID : 77021021  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.0366 | Row 284 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: CITI |
+
+
+Mismatch at Row :284 for Trade ID : 77021021  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.0366 | Row 284 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: CITI |
+
+
+Mismatch at Row :286 for Trade ID : 77021022  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.256739 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 286 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: BRCP | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :287 for Trade ID : 77021023  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.256739 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 287 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: BRCP | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :285 for Trade ID : 77021024  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.256739 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 285 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: BRCP | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :288 for Trade ID : 77021025  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.256739 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 288 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: BRCP | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :279 for Trade ID : 77039983  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 279 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :279 for Trade ID : 77039983  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 279 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :278 for Trade ID : 77039984  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 278 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :278 for Trade ID : 77039984  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 278 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :280 for Trade ID : 77039985  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 280 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :280 for Trade ID : 77039985  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 280 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :277 for Trade ID : 77039986  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 277 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :277 for Trade ID : 77039986  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 277 Mismatch Column Name =EXEC_BROKER  |Expected: XCMEUS4FXXX | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :154 for Trade ID : 77020874  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.913 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 154 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :155 for Trade ID : 77020875  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.913 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 155 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :153 for Trade ID : 77020876  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.913 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 153 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :156 for Trade ID : 77020877  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.913 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Row 156 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :160 for Trade ID : 77020879  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1675 | Row 160
+
+
+Mismatch at Row :159 for Trade ID : 77020880  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1675 | Row 159
+
+
+Mismatch at Row :158 for Trade ID : 77020881  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1675 | Row 158
+
+
+Mismatch at Row :157 for Trade ID : 77020878  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.1675 | Row 157
+
+
+Mismatch at Row :161 for Trade ID : 77020882  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.0175 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -5000000 | Actual: 5000000 | Row 161 Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :162 for Trade ID : 77020883  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.0175 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -5000000 | Actual: 5000000 | Row 162 Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :165 for Trade ID : 77020884  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.9125 | Row 165
+
+
+Mismatch at Row :163 for Trade ID : 77020885  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.9125 | Row 163
+
+
+Mismatch at Row :166 for Trade ID : 77020886  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.9125 | Row 166
+
+
+Mismatch at Row :167 for Trade ID : 77020887  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.9125 | Row 167
+
+
+Mismatch at Row :164 for Trade ID : 77020888  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.9125 | Row 164
+
+
+Mismatch at Row :169 for Trade ID : 77020889  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 169 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :168 for Trade ID : 77020890  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 168 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :171 for Trade ID : 77020891  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 171 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :170 for Trade ID : 77020892  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 170 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :172 for Trade ID : 77020893  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 172 Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :174 for Trade ID : 77020894  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.9125 | Row 174 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB |
+
+
+Mismatch at Row :173 for Trade ID : 77020895  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.9125 | Row 173 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB |
+
+
+Mismatch at Row :175 for Trade ID : 77020896  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.9125 | Row 175 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB |
+
+
+Mismatch at Row :176 for Trade ID : 77020897  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.9125 | Row 176 Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB |
+
+
+Mismatch at Row :179 for Trade ID : 77020899  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 179 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :178 for Trade ID : 77020900  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 178 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :180 for Trade ID : 77020901  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 180 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :181 for Trade ID : 77020902  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 181 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :177 for Trade ID : 77020898  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Row 177 Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+TOTAL Trade IDs Validated: 154 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 154|</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

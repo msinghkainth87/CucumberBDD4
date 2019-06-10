@@ -1,0 +1,78 @@
+#Test Runner Specifications
+
+#Key: cucumber.options=[path of feature file/folder to run], -t [tags to run], -g [glue code location], -p [plugin]
+# suppress inspection "UnusedProperty"
+#cucumber.options= \
+#classpath:google.features/FileUpload.feature \
+#-t @run \
+#-g seleniumutils.reusablestepdefinitions \
+#-g seleniumutils.applicationlayer \
+#-g seleniumutils.frameworklayer \
+#-g methods \
+#-p pretty \
+#-p html:target/cucumberHtmlReport.html \
+#-p json:target/cucumberJSONReport.json \
+#-p com.cucumber.listener.ExtentCucumberFormatter:target/report.html
+
+application = mercury
+
+url=https://smiwa-int.amfam.com/siteminderagent/forms/login.fcc?TYPE=33554433&REALMOID=06-000b8716-1ff2-1673-8fa8-020c0a5a40d7&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=RQDTgalfzUYw4suhDDCR8VMXQ1u63uQtijGWDAEVN4LsNW3Y2IDyaotB9hmIhlRO&TARGET=-SM-https%3a%2f%2fintaq80g%2eamfam%2ecom%2fccforms
+debug=false
+flashfill=true
+implicit_wait_duration_sec=30
+page_load_wait_duration_sec=30
+#Property to specify what format input data is stored and retrieved as
+browser=chrome
+headless=false
+takes_screenshot=true
+chrome_browserversion=58.0
+chrome_os=Windows
+chrome_os_version=7
+chrome_browserstack_debug=true
+chrome_build=google Chrome
+chromeuseAutomationExtension=false
+record_test_video=true
+
+introduce_flakiness_by_ignoring_security_domains=true
+ignoreProtectedModeSettings =true
+ignoreZoomSetting =true
+initialBrowserUrl =http://google.com
+enablePersistentHover =true
+enableElementCacheCleanup =true
+requireWindowFocus =true
+browserAttachTimeout = 0
+ie_forceCreateProcessApi =false
+ie_browserCommandLineSwitches =
+ie_usePerProcessProxy = false
+ie_ensureCleanSession =false
+logFile =
+logLevel =
+host =
+extractPath =
+silent =
+ie_setProxyByServer =
+
+firefox_driver_path=
+
+phantomjs_element_scroll_behavior=true
+phantomjs_takes_screenshot=true
+phantomjs_enable_profiling_capability=true
+phantomjs_has_native_events=true
+phantomjs_page_settings_useragent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36
+phantomjs_web-security=true
+phantomjs_ignore-ssl-errors=
+phantomjs_loglevel=NONE
+
+input_data_type=YAML
+accessibility=true
+upload_files_path= C:\\Users\\hb427jn\\Documents\\City of Phoenix\\COPFramework\\CucumberBDD2.0\\uploadFiles
+
+gluepackage=info.seleniumcucumber.stepdefinitions
+#extent reports
+#reporttype=extent_reports
+#reporting="com.sitture.ExtentFormatter:output/extent-report/index.html"
+
+#cucumber-pro
+reporttype=cucumber-pro
+reporting="com.sitture.ExtentFormatter:output/extent-report/index.html"
+

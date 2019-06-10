@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Tag: @transaction_cr_16</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberBDD</td>
+            <td>17 May 2019, 11:30</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@transaction_cr_16</td>
+          <td      class="passed"    >9</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">9</td>
+
+          <td  class="passed"    >1</td>
+          <td >0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="1151465908">1.151</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_src-test-resources-features-KARATE-feature.html">src/test/resources/features/KARATE.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_transaction_cr_16.html">@transaction_cr_16</a>
+      </div>
+
+  
+  <span class="lead-duration duration">1.151</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Validate CSV Files</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/CRD_Results_Day2.csv')</span>
+  
+  <span class="lead-duration duration">0.103</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TradeBlotted_day_2_TRS.csv')</span>
+  
+  <span class="lead-duration duration">0.016</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_TRP_C.csv')</span>
+  
+  <span class="lead-duration duration">0.004</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def transformationData = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/PositionTranformation.json')</span>
+  
+  <span class="lead-duration duration">0.004</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
+  
+  <span class="lead-duration duration">0.225</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def csv = Java.type('karate.DataCompare')</span>
+  
+  <span class="lead-duration duration">0.011</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def js = new csv()</span>
+  
+  <span class="lead-duration duration">0.007</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,&quot;TRADE_ID&quot;,transformationData,&quot;Trade ID&quot;)</span>
+  
+  <span class="lead-duration duration">0.776</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print result</span>
+  
+  <span class="lead-duration duration">0.001</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>11:30:11.093 [print] 
+
+Trade ID :77025399 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025398 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025397 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025400 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015404 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025385 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025388 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025387 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025386 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025392 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025390 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025389 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025391 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015421 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015420 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015422 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015427 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015428 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015431 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015429 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015430 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015432 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015435 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015433 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015434 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015436 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025395 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025393 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025394 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025396 not found in Target sheet. RESULT: FAILED
+
+No Mismatches for  Trade ID:77025379 RESULT: PASSED
+
+No Mismatches for  Trade ID:77025380 RESULT: PASSED
+
+No Mismatches for  Trade ID:77025378 RESULT: PASSED
+
+No Mismatches for  Trade ID:77025377 RESULT: PASSED
+
+Trade ID :77031383 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77031381 not found in Target sheet. RESULT: FAILED
+
+Mismatch at Row :1 for Trade ID : 77031382  Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2958 | Actual: 2963 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 1 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN |
+Mismatch at Row :2 for Trade ID : 77031382  Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2958 | Actual: 2963 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 1 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN | Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2958 | Actual: 2963 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 2 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN |
+
+Mismatch at Row :3 for Trade ID : 77031380  Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 3327.75 | Actual: 3333.38 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 3 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN |
+Mismatch at Row :4 for Trade ID : 77031380  Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 3327.75 | Actual: 3333.38 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 3 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN | Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 3327.75 | Actual: 3333.38 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 4 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN |
+
+Trade ID :77015458 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015456 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015455 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015457 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015453 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015451 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015447 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015452 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015454 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015459 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015462 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015461 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015460 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015449 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015446 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015445 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015448 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015450 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015443 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015442 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015441 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015444 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027383 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027379 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027377 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027376 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027381 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027380 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027375 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027378 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027382 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027384 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027395 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027393 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027394 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027396 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015464 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015463 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015465 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015466 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027401 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027404 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027403 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027402 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015470 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015468 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015467 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015469 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015474 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015472 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015471 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015473 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015483 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015486 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015485 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015484 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015476 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015475 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015477 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015478 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027419 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027422 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027421 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027420 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015480 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015479 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015481 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015482 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027407 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027405 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027406 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027408 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027409 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027425 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027423 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027424 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027426 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027427 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027417 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027415 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027416 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027418 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027413 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027411 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027410 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027412 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77027414 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015487 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015490 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015489 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77015488 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77019910 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77019908 not found in Target sheet. RESULT: FAILED
+
+TOTAL Trade IDs Validated: 142 | TOTAL ROWS PASSED: 4 | TOTAL ROWS WITH MISMATCHES: 138|</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

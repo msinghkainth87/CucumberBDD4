@@ -1,0 +1,5 @@
+Trade Date,Maturity Date,Account Abbreviation,Notional,ID2,Product Type,Currency Code,Equity Underlying Identifier
+1/2/2019,12/27/2019,9539,10000,72345,EQS,HKD,
+1/2/2019,12/27/2019,9810,10000,72345,EQS,USD,
+1/2/2019,12/27/2019,70GB      ,10000,123456,EQS,USD,
+1/2/2019,12/27/2019,9878,20000,123456,EQS,USD,

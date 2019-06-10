@@ -1,0 +1,362 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/Login.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Login",
+  "description": "",
+  "id": "login",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 1480803804,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "SSO into GWCC",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "I navigate to ClaimCenter cc login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "I enter \"su\" into input field login.username",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "I enter \"gw\" into input field login.password",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "I click login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "I land on activities page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "the element general.gwlogo is displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "cc",
+      "offset": 26
+    }
+  ],
+  "location": "LoginPageStepDefinitions.navigate_to(String)"
+});
+formatter.result({
+  "duration": 14635250715,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "su",
+      "offset": 9
+    },
+    {
+      "val": "login.username",
+      "offset": 30
+    }
+  ],
+  "location": "ReusableStepDefinitions.enter_text(String,String)"
+});
+formatter.result({
+  "duration": 283102790,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "gw",
+      "offset": 9
+    },
+    {
+      "val": "login.password",
+      "offset": 30
+    }
+  ],
+  "location": "ReusableStepDefinitions.enter_text(String,String)"
+});
+formatter.result({
+  "duration": 217339986,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "login",
+      "offset": 8
+    }
+  ],
+  "location": "LoginPageStepDefinitions.iClickLoginButton(String)"
+});
+formatter.result({
+  "duration": 302183417,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "activities",
+      "offset": 10
+    }
+  ],
+  "location": "ReusableStepDefinitions.iLandOnPage(String)"
+});
+formatter.result({
+  "duration": 4172339824,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "general.gwlogo",
+      "offset": 12
+    }
+  ],
+  "location": "ReusableStepDefinitions.ele_display(String)"
+});
+formatter.result({
+  "duration": 111192399,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 42,
+  "name": "short-form BDD compliant - needs Happy path fill methods",
+  "description": "",
+  "id": "login;short-form-bdd-compliant---needs-happy-path-fill-methods",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 41,
+      "name": "@run"
+    }
+  ]
+});
+formatter.step({
+  "line": 43,
+  "name": "I search for \"NewClaim\" in the information bar",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 44,
+  "name": "I land on fnolsearchorcreatepolicy page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 45,
+  "name": "I fill the fnol search or create policy page and continue",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "I land on fnolbasicinformation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 47,
+  "name": "I fill the fnol basic information page and continue",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 48,
+  "name": "I land on fnollossdetails page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 49,
+  "name": "I fill the fnol loss details page and continue",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 50,
+  "name": "I land on fnolservices page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 51,
+  "name": "I fill the fnol services page and continue",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 52,
+  "name": "I land on fnolassignment page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 53,
+  "name": "I fill the fnol assignment page and continue",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 54,
+  "name": "I land on fnolclaimsaved page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 55,
+  "name": "the element fnolclaimsaved.view_created_claim is displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "NewClaim",
+      "offset": 14
+    }
+  ],
+  "location": "ActivitiesPageStepDefinitions.iSearchForInTheInformationBar(String)"
+});
+formatter.result({
+  "duration": 975653274,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "fnolsearchorcreatepolicy",
+      "offset": 10
+    }
+  ],
+  "location": "ReusableStepDefinitions.iLandOnPage(String)"
+});
+formatter.result({
+  "duration": 4274749370,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FNOLSearchOrCreatePolicyPageStepDefinitions.fillFNOLSearchOrCreatePolicyPage()"
+});
+formatter.result({
+  "duration": 5760972818,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "fnolbasicinformation",
+      "offset": 10
+    }
+  ],
+  "location": "ReusableStepDefinitions.iLandOnPage(String)"
+});
+formatter.result({
+  "duration": 4169286989,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FNOLBasicInformationPageStepDefinitions.fillFNOLBasicInformationPage()"
+});
+formatter.result({
+  "duration": 6900478247,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "fnollossdetails",
+      "offset": 10
+    }
+  ],
+  "location": "ReusableStepDefinitions.iLandOnPage(String)"
+});
+formatter.result({
+  "duration": 4143836711,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FNOLLossDetailsPageStepDefinitions.fillFNOLLossDetailsPage()"
+});
+formatter.result({
+  "duration": 5468858910,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "fnolservices",
+      "offset": 10
+    }
+  ],
+  "location": "ReusableStepDefinitions.iLandOnPage(String)"
+});
+formatter.result({
+  "duration": 4151215899,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FNOLServicesPageStepDefinitions.fillFNOLServicesPage()"
+});
+formatter.result({
+  "duration": 194925710,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "fnolassignment",
+      "offset": 10
+    }
+  ],
+  "location": "ReusableStepDefinitions.iLandOnPage(String)"
+});
+formatter.result({
+  "duration": 4166649629,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FNOLAssignmentPageStepDefinitions.fillFNOLAssignmentPage()"
+});
+formatter.result({
+  "duration": 164351792,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "fnolclaimsaved",
+      "offset": 10
+    }
+  ],
+  "location": "ReusableStepDefinitions.iLandOnPage(String)"
+});
+formatter.result({
+  "duration": 4141678460,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "fnolclaimsaved.view_created_claim",
+      "offset": 12
+    }
+  ],
+  "location": "ReusableStepDefinitions.ele_display(String)"
+});
+formatter.result({
+  "duration": 53280914,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 26275,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 86625,
+  "status": "passed"
+});
+});

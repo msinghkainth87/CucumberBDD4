@@ -1,0 +1,1973 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Tag: @transaction_run1</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberBDD</td>
+            <td>10 Jun 2019, 11:35</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@transaction_run1</td>
+          <td      class="passed"    >8</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">8</td>
+
+          <td  class="passed"    >1</td>
+          <td >0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="43888089753">43.888</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_src-test-resources-features-KARATE-feature.html">src/test/resources/features/KARATE.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_transaction_run1.html">@transaction_run1</a>
+      </div>
+
+  
+  <span class="lead-duration duration">43.888</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Validate Transaction Files</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/CRDextract_0606.csv')</span>
+  
+  <span class="lead-duration duration">0.355</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TradeBlotter_0606.csv')</span>
+  
+  <span class="lead-duration duration">0.065</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_TRP_C.csv')</span>
+  
+  <span class="lead-duration duration">0.005</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
+  
+  <span class="lead-duration duration">1.000</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def csv = Java.type('karate.TransactionData')</span>
+  
+  <span class="lead-duration duration">0.021</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def js = new csv()</span>
+  
+  <span class="lead-duration duration">0.009</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,&quot;CRDSecid&quot;)</span>
+  
+  <span class="lead-duration duration">42.417</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">print result</span>
+  
+  <span class="lead-duration duration">0.012</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>11:35:24.574 [print] 
+
+Mismatch at Row :12 for Trade ID :77015409 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 91 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 12 Mismatch Column Name =UnderlyingSecurityName  |Expected: CVS HEALTH CORP | Actual: B SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :6 for Trade ID :77015408 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 91 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 6 Mismatch Column Name =UnderlyingSecurityName  |Expected: CVS HEALTH CORP | Actual: B SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :18 for Trade ID :77015410 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 91 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 18 Mismatch Column Name =UnderlyingSecurityName  |Expected: CVS HEALTH CORP | Actual: B SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :24 for Trade ID :77015411 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 91 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 24 Mismatch Column Name =UnderlyingSecurityName  |Expected: CVS HEALTH CORP | Actual: B SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :54 for Trade ID :77015421 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 415 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 54 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :48 for Trade ID :77015420 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 415 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 48 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :42 for Trade ID :77015424 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 415 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 42 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :36 for Trade ID :77015423 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 415 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 36 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :30 for Trade ID :77015422 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 415 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 30 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :62 for Trade ID :77015425 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 110 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 62 Mismatch Column Name =UnderlyingSecurityName  |Expected: KRAFT HEINZ FOODS CO | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :56 for Trade ID :77015427 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 110 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 56 Mismatch Column Name =UnderlyingSecurityName  |Expected: KRAFT HEINZ FOODS CO | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :58 for Trade ID :77015426 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 110 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 58 Mismatch Column Name =UnderlyingSecurityName  |Expected: KRAFT HEINZ FOODS CO | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :60 for Trade ID :77015428 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 110 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 60 Mismatch Column Name =UnderlyingSecurityName  |Expected: KRAFT HEINZ FOODS CO | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :69 for Trade ID :77015435 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 130.5 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 69 Mismatch Column Name =UnderlyingSecurityName  |Expected: RUSSIA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Undo Partial Termination |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :76 for Trade ID :77015433 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 130.5 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 76 Mismatch Column Name =UnderlyingSecurityName  |Expected: RUSSIA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Undo Partial Termination |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :83 for Trade ID :77015434 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 130.5 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 83 Mismatch Column Name =UnderlyingSecurityName  |Expected: RUSSIA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Undo Partial Termination |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :90 for Trade ID :77015436 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 130.5 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 90 Mismatch Column Name =UnderlyingSecurityName  |Expected: RUSSIA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Undo Partial Termination |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/13/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :141 for Trade ID :77015443 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 64.21 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/3/2019 |
+ Row 141 Mismatch Column Name =UnderlyingSecurityName  |Expected: CDX IG CDSI S32 5YR | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/3/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :140 for Trade ID :77015442 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 64.21 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/3/2019 |
+ Row 140 Mismatch Column Name =UnderlyingSecurityName  |Expected: CDX IG CDSI S32 5YR | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/3/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :139 for Trade ID :77015441 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 64.21 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2.50E+06 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/3/2019 |
+ Row 139 Mismatch Column Name =UnderlyingSecurityName  |Expected: CDX IG CDSI S32 5YR | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/3/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :142 for Trade ID :77015444 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 64.21 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/3/2019 |
+ Row 142 Mismatch Column Name =UnderlyingSecurityName  |Expected: CDX IG CDSI S32 5YR | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/3/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :509 for Trade ID :77154543 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 153.15 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 509 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :491 for Trade ID :77154546 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 153.15 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 491 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :497 for Trade ID :77154545 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 153.15 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 497 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :503 for Trade ID :77154544 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 153.15 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 503 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :521 for Trade ID :77154548 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 153.15 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 521 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :515 for Trade ID :77154547 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 153.15 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 515 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :527 for Trade ID :77154549 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 153.15 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 527 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :533 for Trade ID :77154550 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 153.15 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 533 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :98 for Trade ID :77015480 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 66.9406 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 98 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR CDSI S31 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :94 for Trade ID :77015479 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 66.9406 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 94 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR CDSI S31 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :102 for Trade ID :77015481 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 66.9406 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 102 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR CDSI S31 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :106 for Trade ID :77015482 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1250000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 66.9406 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Row 106 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR CDSI S31 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :118 for Trade ID :77027407 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 66.9406 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 118 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR CDSI S31 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :110 for Trade ID :77027405 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 66.9406 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 110 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR CDSI S31 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :114 for Trade ID :77027406 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 66.9406 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 114 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR CDSI S31 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :122 for Trade ID :77027408 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 66.9406 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 122 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR CDSI S31 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :126 for Trade ID :77027409 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 66.9406 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/4/2019 |
+ Row 126 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR CDSI S31 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :129 for Trade ID :77027417 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 166.0062 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/3/2019 |
+ Row 129 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S31 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/3/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :132 for Trade ID :77027415 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 166.0062 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/3/2019 |
+ Row 132 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S31 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/3/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :135 for Trade ID :77027416 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 166.0062 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/3/2019 |
+ Row 135 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S31 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/3/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :138 for Trade ID :77027418 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 166.0062 | Actual: 100 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 6/20/2024 0:00 | Actual: 6/3/2019 |
+ Row 138 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX EUR SUBFIN CDSI S31 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/3/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :461 for Trade ID :77154541 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -986660 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 286.3868 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 461 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :467 for Trade ID :77154539 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -986660 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 286.3868 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 467 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :473 for Trade ID :77154538 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -986660 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 286.3868 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 473 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :479 for Trade ID :77154540 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -986660 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 286.3868 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 479 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :485 for Trade ID :77154542 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -986660 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 286.3868 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 485 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: S INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :557 for Trade ID :77154551 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1233330 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 286.3868 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 557 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :551 for Trade ID :77154554 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1233330 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 286.3868 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 551 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :545 for Trade ID :77154553 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1233330 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 286.3868 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 545 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :539 for Trade ID :77154552 | SEC_TYP_CD :SWAPCDSI | Sub Type  : INDEX_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1233330 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 286.3868 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 12/20/2023 0:00 | Actual: 6/4/2019 |
+ Row 539 Mismatch Column Name =UnderlyingSecurityName  |Expected: ITRX XOVER CDSI S31 V2 5Y | Actual: B INDEX_CDS / Index CDS |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/14/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :396 for Trade ID :77020876 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.913 | Actual: 191.3 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 396 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :384 for Trade ID :77020874 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.913 | Actual: 191.3 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 384 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :390 for Trade ID :77020875 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.913 | Actual: 191.3 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 390 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :402 for Trade ID :77020877 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.913 | Actual: 191.3 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 402 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :418 for Trade ID :77020878 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.1675 | Actual: 216.75 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2029 0:00 | Actual: 6/4/2019 |
+ Row 418 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :414 for Trade ID :77020881 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.1675 | Actual: 216.75 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2029 0:00 | Actual: 6/4/2019 |
+ Row 414 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :410 for Trade ID :77020880 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.1675 | Actual: 216.75 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2029 0:00 | Actual: 6/4/2019 |
+ Row 410 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :406 for Trade ID :77020879 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.1675 | Actual: 216.75 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2029 0:00 | Actual: 6/4/2019 |
+ Row 406 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :422 for Trade ID :77020890 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.378 | Actual: 237.8 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Row 422 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :420 for Trade ID :77020889 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.378 | Actual: 237.8 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Row 420 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :426 for Trade ID :77020892 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.378 | Actual: 237.8 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Row 426 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :424 for Trade ID :77020891 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.378 | Actual: 237.8 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Row 424 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :428 for Trade ID :77020893 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.378 | Actual: 237.8 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.95971 | Actual: 206.095 |
+ Row 428 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :186 for Trade ID :77020903 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 7.83 | Actual: 783 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 8.5061 | Actual: 850.61 |
+ Mismatch Column Name = mature_date  |Expected: 5/9/2024 0:00 | Actual: 6/4/2019 |
+ Row 186 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :174 for Trade ID :77020906 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 7.83 | Actual: 783 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 8.5061 | Actual: 850.61 |
+ Mismatch Column Name = mature_date  |Expected: 5/9/2024 0:00 | Actual: 6/4/2019 |
+ Row 174 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :192 for Trade ID :77020904 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 7.83 | Actual: 783 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 8.5061 | Actual: 850.61 |
+ Mismatch Column Name = mature_date  |Expected: 5/9/2024 0:00 | Actual: 6/4/2019 |
+ Row 192 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :168 for Trade ID :77020905 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 7.83 | Actual: 783 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 8.5061 | Actual: 850.61 |
+ Mismatch Column Name = mature_date  |Expected: 5/9/2024 0:00 | Actual: 6/4/2019 |
+ Row 168 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :180 for Trade ID :77020907 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 7.83 | Actual: 783 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2000000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 8.5061 | Actual: 850.61 |
+ Mismatch Column Name = mature_date  |Expected: 5/9/2024 0:00 | Actual: 6/4/2019 |
+ Row 180 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :580 for Trade ID :77168850 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 0.00001 | Actual: 641.5 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Row 580 Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: BRL | Actual: USD |
+
+
+Mismatch at Row :581 for Trade ID :77168848 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 0.00001 | Actual: 641.5 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Row 581 Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: BRL | Actual: USD |
+
+
+Mismatch at Row :582 for Trade ID :77168849 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 0.00001 | Actual: 641.5 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Row 582 Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: BRL | Actual: USD |
+
+
+Mismatch at Row :583 for Trade ID :77168851 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 0.00001 | Actual: 641.5 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Row 583 Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: BRL | Actual: USD |
+
+
+Mismatch at Row :453 for Trade ID :77020933 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.00E-05 | Actual: 641.25 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.00E-05 | Actual: 640 |
+ Row 453 Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :224 for Trade ID :77020938 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 3.58E+00 | Actual: 357.5 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 3.46E+00 | Actual: 346 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2024 0:00 | Actual: 6/4/2019 |
+ Row 224 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :208 for Trade ID :77020940 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 3.58E+00 | Actual: 357.5 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 3.46E+00 | Actual: 346 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2024 0:00 | Actual: 6/4/2019 |
+ Row 208 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :228 for Trade ID :77020939 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 3.58E+00 | Actual: 357.5 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 3.46E+00 | Actual: 346 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2024 0:00 | Actual: 6/4/2019 |
+ Row 228 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :200 for Trade ID :77020941 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 3.58E+00 | Actual: 357.5 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 3.46E+00 | Actual: 346 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2024 0:00 | Actual: 6/4/2019 |
+ Row 200 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :220 for Trade ID :77020942 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 3.61E+00 | Actual: 361.2153 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 3.46E+00 | Actual: 346 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2026 0:00 | Actual: 6/4/2019 |
+ Row 220 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :240 for Trade ID :77020944 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 3.61E+00 | Actual: 361.2153 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 3.46E+00 | Actual: 346 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2026 0:00 | Actual: 6/4/2019 |
+ Row 240 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :234 for Trade ID :77020943 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 3.61E+00 | Actual: 361.2153 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 3.46E+00 | Actual: 346 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2026 0:00 | Actual: 6/4/2019 |
+ Row 234 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :214 for Trade ID :77020945 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 3.612153 | Actual: 361.2153 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 3.46 | Actual: 346 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2026 0:00 | Actual: 6/4/2019 |
+ Row 214 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :194 for Trade ID :77020955 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.12 | Actual: 212 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.7435 | Actual: 196.311 |
+ Row 194 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :196 for Trade ID :77020954 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.12 | Actual: 212 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.7435 | Actual: 196.311 |
+ Row 196 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :202 for Trade ID :77020956 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.12 | Actual: 212 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.7435 | Actual: 196.311 |
+ Row 202 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :204 for Trade ID :77020957 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.12 | Actual: 212 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.7435 | Actual: 196.311 |
+ Row 204 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :446 for Trade ID :77020984 | SEC_TYP_CD :SWAPINF | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 0.00E+00 | Actual: 185.73 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00E+00 | Actual: 0 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2021 0:00 | Actual: 6/4/2019 |
+ Row 446 Mismatch Column Name =UnderlyingSecurityName  |Expected: NAN | Actual: SW/PAY FORM+Zero |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :440 for Trade ID :77020983 | SEC_TYP_CD :SWAPINF | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 0.00E+00 | Actual: 185.73 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00E+00 | Actual: 0 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2021 0:00 | Actual: 6/4/2019 |
+ Row 440 Mismatch Column Name =UnderlyingSecurityName  |Expected: NAN | Actual: SW/PAY FORM+Zero |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :434 for Trade ID :77020982 | SEC_TYP_CD :SWAPINF | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 0.00E+00 | Actual: 185.73 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00E+00 | Actual: 0 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2021 0:00 | Actual: 6/4/2019 |
+ Row 434 Mismatch Column Name =UnderlyingSecurityName  |Expected: NAN | Actual: SW/PAY FORM+Zero |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :452 for Trade ID :77020985 | SEC_TYP_CD :SWAPINF | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 0.00E+00 | Actual: 185.73 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00E+00 | Actual: 0 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2500000 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2021 0:00 | Actual: 6/4/2019 |
+ Row 452 Mismatch Column Name =UnderlyingSecurityName  |Expected: NAN | Actual: SW/PAY FORM+Zero |
+ Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MSCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :258 for Trade ID :77021005 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.18E+00 | Actual: 218.43 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 2.52E+00 | Actual: 252.513 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 258 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :246 for Trade ID :77021003 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.18E+00 | Actual: 218.43 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 2.52E+00 | Actual: 252.513 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 246 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :252 for Trade ID :77021004 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.18E+00 | Actual: 218.43 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 2.52E+00 | Actual: 252.513 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 252 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :282 for Trade ID :77021009 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.16E+00 | Actual: 216.2 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 2.52E+00 | Actual: 252.513 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 282 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :270 for Trade ID :77021007 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.16E+00 | Actual: 216.2 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 2.52E+00 | Actual: 252.513 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 270 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :264 for Trade ID :77021006 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.16E+00 | Actual: 216.2 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 2.52E+00 | Actual: 252.513 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 264 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :276 for Trade ID :77021008 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 2.16E+00 | Actual: 216.2 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 2.52E+00 | Actual: 252.513 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 276 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :378 for Trade ID :77039986 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: -3.60E-02 | Actual: -3.6 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: -3.11E-01 | Actual: -23.5 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 378 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :366 for Trade ID :77039984 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: -3.60E-02 | Actual: -3.6 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: -3.11E-01 | Actual: -23.5 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 366 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :360 for Trade ID :77039983 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: -3.60E-02 | Actual: -3.6 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: -3.11E-01 | Actual: -23.5 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 360 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :372 for Trade ID :77039985 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: -3.60E-02 | Actual: -3.6 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: -3.11E-01 | Actual: -23.5 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2024 0:00 | Actual: 6/4/2019 |
+ Row 372 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: GSCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :348 for Trade ID :77021020 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: -3.66E-02 | Actual: -3.66 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: -3.11E-01 | Actual: -23.5 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2029 0:00 | Actual: 6/4/2019 |
+ Row 348 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :336 for Trade ID :77021018 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: -3.66E-02 | Actual: -3.66 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: -3.11E-01 | Actual: -23.5 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2029 0:00 | Actual: 6/4/2019 |
+ Row 336 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :342 for Trade ID :77021019 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: -3.66E-02 | Actual: -3.66 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: -3.11E-01 | Actual: -23.5 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2029 0:00 | Actual: 6/4/2019 |
+ Row 342 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :354 for Trade ID :77021021 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: -3.66E-02 | Actual: -3.66 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: -3.11E-01 | Actual: -23.5 |
+ Mismatch Column Name = mature_date  |Expected: 5/17/2029 0:00 | Actual: 6/4/2019 |
+ Row 354 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :300 for Trade ID :77021028 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.554 | Actual: 155.4 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.6367 | Actual: 164 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2024 0:00 | Actual: 6/4/2019 |
+ Row 300 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :288 for Trade ID :77021026 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.554 | Actual: 155.4 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.6367 | Actual: 164 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2024 0:00 | Actual: 6/4/2019 |
+ Row 288 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: CHASGB2LDPC |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :294 for Trade ID :77021027 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.554 | Actual: 155.4 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.6367 | Actual: 164 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2024 0:00 | Actual: 6/4/2019 |
+ Row 294 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :306 for Trade ID :77021029 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.554 | Actual: 155.4 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.6367 | Actual: 164 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2024 0:00 | Actual: 6/4/2019 |
+ Row 306 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: CSFB | Actual: MSCSUS33XXX |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :330 for Trade ID :77021030 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.64 | Actual: 164 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.6367 | Actual: 164 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2029 0:00 | Actual: 6/4/2019 |
+ Row 330 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :324 for Trade ID :77021033 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.64 | Actual: 164 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.6367 | Actual: 164 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2029 0:00 | Actual: 6/4/2019 |
+ Row 324 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :318 for Trade ID :77021032 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.64 | Actual: 164 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.6367 | Actual: 164 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2029 0:00 | Actual: 6/4/2019 |
+ Row 318 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :312 for Trade ID :77021031 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.64 | Actual: 164 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.6367 | Actual: 164 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2029 0:00 | Actual: 6/4/2019 |
+ Row 312 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :158 for Trade ID :77021041 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 5.9075 | Actual: 590.75 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 6.05 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2021 0:00 | Actual: 6/4/2019 |
+ Row 158 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :150 for Trade ID :77021039 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 5.9075 | Actual: 590.75 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 6.05 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2021 0:00 | Actual: 6/4/2019 |
+ Row 150 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :146 for Trade ID :77021038 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 5.9075 | Actual: 590.75 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 6.05 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2021 0:00 | Actual: 6/4/2019 |
+ Row 146 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :154 for Trade ID :77021040 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 5.9075 | Actual: 590.75 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: -1500000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 6.05 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2021 0:00 | Actual: 6/4/2019 |
+ Row 154 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :161 for Trade ID :77021044 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 6.059211 | Actual: 605.9211 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 6.05 | Actual: 0 |
+ Row 161 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :160 for Trade ID :77021043 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 6.059211 | Actual: 605.9211 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 6.05 | Actual: 0 |
+ Row 160 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :159 for Trade ID :77021042 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 6.059211 | Actual: 605.9211 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 6.05 | Actual: 0 |
+ Row 159 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :162 for Trade ID :77021045 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRSWAP
+  Mismatch Column Name =FIXED_RATE  |Expected: 6.059211 | Actual: 605.9211 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 2500000 | Actual: 1000000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 6.05 | Actual: 0 |
+ Row 162 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: NAN |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+
+
+Mismatch at Row :455 for Trade ID :77066436 | SEC_TYP_CD :SWPTNIRS | Sub Type  : NAN
+  Mismatch Column Name =FIXED_RATE  |Expected: NAN | Actual: 19.254 |
+ Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 0 | Actual: -625000 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: NAN | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 1/17/2020 0:00 | Actual: 1/20/2023 |
+ Row 455 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Part Assigned |
+ Mismatch Column Name =PUT/CALL  |Expected: NAN | Actual: PUT |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/17/2019 0:00 | Actual: 5/30/2019 |
+
+
+Mismatch at Row :561 for Trade ID :77154560 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 555 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Row 561 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :562 for Trade ID :77154559 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 555 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Row 562 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :558 for Trade ID :77154563 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 555 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Row 558 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :559 for Trade ID :77154562 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 555 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Row 559 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :560 for Trade ID :77154561 | SEC_TYP_CD :SWAPCDS | Sub Type  : SN_CDS
+  Mismatch Column Name =FIXED_RATE  |Expected: 5 | Actual: 0 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 0.00001 | Actual: 0 |
+ Mismatch Column Name =DEAL_SPREAD  |Expected: 555 | Actual: 500 |
+ Mismatch Column Name =ALLOCATION_TARGET_QTY  |Expected: 2000000 | Actual: 0 |
+ Row 560 Mismatch Column Name =UnderlyingSecurityName  |Expected: BEAZER HOMES USA | Actual: S SN_CDS / Single Name CDS |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: NAN |
+
+
+Mismatch at Row :567 for Trade ID :77168846 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.00E-06 | Actual: 641 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.00E-05 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2021 0:00 | Actual: 6/4/2019 |
+ Row 567 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: BRL | Actual: USD |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :571 for Trade ID :77168845 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.00E-06 | Actual: 641 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.00E-05 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2021 0:00 | Actual: 6/4/2019 |
+ Row 571 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: BRL | Actual: USD |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :575 for Trade ID :77168844 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.00E-06 | Actual: 641 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.00E-05 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2021 0:00 | Actual: 6/4/2019 |
+ Row 575 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: BRL | Actual: USD |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+Mismatch at Row :579 for Trade ID :77168847 | SEC_TYP_CD :SWAPIRS | Sub Type  : IRS
+  Mismatch Column Name =FIXED_RATE  |Expected: 1.00E-06 | Actual: 641 |
+ Mismatch Column Name =FLOAT_RATE  |Expected: 1.00E-05 | Actual: 0 |
+ Mismatch Column Name = mature_date  |Expected: 5/15/2021 0:00 | Actual: 6/4/2019 |
+ Row 579 Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Terminated |
+ Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: NAN |
+ Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: BRL | Actual: USD |
+ Mismatch Column Name = TRADE_DATE  |Expected: 5/15/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name =TRANS_TYPE  |Expected: BUYL | Actual: SELL |
+
+
+TOTAL CRDSecids Validated: 1116 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 1116|</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+        
+
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

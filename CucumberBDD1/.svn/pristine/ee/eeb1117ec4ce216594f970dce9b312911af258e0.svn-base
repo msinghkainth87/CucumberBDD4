@@ -1,0 +1,42 @@
+default_attributes:
+  openstack.attribute_test.string           : "test"
+  openstack.attribute_test.string_no_quotes : test
+  openstack.attribute_test.integer          : 14
+  openstack.attribute_test.boolean          : true
+  openstack.attribute_test.nothing          :
+
+  # This is one string and not an array of strings
+  openstack.attribute_test.array_strings    : zero, one, two
+
+  # Arrays of strings
+  openstack.attribute_test.array_strings_1  : ["zero", "one", "two"]
+  openstack.attribute_test.array_strings_2  : [zero, one, two]
+  openstack.attribute_test.array_strings_3  :
+    - zero
+    - one
+    - two
+  # This is one string and not an array of strings
+  openstack.attribute_test.array_strings_4  :
+    - zero, one, two
+
+  # Array of integers
+  openstack.attribute_test.array_integers   : [0, 1, 2, 3]
+  openstack.attribute_test.array_integers_1 :
+    - 0
+    - 1
+    - 2
+    - 3
+
+override_attributes:
+  openstack.network.openvswitch.tenant_network_type     : "gre"
+  openstack.network.openvswitch.bridge_mappings         : ""
+  openstack.network.openvswitch.network_vlan_ranges     : ""
+  openstack.network.openvswitch.bridge_mapping_interface: ""
+  openstack.network.ml2.tenant_network_types            : "gre"
+  openstack.network.ml2.network_vlan_ranges             : ""
+  openstack.network.ml2.flat_networks                   : ""
+# This is optional. It is used to set the environment's description.
+env_description:
+  input_validation     : string
+  default              : Daryl's environment with direct attributes
+  enabled              : true

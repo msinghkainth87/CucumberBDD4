@@ -1,0 +1,69 @@
+{
+  "Trade State": [
+    {
+      "FULL_ASSGN": "Assignment",
+      "FULL_UNWD": "Terminated",
+      "OPEN": "Contract Create/New",
+      "PART_ASSGN": "Part Assignment",
+      "PART_UNWD": "Part Terminated"
+    }
+  ],
+  "Customer": [
+    {
+      "CITI": "CITIUS33XXX",
+      "SBOP": "CITIUS33XXX",
+      "SBPT": "CITIUS33XXX",
+      "SBSH": "CITIUS33XXX",
+      "SSAE": "CITIUS33XXX",
+      "SSAL": "CITIUS33XXX",
+      "AST1": "CHASGB2LDPC",
+      "JPM": "CHASGB2LDPC",
+      "JPHQ": "CHASGB2LDPC",
+      "JPOP": "CHASGB2LDPC",
+      "JPPT": "CHASGB2LDPC",
+      "JPM-BB": "CHASGB2LDPC",
+      "JPM-MA": "CHASGB2LDPC",
+      "FXCH": "CHASGB2LDPC",
+      "BXS1": "MSCSUS33XXX",
+      "MSCO": "MSCSUS33XXX",
+      "MSCO-BB": "MSCSUS33XXX",
+      "MCSO-MA": "MSCSUS33XXX",
+      "MSOP": "MSCSUS33XXX",
+      "MSPT": "MSCSUS33XXX",
+      "GSAT": "GSILGB2XXXX",
+      "GSCO": "GSILGB2XXXX",
+      "GSCO-BB": "GSILGB2XXXX",
+      "GSCO-MA": "GSILGB2XXXX",
+      "GSDX": "GSILGB2XXXX",
+      "GSOP": "GSILGB2XXXX",
+      "GSPT": "GSILGB2XXXX",
+      "UBPT": "UBSWUS33XXX",
+      "UBS": "UBSWUS33XXX",
+      "UBSA": "UBSWUS33XXX",
+      "UBST": "UBSWUS33XXX",
+      "UBSW": "UBSWUS33XXX",
+      "FXML": "BOFAUS3DEQN",
+      "MLCO": "BOFAUS3DEQN",
+      "MLOP": "BOFAUS3DEQN",
+      "MLPT": "BOFAUS3DEQN",
+      "CSFB": "CSFPGB2LXXX",
+      "CSNY": "CSFPGB2LXXX",
+      "FBOP": "CSFPGB2LXXX",
+      "FXCS": "CSFPGB2LXXX",
+      "ICE": "ICUSUS33XXX",
+      "BRCP": "Barclays",
+      "FXHS": "HSBC",
+      "FXBP": "BNP Paribas",
+      "FXCI": "Citi",
+      "FXRB": "RBC"
+    }
+  ]
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,758 @@
+12:28:09.980 [print] 
+
+Trade ID :77020955 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020954 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020956 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020957 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020889 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020890 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020891 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020892 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020893 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :20 for Trade ID : 77020930  Mismatch Column Name =FIXED_RATE  |Expected: 641.25 | Actual: 1.00E-05 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 20 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.41250%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :19 for Trade ID : 77020931  Mismatch Column Name =FIXED_RATE  |Expected: 641.25 | Actual: 1.00E-05 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 19 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.41250%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :21 for Trade ID : 77020932  Mismatch Column Name =FIXED_RATE  |Expected: 641.25 | Actual: 1.00E-05 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 21 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.41250%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :18 for Trade ID : 77020933  Mismatch Column Name =FIXED_RATE  |Expected: 641.25 | Actual: 1.00E-05 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 18 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.41250%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :24 for Trade ID : 77020935  Mismatch Column Name =FIXED_RATE  |Expected: 641 | Actual: 0.00001 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 0.00001 | Row 24 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MCDI+Zero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO |
+
+
+Mismatch at Row :23 for Trade ID : 77020936  Mismatch Column Name =FIXED_RATE  |Expected: 641 | Actual: 0.00001 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 0.00001 | Row 23 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MCDI+Zero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO |
+
+
+Mismatch at Row :25 for Trade ID : 77020937  Mismatch Column Name =FIXED_RATE  |Expected: 641 | Actual: 0.00001 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 0.00001 | Row 25 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MCDI+Zero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO |
+
+
+Mismatch at Row :22 for Trade ID : 77020934  Mismatch Column Name =FIXED_RATE  |Expected: 641 | Actual: 0.00001 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 0.00001 | Row 22 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MCDI+Zero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO |
+
+
+Mismatch at Row :3 for Trade ID : 77040030  Mismatch Column Name =FIXED_RATE  |Expected: 641 | Actual: 1.00E-06 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 3 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.41000%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :2 for Trade ID : 77040031  Mismatch Column Name =FIXED_RATE  |Expected: 641 | Actual: 1.00E-06 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 2 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.41000%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :1 for Trade ID : 77040032  Mismatch Column Name =FIXED_RATE  |Expected: 641 | Actual: 1.00E-06 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 1 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.41000%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :4 for Trade ID : 77040033  Mismatch Column Name =FIXED_RATE  |Expected: 641 | Actual: 1.00E-06 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 4 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.41000%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :6 for Trade ID : 77040034  Mismatch Column Name =FIXED_RATE  |Expected: 641.5 | Actual: 1.00E-05 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 6 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MCDI+Zero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :7 for Trade ID : 77040035  Mismatch Column Name =FIXED_RATE  |Expected: 641.5 | Actual: 1.00E-05 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 7 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MCDI+Zero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :5 for Trade ID : 77040036  Mismatch Column Name =FIXED_RATE  |Expected: 641.5 | Actual: 1.00E-05 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 5 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MCDI+Zero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :8 for Trade ID : 77040037  Mismatch Column Name =FIXED_RATE  |Expected: 641.5 | Actual: 1.00E-05 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 8 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MCDI+Zero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM |
+
+
+Mismatch at Row :11 for Trade ID : 77040038  Mismatch Column Name =FIXED_RATE  |Expected: 642.3 | Actual: 1.00E-05 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 11 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.42300%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :10 for Trade ID : 77040039  Mismatch Column Name =FIXED_RATE  |Expected: 642.3 | Actual: 1.00E-05 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 10 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.42300%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :9 for Trade ID : 77040040  Mismatch Column Name =FIXED_RATE  |Expected: 642.3 | Actual: 1.00E-05 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 9 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.42300%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :12 for Trade ID : 77040041  Mismatch Column Name =FIXED_RATE  |Expected: 642.3 | Actual: 1.00E-05 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: CDI | Actual: 1.00E-05 | Row 12 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6.42300%BRLFIXEDZero | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: CSFPGB2LX | Actual: CSFB | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+Trade ID :77025443 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025444 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025445 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025446 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77025442 not found in Target sheet. RESULT: FAILED
+
+
+Mismatch at Row :133 for Trade ID : 77039991  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Row 133 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :134 for Trade ID : 77039992  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Row 134 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :132 for Trade ID : 77039993  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Row 132 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :135 for Trade ID : 77039994  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Row 135 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :162 for Trade ID : 77044826  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -222.22 | Actual: 250 | Row 162 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :161 for Trade ID : 77044827  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -222.22 | Actual: 250 | Row 161 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :163 for Trade ID : 77044828  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -222.22 | Actual: 250 | Row 163 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :160 for Trade ID : 77044829  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -222.22 | Actual: 250 | Row 160 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :138 for Trade ID : 77044802  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Row 138 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :137 for Trade ID : 77044803  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Row 137 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :136 for Trade ID : 77044804  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Row 136 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :139 for Trade ID : 77044805  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Row 139 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :142 for Trade ID : 77044807  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 142 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :141 for Trade ID : 77044808  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 141 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :143 for Trade ID : 77044809  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 143 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :140 for Trade ID : 77044806  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 140 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :146 for Trade ID : 77044810  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 146 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :145 for Trade ID : 77044811  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 145 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :144 for Trade ID : 77044813  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 144 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :147 for Trade ID : 77044812  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 147 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :150 for Trade ID : 77044814  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 150 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :149 for Trade ID : 77044815  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 149 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :148 for Trade ID : 77044816  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 148 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :151 for Trade ID : 77044817  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 151 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :158 for Trade ID : 77044823  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 225.73 | Actual: 250 | Row 158 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :157 for Trade ID : 77044824  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 225.73 | Actual: 250 | Row 157 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :159 for Trade ID : 77044825  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 225.73 | Actual: 250 | Row 159 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :156 for Trade ID : 77044822  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 225.73 | Actual: 250 | Row 156 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :170 for Trade ID : 77044834  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -225.38 | Actual: 250 | Row 170 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :169 for Trade ID : 77044835  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -225.38 | Actual: 250 | Row 169 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :168 for Trade ID : 77044836  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -225.38 | Actual: 250 | Row 168 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :171 for Trade ID : 77044837  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -225.38 | Actual: 250 | Row 171 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :174 for Trade ID : 77044839  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 250 | Actual: NAN | Row 174 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :173 for Trade ID : 77044840  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 250 | Actual: NAN | Row 173 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :175 for Trade ID : 77044841  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 250 | Actual: NAN | Row 175 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :172 for Trade ID : 77044838  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 250 | Actual: NAN | Row 172 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :178 for Trade ID : 77044842  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 250 | Actual: NAN | Row 178 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :177 for Trade ID : 77044843  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 250 | Actual: NAN | Row 177 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :179 for Trade ID : 77044844  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 250 | Actual: NAN | Row 179 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :176 for Trade ID : 77044845  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 250 | Actual: NAN | Row 176 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :186 for Trade ID : 77044850  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 186 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :185 for Trade ID : 77044851  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 185 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :184 for Trade ID : 77044852  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 184 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :187 for Trade ID : 77044853  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 187 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: ROYCCAT2XXX | Actual: FXRB | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :190 for Trade ID : 77044855  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 190 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :189 for Trade ID : 77044856  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 189 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :188 for Trade ID : 77044854  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 188 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :191 for Trade ID : 77044857  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 191 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :194 for Trade ID : 77044858  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 194 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :193 for Trade ID : 77044859  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 193 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :195 for Trade ID : 77044860  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 195 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :192 for Trade ID : 77044861  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: 250 | Row 192 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :154 for Trade ID : 77039995  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 225.94 | Actual: 250 | Row 154 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :153 for Trade ID : 77039996  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 225.94 | Actual: 250 | Row 153 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :152 for Trade ID : 77039997  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 225.94 | Actual: 250 | Row 152 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :155 for Trade ID : 77039998  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: 225.94 | Actual: 250 | Row 155 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/BUY | Actual: U S Dollars | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =PRIN_LOCAL_CRRNCY  |Expected: EUR | Actual: USD | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :182 for Trade ID : 77044846  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 182 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :181 for Trade ID : 77044847  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 181 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :180 for Trade ID : 77044848  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 180 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+
+Mismatch at Row :183 for Trade ID : 77044849  Mismatch Column Name =FIXED_RATE  |Expected: 0 | Actual: NAN | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -250 | Actual: NAN | Row 183 Mismatch Column Name =UnderlyingSecurityName  |Expected: OFX/CALL/SELL | Actual: EURO | Mismatch Column Name =TRANS_SUB_TYPE  |Expected: OPEN | Actual: Blank | Mismatch Column Name =EXEC_BROKER  |Expected: CITI | Actual: FXCI | Mismatch Column Name =PUT/CALL  |Expected: CALL | Actual: Call |
+
+Trade ID :77020955 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020954 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020956 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020957 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020889 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020890 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020891 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020892 not found in Target sheet. RESULT: FAILED
+
+Trade ID :77020893 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798888 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798889 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798890 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798891 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798892 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798893 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798894 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798895 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798896 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798897 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798898 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798899 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798900 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798901 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798902 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798903 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798904 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798905 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798906 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798907 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798908 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798909 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798910 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798911 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798912 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798913 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798914 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798915 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798916 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798917 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798918 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798919 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798920 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798921 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798922 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798923 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798924 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798925 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798926 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798927 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798928 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798929 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798930 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798931 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798932 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798933 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798934 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798935 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798936 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798937 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798938 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798939 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798940 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798941 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798942 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798943 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798944 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798945 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798946 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798947 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798948 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798949 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798950 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798951 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798952 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798953 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798954 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798955 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798956 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798957 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798958 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798959 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798960 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798961 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798962 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798963 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798964 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798965 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798966 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798967 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798968 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798969 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798970 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798971 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798972 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798973 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798974 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798975 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798976 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798977 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798978 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798979 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798980 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798981 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798982 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798983 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798984 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798985 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798986 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798987 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798988 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798989 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798990 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798991 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798992 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798993 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798994 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798995 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798996 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798997 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798998 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798999 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799000 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799001 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799002 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799003 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799004 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799005 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799006 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799007 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799008 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799009 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799010 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799011 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799012 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799013 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799014 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799015 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799016 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799017 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799018 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799019 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799020 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799021 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799022 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799023 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799024 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799025 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799026 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799027 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799028 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799029 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799030 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799031 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799032 not found in Target sheet. RESULT: FAILED
+
+TOTAL Trade IDs Validated: 248 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 248|
+ RESULT: FAILED
+
+Trade ID :89798996 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798997 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798998 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89798999 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799000 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799001 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799002 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799003 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799004 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799005 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799006 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799007 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799008 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799009 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799010 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799011 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799012 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799013 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799014 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799015 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799016 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799017 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799018 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799019 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799020 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799021 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799022 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799023 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799024 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799025 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799026 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799027 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799028 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799029 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799030 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799031 not found in Target sheet. RESULT: FAILED
+
+Trade ID :89799032 not found in Target sheet. RESULT: FAILED
+
+TOTAL Trade IDs Validated: 248 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 248|
+: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: EUR6M | Actual: -0.311 | Row 278 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY %EURFIXEDAnnu | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: B | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :280 for Trade ID : 77039985  Mismatch Column Name =FIXED_RATE  |Expected: -3.6 | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: EUR6M | Actual: -0.311 | Row 280 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY %EURFIXEDAnnu | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: B | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :280 for Trade ID : 77039985  Mismatch Column Name =FIXED_RATE  |Expected: -3.6 | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: EUR6M | Actual: -0.311 | Row 280 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY %EURFIXEDAnnu | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: B | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :277 for Trade ID : 77039986  Mismatch Column Name =FIXED_RATE  |Expected: -3.6 | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: EUR6M | Actual: -0.311 | Row 277 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY %EURFIXEDAnnu | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: B | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :277 for Trade ID : 77039986  Mismatch Column Name =FIXED_RATE  |Expected: -3.6 | Actual: -0.036 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: EUR6M | Actual: -0.311 | Row 277 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY %EURFIXEDAnnu | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: B | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :154 for Trade ID : 77020874  Mismatch Column Name =FIXED_RATE  |Expected: 191.3 | Actual: 1.913 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 154 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 1.91300%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :155 for Trade ID : 77020875  Mismatch Column Name =FIXED_RATE  |Expected: 191.3 | Actual: 1.913 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 155 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 1.91300%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :153 for Trade ID : 77020876  Mismatch Column Name =FIXED_RATE  |Expected: 191.3 | Actual: 1.913 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 153 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 1.91300%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :156 for Trade ID : 77020877  Mismatch Column Name =FIXED_RATE  |Expected: 191.3 | Actual: 1.913 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2500000 | Actual: 2500000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 156 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 1.91300%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :160 for Trade ID : 77020879  Mismatch Column Name =FIXED_RATE  |Expected: 216.75 | Actual: 2.1675 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 160 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN |
+
+
+Mismatch at Row :159 for Trade ID : 77020880  Mismatch Column Name =FIXED_RATE  |Expected: 216.75 | Actual: 2.1675 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 159 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN |
+
+
+Mismatch at Row :158 for Trade ID : 77020881  Mismatch Column Name =FIXED_RATE  |Expected: 216.75 | Actual: 2.1675 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 158 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN |
+
+
+Mismatch at Row :157 for Trade ID : 77020878  Mismatch Column Name =FIXED_RATE  |Expected: 216.75 | Actual: 2.1675 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 157 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN |
+
+
+Mismatch at Row :161 for Trade ID : 77020882  Mismatch Column Name =FIXED_RATE  |Expected: 201.75 | Actual: 2.0175 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -5000000 | Actual: 5000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 161 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 2.01750%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :162 for Trade ID : 77020883  Mismatch Column Name =FIXED_RATE  |Expected: 201.75 | Actual: 2.0175 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -5000000 | Actual: 5000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 162 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 2.01750%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: JPM | Actual: GSCO | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :165 for Trade ID : 77020884  Mismatch Column Name =FIXED_RATE  |Expected: 191.25 | Actual: 1.9125 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 165 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN |
+
+
+Mismatch at Row :163 for Trade ID : 77020885  Mismatch Column Name =FIXED_RATE  |Expected: 191.25 | Actual: 1.9125 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 163 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN |
+
+
+Mismatch at Row :166 for Trade ID : 77020886  Mismatch Column Name =FIXED_RATE  |Expected: 191.25 | Actual: 1.9125 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 166 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN |
+
+
+Mismatch at Row :167 for Trade ID : 77020887  Mismatch Column Name =FIXED_RATE  |Expected: 191.25 | Actual: 1.9125 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 167 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN |
+
+
+Mismatch at Row :164 for Trade ID : 77020888  Mismatch Column Name =FIXED_RATE  |Expected: 191.25 | Actual: 1.9125 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 164 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN |
+
+
+Mismatch at Row :169 for Trade ID : 77020889  Mismatch Column Name =FIXED_RATE  |Expected: 237.8 | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 169 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 2.37800%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :168 for Trade ID : 77020890  Mismatch Column Name =FIXED_RATE  |Expected: 237.8 | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 168 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 2.37800%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :171 for Trade ID : 77020891  Mismatch Column Name =FIXED_RATE  |Expected: 237.8 | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 171 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 2.37800%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :170 for Trade ID : 77020892  Mismatch Column Name =FIXED_RATE  |Expected: 237.8 | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 170 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 2.37800%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :172 for Trade ID : 77020893  Mismatch Column Name =FIXED_RATE  |Expected: 237.8 | Actual: 2.378 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 172 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 2.37800%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: MLCO | Actual: JPM | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :174 for Trade ID : 77020894  Mismatch Column Name =FIXED_RATE  |Expected: 191.25 | Actual: 1.9125 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 174 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: A | Actual: CSFB |
+
+
+Mismatch at Row :173 for Trade ID : 77020895  Mismatch Column Name =FIXED_RATE  |Expected: 191.25 | Actual: 1.9125 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 173 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: A | Actual: CSFB |
+
+
+Mismatch at Row :175 for Trade ID : 77020896  Mismatch Column Name =FIXED_RATE  |Expected: 191.25 | Actual: 1.9125 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 175 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: A | Actual: CSFB |
+
+
+Mismatch at Row :176 for Trade ID : 77020897  Mismatch Column Name =FIXED_RATE  |Expected: 191.25 | Actual: 1.9125 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 176 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 6MSIBOR+Semi | Actual: NAN | Mismatch Column Name =EXEC_BROKER  |Expected: A | Actual: CSFB |
+
+
+Mismatch at Row :179 for Trade ID : 77020899  Mismatch Column Name =FIXED_RATE  |Expected: 186.3 | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 179 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 1.86300%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :178 for Trade ID : 77020900  Mismatch Column Name =FIXED_RATE  |Expected: 186.3 | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 178 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 1.86300%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :180 for Trade ID : 77020901  Mismatch Column Name =FIXED_RATE  |Expected: 186.3 | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 180 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 1.86300%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :181 for Trade ID : 77020902  Mismatch Column Name =FIXED_RATE  |Expected: 186.3 | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 181 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 1.86300%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+
+Mismatch at Row :177 for Trade ID : 77020898  Mismatch Column Name =FIXED_RATE  |Expected: 186.3 | Actual: 1.863 | Mismatch Column Name =TARGET_NOTNL_AMT  |Expected: -2000000 | Actual: 2000000 | Mismatch Column Name =FLOAT_RATE  |Expected: SIBOR | Actual: 1.95971 | Row 177 Mismatch Column Name =UnderlyingSecurityName  |Expected: SW/PAY 1.86300%SGDFIXEDSemi | Actual: NAN | Mismatch Column Name =TRANS_TYPE  |Expected: SELL | Actual: BUYL |
+
+TOTAL Trade IDs Validated: 154 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 154|

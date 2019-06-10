@@ -1,0 +1,30 @@
+package methods;
+
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import junit.framework.Test;
+import seleniumutils.methods.ApachePOIExcel;
+import seleniumutils.methods.GlobalProperties;
+import seleniumutils.methods.YAMLReader;
+import seleniumutils.methods.helpers.PageObjectGenerator;
+import seleniumutils.methods.helpers.TestDataHandler;
+
+public class Hooks {
+	@Before
+	public void pageObjectInitialize(){
+		PageObjectGenerator.pageObjects = ApachePOIExcel.readXL2FlatHash("src\\test\\resources\\PageObjects.xlsx");
+		GlobalProperties globalProperties = new GlobalProperties();
+		if(globalProperties.getConfigProperties().get("input_data_type").equalsIgnoreCase("YAML"))
+			YAMLReader.readAllYAMLData();
+		//TestDataHandler.testData=ApachePOIExcel.readXL2FlatHash("InputTestData.xlsx");
+		//ApachePOIExcel.setXlData("PageObjects.xlsx");
+	}
+
+	@After("@NegativeTest")
+	public void beforeScenario(Scenario scenario) {
+//		System.out.println("In hooks");
+//		System.out.println(scenario.getName());
+//		System.out.println(scenario.getStatus());
+	}
+}

@@ -1,0 +1,8 @@
+def GetDate(hello) {
+    import java.util.*;
+    import java.time.LocalDateTime;
+    import java.time.format.DateTimeFormatter;
+
+    return DateTimeFormatter.ofPattern("MM-dd-yyyy").format(LocalDateTime.now());
+}
+GetDate(1);

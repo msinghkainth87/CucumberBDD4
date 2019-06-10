@@ -1,0 +1,17 @@
+Input_File_Field,Output_File_Field
+TRADE_ID,ClientRefID
+TRADE_DATE,Trade Date
+PRIN_LOCAL_CRRNCY,Ccy
+mature_date,Maturity Date
+UnderlyingSecurityName,Description
+TRANS_TYPE,Buy / Sell
+TRANS_SUB_TYPE,Trade State
+DEAL_SPREAD,Traded Spread
+FIXED_RATE,Leg1 Rate
+FLOAT_RATE,Leg2 Rate
+PUT/CALL,Put / Call
+EXEC_BROKER,Customer
+LAST_RESET_PRICE,Return Leg Price
+TARGET_NOTNL_AMT,Notional
+acct_cd,Portfolio
+ALLOCATION_TARGET_QTY,Unit

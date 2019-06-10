@@ -1,0 +1,25 @@
+package seleniumutils.methods.helpers;
+
+import seleniumutils.methods.ApachePOIExcel;
+
+import java.util.HashMap;
+
+public class DataUtils {
+    static String[] pageObject={"",""};
+
+    public static HashMap<String,HashMap<String,HashMap<String, String>>> pageObjects;
+    public static HashMap<String,HashMap<String,HashMap<String, String>>> testData;
+
+    public static HashMap<String, HashMap<String, HashMap<String, String>>> getPageObjects() {
+        pageObjects = ApachePOIExcel.getXlData();
+        return pageObjects;
+    }
+
+    public static String[] getPageObject(String sheetName,String field) {
+        pageObjects= ApachePOIExcel.getXlData();
+        HashMap<String,String> username = pageObjects.get(sheetName.toLowerCase()).get(field.toLowerCase());
+        pageObject[0]=username.keySet().toArray()[0].toString();
+        pageObject[1]=username.get(pageObject[0]);
+        return pageObject;
+    }
+}

@@ -1,0 +1,38 @@
+package methods;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+//import cucumber.api.testng.AbstractTestNGCucumberTests;
+
+//comment @RunWith and uncomment above import and the RunCukesTestNG class if you are running with TestNG
+@RunWith(Cucumber.class)
+@CucumberOptions(tags={"@run"},
+		//Built-In report
+		plugin = {"pretty","html:target/cucumberHtmlReport.html","json:target/cucumberJSONReport.json", "com.cucumber.listener.ExtentCucumberFormatter:target/report.html"},
+		//cucumber_pro
+		//plugin = {"io.cucumber.pro.JsonReporter12:default"},
+		//extent_reports uncomment the @afterclass method in junit
+		//plugin = {"com.sitture.ExtentFormatter:output/extent-report/index.html", "html:output/html-report"},
+		//pretty:target/cucumber-json-report.json
+		features = {"src/test/resources"},
+		glue = {"seleniumutils.reusablestepdefinitions", "seleniumutils.applicationlayer","seleniumutils.frameworklayer","methods"}
+)
+//Junit
+public class RunCukeTest {
+	/*@AfterClass
+	public static void setup() {
+		// Loads the extent config xml to customize on the report.
+		ExtentReporter.setConfig("src/test/resources/config.xml");
+		// adding system information
+		ExtentReporter.setSystemInfo("Browser", "Chrome");
+		ExtentReporter.setSystemInfo("Selenium", "v2.53.1");
+	}*/
+}
+
+/*TestNG
+@Test
+public class RunCukesTestNG extends AbstractTestNGCucumberTests{
+
+}*/
+
