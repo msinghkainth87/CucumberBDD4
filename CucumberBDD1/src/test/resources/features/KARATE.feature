@@ -359,6 +359,29 @@ Scenario: Validate Database  Access DB and MySQL Database
     Then def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,"CRDSecid")
     Then print result
 
+  @transaction_run2
+  Scenario: Validate Transaction Files
+    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/CRDextract_0528.csv')
+    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TradeBlotter_0530.csv')
+    Given def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_TRP_C.csv')
+    When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)
+    And def csv = Java.type('karate.TransactionData')
+    And def js = new csv()
+    Then def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,"CRDSecid")
+    Then print result
+
+  @conversion_run2
+  Scenario: Validate Conversion Files
+    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversion2.csv')
+    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TrioptimaConversion2.csv')
+    Given def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Conversion.csv')
+    Given def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Transformation.csv')
+    When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)
+    And def csv = Java.type('karate.DataCompareConversion')
+    And def js = new csv()
+    Then def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,"CRDSecid")
+    Then print result
+
 
   @Positions_run1
   Scenario: Validate Positions Files
@@ -374,8 +397,8 @@ Scenario: Validate Database  Access DB and MySQL Database
 
   @Positions_run2
   Scenario: Validate Positions Files
-    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Derma_0607.csv')
-    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Trioptima_0607.csv')
+    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Positions/Derma_0624.csv')
+    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Positions/TriOptima_0624.csv')
     Given def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping__POC2.csv')
     When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)
     And def csv = Java.type('karate.TrowDataComparePosition')
@@ -384,7 +407,7 @@ Scenario: Validate Database  Access DB and MySQL Database
     Then print result
 
 
-  @transaction_run1
+   @transaction_run1
   Scenario: Validate Transaction Files
     Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/CRDextract_0606.csv')
     Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TradeBlotter_0606.csv')
@@ -396,22 +419,10 @@ Scenario: Validate Database  Access DB and MySQL Database
     Then print result
 
 
-  @transaction_run2
-  Scenario: Validate Transaction Files
-    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/CRDextract_0528.csv')
-    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TradeBlotter_0530.csv')
-    Given def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_TRP_C.csv')
-    When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)
-    And def csv = Java.type('karate.TransactionData')
-    And def js = new csv()
-    Then def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,"CRDSecid")
-    Then print result
-
-
   @conversion_run1
   Scenario: Validate Conversion Files
-    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/JUATConversion_0605.csv')
-    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TriOptimaConversion_0605.csv')
+    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TrowConversion_0611.csv')
+    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Trioptima_0611.csv')
     Given def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Conversion.csv')
     Given def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Transformation.csv')
     When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)
@@ -420,10 +431,10 @@ Scenario: Validate Database  Access DB and MySQL Database
     Then def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,"CRDSecid")
     Then print result
 
-  @conversion_run2
+  @conversion_run3
   Scenario: Validate Conversion Files
-    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversion2.csv')
-    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TrioptimaConversion2.csv')
+    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mock2_CCOCPO_0619.csv')
+    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TROWBNY-HOLDINGS-20190621.csv')
     Given def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Conversion.csv')
     Given def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Transformation.csv')
     When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)
@@ -431,6 +442,8 @@ Scenario: Validate Database  Access DB and MySQL Database
     And def js = new csv()
     Then def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,"CRDSecid")
     Then print result
+
+
 
 
 

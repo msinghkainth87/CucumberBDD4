@@ -2,7 +2,10 @@ package karate;
 
 import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 import java.util.*;
 
 import java.util.Date;
@@ -76,7 +79,7 @@ public class DataCompareConversion {
                 if(resTemp.contains("M")) {
                     result = result + "\n" + resTemp;
                 }
-                if (resTemp.contains("Mismatch")) {
+                if (resTemp.contains("Mismatch") || resTemp.contains("No Match Found for")) {
 
                     failCounter = failCounter + 1;
                 } else {
@@ -126,12 +129,18 @@ public class DataCompareConversion {
 
             if (mapSource.get("ALC_TRADE_ID").toString().trim().equals(mapTarget.get("ALC_TRADE_ID").toString().trim()) ) {
 
+                /*int maxSwap = getmaxSwap(mapSource.get("ALC_TRADE_ID").toString().trim(),arrTarget);
+                System.out.println("My max SWAP is:" + maxSwap);
+                if(Integer.parseInt(mapTarget.get("Swap Id").toString().trim())==maxSwap) {*/
 
-                System.out.println("MANINDER SINGH KAINTH KEY FOUND");
+                    System.out.println("MANINDER SINGH KAINTH KEY FOUND");
                     keyFound = 1;
-                    id = "Trade ID" + " :" + mapSource.get("ALC_TRADE_ID") +  " | SEC_TYP_CD :" + mapSource.get("SEC_TYP_CD") + " | Product Type  : "+ mapTarget.get("Product Type")+ "\n";
+                    id = "Trade ID" + " :" + mapSource.get("ALC_TRADE_ID") + " | SEC_TYP_CD :" + mapSource.get("SEC_TYP_CD") + " | Product Type  : " + mapTarget.get("Product Type") + "\n";
                     mapResult.put("Row", String.valueOf(i + 1));
                     Set keys = mapTarget.keySet();
+
+
+
 
 
             }
@@ -200,6 +209,11 @@ public class DataCompareConversion {
                         case "effective date":
                             System.out.println(" Value of  "+key1+" is "+value );
 
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN"))
+                            {
+                                break;
+                            }
+
                             if(getDate(mapSource.get("LEG1_EFFEC_DATE").toString().trim(),"MM/dd/yyyy hh:mm").contains(getDate(mapTarget.get("Effective Date").toString().trim(),"MM/dd/yyyy")))
                             {
                                 counterPass = counterPass + 1;
@@ -248,8 +262,10 @@ public class DataCompareConversion {
                         case "notional":
                             System.out.println(" Value of  "+key1+" is "+value );
 
-                          // System.out.println("Source Notional is  "+ getInteger(mapSource.get("ALC_EXEC_QTY").toString().trim()));
-                            //System.out.println("Target Notional is  "+ getInteger(mapTarget.get("Notional").toString().trim()));
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN") && mapTarget.get("Product Type").toString().trim().equals("EQO"))
+                          {
+                              break;
+                          }
                             if(mapSource.get("SEC_TYP_CD").toString().trim().equals("SWAPCDSI"))
                             {
                                 if((Math.abs(getInteger(mapSource.get("ALC_EXEC_QTY").toString().trim()))*Math.abs(getInteger(mapSource.get("SEC_FACTOR"))))==Math.abs(getInteger(mapTarget.get("Notional").toString().trim())))
@@ -265,6 +281,24 @@ public class DataCompareConversion {
                                     break;
                                 }
                             }
+
+                            if(mapSource.get("SEC_TYP_CD").toString().trim().equals("CCO"))
+                            {
+                                if((Math.ceil(getInteger(mapSource.get("ALC_EXEC_QTY").toString().trim())/(getInteger(mapSource.get("SEC_STRIKE_PRICE").toString().trim()))))==Math.ceil(getInteger(mapTarget.get("Notional").toString().trim())) ||
+                                        Math.abs(getInteger(mapSource.get("ALC_EXEC_QTY").toString().trim()))==Math.abs(getInteger(mapTarget.get("Notional").toString().trim())) )
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else
+                                {
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: ALC_EXEC_QTY / Strike Price " + (Math.abs(getInteger(mapSource.get("ALC_EXEC_QTY").toString().trim()))/Math.abs(getInteger(mapSource.get("SEC_STRIKE_PRICE")))) + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+
 
                            if(Math.abs(getInteger(mapSource.get("ALC_EXEC_QTY").toString().trim()))==Math.abs(getInteger(mapTarget.get("Notional").toString().trim())))
                            {
@@ -307,7 +341,9 @@ public class DataCompareConversion {
                         case "currency code":
                             System.out.println(" Value of  "+key1+" is "+value );
 
-                            if(mapSource.get("BLK_TDE_CRRNCY").toString().trim().contains(mapTarget.get("Currency Code").toString().trim()))
+
+                            if(mapSource.get("BLK_TDE_CRRNCY").toString().trim().contains(mapTarget.get("Currency Code").toString().trim()) ||
+                                    mapSource.get("SEC_LOC_CRRNCY_CD").toString().trim().contains(mapTarget.get("Currency Code").toString().trim()))
                             {
                                 counterPass = counterPass + 1;
                                 break;
@@ -322,7 +358,30 @@ public class DataCompareConversion {
                         case "id5":
                             System.out.println(" Value of  "+key1+" is "+value );
 
-                          if(mapSource.get("BLK_EXCH_CD").toString().trim().equals("OTC"))
+                            if(mapSource.get("SEC_TYP_CD").toString().trim().contains("SWAPINF"))
+                            {
+                                break;
+                            }
+
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN") && mapTarget.get("Product Type").toString().contains("FXO"))
+                            {
+                                if(mapSource.get("UND_EXCH_CD").toString().trim().contains(value.toString().trim()))
+                                {
+
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else
+                                {
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("UND_EXCH_CD") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+
+                            }
+
+                          else if(mapSource.get("BLK_EXCH_CD").toString().trim().equals("OTC"))
                           {
                               if(mapTarget.get("ID5").toString().trim().contains("OTC"))
                               {
@@ -345,9 +404,18 @@ public class DataCompareConversion {
                         case "payment frequency description":
                             System.out.println(" Value of  "+key1+" is "+value );
 
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN"))
+                            {
+                                break;
+                            }
+
                             if(mapSource.get("LEG1_PAY_FREQ").toString().trim().equals("Q") && value.toString().trim().equals("Quarterly")||
                                         mapSource.get("LEG1_PAY_FREQ").toString().trim().equals("A") && value.toString().trim().equals("Annual") ||
-                            mapSource.get("LEG1_PAY_FREQ").toString().trim().equals("S") && value.toString().trim().equals("Semi Annual"))
+                            mapSource.get("LEG1_PAY_FREQ").toString().trim().equals("S") && value.toString().trim().equals("Semi Annual") ||
+                                    mapSource.get("LEG1_PAY_FREQ").toString().trim().equals("1Y") && value.toString().trim().equals("Annual") ||
+                                    mapSource.get("LEG1_PAY_FREQ").toString().trim().equals("6M") && value.toString().trim().equals("Semi Annual") ||
+                                    mapSource.get("LEG1_PAY_FREQ").toString().trim().equals("3M") && value.toString().trim().equals("Quarterly") ||
+                                            mapSource.get("LEG1_PAY_FREQ").toString().trim().equals("1T") && value.toString().trim().equals("Zero Coupon"))
 
                             {
                                 counterPass = counterPass + 1;
@@ -368,7 +436,10 @@ public class DataCompareConversion {
                             {
                                 if(mapSource.get("LEG2_PAY_FREQ").toString().trim().equals("Q") && value.toString().trim().equals("Quarterly")||
                                         mapSource.get("LEG2_PAY_FREQ").toString().trim().equals("A") && value.toString().trim().equals("Annual") ||
-                                        mapSource.get("LEG2_PAY_FREQ").toString().trim().equals("S") && value.toString().trim().equals("Semi Annual")) {
+                                        mapSource.get("LEG2_PAY_FREQ").toString().trim().equals("S") && value.toString().trim().equals("Semi Annual") ||
+                                        mapSource.get("LEG2_PAY_FREQ").toString().trim().equals("1Y") && value.toString().trim().equals("Annual") ||
+                                        mapSource.get("LEG2_PAY_FREQ").toString().trim().equals("6M") && value.toString().trim().equals("Semi Annual") ||
+                                        mapSource.get("LEG2_PAY_FREQ").toString().trim().equals("3M") && value.toString().trim().equals("Quarterly")) {
                                     counterPass = counterPass + 1;
                                     break;
                                 } else {
@@ -412,7 +483,8 @@ public class DataCompareConversion {
 
                             if(mapSource.get("SEC_TYP_CD").toString().trim().equals("SWAPIRS"))
                             {
-                                if (mapSource.get("LEG1_SWAP_LEG_IND").toString().trim().equals("P") && (value.toString().trim().equals("Pay"))) {
+                                if (mapSource.get("LEG1_SWAP_LEG_IND").toString().trim().equals("P") && (value.toString().trim().equals("Pay")) ||
+                                        mapSource.get("LEG1_SWAP_LEG_IND").toString().trim().equals("R") && (value.toString().trim().equals("Receive"))) {
                                     counterPass = counterPass + 1;
                                     break;
                                 } else {
@@ -429,7 +501,27 @@ public class DataCompareConversion {
                         case "rate":
                             System.out.println(" Value of  "+key1+" is "+value );
 
-                            if(mapSource.get("LEG1_COUPON_RATE").toString().trim().equals(value.toString().trim()))
+                            if(mapTarget.get("Product Type").toString().trim().contains("SWO"))
+                            {
+                                break;
+                            }
+
+                            if(mapTarget.get("Product Type").toString().trim().contains("IFS"))
+                            {
+                                if(mapSource.get("BLK_IRR_RATE").toString().trim().equals(value.toString().trim()))
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("BLK_IRR_RATE") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+
+                            else if( Math.abs(getInteger(mapSource.get("LEG1_COUPON_RATE").toString().trim()))==Math.abs(getInteger(value.toString().trim())))
                             {
                                 counterPass = counterPass + 1;
                                 break;
@@ -444,14 +536,30 @@ public class DataCompareConversion {
                         case "first payment date":
                             System.out.println(" Value of  "+key1+" is "+value );
 
-                            //getDate(mapSource.get("SEC_MATURE_DATE").toString().trim(),"MM/dd/yyyy hh:mm").contains(getDate(mapTarget.get("Maturity Date").toString().trim(),"MM/dd/yyyy"))
-
+                            LocalDate startDate = LocalDate.parse(getDate(mapSource.get("LEG1_FST_PAY_DATE").toString().trim(),"MM/dd/yyyy hh:mm" ));
+                            LocalDate endDate = LocalDate.parse(getDate(value.toString().trim(),"MM/dd/yyyy"));
                             if(getDate(mapSource.get("LEG1_FST_PAY_DATE").toString().trim(),"MM/dd/yyyy hh:mm" ).contains(getDate(value.toString().trim(),"MM/dd/yyyy")))
                             {
                                 counterPass = counterPass + 1;
                                 break;
                             }
+
+
+                            else if(Math.abs(ChronoUnit.DAYS.between(startDate, endDate))<=2)
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+
+
                             else{
+
+
+                                /*SimpleDateFormat format1=new SimpleDateFormat("dd/MM/yyyy");
+                                Date dt1=format1.parse(input_date);
+                                DateFormat format2=new SimpleDateFormat("EEEE");
+                                String finalDay=format2.format(dt1);*/
+
                                 counterFail = counterFail + 1;
                                 mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("LEG1_FST_PAY_DATE") + " | Actual: " + value + " |" + "\n");
 //                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
@@ -504,7 +612,10 @@ public class DataCompareConversion {
                             {
                                 if(mapSource.get("LEG2_IDX_PAY_FREQ").toString().trim().equals("Q") && value.toString().trim().equals("Quarterly")||
                                         mapSource.get("LEG2_IDX_PAY_FREQ").toString().trim().equals("A") && value.toString().trim().equals("Annual") ||
-                                        mapSource.get("LEG2_IDX_PAY_FREQ").toString().trim().equals("S") && value.toString().trim().equals("Semi Annual")) {
+                                        mapSource.get("LEG2_IDX_PAY_FREQ").toString().trim().equals("S") && value.toString().trim().equals("Semi Annual")||
+                                        mapSource.get("LEG2_IDX_PAY_FREQ").toString().trim().equals("1Y") && value.toString().trim().equals("Annual") ||
+                                        mapSource.get("LEG2_IDX_PAY_FREQ").toString().trim().equals("6M") && value.toString().trim().equals("Semi Annual") ||
+                                        mapSource.get("LEG2_IDX_PAY_FREQ").toString().trim().equals("3M") && value.toString().trim().equals("Quarterly")) {
                                     counterPass = counterPass + 1;
                                     break;
                                 } else {
@@ -520,7 +631,7 @@ public class DataCompareConversion {
 
 
                         case "broker id":
-                            System.out.println(" Value of  "+key1+" is "+value );
+                            System.out.println(" Value of  "+key1+" is "+value+"  "+mapSource.get("ALC_TRADE_ID"));
                             if(!mapSource.get("SEC_CCP_IND").toString().trim().contains("CCP")) {
                                 String sourceBroker = mapSource.get("BRK_CD").toString().trim();
                                 String targetBroker = mapTarget.get("Broker Id").toString().trim();
@@ -554,11 +665,11 @@ public class DataCompareConversion {
                             }
 
                         case "broker":
-                            System.out.println(" Value of  "+key1+" is "+value );
+                            System.out.println(" Value of  "+key1+" is "+value+" "+mapSource.get("ALC_TRADE_ID") );
 
                             if(mapSource.get("SEC_CCP_IND").toString().trim().equals("CCP")) {
 
-                                String sourceBroker = mapSource.get("ALC_CLR_BKR_CD").toString().trim();
+                                String sourceBroker = mapSource.get("ALC_CLR_BRK_CD").toString().trim();
                                 String targetBroker = mapTarget.get("Broker").toString().trim();
 
 
@@ -688,7 +799,235 @@ public class DataCompareConversion {
                             {
                                 break;
                             }
+                        case "# of shares/options":
+                            System.out.println(" Value of  "+key1+" is "+value );
 
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN") && mapTarget.get("Product Type").toString().trim().equals("EQO")){
+                                if(Math.abs(getInteger(mapSource.get("ALC_EXEC_QTY").toString().trim()))==Math.abs(getInteger(mapTarget.get("# of Shares/Options").toString().trim())))
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("ALC_EXEC_QTY") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+
+
+                        case "optionbuysellindicator":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN")){
+                                if(mapSource.get("BLK_TRANS_TYPE").toString().trim().equals("BUYL") && value.toString().trim().equals("Buyer") ||
+                                        mapSource.get("BLK_TRANS_TYPE").toString().trim().equals("SELLS") && value.toString().trim().equals("Seller") ||
+                                        mapSource.get("BLK_TRANS_TYPE").toString().trim().equals("SELLS") && value.toString().trim().equals("Sell") ||
+                                        mapSource.get("BLK_TRANS_TYPE").toString().trim().equals("BUYL") && value.toString().trim().equals("Buy"))
+
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("BLK_TRANS_TYPE") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+                        case "settlement amount":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN")){
+                                if(Math.abs(getInteger(mapSource.get("NORM_ALC_EXEC_AMT").toString().trim()))==Math.abs(getInteger(mapTarget.get("Settlement Amount").toString().trim())))
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("NORM_ALC_EXEC_AMT") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+
+                        case "option exercise end date":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN")){
+                                if(getDate(mapSource.get("SEC_EXPIRY_DATE").toString().trim(),"MM/dd/yyyy hh:mm").contains(getDate(value.toString().trim(),"MM/dd/yyyy")))
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("SEC_EXPIRY_DATE") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+                        case "option exercise start date":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN")){
+                                //if(mapSource.get("SEC_EXPIRY_DATE").toString().trim().contains(value.toString().trim()) || value.toString().trim().contains(mapSource.get("SEC_EXPIRY_DATE").toString().trim()))
+                                  if(getDate(mapSource.get("SEC_EXPIRY_DATE").toString().trim(),"MM/dd/yyyy hh:mm").contains(getDate(value.toString().trim(),"MM/dd/yyyy")))
+
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("SEC_EXPIRY_DATE") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+                        case "option type":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN")){
+                                if(mapSource.get("SEC_OPTION_STYLE").toString().trim().equals("E") &&  value.toString().trim().equals("European") ||
+                                        mapSource.get("SEC_OPTION_STYLE").toString().trim().equals("E") &&  value.toString().trim().equals("EURO") ||
+                                        mapSource.get("SEC_OPTION_STYLE").toString().trim().equals("A") &&  value.toString().trim().equals("American") )
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("SEC_OPTION_STYLE") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+                        case "putcall":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN") && !mapTarget.get("Product Type").toString().contains("SWO")){
+                                if(mapSource.get("SEC_OPTION_TYPE").toString().trim().contains(value.toString().trim()))
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("SEC_OPTION_TYPE") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+                        case "strike price":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN")){
+                                if(Math.abs(getInteger(mapSource.get("SEC_STRIKE_PRICE").toString().trim()))==Math.abs(getInteger(value.toString().trim())))
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("SEC_STRIKE_PRICE") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+                        case "product type":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN")){
+                                if(mapSource.get("SEC_TYP_CD").toString().trim().equals("CPO") && value.toString().trim().toString().trim().equals("FXO") ||
+                                        mapSource.get("SEC_TYP_CD").toString().trim().equals("SWPTNCDS") && value.toString().trim().toString().trim().equals("SWOCDX") ||
+                                        mapSource.get("SEC_TYP_CD").toString().trim().equals("CCO") && value.toString().trim().toString().trim().equals("FXO") ||
+                                        mapSource.get("SEC_TYP_CD").toString().trim().equals("OTCECO") && value.toString().trim().toString().trim().equals("EQO") ||
+                                        mapSource.get("SEC_TYP_CD").toString().trim().equals("OTCEPO") && value.toString().trim().toString().trim().equals("EQO") )
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("SEC_TYP_CD") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+                        case "2nd leg currency":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN")){
+                                if(mapTarget.get("Product Type").toString().trim().contains("SWO") || mapTarget.get("Product Type").toString().trim().contains("EQO"))
+                                {
+                                    break;
+                                }
+                                else if(mapSource.get("BLK_TDE_CRRNCY").toString().trim().contains(value.toString().trim()) ||
+                                        mapSource.get("SEC_LOC_CRRNCY_CD").toString().trim().contains(value.toString().trim()))
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("BLK_TDE_CRRNCY") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
+
+                        case "red":
+                            System.out.println(" Value of  "+key1+" is "+value );
+                            if(!mapSource.get("SEC_OPTION_STYLE").toString().trim().contains("NAN") && mapSource.get("SEC_TYP_CD").toString().trim().contains("SWPTNCDS")){
+                                if(mapSource.get("UND_RED_CODE").toString().trim().contains(value.toString().trim()))
+                                {
+                                    counterPass = counterPass + 1;
+                                    break;
+                                }
+                                else{
+                                    counterFail = counterFail + 1;
+                                    mapResult.put("Mismatch Column Name =" + key1, " |Expected: " + mapSource.get("UND_RED_CODE") + " | Actual: " + value + " |" + "\n");
+//                               System.out.println("Data Mismatched for " + id +  "  " + key1 + " = " + mapSource.get(key1) + " Target : " + value);
+                                    break;
+                                }
+                            }
+                            else{
+                                break;
+                            }
 
 
 
@@ -814,18 +1153,18 @@ public class DataCompareConversion {
     {
             if(srcDate.equals("NAN"))
             {
-                return "1/1/1999";
+                return "1999-01-01";
             }
             else if(srcDate.contains("/")||srcDate.contains(":")||srcDate.contains("-"))
              {
                 SimpleDateFormat sdf = new SimpleDateFormat(pattern);
                 Date convertedCurrentDate = sdf.parse(srcDate);
-                String convertedDate = new SimpleDateFormat("dd.MM.yy").format(convertedCurrentDate);
+                String convertedDate = new SimpleDateFormat("yyyy-MM-dd").format(convertedCurrentDate);
                 return convertedDate;
             }
             else
             {
-                return "1/1/1999";
+                return "1999-01-01";
             }
 
     }
@@ -845,7 +1184,7 @@ public class DataCompareConversion {
 
 
 
-    public int getmaxversion(String srcTradeID,String[] arrTarget){
+    public int getmaxSwap(String srcTradeID,String[] arrTarget){
 
         int len = arrTarget.length;
         HashMap<String, Integer> mapTrdVeresion= new HashMap<String, Integer>();
@@ -854,10 +1193,10 @@ public class DataCompareConversion {
             String[] rowData = arrTarget[i].split(", ");
             HashMap<String, String> mapData = createData(rowData, ":");
 
-            if ( srcTradeID.equalsIgnoreCase(mapData.get("TRADE_ID"))){
-                int version= Integer.parseInt(mapData.get("Version").toString().trim());
-                if(mapTrdVeresion.get(srcTradeID) < version) {
-                    mapTrdVeresion.put(srcTradeID, version);
+            if ( srcTradeID.toString().trim().equalsIgnoreCase(mapData.get("Trade ID").toString().trim())){
+                int swapid= Integer.parseInt(mapData.get("Swap Id").toString().trim());
+                if(mapTrdVeresion.get(srcTradeID) < swapid) {
+                    mapTrdVeresion.put(srcTradeID, swapid);
                 }
             }
 

@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>CucumberBDD</td>
-            <td>10 Jun 2019, 17:16</td>
+            <td>25 Jun 2019, 16:53</td>
     </tr>
   </tbody>
 </table>
@@ -139,7 +139,7 @@ $(document).ready(function() {
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="59883456316">59.883</td>
+          <td class="duration" data-value="222014554280">3:42.014</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -182,7 +182,7 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">59.883</span>
+  <span class="lead-duration duration">3:42.014</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -221,9 +221,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Derma_0607.csv')</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Positions/Derma_0624.csv')</span>
   
-  <span class="lead-duration duration">0.592</span>
+  <span class="lead-duration duration">0.504</span>
 
   </div>
 
@@ -246,9 +246,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Trioptima_0607.csv')</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Positions/TriOptima_0624.csv')</span>
   
-  <span class="lead-duration duration">0.350</span>
+  <span class="lead-duration duration">0.741</span>
 
   </div>
 
@@ -273,7 +273,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping__POC2.csv')</span>
   
-  <span class="lead-duration duration">0.027</span>
+  <span class="lead-duration duration">0.013</span>
 
   </div>
 
@@ -298,7 +298,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
   
-  <span class="lead-duration duration">3.756</span>
+  <span class="lead-duration duration">5.210</span>
 
   </div>
 
@@ -323,7 +323,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">def csv = Java.type('karate.TrowDataComparePosition')</span>
   
-  <span class="lead-duration duration">0.075</span>
+  <span class="lead-duration duration">0.080</span>
 
   </div>
 
@@ -348,7 +348,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">def js = new csv()</span>
   
-  <span class="lead-duration duration">0.018</span>
+  <span class="lead-duration duration">0.024</span>
 
   </div>
 
@@ -373,7 +373,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,&quot;CRDSecid&quot;)</span>
   
-  <span class="lead-duration duration">55.038</span>
+  <span class="lead-duration duration">3:35.418</span>
 
   </div>
 
@@ -398,7 +398,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print result</span>
   
-  <span class="lead-duration duration">0.022</span>
+  <span class="lead-duration duration">0.020</span>
 
   </div>
 
@@ -415,2405 +415,320 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>17:16:34.320 [print] 
+        <pre>16:53:02.818 [print] 
 
-Mismatch at Row :1422 for Options Tradeid : 77044825  CRDSecid / ID2 :1884002155  |  Product Type CURCLOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 312.38 | Actual: 225.73 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1422
+Mismatch at Row :2110 for Options Tradeid : 77202839  CRDSecid / ID2 :1909328301  |  Product Type CURCLOPT   |  Accno Minor   9810          Mismatch Column Name =2nd Leg Notional  |Expected: 779.375 | Actual: -467.63 |
+ Row 2110
 
-Mismatch at Row :1426 for Options Tradeid : 77062394  CRDSecid / ID2 :1884002119  |  Product Type CURCLOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -189.48 | Actual: 250 |
- Row 1426
+Mismatch at Row :2070 for Options Tradeid : 77202837  CRDSecid / ID2 :1909328301  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 779.375 | Actual: -467.63 |
+ Row 2070
 
-Mismatch at Row :1424 for Options Tradeid : 77044857  CRDSecid / ID2 :1884002225  |  Product Type CURCLOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -225.91 | Actual: 250 |
- Row 1424
+Mismatch at Row :1956 for Options Tradeid : 77202838  CRDSecid / ID2 :1909328301  |  Product Type CURCLOPT   |  Accno Minor   70GB          Mismatch Column Name =2nd Leg Notional  |Expected: 779.375 | Actual: -467.63 |
+ Row 1956
 
-Mismatch at Row :1404 for Options Tradeid : 77044823  CRDSecid / ID2 :1884002155  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: 312.38 | Actual: 225.73 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1404
+Mismatch at Row :1931 for Options Tradeid : 77202836  CRDSecid / ID2 :1909328301  |  Product Type CURCLOPT   |  Accno Minor   3472          Mismatch Column Name =2nd Leg Notional  |Expected: 779.375 | Actual: -467.63 |
+ Row 1931
 
-Mismatch at Row :1408 for Options Tradeid : 77044855  CRDSecid / ID2 :1884002225  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: -225.91 | Actual: 250 |
- Row 1408
+Mismatch at Row :2028 for Options Tradeid : 77184635  CRDSecid / ID2 :1909139157  |  Product Type CURCLOPT   |  Accno Minor   9539          Mismatch Column Name =2nd Leg Notional  |Expected: 219.49999999999997 | Actual: 200.00 |
+ Row 2028
 
-Mismatch at Row :1411 for Options Tradeid : 77062392  CRDSecid / ID2 :1884002119  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: -189.48 | Actual: 250 |
- Row 1411
+Mismatch at Row :1981 for Options Tradeid : 77184636  CRDSecid / ID2 :1909139157  |  Product Type CURCLOPT   |  Accno Minor   7AJF          Mismatch Column Name =2nd Leg Notional  |Expected: 219.49999999999997 | Actual: 200.00 |
+ Row 1981
 
-Mismatch at Row :1353 for Options Tradeid : 77044824  CRDSecid / ID2 :1884002155  |  Product Type CURCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 312.38 | Actual: 225.73 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1353
+Mismatch at Row :2063 for Options Tradeid : 77184634  CRDSecid / ID2 :1909139157  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 219.49999999999997 | Actual: 200.00 |
+ Row 2063
 
-Mismatch at Row :1358 for Options Tradeid : 77062393  CRDSecid / ID2 :1884002119  |  Product Type CURCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -189.48 | Actual: 250 |
- Row 1358
+Mismatch at Row :1925 for Options Tradeid : 77184633  CRDSecid / ID2 :1909139157  |  Product Type CURCLOPT   |  Accno Minor   3472          Mismatch Column Name =2nd Leg Notional  |Expected: 219.49999999999997 | Actual: 200.00 |
+ Row 1925
 
-Mismatch at Row :1356 for Options Tradeid : 77044856  CRDSecid / ID2 :1884002225  |  Product Type CURCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -225.91 | Actual: 250 |
- Row 1356
+Mismatch at Row :2128 for Options Tradeid : 77106563  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   9878          Mismatch Column Name =2nd Leg Notional  |Expected: 281.25 | Actual: 250.00 |
+ Row 2128
 
-Mismatch at Row :1347 for Options Tradeid : 77044822  CRDSecid / ID2 :1884002155  |  Product Type CURCLOPT   |  Accno Minor   3472        
-  Mismatch Column Name =Notional  |Expected: 312.38 | Actual: 225.73 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1347
+Mismatch at Row :1977 for Options Tradeid : 77106561  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   7AJF          Mismatch Column Name =2nd Leg Notional  |Expected: 281.25 | Actual: 250.00 |
+ Row 1977
 
-Mismatch at Row :1349 for Options Tradeid : 77044854  CRDSecid / ID2 :1884002225  |  Product Type CURCLOPT   |  Accno Minor   3472        
-  Mismatch Column Name =Notional  |Expected: -225.91 | Actual: 250 |
- Row 1349
+Mismatch at Row :2060 for Options Tradeid : 77106560  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 281.25 | Actual: 250.00 |
+ Row 2060
 
-Mismatch at Row :1350 for Options Tradeid : 77062391  CRDSecid / ID2 :1884002119  |  Product Type CURCLOPT   |  Accno Minor   3472        
-  Mismatch Column Name =Notional  |Expected: -189.48 | Actual: 250 |
- Row 1350
+Mismatch at Row :1953 for Options Tradeid : 77106562  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   70GB          Mismatch Column Name =2nd Leg Notional  |Expected: 281.25 | Actual: 250.00 |
+ Row 1953
 
-Mismatch at Row :1393 for Options Tradeid : 77044815  CRDSecid / ID2 :1884002137  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -218.82 | Actual: 250 |
- Row 1393
+Mismatch at Row :2124 for Options Tradeid : 77221772  CRDSecid / ID2 :1914775480  |  Product Type CURCLOPT   |  Accno Minor   9810          Mismatch Column Name =MaturityDate  |Expected: 2021-05-20 00:00:00 | Actual: 06/19/2019 |
+ Row 2124
 
-Mismatch at Row :1400 for Options Tradeid : 77044831  CRDSecid / ID2 :1884002172  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -125.12 | Actual: NAN |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1400
+Mismatch at Row :2085 for Options Tradeid : 77221770  CRDSecid / ID2 :1914775480  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =MaturityDate  |Expected: 2021-05-20 00:00:00 | Actual: 06/19/2019 |
+ Row 2085
 
-Mismatch at Row :1397 for Options Tradeid : 77044858  CRDSecid / ID2 :1884002234  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -318.76 | Actual: 250 |
- Row 1397
+Mismatch at Row :1970 for Options Tradeid : 77221771  CRDSecid / ID2 :1914775480  |  Product Type CURCLOPT   |  Accno Minor   70GB          Mismatch Column Name =MaturityDate  |Expected: 2021-05-20 00:00:00 | Actual: 06/19/2019 |
+ Row 1970
 
-Mismatch at Row :1399 for Options Tradeid : 77062388  CRDSecid / ID2 :1884002207  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -248.5 | Actual: 250 |
- Row 1399
+Mismatch at Row :1935 for Options Tradeid : 77221769  CRDSecid / ID2 :1914775480  |  Product Type CURCLOPT   |  Accno Minor   3472          Mismatch Column Name =MaturityDate  |Expected: 2021-05-20 00:00:00 | Actual: 06/19/2019 |
+ Row 1935
 
-Mismatch at Row :1365 for Options Tradeid : 77044816  CRDSecid / ID2 :1884002137  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -218.82 | Actual: 250 |
- Row 1365
+Mismatch at Row :2083 for Options Tradeid : 77225796  CRDSecid / ID2 :1914775472  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 498.8 | Actual: 124.70 |
+ Row 2083
 
-Mismatch at Row :1369 for Options Tradeid : 77044859  CRDSecid / ID2 :1884002234  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -318.76 | Actual: 250 |
- Row 1369
+Mismatch at Row :1968 for Options Tradeid : 77225797  CRDSecid / ID2 :1914775472  |  Product Type CURCLOPT   |  Accno Minor   70GB          Mismatch Column Name =2nd Leg Notional  |Expected: 498.8 | Actual: 124.70 |
+ Row 1968
 
-Mismatch at Row :1371 for Options Tradeid : 77062389  CRDSecid / ID2 :1884002207  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -248.5 | Actual: 250 |
- Row 1371
+Mismatch at Row :1933 for Options Tradeid : 77225795  CRDSecid / ID2 :1914775472  |  Product Type CURCLOPT   |  Accno Minor   3472          Mismatch Column Name =2nd Leg Notional  |Expected: 498.8 | Actual: 124.70 |
+ Row 1933
 
-Mismatch at Row :1425 for Options Tradeid : 77062390  CRDSecid / ID2 :1884002207  |  Product Type CURCLOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -248.5 | Actual: 250 |
- Row 1425
+Mismatch at Row :2122 for Options Tradeid : 77225798  CRDSecid / ID2 :1914775472  |  Product Type CURCLOPT   |  Accno Minor   9810          Mismatch Column Name =2nd Leg Notional  |Expected: 498.8 | Actual: 124.70 |
+ Row 2122
 
-Mismatch at Row :1421 for Options Tradeid : 77044817  CRDSecid / ID2 :1884002137  |  Product Type CURCLOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -218.82 | Actual: 250 |
- Row 1421
+Mismatch at Row :2123 for Options Tradeid : 77225802  CRDSecid / ID2 :1914775475  |  Product Type CURPTOPT   |  Accno Minor   9810          Mismatch Column Name =2nd Leg Notional  |Expected: 726.25 | Actual: 944.13 |
+ Row 2123
 
-Mismatch at Row :1403 for Options Tradeid : 77044814  CRDSecid / ID2 :1884002137  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: -218.82 | Actual: 250 |
- Row 1403
+Mismatch at Row :2084 for Options Tradeid : 77225800  CRDSecid / ID2 :1914775475  |  Product Type CURPTOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 726.25 | Actual: 944.13 |
+ Row 2084
 
-Mismatch at Row :1410 for Options Tradeid : 77062387  CRDSecid / ID2 :1884002207  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: -248.5 | Actual: 250 |
- Row 1410
+Mismatch at Row :1969 for Options Tradeid : 77225801  CRDSecid / ID2 :1914775475  |  Product Type CURPTOPT   |  Accno Minor   70GB          Mismatch Column Name =2nd Leg Notional  |Expected: 726.25 | Actual: 944.13 |
+ Row 1969
 
-Mismatch at Row :1357 for Options Tradeid : 77044861  CRDSecid / ID2 :1884002234  |  Product Type CURCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -318.76 | Actual: 250 |
- Row 1357
+Mismatch at Row :1934 for Options Tradeid : 77225799  CRDSecid / ID2 :1914775475  |  Product Type CURPTOPT   |  Accno Minor   3472          Mismatch Column Name =2nd Leg Notional  |Expected: 726.25 | Actual: 944.13 |
+ Row 1934
 
-Mismatch at Row :1418 for Options Tradeid : 77044860  CRDSecid / ID2 :1884002234  |  Product Type CURCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -318.76 | Actual: 250 |
- Row 1418
+Mismatch at Row :837 for Options Tradeid : 77044778  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   9539          Mismatch Column Name =# of Shares/Options  |Expected: 200 | Actual: 250.00 |
+ Row 837
 
-Mismatch at Row :1432 for Options Tradeid : 77106563  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: 317.32 | Actual: 222.22 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1432
+Mismatch at Row :773 for Options Tradeid : 77033423  CRDSecid / ID2 :1884002077  |  Product Type EQCLOPT   |  Accno Minor   3472          Mismatch Column Name =TradeDate  |Expected: 5/23/2019 | Actual: 05/16/2019 |
+ Row 773
 
-Mismatch at Row :1372 for Options Tradeid : 77106561  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 317.32 | Actual: 222.22 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1372
+Mismatch at Row :805 for Options Tradeid : 77176668  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   7AJF          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 805
 
-Mismatch at Row :1412 for Options Tradeid : 77106560  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: 317.32 | Actual: 222.22 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1412
+Mismatch at Row :805 for Options Tradeid : 77176668  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   7AJF          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 805
 
-Mismatch at Row :1359 for Options Tradeid : 77106562  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 317.32 | Actual: 222.22 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1359
+Mismatch at Row :925 for Options Tradeid : 77176677  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9810          Mismatch Column Name =# of Shares/Options  |Expected: 7529 | Actual: 8029.00 |
+ Row 925
 
-Mismatch at Row :1391 for Options Tradeid : 77044803  CRDSecid / ID2 :1884002112  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 202.15 | Actual: 250 |
- Row 1391
+Mismatch at Row :925 for Options Tradeid : 77176677  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9810          Mismatch Column Name =# of Shares/Options  |Expected: 7779 | Actual: 8029.00 |
+ Row 925
 
-Mismatch at Row :1398 for Options Tradeid : 77039996  CRDSecid / ID2 :1884002146  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 156.05 | Actual: NAN |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1398
-
-Mismatch at Row :1392 for Options Tradeid : 77044810  CRDSecid / ID2 :1884002129  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -83.79 | Actual: NAN |
- Row 1392
-
-Mismatch at Row :1394 for Options Tradeid : 77044835  CRDSecid / ID2 :1884002181  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -312.87 | Actual: 225.38 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1394
-
-Mismatch at Row :1363 for Options Tradeid : 77044804  CRDSecid / ID2 :1884002112  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 202.15 | Actual: 250 |
- Row 1363
-
-Mismatch at Row :1364 for Options Tradeid : 77044811  CRDSecid / ID2 :1884002129  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -83.79 | Actual: NAN |
- Row 1364
-
-Mismatch at Row :1366 for Options Tradeid : 77044836  CRDSecid / ID2 :1884002181  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -312.87 | Actual: 225.38 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1366
-
-Mismatch at Row :1402 for Options Tradeid : 77044802  CRDSecid / ID2 :1884002112  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: 202.15 | Actual: 250 |
- Row 1402
-
-Mismatch at Row :1409 for Options Tradeid : 77039995  CRDSecid / ID2 :1884002146  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: 156.05 | Actual: NAN |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1409
-
-Mismatch at Row :1405 for Options Tradeid : 77044834  CRDSecid / ID2 :1884002181  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: -312.87 | Actual: 225.38 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1405
-
-Mismatch at Row :1352 for Options Tradeid : 77044813  CRDSecid / ID2 :1884002129  |  Product Type CURCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -83.79 | Actual: NAN |
- Row 1352
-
-Mismatch at Row :1416 for Options Tradeid : 77044812  CRDSecid / ID2 :1884002129  |  Product Type CURCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -83.79 | Actual: NAN |
- Row 1416
-
-Mismatch at Row :1431 for Options Tradeid : 77039998  CRDSecid / ID2 :1884002146  |  Product Type CURCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: 156.05 | Actual: NAN |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1431
-
-Mismatch at Row :1428 for Options Tradeid : 77044805  CRDSecid / ID2 :1884002112  |  Product Type CURCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: 202.15 | Actual: 250 |
- Row 1428
-
-Mismatch at Row :1429 for Options Tradeid : 77044837  CRDSecid / ID2 :1884002181  |  Product Type CURCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: -312.87 | Actual: 225.38 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1429
-
-Mismatch at Row :1367 for Options Tradeid : 77044843  CRDSecid / ID2 :1884002198  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 235.85 | Actual: 250 |
- Row 1367
-
-Mismatch at Row :1368 for Options Tradeid : 77044852  CRDSecid / ID2 :1884002217  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -225.37 | Actual: 250 |
- Row 1368
-
-Mismatch at Row :1375 for Options Tradeid : 77118822  CRDSecid / ID2 :1884002164  |  Product Type CURCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -317.32 | Actual: 222.22 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1375
-
-Mismatch at Row :1355 for Options Tradeid : 77044845  CRDSecid / ID2 :1884002198  |  Product Type CURCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 235.85 | Actual: 250 |
- Row 1355
-
-Mismatch at Row :1361 for Options Tradeid : 77118824  CRDSecid / ID2 :1884002164  |  Product Type CURCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -317.32 | Actual: 222.22 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1361
-
-Mismatch at Row :1395 for Options Tradeid : 77044842  CRDSecid / ID2 :1884002198  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 235.85 | Actual: 250 |
- Row 1395
-
-Mismatch at Row :1396 for Options Tradeid : 77044851  CRDSecid / ID2 :1884002217  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -225.37 | Actual: 250 |
- Row 1396
-
-Mismatch at Row :1401 for Options Tradeid : 77118821  CRDSecid / ID2 :1884002164  |  Product Type CURCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -317.32 | Actual: 222.22 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1401
-
-Mismatch at Row :1407 for Options Tradeid : 77044850  CRDSecid / ID2 :1884002217  |  Product Type CURCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: -225.37 | Actual: 250 |
- Row 1407
-
-Mismatch at Row :1417 for Options Tradeid : 77044844  CRDSecid / ID2 :1884002198  |  Product Type CURCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 235.85 | Actual: 250 |
- Row 1417
-
-Mismatch at Row :1419 for Options Tradeid : 77118823  CRDSecid / ID2 :1884002164  |  Product Type CURCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -317.32 | Actual: 222.22 |
- Mismatch Column Name =IssueCurrency  |Expected: USD | Actual: EUR |
- Row 1419
-
-Mismatch at Row :1430 for Options Tradeid : 77044853  CRDSecid / ID2 :1884002217  |  Product Type CURCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: -225.37 | Actual: 250 |
- Row 1430
-
-Mismatch at Row :1433 for Options Tradeid : 77118508  CRDSecid / ID2 :1892193145  |  Product Type CURPTOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: 225.49 | Actual: 250 |
- Row 1433
-
-Mismatch at Row :1373 for Options Tradeid : 77118506  CRDSecid / ID2 :1892193145  |  Product Type CURPTOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 225.49 | Actual: 250 |
- Row 1373
-
-Mismatch at Row :1413 for Options Tradeid : 77118505  CRDSecid / ID2 :1892193145  |  Product Type CURPTOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: 225.49 | Actual: 250 |
- Row 1413
-
-Mismatch at Row :1360 for Options Tradeid : 77118507  CRDSecid / ID2 :1892193145  |  Product Type CURPTOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 225.49 | Actual: 250 |
- Row 1360
-
-Mismatch at Row :618 for Options Tradeid : 77044778  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 618
-
-Mismatch at Row :618 for Options Tradeid : 77044778  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 618
-
-Mismatch at Row :606 for Options Tradeid : 77044779  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 606
-
-Mismatch at Row :606 for Options Tradeid : 77044779  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 606
-
-Mismatch at Row :625 for Options Tradeid : 77044777  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 625
-
-Mismatch at Row :625 for Options Tradeid : 77044777  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 625
-
-Mismatch at Row :590 for Options Tradeid : 77044776  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   3472        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 590
-
-Mismatch at Row :590 for Options Tradeid : 77044776  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   3472        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 590
-
-Mismatch at Row :593 for Options Tradeid : 77033423  CRDSecid / ID2 :1884002077  |  Product Type EQCLOPT   |  Accno Minor   3472        
-  Mismatch Column Name =TradeDate  |Expected: 5/23/2019 | Actual: 5/16/2019 |
- Mismatch Column Name =# of Shares/Options  |Expected: -200 | Actual: 200 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 593
-
-Mismatch at Row :653 for Options Tradeid : 77066430  CRDSecid / ID2 :1887198592  |  Product Type EQCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: -94324687.19 | Actual: 83602800 |
- Mismatch Column Name =# of Shares/Options  |Expected: -7741 | Actual: 7741 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 653
-
-Mismatch at Row :653 for Options Tradeid : 77066430  CRDSecid / ID2 :1887198592  |  Product Type EQCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: -94324687.19 | Actual: 83602800 |
- Mismatch Column Name =# of Shares/Options  |Expected: -7741 | Actual: 7741 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 653
-
-Mismatch at Row :647 for Options Tradeid : 77066429  CRDSecid / ID2 :1887198592  |  Product Type EQCLOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -104669818.2 | Actual: 92772000 |
- Mismatch Column Name =# of Shares/Options  |Expected: -8590 | Actual: 8590 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 647
-
-Mismatch at Row :647 for Options Tradeid : 77066429  CRDSecid / ID2 :1887198592  |  Product Type EQCLOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -104669818.2 | Actual: 92772000 |
- Mismatch Column Name =# of Shares/Options  |Expected: -8590 | Actual: 8590 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 647
-
-Mismatch at Row :602 for Options Tradeid : 77066427  CRDSecid / ID2 :1887198592  |  Product Type EQCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -25271851.34 | Actual: 22399200 |
- Mismatch Column Name =# of Shares/Options  |Expected: -2074 | Actual: 2074 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 602
-
-Mismatch at Row :602 for Options Tradeid : 77066427  CRDSecid / ID2 :1887198592  |  Product Type EQCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -25271851.34 | Actual: 22399200 |
- Mismatch Column Name =# of Shares/Options  |Expected: -2074 | Actual: 2074 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 602
-
-Mismatch at Row :639 for Options Tradeid : 77066428  CRDSecid / ID2 :1887198592  |  Product Type EQCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -240569990.9 | Actual: 213224400 |
- Mismatch Column Name =# of Shares/Options  |Expected: -19743 | Actual: 19743 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 639
-
-Mismatch at Row :639 for Options Tradeid : 77066428  CRDSecid / ID2 :1887198592  |  Product Type EQCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -240569990.9 | Actual: 213224400 |
- Mismatch Column Name =# of Shares/Options  |Expected: -19743 | Actual: 19743 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 639
-
-Mismatch at Row :620 for Options Tradeid : 77040022  CRDSecid / ID2 :1883457418  |  Product Type EQCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2020-06-19 00:00:00 | Actual: 6/19/2020 |
- Row 620
-
-Mismatch at Row :620 for Options Tradeid : 77040022  CRDSecid / ID2 :1883457418  |  Product Type EQCLOPT   |  Accno Minor   9539        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2020-06-19 00:00:00 | Actual: 6/19/2020 |
- Row 620
-
-Mismatch at Row :609 for Options Tradeid : 77040023  CRDSecid / ID2 :1883457418  |  Product Type EQCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2020-06-19 00:00:00 | Actual: 6/19/2020 |
- Row 609
-
-Mismatch at Row :609 for Options Tradeid : 77040023  CRDSecid / ID2 :1883457418  |  Product Type EQCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2020-06-19 00:00:00 | Actual: 6/19/2020 |
- Row 609
-
-Mismatch at Row :613 for Options Tradeid : 77090536  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =# of Shares/Options  |Expected: -250 | Actual: 250 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 613
-
-Mismatch at Row :613 for Options Tradeid : 77090536  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =# of Shares/Options  |Expected: -250 | Actual: 250 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 613
-
-Mismatch at Row :648 for Options Tradeid : 77066409  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 92398767.95 | Actual: 81895800 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 648
-
-Mismatch at Row :648 for Options Tradeid : 77066409  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 92398767.95 | Actual: 81895800 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 648
-
-Mismatch at Row :626 for Options Tradeid : 77040021  CRDSecid / ID2 :1883457418  |  Product Type EQCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2020-06-19 00:00:00 | Actual: 6/19/2020 |
- Row 626
-
-Mismatch at Row :626 for Options Tradeid : 77040021  CRDSecid / ID2 :1883457418  |  Product Type EQCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2020-06-19 00:00:00 | Actual: 6/19/2020 |
- Row 626
-
-Mismatch at Row :630 for Options Tradeid : 77090535  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =# of Shares/Options  |Expected: -250 | Actual: 250 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 630
-
-Mismatch at Row :630 for Options Tradeid : 77090535  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9577        
-  Mismatch Column Name =# of Shares/Options  |Expected: -250 | Actual: 250 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 630
-
-Mismatch at Row :603 for Options Tradeid : 77066407  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 11554161.54 | Actual: 10240800 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 603
-
-Mismatch at Row :603 for Options Tradeid : 77066407  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 11554161.54 | Actual: 10240800 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 603
-
-Mismatch at Row :605 for Options Tradeid : 77090537  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =# of Shares/Options  |Expected: -250 | Actual: 250 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 605
-
-Mismatch at Row :605 for Options Tradeid : 77090537  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =# of Shares/Options  |Expected: -250 | Actual: 250 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 605
-
-Mismatch at Row :633 for Options Tradeid : 77040024  CRDSecid / ID2 :1883457418  |  Product Type EQCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2020-06-19 00:00:00 | Actual: 6/19/2020 |
- Row 633
-
-Mismatch at Row :640 for Options Tradeid : 77066408  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 212359504.9 | Actual: 188220600 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 640
-
-Mismatch at Row :633 for Options Tradeid : 77040024  CRDSecid / ID2 :1883457418  |  Product Type EQCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2020-06-19 00:00:00 | Actual: 6/19/2020 |
- Row 633
-
-Mismatch at Row :640 for Options Tradeid : 77066408  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 212359504.9 | Actual: 188220600 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 640
-
-Mismatch at Row :654 for Options Tradeid : 77066410  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: 83261313.51 | Actual: 73797000 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 654
-
-Mismatch at Row :654 for Options Tradeid : 77066410  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: 83261313.51 | Actual: 73797000 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 654
-
-Mismatch at Row :656 for Options Tradeid : 77090538  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =# of Shares/Options  |Expected: -250 | Actual: 250 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 656
-
-Mismatch at Row :656 for Options Tradeid : 77090538  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9878        
-  Mismatch Column Name =# of Shares/Options  |Expected: -250 | Actual: 250 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 656
-
-Mismatch at Row :650 for Options Tradeid : 77040028  CRDSecid / ID2 :1884002068  |  Product Type EQPTOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 650
-
-Mismatch at Row :651 for Options Tradeid : 77066414  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: 35892500.54 | Actual: 31812600 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 651
-
-Mismatch at Row :651 for Options Tradeid : 77066414  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: 35892500.54 | Actual: 31812600 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 651
-
-Mismatch at Row :650 for Options Tradeid : 77040028  CRDSecid / ID2 :1884002068  |  Product Type EQPTOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 650
-
-Mismatch at Row :644 for Options Tradeid : 77040027  CRDSecid / ID2 :1884002068  |  Product Type EQPTOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 644
-
-Mismatch at Row :645 for Options Tradeid : 77066413  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 31333927.54 | Actual: 27772200 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 645
-
-Mismatch at Row :645 for Options Tradeid : 77066413  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 31333927.54 | Actual: 27772200 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 645
-
-Mismatch at Row :644 for Options Tradeid : 77040027  CRDSecid / ID2 :1884002068  |  Product Type EQPTOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 644
-
-Mismatch at Row :598 for Options Tradeid : 77040026  CRDSecid / ID2 :1884002068  |  Product Type EQPTOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 598
-
-Mismatch at Row :600 for Options Tradeid : 77066411  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 6374488.06 | Actual: 5649900 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 600
-
-Mismatch at Row :600 for Options Tradeid : 77066411  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 6374488.06 | Actual: 5649900 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 600
-
-Mismatch at Row :598 for Options Tradeid : 77040026  CRDSecid / ID2 :1884002068  |  Product Type EQPTOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 598
-
-Mismatch at Row :634 for Options Tradeid : 77040025  CRDSecid / ID2 :1884002068  |  Product Type EQPTOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 634
-
-Mismatch at Row :637 for Options Tradeid : 77066412  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 91553428.18 | Actual: 81146550 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 637
-
-Mismatch at Row :634 for Options Tradeid : 77040025  CRDSecid / ID2 :1884002068  |  Product Type EQPTOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 634
-
-Mismatch at Row :637 for Options Tradeid : 77066412  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 91553428.18 | Actual: 81146550 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 637
-
-Mismatch at Row :607 for Options Tradeid : 77039999  CRDSecid / ID2 :1884002023  |  Product Type EQPTOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 607
-
-Mismatch at Row :607 for Options Tradeid : 77039999  CRDSecid / ID2 :1884002023  |  Product Type EQPTOPT   |  Accno Minor   7AJF        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 607
-
-Mismatch at Row :642 for Options Tradeid : 77040002  CRDSecid / ID2 :1884002023  |  Product Type EQPTOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 642
-
-Mismatch at Row :646 for Options Tradeid : 77066417  CRDSecid / ID2 :1887198541  |  Product Type EQPTOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -42519828.96 | Actual: NAN |
- Mismatch Column Name =# of Shares/Options  |Expected: -6979 | Actual: 100 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 646
-
-Mismatch at Row :642 for Options Tradeid : 77040002  CRDSecid / ID2 :1884002023  |  Product Type EQPTOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 642
-
-Mismatch at Row :646 for Options Tradeid : 77066417  CRDSecid / ID2 :1887198541  |  Product Type EQPTOPT   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -51658637.3 | Actual: NAN |
- Mismatch Column Name =# of Shares/Options  |Expected: -8479 | Actual: 100 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 646
-
-Mismatch at Row :596 for Options Tradeid : 77040001  CRDSecid / ID2 :1884002023  |  Product Type EQPTOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 596
-
-Mismatch at Row :596 for Options Tradeid : 77040001  CRDSecid / ID2 :1884002023  |  Product Type EQPTOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 596
-
-Mismatch at Row :601 for Options Tradeid : 77066415  CRDSecid / ID2 :1887198541  |  Product Type EQPTOPT   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -3119379.91 | Actual: NAN |
- Mismatch Column Name =# of Shares/Options  |Expected: -512 | Actual: 100 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 601
-
-Mismatch at Row :631 for Options Tradeid : 77040000  CRDSecid / ID2 :1884002023  |  Product Type EQPTOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 631
-
-Mismatch at Row :638 for Options Tradeid : 77066416  CRDSecid / ID2 :1887198541  |  Product Type EQPTOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -103500050.8 | Actual: NAN |
- Mismatch Column Name =# of Shares/Options  |Expected: -16988 | Actual: 100 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 638
-
-Mismatch at Row :631 for Options Tradeid : 77040000  CRDSecid / ID2 :1884002023  |  Product Type EQPTOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-06-21 00:00:00 | Actual: 6/21/2019 |
- Row 631
-
-Mismatch at Row :638 for Options Tradeid : 77066416  CRDSecid / ID2 :1887198541  |  Product Type EQPTOPT   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -112638859.1 | Actual: NAN |
- Mismatch Column Name =# of Shares/Options  |Expected: -18488 | Actual: 100 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 638
-
-Mismatch at Row :652 for Options Tradeid : 77066418  CRDSecid / ID2 :1887198541  |  Product Type EQPTOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: -37408188.82 | Actual: NAN |
- Mismatch Column Name =# of Shares/Options  |Expected: -6140 | Actual: 100 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 652
-
-Mismatch at Row :652 for Options Tradeid : 77066418  CRDSecid / ID2 :1887198541  |  Product Type EQPTOPT   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: -46546997.17 | Actual: NAN |
- Mismatch Column Name =# of Shares/Options  |Expected: -7640 | Actual: 100 |
- Mismatch Column Name =Option Exercise Start Date  |Expected: 2019-07-19 00:00:00 | Actual: 7/19/2019 |
- Row 652
-
-Mismatch at Row :1302 for CRDSecid / ID2 :1880234417 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =TradeDate  |Expected: 5/15/2019 | Actual: 5/13/2019 |
- Row 1302
-
-Mismatch at Row :1322 for CRDSecid / ID2 :1880234417 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =TradeDate  |Expected: 5/15/2019 | Actual: 5/13/2019 |
- Row 1322
-
-Mismatch at Row :959 for CRDSecid / ID2 :1888976088 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -107975.76 | Actual: 107975.75 |
- Row 959
-
-Mismatch at Row :749 for CRDSecid / ID2 :1888978892 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -5436.24 | Actual: 5436.23 |
- Row 749
-
-Mismatch at Row :912 for CRDSecid / ID2 :1888978908 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -105730.74 | Actual: 105730.74 |
- Row 912
-
-Mismatch at Row :748 for CRDSecid / ID2 :1888978950 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -156186.17 | Actual: 156186.17 |
- Row 748
-
-Mismatch at Row :750 for CRDSecid / ID2 :1888978883 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -180530.44 | Actual: 180530.44 |
- Row 750
-
-Mismatch at Row :751 for CRDSecid / ID2 :1888978941 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -299773.43 | Actual: 299773.42 |
- Row 751
-
-Mismatch at Row :746 for CRDSecid / ID2 :1888978925 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -163131.16 | Actual: 163131.16 |
- Row 746
-
-Mismatch at Row :952 for CRDSecid / ID2 :1888975845 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -245680.39 | Actual: 245680.39 |
- Row 952
-
-Mismatch at Row :721 for CRDSecid / ID2 :1888975866 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -9360.37 | Actual: 9360.37 |
- Row 721
-
-Mismatch at Row :741 for CRDSecid / ID2 :1888978912 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -180792.29 | Actual: 180792.29 |
- Row 741
-
-Mismatch at Row :719 for CRDSecid / ID2 :1888975860 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -8283.03 | Actual: 8283.02 |
- Row 719
-
-Mismatch at Row :736 for CRDSecid / ID2 :1888976118 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -364197.38 | Actual: 364197.38 |
- Row 736
-
-Mismatch at Row :729 for CRDSecid / ID2 :1888976073 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -167134.27 | Actual: 167134.27 |
- Row 729
-
-Mismatch at Row :735 for CRDSecid / ID2 :1888976094 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP GBP   |Expected: -124990.0 | Actual: 124295.93 |
- Row 735 Mismatch Column Name =Price  |Expected: 1.59237053 | Actual: 1.2456 |
-
-
-Mismatch at Row :724 for CRDSecid / ID2 :1888975857 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -121196.21 | Actual: 121196.21 |
- Row 724
-
-Mismatch at Row :720 for CRDSecid / ID2 :1888975854 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP CHF   |Expected: -154044.0 | Actual: 157190.25 |
- Row 720 Mismatch Column Name =Price  |Expected: 20.89623062 | Actual: 21.0937 |
-
-
-Mismatch at Row :915 for CRDSecid / ID2 :1888978937 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Row 915 Mismatch Column Name =Price  |Expected: 3.837076817 | Actual: 37.0111 |
-
-
-Mismatch at Row :916 for CRDSecid / ID2 :1888978898 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -248093.07 | Actual: 248093.07 |
- Row 916
-
-Mismatch at Row :944 for CRDSecid / ID2 :1888975995 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Row 944 Mismatch Column Name =Notional for EQTRSWP CAD   |Expected: -64401.0 | Actual: 64401.04 |
- Mismatch Column Name =Price  |Expected: 0.933865195 | Actual: 1.2525 |
-
-
-Mismatch at Row :955 for CRDSecid / ID2 :1888978905 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 140510.15 | Actual: 140538.07 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 955 Mismatch Column Name =Price  |Expected: 75.5025 | Actual: 75.5175 |
-
-
-Mismatch at Row :737 for CRDSecid / ID2 :1888976111 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 128208.06 | Actual: 122604.38 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 737 Mismatch Column Name =Price  |Expected: 57.3125 | Actual: 54.8075 |
-
-
-Mismatch at Row :914 for CRDSecid / ID2 :1888978886 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 914 Mismatch Column Name =Notional for EQTRSWP CAD   |Expected: 225174.0 | Actual: 225644.38 |
- Mismatch Column Name =Price  |Expected: 5.358810564 | Actual: 7.1875 |
-
-
-Mismatch at Row :954 for CRDSecid / ID2 :1888978945 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP EUR   |Expected: 124056.0 | Actual: 124398.8 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 954 Mismatch Column Name =Price  |Expected: 11.05355793 | Actual: 9.8029 |
-
-
-Mismatch at Row :730 for CRDSecid / ID2 :1888976104 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 32054.39 | Actual: 32099.83 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 730 Mismatch Column Name =Price  |Expected: 10.5825 | Actual: 10.5975 |
-
-
-Mismatch at Row :753 for CRDSecid / ID2 :1888979066 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 104614.69 | Actual: 103138.24 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 753 Mismatch Column Name =Price  |Expected: 15.9425 | Actual: 15.7175 |
-
-
-Mismatch at Row :731 for CRDSecid / ID2 :1888976076 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 172291.76 | Actual: 181560.83 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 731 Mismatch Column Name =Price  |Expected: 19.0525 | Actual: 20.0775 |
-
-
-Mismatch at Row :992 for CRDSecid / ID2 :1888978889 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 29865.83 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 992 Mismatch Column Name =Notional 2  |Expected: 19746 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 1.5125 | Actual: 1.8975 |
-
-
-Mismatch at Row :732 for CRDSecid / ID2 :1888976134 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 218673.49 | Actual: 223210.16 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 732 Mismatch Column Name =Price  |Expected: 1121.4025 | Actual: 1144.6675 |
-
-
-Mismatch at Row :752 for CRDSecid / ID2 :1888979045 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 211347.94 | Actual: 223510.31 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 752 Mismatch Column Name =Price  |Expected: 24.7625 | Actual: 26.1875 |
-
-
-Mismatch at Row :718 for CRDSecid / ID2 :1888976019 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 142711.33 | Actual: 120489.02 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 718 Mismatch Column Name =Price  |Expected: 31.6925 | Actual: 26.7575 |
-
-
-Mismatch at Row :726 for CRDSecid / ID2 :1888975863 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 208679.95 | Actual: 209948.95 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 726 Mismatch Column Name =Price  |Expected: 74.8225 | Actual: 75.2775 |
-
-
-Mismatch at Row :844 for CRDSecid / ID2 :1888976006 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 331748.58 | Actual: 332603.24 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 844 Mismatch Column Name =Price  |Expected: 5.8225 | Actual: 5.8375 |
-
-
-Mismatch at Row :727 for CRDSecid / ID2 :1888975875 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 99516.46 | Actual: 112388.09 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 727 Mismatch Column Name =Price  |Expected: 17.2025 | Actual: 19.4275 |
-
-
-Mismatch at Row :820 for CRDSecid / ID2 :1888979800 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -166835.3 | Actual: 166835.3 |
- Row 820
-
-Mismatch at Row :898 for CRDSecid / ID2 :1888979673 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -21368.77 | Actual: 21368.76 |
- Row 898
-
-Mismatch at Row :826 for CRDSecid / ID2 :1888979627 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -31820.82 | Actual: 31820.82 |
- Row 826
-
-Mismatch at Row :794 for CRDSecid / ID2 :1888979526 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -91677.6 | Actual: 91677.6 |
- Row 794
-
-Mismatch at Row :795 for CRDSecid / ID2 :1888979552 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -70518.69 | Actual: 70518.69 |
- Row 795
-
-Mismatch at Row :796 for CRDSecid / ID2 :1888979523 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -48036.11 | Actual: 48036.11 |
- Row 796
-
-Mismatch at Row :798 for CRDSecid / ID2 :1888979705 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -99440.49 | Actual: 99440.49 |
- Row 798
-
-Mismatch at Row :1015 for CRDSecid / ID2 :1888979681 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -92486.48 | Actual: 92486.47 |
- Row 1015
-
-Mismatch at Row :803 for CRDSecid / ID2 :1888979717 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -80074.84 | Actual: 80074.84 |
- Row 803
-
-Mismatch at Row :804 for CRDSecid / ID2 :1888979738 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -77104.14 | Actual: 77104.14 |
- Row 804
-
-Mismatch at Row :800 for CRDSecid / ID2 :1888979708 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -64173.98 | Actual: 64173.97 |
- Row 800
-
-Mismatch at Row :835 for CRDSecid / ID2 :1888980194 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -99562.92 | Actual: 99562.92 |
- Row 835
-
-Mismatch at Row :834 for CRDSecid / ID2 :1888980219 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -397883.19 | Actual: 397883.19 |
- Row 834
-
-Mismatch at Row :836 for CRDSecid / ID2 :1888980178 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -386022.04 | Actual: 386022.03 |
- Row 836
-
-Mismatch at Row :887 for CRDSecid / ID2 :1888979572 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -281223.8 | Actual: 281223.79 |
- Row 887
-
-Mismatch at Row :1052 for CRDSecid / ID2 :1888979584 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -117840.29 | Actual: 117840.28 |
- Row 1052
-
-Mismatch at Row :823 for CRDSecid / ID2 :1888979597 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -47562.84 | Actual: 47562.84 |
- Row 823
-
-Mismatch at Row :829 for CRDSecid / ID2 :1888979647 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -175366.8 | Actual: 175366.8 |
- Row 829
-
-Mismatch at Row :886 for CRDSecid / ID2 :1888979676 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -327483.21 | Actual: 327483.21 |
- Row 886
-
-Mismatch at Row :1058 for CRDSecid / ID2 :1888979908 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -3667.95 | Actual: 3667.94 |
- Row 1058
-
-Mismatch at Row :807 for CRDSecid / ID2 :1888979684 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -24071.22 | Actual: 24071.22 |
- Row 807
-
-Mismatch at Row :893 for CRDSecid / ID2 :1888979711 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -295619.63 | Actual: 295619.63 |
- Row 893
-
-Mismatch at Row :808 for CRDSecid / ID2 :1888979690 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -168575.85 | Actual: 168575.85 |
- Row 808
-
-Mismatch at Row :809 for CRDSecid / ID2 :1888979699 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -161614.87 | Actual: 161614.86 |
- Row 809
-
-Mismatch at Row :811 for CRDSecid / ID2 :1888979767 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -6778.26 | Actual: 6778.26 |
- Row 811
-
-Mismatch at Row :828 for CRDSecid / ID2 :1888979607 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -352266.25 | Actual: 352266.25 |
- Row 828
-
-Mismatch at Row :832 for CRDSecid / ID2 :1888980156 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -180006.8 | Actual: 180006.8 |
- Row 832
-
-Mismatch at Row :838 for CRDSecid / ID2 :1888980185 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -78095.56 | Actual: 78095.56 |
- Row 838
-
-Mismatch at Row :880 for CRDSecid / ID2 :1888980162 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -306507.93 | Actual: 306507.93 |
- Row 880
-
-Mismatch at Row :935 for CRDSecid / ID2 :1888979824 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP AUD   |Expected: 488689.0 | Actual: 495575.49 |
- Row 935 Mismatch Column Name =Price  |Expected: 62.81149544 | Actual: 91.2494 |
-
-
-Mismatch at Row :833 for CRDSecid / ID2 :1888980150 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -172062.8 | Actual: 172062.8 |
- Row 833
-
-Mismatch at Row :791 for CRDSecid / ID2 :1888979633 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -111588.54 | Actual: 111588.54 |
- Row 791
-
-Mismatch at Row :821 for CRDSecid / ID2 :1888979791 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -129429.48 | Actual: 129429.48 |
- Row 821
-
-Mismatch at Row :815 for CRDSecid / ID2 :1888979794 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -179653.11 | Actual: 179653.11 |
- Row 815
-
-Mismatch at Row :921 for CRDSecid / ID2 :1888980171 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Row 921 Mismatch Column Name =Price  |Expected: 0.014688553 | Actual: 0.1153 |
-
-
-Mismatch at Row :926 for CRDSecid / ID2 :1888979578 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Row 926 Mismatch Column Name =Price  |Expected: 0.287395141 | Actual: 0.3957 |
-
-
-Mismatch at Row :923 for CRDSecid / ID2 :1888979782 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Row 923 Mismatch Column Name =Price  |Expected: 0.316519592 | Actual: 0.4358 |
-
-
-Mismatch at Row :891 for CRDSecid / ID2 :1888979779 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -140739.9 | Actual: 140739.9 |
- Row 891
-
-Mismatch at Row :889 for CRDSecid / ID2 :1888979773 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -95513.04 | Actual: 95513.04 |
- Row 889
-
-Mismatch at Row :927 for CRDSecid / ID2 :1888979776 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP EUR   |Expected: -294904.0 | Actual: 294904.8 |
- Row 927 Mismatch Column Name =Price  |Expected: 335.1112006 | Actual: 299.7 |
-
-
-Mismatch at Row :929 for CRDSecid / ID2 :1888979541 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP DKK   |Expected: -218999.0 | Actual: 218999.78 |
- Row 929 Mismatch Column Name =Price  |Expected: 12.83290789 | Actual: 85.7142 |
-
-
-Mismatch at Row :931 for CRDSecid / ID2 :1888979548 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP CHF   |Expected: -153979.0 | Actual: 153979.89 |
- Row 931 Mismatch Column Name =Price  |Expected: 59.72529595 | Actual: 60.2897 |
-
-
-Mismatch at Row :888 for CRDSecid / ID2 :1888979604 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -303642.19 | Actual: 303642.19 |
- Row 888
-
-Mismatch at Row :925 for CRDSecid / ID2 :1888979642 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP EUR   |Expected: -12475.0 | Actual: 12475.18 |
- Row 925 Mismatch Column Name =Price  |Expected: 6.210682858 | Actual: 5.5544 |
-
-
-Mismatch at Row :885 for CRDSecid / ID2 :1888979904 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -66558.62 | Actual: 66558.62 |
- Row 885
-
-Mismatch at Row :882 for CRDSecid / ID2 :1888979658 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -258672.18 | Actual: 258672.18 |
- Row 882
-
-Mismatch at Row :934 for CRDSecid / ID2 :1888979818 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Row 934 Mismatch Column Name =Notional for EQTRSWP SGD   |Expected: -293643.0 | Actual: 293643.21 |
- Mismatch Column Name =Price  |Expected: 0.503831209 | Actual: 0.6937 |
-
-
-Mismatch at Row :883 for CRDSecid / ID2 :1888979652 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -244286.91 | Actual: 244286.91 |
- Row 883
-
-Mismatch at Row :933 for CRDSecid / ID2 :1888979735 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP SEK   |Expected: -1632800.0 | Actual: 1632800.56 |
- Row 933 Mismatch Column Name =Price  |Expected: 5.696350168 | Actual: 54.945 |
-
-
-Mismatch at Row :790 for CRDSecid / ID2 :1888979616 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 182550.26 | Actual: 186302.22 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 790 Mismatch Column Name =Price  |Expected: 47.195 | Actual: 48.165 |
-
-
-Mismatch at Row :789 for CRDSecid / ID2 :1888979529 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 36773.55 | Actual: 45614.25 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 789 Mismatch Column Name =Price  |Expected: 5.865 | Actual: 7.275 |
-
-
-Mismatch at Row :932 for CRDSecid / ID2 :1888979555 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Mismatch Column Name =Notional for EQTRSWP CHF   |Expected: 213986.0 | Actual: 214414.2 |
- Row 932 Mismatch Column Name =Price  |Expected: 454.4351782 | Actual: 450.45 |
-
-
-Mismatch at Row :806 for CRDSecid / ID2 :1888979696 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 301886.03 | Actual: 309369.17 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 806 Mismatch Column Name =Price  |Expected: 3.8325 | Actual: 3.9275 |
-
-
-Mismatch at Row :830 for CRDSecid / ID2 :1888979636 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 143558 | Actual: 141248.24 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 830 Mismatch Column Name =Price  |Expected: 22.375 | Actual: 22.015 |
-
-
-Mismatch at Row :930 for CRDSecid / ID2 :1888979575 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP EUR   |Expected: 37291.0 | Actual: 37365.42 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 930 Mismatch Column Name =Price  |Expected: 28.91620503 | Actual: 25.6807 |
-
-
-Mismatch at Row :884 for CRDSecid / ID2 :1888979581 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 188504.55 | Actual: 190711.17 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 884 Mismatch Column Name =Price  |Expected: 35.025 | Actual: 35.435 |
-
-
-Mismatch at Row :797 for CRDSecid / ID2 :1888979564 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 185120.21 | Actual: 188172.84 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 797 Mismatch Column Name =Price  |Expected: 2.1225 | Actual: 2.1575 |
-
-
-Mismatch at Row :895 for CRDSecid / ID2 :1888979588 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 65557.44 | Actual: 75482.46 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 895 Mismatch Column Name =Price  |Expected: 0.0502 | Actual: 0.0578 |
-
-
-Mismatch at Row :825 for CRDSecid / ID2 :1888979601 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 89950.91 | Actual: 97164.76 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 825 Mismatch Column Name =Price  |Expected: 18.205 | Actual: 19.665 |
-
-
-Mismatch at Row :827 for CRDSecid / ID2 :1888979620 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 331416.43 | Actual: 329773.31 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 827 Mismatch Column Name =Price  |Expected: 379.195 | Actual: 377.315 |
-
-
-Mismatch at Row :894 for CRDSecid / ID2 :1888979702 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 166266.99 | Actual: 199698.69 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 894 Mismatch Column Name =Price  |Expected: 0.0373 | Actual: 0.0448 |
-
-
-Mismatch at Row :801 for CRDSecid / ID2 :1888979687 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 105517.5 | Actual: 107647.5 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 801 Mismatch Column Name =Price  |Expected: 70.345 | Actual: 71.765 |
-
-
-Mismatch at Row :892 for CRDSecid / ID2 :1888979693 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 137224.83 | Actual: 137454.88 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 892 Mismatch Column Name =Price  |Expected: 29.825 | Actual: 29.875 |
-
-
-Mismatch at Row :793 for CRDSecid / ID2 :1888979624 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 188597.15 | Actual: 198013.45 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 793 Mismatch Column Name =Price  |Expected: 38.255 | Actual: 40.165 |
-
-
-Mismatch at Row :792 for CRDSecid / ID2 :1888979630 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 321473.6 | Actual: 295904.17 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 792 Mismatch Column Name =Price  |Expected: 7.795 | Actual: 7.175 |
-
-
-Mismatch at Row :812 for CRDSecid / ID2 :1888979770 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 233854.38 | Actual: 223406.27 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 812 Mismatch Column Name =Price  |Expected: 52.375 | Actual: 50.035 |
-
-
-Mismatch at Row :814 for CRDSecid / ID2 :1888979761 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 90257.99 | Actual: 92744.96 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 814 Mismatch Column Name =Price  |Expected: 66.415 | Actual: 68.245 |
-
-
-Mismatch at Row :890 for CRDSecid / ID2 :1888979797 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 62698.72 | Actual: 62757.92 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 890 Mismatch Column Name =Price  |Expected: 52.955 | Actual: 53.005 |
-
-
-Mismatch at Row :810 for CRDSecid / ID2 :1888979729 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 164453.61 | Actual: 158465.01 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 810 Mismatch Column Name =Price  |Expected: 74.145 | Actual: 71.445 |
-
-
-Mismatch at Row :1014 for CRDSecid / ID2 :1888979723 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 61085.64 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 1014 Mismatch Column Name =Notional 2  |Expected: 6761 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 9.035 | Actual: 9.055 |
-
-
-Mismatch at Row :922 for CRDSecid / ID2 :1888980159 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Mismatch Column Name =Notional for EQTRSWP GBP   |Expected: 18591.0 | Actual: 18629.92 |
- Row 922 Mismatch Column Name =Price  |Expected: 0.238749047 | Actual: 0.1882 |
-
-
-Mismatch at Row :831 for CRDSecid / ID2 :1888980153 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 129911.48 | Actual: 137590.83 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 831 Mismatch Column Name =Price  |Expected: 43.815 | Actual: 46.405 |
-
-
-Mismatch at Row :819 for CRDSecid / ID2 :1888979804 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 286848.43 | Actual: 294333.31 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 819 Mismatch Column Name =Price  |Expected: 59.785 | Actual: 61.345 |
-
-
-Mismatch at Row :822 for CRDSecid / ID2 :1888979785 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 42593.64 | Actual: 43200.36 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 822 Mismatch Column Name =Price  |Expected: 22.465 | Actual: 22.785 |
-
-
-Mismatch at Row :805 for CRDSecid / ID2 :1888979721 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 331897.98 | Actual: 315561.17 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 805 Mismatch Column Name =Price  |Expected: 146.275 | Actual: 139.075 |
-
-
-Mismatch at Row :817 for CRDSecid / ID2 :1888979807 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 380519.1 | Actual: 381280.9 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 817 Mismatch Column Name =Price  |Expected: 24.975 | Actual: 25.025 |
-
-
-Mismatch at Row :816 for CRDSecid / ID2 :1888979788 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 15194.55 | Actual: 15897.41 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 816 Mismatch Column Name =Price  |Expected: 134.465 | Actual: 140.685 |
-
-
-Mismatch at Row :949 for CRDSecid / ID2 :1888979714 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 128036.3 | Actual: 132829.34 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 949 Mismatch Column Name =Price  |Expected: 14.425 | Actual: 14.965 |
-
-
-Mismatch at Row :924 for CRDSecid / ID2 :1888979810 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Mismatch Column Name =Notional for EQTRSWP GBP   |Expected: 121043.0 | Actual: 121279.44 |
- Row 924 Mismatch Column Name =Price  |Expected: 2.730612764 | Actual: 2.1521 |
-
-
-Mismatch at Row :813 for CRDSecid / ID2 :1888979814 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 66089.48 | Actual: 66211.37 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 813 Mismatch Column Name =Price  |Expected: 276.525 | Actual: 277.035 |
-
-
-Mismatch at Row :1043 for CRDSecid / ID2 :1888980165 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 327796.79 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 1043 Mismatch Column Name =Notional 2  |Expected: 26553 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 12.345 | Actual: 12.485 |
-
-
-Mismatch at Row :802 for CRDSecid / ID2 :1888979726 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 102863.15 | Actual: 107101.13 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 802 Mismatch Column Name =Price  |Expected: 33.495 | Actual: 34.875 |
-
-
-Mismatch at Row :818 for CRDSecid / ID2 :1888979764 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 123266.45 | Actual: 123176.31 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 818 Mismatch Column Name =Price  |Expected: 13.675 | Actual: 13.665 |
-
-
-Mismatch at Row :799 for CRDSecid / ID2 :1888979732 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 98454.13 | Actual: 94015.13 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 799 Mismatch Column Name =Price  |Expected: 20.405 | Actual: 19.485 |
-
-
-Mismatch at Row :837 for CRDSecid / ID2 :1888980168 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 116734.52 | Actual: 126123.48 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 837 Mismatch Column Name =Price  |Expected: 25.115 | Actual: 27.135 |
-
-
-Mismatch at Row :668 for CRDSecid / ID2 :1888974688 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -23373.04 | Actual: 23373.04 |
- Row 668
-
-Mismatch at Row :676 for CRDSecid / ID2 :1888974604 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -17978.22 | Actual: 17978.22 |
- Row 676
-
-Mismatch at Row :1085 for CRDSecid / ID2 :1888974663 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -156068.09 | Actual: 156068.08 |
- Row 1085
-
-Mismatch at Row :964 for CRDSecid / ID2 :1888974564 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 139126.74 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 964 Mismatch Column Name =Notional 2  |Expected: 4223 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 32.945 | Actual: 33.355 |
-
-
-Mismatch at Row :705 for CRDSecid / ID2 :1888975915 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -78926.87 | Actual: 108313.2 |
- Row 705 Mismatch Column Name =Notional 2  |Expected: -350319 | Actual: 480751 |
-
-
-Mismatch at Row :847 for CRDSecid / ID2 :1888975897 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -52405.71 | Actual: 104869.46 |
- Row 847 Mismatch Column Name =Notional 2  |Expected: -23474 | Actual: 46974 |
-
-
-Mismatch at Row :702 for CRDSecid / ID2 :1888975776 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -16170.61 | Actual: 35375.61 |
- Row 702 Mismatch Column Name =Notional 2  |Expected: -842 | Actual: 1842 |
-
-
-Mismatch at Row :859 for CRDSecid / ID2 :1888975813 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP SEK   |Expected: 1466920.0 | Actual: 1528086.56 |
- Row 859 Mismatch Column Name =Price  |Expected: 23.24612649 | Actual: 224.224 |
-
-
-Mismatch at Row :963 for CRDSecid / ID2 :1888975794 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -235533.58 | Actual: 235533.57 |
- Row 963
-
-Mismatch at Row :970 for CRDSecid / ID2 :1888975761 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -163838.48 | Actual: 163838.47 |
- Row 970
-
-Mismatch at Row :704 for CRDSecid / ID2 :1888975791 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -100028.57 | Actual: 100028.57 |
- Row 704
-
-Mismatch at Row :712 for CRDSecid / ID2 :1888975906 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -95553.32 | Actual: 95553.32 |
- Row 712
-
-Mismatch at Row :860 for CRDSecid / ID2 :1888975380 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -158161.78 | Actual: 158161.77 |
- Row 860
-
-Mismatch at Row :848 for CRDSecid / ID2 :1888975924 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -314820.49 | Actual: 314820.49 |
- Row 848
-
-Mismatch at Row :714 for CRDSecid / ID2 :1888975933 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -202049.88 | Actual: 202049.88 |
- Row 714
-
-Mismatch at Row :713 for CRDSecid / ID2 :1888975918 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -208716.06 | Actual: 208716.05 |
- Row 713
-
-Mismatch at Row :700 for CRDSecid / ID2 :1888975817 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -212885.34 | Actual: 212885.33 |
- Row 700
-
-Mismatch at Row :855 for CRDSecid / ID2 :1888975809 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP HKD   |Expected: -2299083.0 | Actual: 2299654.6 |
- Row 855 Mismatch Column Name =Price  |Expected: 0.062894524 | Actual: 0.4937 |
-
-
-Mismatch at Row :695 for CRDSecid / ID2 :1888975803 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -34288.5 | Actual: 34288.5 |
- Row 695
-
-Mismatch at Row :691 for CRDSecid / ID2 :1888975496 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568
-  Mismatch Column Name =Notional  |Expected: -201981.78 | Actual: 201981.78 |
- Row 691
-
-Mismatch at Row :690 for CRDSecid / ID2 :1888975384 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -389170.93 | Actual: 389170.92 |
- Row 690
-
-Mismatch at Row :849 for CRDSecid / ID2 :1888975940 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -12913.66 | Actual: 12913.66 |
- Row 849
-
-Mismatch at Row :694 for CRDSecid / ID2 :1888975821 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -222550.9 | Actual: 222550.9 |
- Row 694
-
-Mismatch at Row :711 for CRDSecid / ID2 :1888975921 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -158126.55 | Actual: 158126.55 |
- Row 711
-
-Mismatch at Row :851 for CRDSecid / ID2 :1888975930 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Row 851 Mismatch Column Name =Price  |Expected: 0.487907104 | Actual: 3.8299 |
-
-
-Mismatch at Row :919 for CRDSecid / ID2 :1888975949 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Row 919 Mismatch Column Name =Price  |Expected: 40.47297977 | Actual: 36.1962 |
-
-
-Mismatch at Row :850 for CRDSecid / ID2 :1888975900 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -69361.19 | Actual: 69361.19 |
- Row 850
-
-Mismatch at Row :864 for CRDSecid / ID2 :1888975387 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 305497.92 | Actual: 319888.63 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 864 Mismatch Column Name =Price  |Expected: 13.2935 | Actual: 13.9197 |
-
-
-Mismatch at Row :965 for CRDSecid / ID2 :1888975450 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 145694.6 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 965 Mismatch Column Name =Notional 2  |Expected: 4397 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 33.135 | Actual: 35.175 |
-
-
-Mismatch at Row :701 for CRDSecid / ID2 :1888975782 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 24464.46 | Actual: 28085.7 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 701 Mismatch Column Name =Price  |Expected: 1.4525 | Actual: 1.6675 |
-
-
-Mismatch at Row :697 for CRDSecid / ID2 :1888975806 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 242121.9 | Actual: 247696.1 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 697 Mismatch Column Name =Price  |Expected: 20.415 | Actual: 20.885 |
-
-
-Mismatch at Row :709 for CRDSecid / ID2 :1888975912 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 173660.45 | Actual: 181895.8 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 709 Mismatch Column Name =Price  |Expected: 192.315 | Actual: 201.435 |
-
-
-Mismatch at Row :715 for CRDSecid / ID2 :1888975927 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 205260.98 | Actual: 215628.88 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 715 Mismatch Column Name =Price  |Expected: 78.795 | Actual: 82.775 |
-
-
-Mismatch at Row :698 for CRDSecid / ID2 :1888975770 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 339906.38 | Actual: 351190.13 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 698 Mismatch Column Name =Price  |Expected: 76.815 | Actual: 79.365 |
-
-
-Mismatch at Row :717 for CRDSecid / ID2 :1888975851 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 229440.74 | Actual: 230594.68 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 717 Mismatch Column Name =Price  |Expected: 2.9825 | Actual: 2.9975 |
-
-
-Mismatch at Row :703 for CRDSecid / ID2 :1888975779 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 67301.89 | Actual: 69462.99 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 703 Mismatch Column Name =Price  |Expected: 38.305 | Actual: 39.535 |
-
-
-Mismatch at Row :858 for CRDSecid / ID2 :1888975764 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 62855.72 | Actual: 63503.45 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 858 Mismatch Column Name =Price  |Expected: 1.4556 | Actual: 1.4706 |
-
-
-Mismatch at Row :699 for CRDSecid / ID2 :1888975767 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 96375.46 | Actual: 92067.88 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 699 Mismatch Column Name =Price  |Expected: 36.245 | Actual: 34.625 |
-
-
-Mismatch at Row :716 for CRDSecid / ID2 :1888975944 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 152573.71 | Actual: 149872.1 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 716 Mismatch Column Name =Price  |Expected: 136.105 | Actual: 133.695 |
-
-
-Mismatch at Row :863 for CRDSecid / ID2 :1888975463 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 185871.4 | Actual: 192630.36 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 863 Mismatch Column Name =Price  |Expected: 26.675 | Actual: 27.645 |
-
-
-Mismatch at Row :696 for CRDSecid / ID2 :1888975800 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 22065.1 | Actual: 22130.34 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 696 Mismatch Column Name =Price  |Expected: 23.675 | Actual: 23.745 |
-
-
-Mismatch at Row :670 for CRDSecid / ID2 :1888975275 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -185301.09 | Actual: 185301.09 |
- Row 670
-
-Mismatch at Row :678 for CRDSecid / ID2 :1888975310 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -12605.18 | Actual: 12605.18 |
- Row 678
-
-Mismatch at Row :775 for CRDSecid / ID2 :1888979004 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 113059.84 | Actual: 148381.83 |
- Row 775 Mismatch Column Name =Notional 2  |Expected: 3841 | Actual: 5041 |
-
-
-Mismatch at Row :939 for CRDSecid / ID2 :1888975289 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -15406.48 | Actual: 15406.49 |
- Row 939
-
-Mismatch at Row :786 for CRDSecid / ID2 :1888979155 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 123253.13 | Actual: 204787.18 |
- Row 786 Mismatch Column Name =Notional 2  |Expected: 28028 | Actual: 46569 |
-
-
-Mismatch at Row :937 for CRDSecid / ID2 :1888975454 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -129264.35 | Actual: 129264.35 |
- Row 937
-
-Mismatch at Row :958 for CRDSecid / ID2 :1888979022 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Row 958 Mismatch Column Name =Notional for EQTRSWP CAD   |Expected: -97357.0 | Actual: 97357.42 |
- Mismatch Column Name =Price  |Expected: 1.947882493 | Actual: 2.6125 |
-
-
-Mismatch at Row :962 for CRDSecid / ID2 :1888979001 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -211404.83 | Actual: 211404.82 |
- Row 962
-
-Mismatch at Row :683 for CRDSecid / ID2 :1888975133 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -59762.03 | Actual: 59762.03 |
- Row 683
-
-Mismatch at Row :681 for CRDSecid / ID2 :1888975239 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -157896.51 | Actual: 157896.51 |
- Row 681
-
-Mismatch at Row :679 for CRDSecid / ID2 :1888975283 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -123592.7 | Actual: 123592.7 |
- Row 679
-
-Mismatch at Row :684 for CRDSecid / ID2 :1888975143 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -193781.25 | Actual: 193781.25 |
- Row 684
-
-Mismatch at Row :762 for CRDSecid / ID2 :1888979102 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -189089.82 | Actual: 189089.82 |
- Row 762
-
-Mismatch at Row :765 for CRDSecid / ID2 :1888979092 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -125776.99 | Actual: 125776.99 |
- Row 765
-
-Mismatch at Row :675 for CRDSecid / ID2 :1888975286 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -12221.85 | Actual: 12221.84 |
- Row 675
-
-Mismatch at Row :1083 for CRDSecid / ID2 :1888979063 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -215546.42 | Actual: 215546.41 |
- Row 1083
-
-Mismatch at Row :911 for CRDSecid / ID2 :1888979048 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -293580.71 | Actual: 293580.71 |
- Row 911
-
-Mismatch at Row :879 for CRDSecid / ID2 :1888975122 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP JPY   |Expected: -348252.0 | Actual: 348252 |
- Row 879 Mismatch Column Name =Price  |Expected: 10.49678994 | Actual: 1160.84 |
-
-
-Mismatch at Row :875 for CRDSecid / ID2 :1888975136 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -3471.3 | Actual: 3471.3 |
+Mismatch at Row :875 for Options Tradeid : 77176667  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9577          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
  Row 875
 
-Mismatch at Row :874 for CRDSecid / ID2 :1888975295 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional for EQTRSWP EUR   |Expected: -120975.0 | Actual: 120975.03 |
- Row 874 Mismatch Column Name =Price  |Expected: 0.269251842 | Actual: 0.2408 |
+Mismatch at Row :875 for Options Tradeid : 77176667  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9577          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 875
 
+Mismatch at Row :788 for Options Tradeid : 77176675  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: 504 | Actual: 1004.00 |
+ Row 788
 
-Mismatch at Row :868 for CRDSecid / ID2 :1888975421 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -187460.35 | Actual: 187460.35 |
- Row 868
+Mismatch at Row :787 for Options Tradeid : 77176669  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 787
 
-Mismatch at Row :945 for CRDSecid / ID2 :1888979110 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Mismatch Column Name =Notional for EQTRSWP MXN   |Expected: 4670524.0 | Actual: 4684556.31 |
- Row 945 Mismatch Column Name =Price  |Expected: 43.52681174 | Actual: 861.29 |
+Mismatch at Row :788 for Options Tradeid : 77176675  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: 754 | Actual: 1004.00 |
+ Row 788
 
+Mismatch at Row :787 for Options Tradeid : 77176669  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 787
 
-Mismatch at Row :761 for CRDSecid / ID2 :1888979072 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 32184.18 | Actual: 31959.9 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 761 Mismatch Column Name =Price  |Expected: 10.045 | Actual: 9.975 |
+Mismatch at Row :896 for Options Tradeid : 77176676  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9752          Mismatch Column Name =# of Shares/Options  |Expected: 17703 | Actual: 18453.00 |
+ Row 896
 
+Mismatch at Row :956 for Options Tradeid : 77176678  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: 6735 | Actual: 7235.00 |
+ Row 956
 
-Mismatch at Row :764 for CRDSecid / ID2 :1888979076 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 207524.27 | Actual: 238101.44 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 764 Mismatch Column Name =Price  |Expected: 32.645 | Actual: 37.455 |
+Mismatch at Row :955 for Options Tradeid : 77176670  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 955
 
+Mismatch at Row :956 for Options Tradeid : 77176678  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: 6985 | Actual: 7235.00 |
+ Row 956
 
-Mismatch at Row :754 for CRDSecid / ID2 :1888979069 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 268058.55 | Actual: 274501.45 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 754 Mismatch Column Name =Price  |Expected: 39.525 | Actual: 40.475 |
+Mismatch at Row :955 for Options Tradeid : 77176670  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 955
 
+Mismatch at Row :920 for Options Tradeid : 77066413  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9810          Mismatch Column Name =# of Shares/Options  |Expected: 4679 | Actual: 4929.00 |
+ Row 920
 
-Mismatch at Row :760 for CRDSecid / ID2 :1888979080 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 200448.59 | Actual: 210942.13 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 760 Mismatch Column Name =Price  |Expected: 36.485 | Actual: 38.395 |
+Mismatch at Row :920 for Options Tradeid : 77066413  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9810          Mismatch Column Name =# of Shares/Options  |Expected: 4754 | Actual: 4929.00 |
+ Row 920
 
+Mismatch at Row :782 for Options Tradeid : 77066411  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: 693 | Actual: 943.00 |
+ Row 782
 
-Mismatch at Row :757 for CRDSecid / ID2 :1888979060 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 167433.32 | Actual: 178028.02 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 757 Mismatch Column Name =Price  |Expected: 31.765 | Actual: 33.775 |
+Mismatch at Row :782 for Options Tradeid : 77066411  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: 768 | Actual: 943.00 |
+ Row 782
 
+Mismatch at Row :890 for Options Tradeid : 77066412  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9752          Mismatch Column Name =# of Shares/Options  |Expected: 14046 | Actual: 14546.00 |
+ Row 890
 
-Mismatch at Row :673 for CRDSecid / ID2 :1888974824 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Mismatch Column Name =Notional for EQTRSWP GBP   |Expected: 3436.0 | Actual: 3442.45 |
- Row 673 Mismatch Column Name =Price  |Expected: 1.455504704 | Actual: 1.1471 |
+Mismatch at Row :890 for Options Tradeid : 77066412  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9752          Mismatch Column Name =# of Shares/Options  |Expected: 14621 | Actual: 14546.00 |
+ Row 890
 
+Mismatch at Row :950 for Options Tradeid : 77066414  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: 5407 | Actual: 5657.00 |
+ Row 950
 
-Mismatch at Row :870 for CRDSecid / ID2 :1888975119 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 194548.27 | Actual: 195970.05 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 870 Mismatch Column Name =Price  |Expected: 2.0525 | Actual: 2.0675 |
+Mismatch at Row :950 for Options Tradeid : 77066414  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: 5482 | Actual: 5657.00 |
+ Row 950
 
+Mismatch at Row :783 for Options Tradeid : 77066415  CRDSecid / ID2 :1887198541  |  Product Type EQPTOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: -494 | Actual: 1006.00 |
+ Row 783
 
-Mismatch at Row :957 for CRDSecid / ID2 :1888975168 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 156742.36 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 957 Mismatch Column Name =Notional 2  |Expected: 7843 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 19.985 | Actual: 19.775 |
+Mismatch at Row :1255 for CRDSecid / ID2 :1888979818 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1255
 
+Mismatch at Row :1256 for CRDSecid / ID2 :1888979824 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Row 1256 Mismatch Column Name =Price  |Expected: 89.3791047924063 | Actual: 90.240000 |
 
-Mismatch at Row :877 for CRDSecid / ID2 :1888975252 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 361092.63 | Actual: 365038.71 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 877 Mismatch Column Name =Price  |Expected: 0.6863 | Actual: 0.6938 |
 
+Mismatch at Row :1244 for CRDSecid / ID2 :1888979782 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1244
 
-Mismatch at Row :872 for CRDSecid / ID2 :1888975116 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 142888.08 | Actual: 152413.96 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 872 Mismatch Column Name =Price  |Expected: 0.219 | Actual: 0.2336 |
+Mismatch at Row :1247 for CRDSecid / ID2 :1888979578 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1247
 
+Mismatch at Row :1180 for CRDSecid / ID2 :1888975813 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Row 1180 Mismatch Column Name =Price  |Expected: 289.06186588722403 | Actual: 296.000000 |
 
-Mismatch at Row :878 for CRDSecid / ID2 :1888975243 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Mismatch Column Name =Notional for EQTRSWP CHF   |Expected: 372091.0 | Actual: 372835.46 |
- Row 878 Mismatch Column Name =Price  |Expected: 45.94844579 | Actual: 45.5455 |
 
+Mismatch at Row :1107 for CRDSecid / ID2 :1888979155 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Row 1107 Mismatch Column Name =Price  |Expected: 4.3975 | Actual: 3.280000 |
 
-Mismatch at Row :674 for CRDSecid / ID2 :1888975221 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 125241.95 | Actual: 125634.14 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 674 Mismatch Column Name =Price  |Expected: 4.7901 | Actual: 4.8051 |
 
+Mismatch at Row :1200 for CRDSecid / ID2 :1888975122 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1200 Mismatch Column Name =Price  |Expected: 1621.00000038375 | Actual: 1621.000000 |
 
-Mismatch at Row :869 for CRDSecid / ID2 :1888975148 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 242464.93 | Actual: 245734.11 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 869 Mismatch Column Name =Price  |Expected: 1.1125 | Actual: 1.1275 |
 
+Mismatch at Row :1380 for CRDSecid / ID2 :1905085674 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1380
 
-Mismatch at Row :682 for CRDSecid / ID2 :1888975255 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 79541 | Actual: 79787.4 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 682 Mismatch Column Name =Price  |Expected: 25.825 | Actual: 25.905 |
+Mismatch at Row :1361 for CRDSecid / ID2 :1905085340 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1361
 
+Mismatch at Row :1664 for CRDSecid / ID2 :1887197274 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
+  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2595191.30 |
+ Row 1664
 
-Mismatch at Row :961 for CRDSecid / ID2 :1888975203 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 151540.88 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 961 Mismatch Column Name =Notional 2  |Expected: 3645 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 41.575 | Actual: 43.355 |
+Mismatch at Row :1621 for CRDSecid / ID2 :1887197274 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   70GB        
+  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2595191.30 |
+ Row 1621
 
+Mismatch at Row :985 for CRDSecid / ID2 :1887197274 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   3472        
+  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2595191.30 |
+ Row 985
 
-Mismatch at Row :781 for CRDSecid / ID2 :1888979197 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 104229.05 | Actual: 200288.17 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 781 Mismatch Column Name =Notional 2  |Expected: 6873 | Actual: 12135 |
- Mismatch Column Name =Price  |Expected: 15.165 | Actual: 16.505 |
+Mismatch at Row :1906 for CRDSecid / ID2 :1887197274 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9878        
+  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2595191.30 |
+ Row 1906
 
+Mismatch at Row :1909 for CRDSecid / ID2 :1917649769 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9878        
+  Mismatch Column Name =2nd Leg Notional  |Expected: 2795388.73 | Actual: 2500000.00 |
+ Row 1909
 
-Mismatch at Row :685 for CRDSecid / ID2 :1888975466 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 162077.3 | Actual: 190595.3 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 685 Mismatch Column Name =Price  |Expected: 8.525 | Actual: 10.025 |
+Mismatch at Row :1648 for CRDSecid / ID2 :1917649769 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
+  Mismatch Column Name =2nd Leg Notional  |Expected: 2795388.73 | Actual: 2500000.00 |
+ Row 1648
 
+Mismatch at Row :1903 for CRDSecid / ID2 :1917649769 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9810        
+  Mismatch Column Name =2nd Leg Notional  |Expected: 2795388.73 | Actual: 2500000.00 |
+ Row 1903
 
-Mismatch at Row :1316 for CRDSecid / ID2 :1880234408 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =TradeDate  |Expected: 5/15/2019 | Actual: 5/13/2019 |
- Row 1316
+Mismatch at Row :1895 for CRDSecid / ID2 :1917649769 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
+  Mismatch Column Name =2nd Leg Notional  |Expected: 2795388.73 | Actual: 2500000.00 |
+ Row 1895
 
-Mismatch at Row :1332 for CRDSecid / ID2 :1880234408 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =TradeDate  |Expected: 5/15/2019 | Actual: 5/13/2019 |
- Row 1332
+Mismatch at Row :1660 for CRDSecid / ID2 :1917649729 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9539        
+  Mismatch Column Name =Notional for FITRSWP USD   |Expected: 2500001.0 | Actual: 2500000.00 |
+ Row 1660
 
-Mismatch at Row :1288 for CRDSecid / ID2 :1880234408 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =TradeDate  |Expected: 5/15/2019 | Actual: 5/13/2019 |
- Row 1288
+Mismatch at Row :1647 for CRDSecid / ID2 :1917649729 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
+  Mismatch Column Name =Notional for FITRSWP USD   |Expected: 2500001.0 | Actual: 2500000.00 |
+ Row 1647
 
-Mismatch at Row :677 for CRDSecid / ID2 :1887197916 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 16490.07 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 677 Mismatch Column Name =Notional 2  |Expected: 383 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 43.055 | Actual: 49.605 |
+Mismatch at Row :1902 for CRDSecid / ID2 :1917649729 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9810        
+  Mismatch Column Name =Notional for FITRSWP USD   |Expected: 2500001.0 | Actual: 2500000.00 |
+ Row 1902
 
+Mismatch at Row :1893 for CRDSecid / ID2 :1917649729 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
+  Mismatch Column Name =Notional for FITRSWP USD   |Expected: 2500001.0 | Actual: 2500000.00 |
+ Row 1893
 
-Mismatch at Row :664 for CRDSecid / ID2 :1887197865 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 42309.75 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 664 Mismatch Column Name =Notional 2  |Expected: 1193 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 35.465 | Actual: 35.515 |
+Mismatch at Row :753 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
+  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: null |
+ Row 753
 
+Mismatch at Row :741 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
+  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: null |
+ Row 741
 
-Mismatch at Row :1337 for CRDSecid / ID2 :1880234408 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =TradeDate  |Expected: 5/15/2019 | Actual: 5/13/2019 |
- Row 1337
+Mismatch at Row :753 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
+  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: null |
+ Row 753
 
-Mismatch at Row :671 for CRDSecid / ID2 :1887198167 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 3182000 | Actual: 3164720 |
- Row 671 Mismatch Column Name =Notional 2  |Expected: 795500000 | Actual: 791180000 |
+Mismatch at Row :741 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
+  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: null |
+ Row 741
 
+Mismatch at Row :2287 for CRDSecid / ID2 :1882393800 | ID3 :  |  Product Type INTRTSWP   |  Accno Minor   7AJF        
+  Mismatch Column Name =MaturityDate  |Expected: 2021-05-17 00:00:00 | Actual: 06/19/2019 |
+ Row 2287
 
-Mismatch at Row :672 for CRDSecid / ID2 :1887198163 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -394491.58 | Actual: 394491.58 |
- Row 672
-
-Mismatch at Row :665 for CRDSecid / ID2 :1887198209 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -34164.75 | Actual: 34164.75 |
- Row 665
-
-Mismatch at Row :960 for CRDSecid / ID2 :1887197955 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: -1863.88 | Actual: 1863.87 |
- Row 960
-
-Mismatch at Row :666 for CRDSecid / ID2 :1888974504 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 15791.59 | Actual: 16861.87 |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 666 Mismatch Column Name =Price  |Expected: 15.935 | Actual: 17.015 |
-
-
-Mismatch at Row :956 for CRDSecid / ID2 :1887198046 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 956 Mismatch Column Name =Notional 2  |Expected: 11037 | Actual: NAN |
- Mismatch Column Name =Notional for EQTRSWP CAD   |Expected: 213349.0 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 14.60271209 | Actual: 19.595 |
-
-
-Mismatch at Row :667 for CRDSecid / ID2 :1887197991 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
-  Mismatch Column Name =Notional  |Expected: 201846.33 | Actual: NAN |
- Mismatch Column Name =TradeDate  |Expected: 6/6/2019 | Actual: 5/21/2019 |
- Row 667 Mismatch Column Name =Notional 2  |Expected: 2202 | Actual: NAN |
- Mismatch Column Name =Price  |Expected: 91.665 | Actual: 91.715 |
-
-
-Mismatch at Row :1872 for CRDSecid / ID2 :1887196920 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: 2000000 | Actual: 2653700 |
- Row 1872
-
-Mismatch at Row :1340 for CRDSecid / ID2 :1887196672 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =2nd Leg Notional  |Expected: -1500000 | Actual: 2500000 |
- Mismatch Column Name =Notional  |Expected: -1500000 | Actual: 2500000 |
- Row 1340
-
-Mismatch at Row :1320 for CRDSecid / ID2 :1887196672 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =2nd Leg Notional  |Expected: -1500000 | Actual: 2500000 |
- Mismatch Column Name =Notional  |Expected: -1500000 | Actual: 2500000 |
- Row 1320
-
-Mismatch at Row :1852 for CRDSecid / ID2 :1887196920 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 2000000 | Actual: 2653700 |
- Row 1852
-
-Mismatch at Row :1306 for CRDSecid / ID2 :1887196672 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =2nd Leg Notional  |Expected: -1500000 | Actual: 2500000 |
- Mismatch Column Name =Notional  |Expected: -1500000 | Actual: 2500000 |
- Row 1306
-
-Mismatch at Row :1869 for CRDSecid / ID2 :1887196920 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 2000000 | Actual: 2653700 |
- Row 1869
-
-Mismatch at Row :1327 for CRDSecid / ID2 :1887196672 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =2nd Leg Notional  |Expected: -1500000 | Actual: 2500000 |
- Mismatch Column Name =Notional  |Expected: -1500000 | Actual: 2500000 |
- Row 1327
-
-Mismatch at Row :1870 for CRDSecid / ID2 :1887196836 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2228150 |
- Mismatch Column Name =Notional  |Expected: -2500000 | Actual: 2228150 |
- Row 1870
-
-Mismatch at Row :1853 for CRDSecid / ID2 :1887196836 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2228150 |
- Mismatch Column Name =Notional  |Expected: -2500000 | Actual: 2228150 |
- Row 1853
-
-Mismatch at Row :1865 for CRDSecid / ID2 :1887196836 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2228150 |
- Mismatch Column Name =Notional  |Expected: -2500000 | Actual: 2228150 |
- Row 1865
-
-Mismatch at Row :1319 for CRDSecid / ID2 :1887196653 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 1000000 | Actual: 2000000 |
- Row 1319 Mismatch Column Name =Notional 2  |Expected: 1000000 | Actual: 11543.98489 |
-
-
-Mismatch at Row :1335 for CRDSecid / ID2 :1887196776 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =2nd Leg Notional  |Expected: 1674742.65 | Actual: 2500000 |
- Mismatch Column Name =Notional  |Expected: 1500000 | Actual: 2500000 |
- Row 1335
-
-Mismatch at Row :1334 for CRDSecid / ID2 :1887196653 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 1000000 | Actual: 2000000 |
- Row 1334 Mismatch Column Name =Notional 2  |Expected: 1000000 | Actual: 11543.98489 |
-
-
-Mismatch at Row :1331 for CRDSecid / ID2 :1887196653 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 1000000 | Actual: 2000000 |
- Row 1331 Mismatch Column Name =Notional 2  |Expected: 1000000 | Actual: 11543.98489 |
-
-
-Mismatch at Row :1339 for CRDSecid / ID2 :1887196776 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =2nd Leg Notional  |Expected: 1674742.65 | Actual: 2500000 |
- Mismatch Column Name =Notional  |Expected: 1500000 | Actual: 2500000 |
- Row 1339
-
-Mismatch at Row :1305 for CRDSecid / ID2 :1887196776 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =2nd Leg Notional  |Expected: 1674742.65 | Actual: 2500000 |
- Mismatch Column Name =Notional  |Expected: 1500000 | Actual: 2500000 |
- Row 1305
-
-Mismatch at Row :1304 for CRDSecid / ID2 :1887196653 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 1000000 | Actual: 2000000 |
- Row 1304 Mismatch Column Name =Notional 2  |Expected: 1000000 | Actual: 11543.98489 |
-
-
-Mismatch at Row :1326 for CRDSecid / ID2 :1887196776 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =2nd Leg Notional  |Expected: 1674742.65 | Actual: 2500000 |
- Mismatch Column Name =Notional  |Expected: 1500000 | Actual: 2500000 |
- Row 1326
-
-Mismatch at Row :1291 for CRDSecid / ID2 :1887196653 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 1000000 | Actual: 2000000 |
- Row 1291 Mismatch Column Name =Notional 2  |Expected: 1000000 | Actual: 11543.98489 |
-
-
-Mismatch at Row :1841 for CRDSecid / ID2 :1887196898 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   3472        
-  Mismatch Column Name =Notional  |Expected: -2500000 | Actual: 1016949.15 |
- Row 1841
-
-Mismatch at Row :1864 for CRDSecid / ID2 :1887196816 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2228150 |
- Row 1864
-
-Mismatch at Row :1849 for CRDSecid / ID2 :1887196816 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2228150 |
- Row 1849
-
-Mismatch at Row :1866 for CRDSecid / ID2 :1887196816 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 2228150 |
- Row 1866
-
-Mismatch at Row :1318 for CRDSecid / ID2 :1887196733 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 0 |
- Row 1318 Mismatch Column Name =Notional 2  |Expected: 2500000 | Actual: 0.0000001 |
-
-
-Mismatch at Row :1303 for CRDSecid / ID2 :1887196733 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 0 |
- Row 1303 Mismatch Column Name =Notional 2  |Expected: 2500000 | Actual: 0.0000001 |
-
-
-Mismatch at Row :1333 for CRDSecid / ID2 :1887196733 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 0 |
- Row 1333 Mismatch Column Name =Notional 2  |Expected: 2500000 | Actual: 0.0000001 |
-
-
-Mismatch at Row :1324 for CRDSecid / ID2 :1887196733 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: 2500000 | Actual: 0 |
- Row 1324 Mismatch Column Name =Notional 2  |Expected: 2500000 | Actual: 0.0000001 |
-
-
-Mismatch at Row :586 for CRDSecid / ID2 :1881715926 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: NAN |
- Row 586
-
-Mismatch at Row :586 for CRDSecid / ID2 :1881715926 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: NAN |
- Row 586
-
-Mismatch at Row :579 for CRDSecid / ID2 :1881715926 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: NAN |
- Row 579
-
-Mismatch at Row :579 for CRDSecid / ID2 :1881715926 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: NAN |
- Row 579
-
-Mismatch at Row :484 for CRDSecid / ID2 :1881715926 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: NAN |
- Row 484
-
-Mismatch at Row :484 for CRDSecid / ID2 :1881715926 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: NAN |
- Row 484
-
-Mismatch at Row :563 for CRDSecid / ID2 :1881715926 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: NAN |
- Row 563
-
-Mismatch at Row :563 for CRDSecid / ID2 :1881715926 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: NAN |
- Row 563
-
-Mismatch at Row :580 for CRDSecid / ID2 :1881715935 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =Notional Non USD  |Expected: -2500000 | Actual: 1250000 |
- Row 580
-
-Mismatch at Row :582 for CRDSecid / ID2 :1729135609 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =Notional Non USD  |Expected: -3850000 | Actual: 3798641 |
- Row 582
-
-Mismatch at Row :519 for CRDSecid / ID2 :1672189405 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -1100000 | Actual: 1078000 |
- Row 519
-
-Mismatch at Row :522 for CRDSecid / ID2 :1688734611 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -35000000 | Actual: 34300000 |
- Row 522
-
-Mismatch at Row :524 for CRDSecid / ID2 :1729135609 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional Non USD  |Expected: -21700000 | Actual: 21410522 |
- Row 524
-
-Mismatch at Row :531 for CRDSecid / ID2 :1881712612 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1973320 |
- Row 531
-
-Mismatch at Row :489 for CRDSecid / ID2 :1672189405 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -4270000 | Actual: 4184600 |
- Row 489
-
-Mismatch at Row :485 for CRDSecid / ID2 :1881712603 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1000000 |
- Row 485
-
-Mismatch at Row :492 for CRDSecid / ID2 :1688710461 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -54500000 | Actual: 53410000 |
- Row 492
-
-Mismatch at Row :491 for CRDSecid / ID2 :1729135609 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional Non USD  |Expected: -33100000 | Actual: 32658446 |
- Row 491
-
-Mismatch at Row :502 for CRDSecid / ID2 :1881712612 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1973320 |
- Row 502
-
-Mismatch at Row :460 for CRDSecid / ID2 :1723137174 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   4632        
-  Mismatch Column Name =Notional  |Expected: -1605000 | Actual: 1572900 |
- Row 460
-
-Mismatch at Row :537 for CRDSecid / ID2 :1672189405 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: -3650000 | Actual: 3577000 |
- Row 537
-
-Mismatch at Row :535 for CRDSecid / ID2 :1688710461 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: -45000000 | Actual: 44100000 |
- Row 535
-
-Mismatch at Row :540 for CRDSecid / ID2 :1729135609 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =Notional Non USD  |Expected: -27150000 | Actual: 26787819 |
- Row 540
-
-Mismatch at Row :463 for CRDSecid / ID2 :1881712603 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1000000 |
- Row 463
-
-Mismatch at Row :462 for CRDSecid / ID2 :1881715935 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional Non USD  |Expected: -2500000 | Actual: 1250000 |
- Row 462
-
-Mismatch at Row :471 for CRDSecid / ID2 :1688710461 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -128500000 | Actual: 125930000 |
- Row 471
-
-Mismatch at Row :473 for CRDSecid / ID2 :1729135609 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional Non USD  |Expected: -76000000 | Actual: 74986160 |
- Row 473
-
-Mismatch at Row :480 for CRDSecid / ID2 :1881712612 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1973320 |
- Row 480
-
-Mismatch at Row :528 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 625000 | Actual: 606250 |
- Row 528
-
-Mismatch at Row :528 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 625000 | Actual: 606250 |
- Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Row 528
-
-Mismatch at Row :528 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 1250000 | Actual: 606250 |
- Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Row 528
-
-Mismatch at Row :503 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 625000 | Actual: 606250 |
- Row 503
-
-Mismatch at Row :503 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 625000 | Actual: 606250 |
- Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Row 503
-
-Mismatch at Row :503 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 1250000 | Actual: 606250 |
- Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Row 503
-
-Mismatch at Row :479 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 625000 | Actual: 606250 |
- Row 479
-
-Mismatch at Row :479 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 625000 | Actual: 606250 |
- Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Row 479
-
-Mismatch at Row :479 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 1250000 | Actual: 606250 |
- Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Row 479
-
-Mismatch at Row :561 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 625000 | Actual: 606250 |
- Row 561
-
-Mismatch at Row :561 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 625000 | Actual: 606250 |
- Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Row 561
-
-Mismatch at Row :561 for CRDSecid / ID2 :1881901499 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 1250000 | Actual: 606250 |
- Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Row 561
-
-Mismatch at Row :583 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: USD |
- Row 583
-
-Mismatch at Row :581 for CRDSecid / ID2 :1881712603 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1000000 |
- Row 581
-
-Mismatch at Row :529 for CRDSecid / ID2 :1881901521 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -2500000 | Actual: 2425000 |
- Row 529
-
-Mismatch at Row :530 for CRDSecid / ID2 :1881715919 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: 2500000 |
- Row 530
-
-Mismatch at Row :530 for CRDSecid / ID2 :1881715919 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9539        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: 2500000 |
- Row 530
-
-Mismatch at Row :501 for CRDSecid / ID2 :1881901521 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -2500000 | Actual: 2425000 |
- Row 501
-
-Mismatch at Row :500 for CRDSecid / ID2 :1881715919 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: 2500000 |
- Row 500
-
-Mismatch at Row :500 for CRDSecid / ID2 :1881715919 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: 2500000 |
- Row 500
-
-Mismatch at Row :544 for CRDSecid / ID2 :1881715919 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: 2500000 |
- Row 544
-
-Mismatch at Row :544 for CRDSecid / ID2 :1881715919 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9577        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: 2500000 |
- Row 544
-
-Mismatch at Row :481 for CRDSecid / ID2 :1881901521 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -2500000 | Actual: 2425000 |
- Row 481
-
-Mismatch at Row :458 for CRDSecid / ID2 :1881715919 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   3472        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: 2500000 |
- Row 458
-
-Mismatch at Row :458 for CRDSecid / ID2 :1881715919 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   3472        
-  Mismatch Column Name =TradeDate  |Expected: 6/4/2019 | Actual: 5/14/2019 |
- Mismatch Column Name =Notional Non USD  |Expected: 1250000 | Actual: 2500000 |
- Row 458
-
-Mismatch at Row :560 for CRDSecid / ID2 :1881901521 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -2500000 | Actual: 2425000 |
- Row 560
-
-Mismatch at Row :576 for CRDSecid / ID2 :1781603898 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -200000 | Actual: 196000 |
- Row 576
-
-Mismatch at Row :569 for CRDSecid / ID2 :1645287331 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: -6000000 | Actual: 5880000 |
- Row 569
-
-Mismatch at Row :565 for CRDSecid / ID2 :1881712603 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1000000 |
- Row 565
-
-Mismatch at Row :564 for CRDSecid / ID2 :1881715935 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional Non USD  |Expected: -2500000 | Actual: 1250000 |
- Row 564
-
-Mismatch at Row :577 for CRDSecid / ID2 :1881712612 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1973320 |
- Row 577
-
-Mismatch at Row :578 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
-  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: USD |
- Row 578
-
-Mismatch at Row :553 for CRDSecid / ID2 :1672189405 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -4350000 | Actual: 4263000 |
- Row 553
-
-Mismatch at Row :549 for CRDSecid / ID2 :1881712603 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1000000 |
- Row 549
-
-Mismatch at Row :548 for CRDSecid / ID2 :1881715935 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional Non USD  |Expected: -2500000 | Actual: 1250000 |
- Row 548
-
-Mismatch at Row :554 for CRDSecid / ID2 :1688710461 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -17000000 | Actual: 16660000 |
- Row 554
-
-Mismatch at Row :556 for CRDSecid / ID2 :1729135609 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional Non USD  |Expected: -17200000 | Actual: 16970552 |
- Row 556
-
-Mismatch at Row :562 for CRDSecid / ID2 :1881712612 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional Non USD  |Expected: 2000000 | Actual: 1973320 |
- Row 562
-
-Mismatch at Row :1583 for CRDSecid / ID2 :1882393940 | ID3 :  |  Product Type INTRTSWP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional Non USD  |Expected: -1000000 | Actual: 2500000 |
- Row 1583
-
-Mismatch at Row :1528 for CRDSecid / ID2 :1882393940 | ID3 :  |  Product Type INTRTSWP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional Non USD  |Expected: -1000000 | Actual: 2500000 |
- Row 1528
-
-Mismatch at Row :1479 for CRDSecid / ID2 :1882393940 | ID3 :  |  Product Type INTRTSWP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional Non USD  |Expected: -1000000 | Actual: 2500000 |
- Row 1479
-
-Mismatch at Row :1652 for CRDSecid / ID2 :1882393940 | ID3 :  |  Product Type INTRTSWP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional Non USD  |Expected: -1000000 | Actual: 2500000 |
- Row 1652
-
-Mismatch at Row :1831 for Options Tradeid : 77090534  CRDSecid / ID2 :1892193176  |  Product Type PASWPCDX   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: -2820619.86 | Actual: 2500000 |
- Row 1831
-
-Mismatch at Row :1815 for Options Tradeid : 77090532  CRDSecid / ID2 :1892193176  |  Product Type PASWPCDX   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: -2820619.86 | Actual: 2500000 |
- Row 1815
-
-Mismatch at Row :1825 for Options Tradeid : 77090531  CRDSecid / ID2 :1892193176  |  Product Type PASWPCDX   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: -2820619.86 | Actual: 2500000 |
- Row 1825
-
-Mismatch at Row :1808 for Options Tradeid : 77090533  CRDSecid / ID2 :1892193176  |  Product Type PASWPCDX   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -2820619.86 | Actual: 2500000 |
- Row 1808
-
-Mismatch at Row :1806 for Options Tradeid : 77146538  CRDSecid / ID2 :1894296511  |  Product Type PASWPCDX   |  Accno Minor   3472        
-  Mismatch Column Name =Protection  |Expected: L | Actual: Buy |
- Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: NAN |
- Row 1806
-
-Mismatch at Row :1824 for Options Tradeid : 77146539  CRDSecid / ID2 :1894296511  |  Product Type PASWPCDX   |  Accno Minor   9539        
-  Mismatch Column Name =Protection  |Expected: L | Actual: Buy |
- Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: NAN |
- Row 1824
-
-Mismatch at Row :1817 for Options Tradeid : 77146540  CRDSecid / ID2 :1894296511  |  Product Type PASWPCDX   |  Accno Minor   7AJF        
-  Mismatch Column Name =Protection  |Expected: L | Actual: Buy |
- Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: NAN |
- Row 1817
-
-Mismatch at Row :1822 for Options Tradeid : 77112507  CRDSecid / ID2 :1894296469  |  Product Type PASWPCDX   |  Accno Minor   9539        
-  Mismatch Column Name =Protection  |Expected: L | Actual: Buy |
- Row 1822
-
-Mismatch at Row :1829 for Options Tradeid : 77112508  CRDSecid / ID2 :1894296469  |  Product Type PASWPCDX   |  Accno Minor   9752        
-  Mismatch Column Name =Protection  |Expected: L | Actual: Buy |
- Row 1829
-
-Mismatch at Row :1836 for Options Tradeid : 77112510  CRDSecid / ID2 :1894296469  |  Product Type PASWPCDX   |  Accno Minor   9878        
-  Mismatch Column Name =Protection  |Expected: L | Actual: Buy |
- Row 1836
-
-Mismatch at Row :1813 for Options Tradeid : 77112509  CRDSecid / ID2 :1894296469  |  Product Type PASWPCDX   |  Accno Minor   70GB        
-  Mismatch Column Name =Protection  |Expected: L | Actual: Buy |
- Row 1813
-
-Mismatch at Row :1820 for Options Tradeid : 77094597  CRDSecid / ID2 :1894296441  |  Product Type PASWPCDX   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: -2500000 | Actual: NAN |
- Row 1820
-
-Mismatch at Row :1810 for Options Tradeid : 77094599  CRDSecid / ID2 :1894296441  |  Product Type PASWPCDX   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: -2500000 | Actual: NAN |
- Row 1810
-
-Mismatch at Row :1827 for Options Tradeid : 77094598  CRDSecid / ID2 :1894296441  |  Product Type PASWPCDX   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: -2500000 | Actual: NAN |
- Row 1827
-
-Mismatch at Row :1833 for Options Tradeid : 77094600  CRDSecid / ID2 :1894296441  |  Product Type PASWPCDX   |  Accno Minor   9878        
-  Mismatch Column Name =Notional  |Expected: -2500000 | Actual: NAN |
- Row 1833
-
-Mismatch at Row :1799 for Options Tradeid : 77045197  CRDSecid / ID2 :1885758248  |  Product Type PAYSWPOP   |  Accno Minor   9878        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1799
-
-Mismatch at Row :1788 for Options Tradeid : 77045195  CRDSecid / ID2 :1885758248  |  Product Type PAYSWPOP   |  Accno Minor   9577        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1788
-
-Mismatch at Row :1767 for Options Tradeid : 77045196  CRDSecid / ID2 :1885758248  |  Product Type PAYSWPOP   |  Accno Minor   70GB        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1767
-
-Mismatch at Row :1760 for Options Tradeid : 77045194  CRDSecid / ID2 :1885758248  |  Product Type PAYSWPOP   |  Accno Minor   3472        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1760
-
-Mismatch at Row :1762 for Options Tradeid : 77066888  CRDSecid / ID2 :1889517406  |  Product Type PAYSWPOP   |  Accno Minor   3472        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1762
-
-Mismatch at Row :1781 for Options Tradeid : 77045173  CRDSecid / ID2 :1885758187  |  Product Type PAYSWPOP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 2256495.89 | Actual: 2000000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1781
-
-Mismatch at Row :1785 for Options Tradeid : 77066886  CRDSecid / ID2 :1889517406  |  Product Type PAYSWPOP   |  Accno Minor   9539        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1785
-
-Mismatch at Row :1770 for Options Tradeid : 77045174  CRDSecid / ID2 :1885758187  |  Product Type PAYSWPOP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 2256495.89 | Actual: 2000000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1770
-
-Mismatch at Row :1773 for Options Tradeid : 77066885  CRDSecid / ID2 :1889517406  |  Product Type PAYSWPOP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1773
-
-Mismatch at Row :1794 for Options Tradeid : 77045177  CRDSecid / ID2 :1885758187  |  Product Type PAYSWPOP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 2256495.89 | Actual: 2000000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1794
-
-Mismatch at Row :1789 for Options Tradeid : 77066887  CRDSecid / ID2 :1889517406  |  Product Type PAYSWPOP   |  Accno Minor   9577        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1789
-
-Mismatch at Row :1765 for Options Tradeid : 77045176  CRDSecid / ID2 :1885758187  |  Product Type PAYSWPOP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 2256495.89 | Actual: 2000000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1765
-
-Mismatch at Row :1790 for Options Tradeid : 77045175  CRDSecid / ID2 :1885758187  |  Product Type PAYSWPOP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 2256495.89 | Actual: 2000000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1790
-
-Mismatch at Row :1783 for Options Tradeid : 77045199  CRDSecid / ID2 :1885758259  |  Product Type PAYSWPOP   |  Accno Minor   9539        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1783
-
-Mismatch at Row :1768 for Options Tradeid : 77045201  CRDSecid / ID2 :1885758259  |  Product Type PAYSWPOP   |  Accno Minor   70GB        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1768
-
-Mismatch at Row :1761 for Options Tradeid : 77045198  CRDSecid / ID2 :1885758259  |  Product Type PAYSWPOP   |  Accno Minor   3472        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1761
-
-Mismatch at Row :1791 for Options Tradeid : 77045200  CRDSecid / ID2 :1885758259  |  Product Type PAYSWPOP   |  Accno Minor   9752        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  PAYSWPOP | Actual: BNY sent  SWO |
- Row 1791
-
-Mismatch at Row :1795 for Options Tradeid : 77045185  CRDSecid / ID2 :1885758211  |  Product Type RECSWPOP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: 2500000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1795
-
-Mismatch at Row :1786 for Options Tradeid : 77045183  CRDSecid / ID2 :1885758211  |  Product Type RECSWPOP   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: 2500000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1786
-
-Mismatch at Row :1766 for Options Tradeid : 77045184  CRDSecid / ID2 :1885758211  |  Product Type RECSWPOP   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: 2500000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1766
-
-Mismatch at Row :1759 for Options Tradeid : 77045182  CRDSecid / ID2 :1885758211  |  Product Type RECSWPOP   |  Accno Minor   3472        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: 2500000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1759
-
-Mismatch at Row :1793 for Options Tradeid : 77072512  CRDSecid / ID2 :1889517346  |  Product Type RECSWPOP   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 1271294.18 | Actual: 1000000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1793
-
-Mismatch at Row :1796 for Options Tradeid : 77045193  CRDSecid / ID2 :1885758235  |  Product Type RECSWPOP   |  Accno Minor   9810        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: 2500000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1796
-
-Mismatch at Row :1782 for Options Tradeid : 77045191  CRDSecid / ID2 :1885758235  |  Product Type RECSWPOP   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: 2500000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1782
-
-Mismatch at Row :1771 for Options Tradeid : 77045192  CRDSecid / ID2 :1885758235  |  Product Type RECSWPOP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: 2500000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1771
-
-Mismatch at Row :1787 for Options Tradeid : 77045190  CRDSecid / ID2 :1885758235  |  Product Type RECSWPOP   |  Accno Minor   9577        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: 2500000 |
- Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1787
-
-Mismatch at Row :1772 for Options Tradeid : 77045202  CRDSecid / ID2 :1885758271  |  Product Type RECSWPOP   |  Accno Minor   7AJF        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1772
-
-Mismatch at Row :1797 for Options Tradeid : 77045204  CRDSecid / ID2 :1885758271  |  Product Type RECSWPOP   |  Accno Minor   9810        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1797
-
-Mismatch at Row :1769 for Options Tradeid : 77045203  CRDSecid / ID2 :1885758271  |  Product Type RECSWPOP   |  Accno Minor   70GB        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1769
-
-Mismatch at Row :1800 for Options Tradeid : 77045205  CRDSecid / ID2 :1885758271  |  Product Type RECSWPOP   |  Accno Minor   9878        
-  Mismatch Column Name =Product Type  |Expected: DERMA sheet has  RECSWPOP | Actual: BNY sent  SWO |
- Row 1800
-
-Mismatch at Row :1830 for Options Tradeid : 77112513  CRDSecid / ID2 :1894296483  |  Product Type RESWPCDX   |  Accno Minor   9752        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: NAN |
- Row 1830
-
-Mismatch at Row :1823 for Options Tradeid : 77112512  CRDSecid / ID2 :1894296483  |  Product Type RESWPCDX   |  Accno Minor   9539        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: NAN |
- Row 1823
-
-Mismatch at Row :1814 for Options Tradeid : 77112514  CRDSecid / ID2 :1894296483  |  Product Type RESWPCDX   |  Accno Minor   70GB        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: NAN |
- Row 1814
-
-Mismatch at Row :1805 for Options Tradeid : 77112511  CRDSecid / ID2 :1894296483  |  Product Type RESWPCDX   |  Accno Minor   3472        
-  Mismatch Column Name =Notional  |Expected: 2820619.86 | Actual: NAN |
- Row 1805
-
-TOTAL CRDSecids Validated: 1585 | TOTAL ROWS PASSED: 813 | TOTAL ROWS WITH MISMATCHES: 491| TOTAL ROWS NOT FOUND:281|
+TOTAL CRDSecids Validated: 2230 | TOTAL ROWS PASSED: 1800 | TOTAL ROWS WITH MISMATCHES: 76| TOTAL ROWS NOT FOUND:354|
 
 1881715911
 1881715802
 1892193093
-875402689
 876906659
 877172560
 877174342
 878754270
+875402689
 777091908
-776532146
-822335758
 794211015
-Options trade 347277146570
-Options trade 347277146578
-Options trade 953977138936
-Options trade 953977138940
+Options trade 981077186666
+Options trade 981077202831
+Options trade 957777186664
+Options trade 957777202829
+Options trade 70GB77186665
+Options trade 70GB77202830
+Options trade 347277186663
+Options trade 953977044831
+Options trade 953977194905
 Options trade 7AJF77044832
-Options trade 7AJF77138937
-Options trade 7AJF77138941
 Options trade 981077044833
-Options trade 981077146567
-Options trade 981077138938
-Options trade 981077138942
-Options trade 981077146575
 Options trade 957777044830
-Options trade 957777146569
-Options trade 957777138935
-Options trade 957777138939
-Options trade 957777146577
-Options trade 70GB77146568
-Options trade 70GB77146576
-Options trade 953977152634
-Options trade 953977146565
-Options trade 953977138915
-Options trade 953977138919
-Options trade 7AJF77146564
-Options trade 7AJF77138923
-Options trade 7AJF77138916
-Options trade 7AJF77138920
-Options trade 7AJF77138927
-Options trade 7AJF77150649
-Options trade 981077138926
-Options trade 981077138930
-Options trade 957777152635
-Options trade 957777146566
-Options trade 70GB77138925
-Options trade 70GB77138918
-Options trade 70GB77138922
-Options trade 70GB77138929
-Options trade 975277138924
-Options trade 975277138917
-Options trade 975277138921
-Options trade 975277138928
-Options trade 987877152632
-Options trade 987877146563
+Options trade 957777194904
+Options trade 347277194903
+Options trade 953977039996
+Options trade 953977044810
+Options trade 7AJF77044811
+Options trade 957777039995
+Options trade 70GB77044813
+Options trade 975277044812
+Options trade 987877039998
 Options trade 9752770448441
 Options trade 97527711882315
 NAN
-Options trade 953977162902
-Options trade 953977162915
-Options trade 7AJF77162901
-Options trade 7AJF77162914
-Options trade 957777162903
-Options trade 957777162916
-Options trade 975277162904
-Options trade 975277162917
-Options trade 77138913
-Options trade 981077138913
-Options trade 77138911
-Options trade 77138912
-Options trade 975277138912
-Options trade 77138914
-Options trade 987877138914
-Options trade 77162928
-Options trade 981077162928
-Options trade 981077162932
-Options trade 77162926
-Options trade 70GB77162926
-Options trade 70GB77162930
-Options trade 77162927
-Options trade 975277162927
-Options trade 975277162931
-Options trade 77162929
-Options trade 987877162929
-Options trade 987877162933
+Options trade 770444778
+Options trade 953977233843
+Options trade 953977233870
+Options trade 7AJF77233842
+Options trade 7AJF77233869
+Options trade 957777233844
+Options trade 957777233871
+Options trade 975277233845
+Options trade 975277233872
+Options trade 981077233766
+Options trade 981077233770
+Options trade 70GB77233764
+Options trade 70GB77233768
+Options trade 975277233765
+Options trade 975277233769
+Options trade 987877233767
+Options trade 987877233771
+Options trade 77176628
+Options trade 77176630
+Options trade 77176627
+Options trade 77176629
 1880234417
 1816498470
 1888976013
@@ -2821,122 +736,88 @@ Options trade 987877162933
 1888975869
 1888980174
 1888979544
-1888979655
 1888974610
 1839195078
 1816498396
 1816498387
 1888979083
 1888979019
+1905085933
 1839195072
 1816498384
 1816498481
 1816498445
 1887197874
-1887197901
+1905085314
+1916518205
 1887198087
+1887196796
+1887196672
 1887196920
 1866316628
+1887196776
 1887196898
+1887196653
+1911967758
 1863961332
 1881715952
 1713003403
+1757982264
+1624153328
 1712992227
 1713003597
-1762995043
 733643302
+1516700723
 1065663361
 1101343817
+1320895464
 764231981
 979063395
 742011162
+1762995043
 937363445
 918883079
 Options trade 77066456
-Options trade 77140866
 Options trade 77066457
-Options trade 77140865
 Options trade 77066459
-Options trade 77140864
 Options trade 77066458
-Options trade 77140867
-Options trade 77094618
 Options trade 77094619
+Options trade 77146539
 Options trade 77094620
+Options trade 77146540
+Options trade 77094618
+Options trade 77146538
 Options trade 77045167
 Options trade 77045168
 Options trade 77045166
 Options trade 77045153
-Options trade 77140841
-Options trade 77152544
-Options trade 77045156
-Options trade 77140844
-Options trade 77152541
-Options trade 77045155
-Options trade 77140843
-Options trade 77152542
 Options trade 77045154
-Options trade 77140840
-Options trade 77152543
+Options trade 77045156
 Options trade 77045152
-Options trade 77140842
-Options trade 77152545
-Options trade 77140828
-Options trade 77144634
-Options trade 77140827
-Options trade 77144633
-Options trade 77140829
-Options trade 77144631
-Options trade 77150617
-Options trade 77152573
-Options trade 77150621
-Options trade 77152575
-Options trade 77150622
-Options trade 77152576
-Options trade 77150619
-Options trade 77152574
-Options trade 77140886
-Options trade 77140906
-Options trade 77140885
-Options trade 77140905
-Options trade 77140887
-Options trade 77140907
-Options trade 77140901
-Options trade 77140904
+Options trade 77045155
+Options trade 77094597
+Options trade 77094599
+Options trade 77094598
+Options trade 77094600
+Options trade 77225780
+Options trade 77225790
 Options trade 77054365
-Options trade 77140850
-Options trade 77140888
-Options trade 77140927
-Options trade 77140932
 Options trade 77054364
-Options trade 77140851
-Options trade 77140889
-Options trade 77140925
-Options trade 77140930
+Options trade 77225779
+Options trade 77225789
 Options trade 77054363
-Options trade 77140852
-Options trade 77140890
-Options trade 77140926
-Options trade 77140931
-Options trade 77045164
-Options trade 77140825
-Options trade 77140848
+Options trade 77225781
+Options trade 77225791
+Options trade 77225782
+Options trade 77225792
+Options trade 77112512
+Options trade 77112514
+Options trade 77112511
+Options trade 77112513
 Options trade 77045163
 Options trade 77045162
-Options trade 77140823
-Options trade 77140847
-Options trade 77140826
-Options trade 77140846
 Options trade 77045161
-Options trade 77140824
-Options trade 77140849
-1474422763
-1556877769
-1474422702
-1478662108
-1555301799
-1607782786
-1763532306</pre>
+Options trade 77045164</pre>
       </div>
     </div>
   </div>

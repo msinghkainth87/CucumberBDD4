@@ -1,4 +1,417 @@
-14:59:01.734 [print] [{"Swap Id":"410374","Description":"NYSEGB00B4K4X773/3MUSDLIB3M1T","Broker Id":"CITIUS33XXX","Trade Date":"7/18/2017","Effective Date":"6/20/2017","Settle Date":"7/19/2017","Maturity Date":"6/20/2022","Account Abbreviation":"70GB","Notional":"1070000.9","Rate":"0","Payment Frequency Description":"Zero Coupon","Initial Payment":"","Interest Payment Method Description":"ACT/360","First Payment Date":"9/20/2017","Strike Price":"","Underlying Sec":"GB00B4K4X773","Product Type":"EQS","Sell Product Type":"EQS","Dealer Trade ID":"","Currency Code":"USD","Executing Broker":"","Independent Amount (%)":"0","Independent Amount ($)":"0","ISIN":"GB00B4K4X773","Protection":"","Issuer Name":"","Option Type":"","Settlement Amount":"","Fixing Index Name":"","Fixing Term":"","Business Day Convention":"Modified Following","RED":"","Spread":"0","CapFloor Rate":"","PutCall":"","OptionBuySellIndicator":"","# of Shares/Options":"","Settlement Currency":"","Initial Price":"","Attachment Point":"","Exhaustion Point":"","Tier":"","Restructuring Event":"","Payment EOM":"","Payoff":"","Equity Underlying Identifier":"GB00B4K4X773","Equity Identifier Type":"ISIN","Exchange Code":"NYSE","Front End Protection":"","Option Trade Date":"","Option Days to Settle":"","Option Notional":"","Option Exercise Start Date":"","Option Exercise End Date":"","Option Exercise Frequency":"","MTM USD":"49992.49","MTM LCL":"49992.49","ACCRUED USD":"13894.44","ACCRUED LCL":"13894.44","Pay/Receive":"Pay","FX Rate":"","Rate 2":"0","Type 1":"TotalReturn","Type 2":"FLOAT","Notional 2":"8567.236011","Currency Code 2":"USD","Fixing Index Name 2":"LIB3M","Fixing Term 2":"3M","Fixing Date":"","Fixing Date 2":"3/18/2019","Interest Payment Method Description 2":"ACT/360","Payer 1":"3472","Payer 2":"CITIUS33XXX","Notional XG":"","Notional XG 2":"","Arrears":"","Arrears 2":"","Payment Frequency Description 2":"Quarterly","First Payment Date 2":"6/20/2019","Business Day Convention 2":"Modified Following","Spread 2":"0","Underlying Type":"INDEX","Tax Rate":"","Dividend Reinvestment":"N","Payment Delay":"3D","Payment DOM":"20","Payment Delay 2":"0D","Payment DOM 2":"20","Resetting Notional":"Y","2nd Leg Currency":"USD","PV01":"","Strategy":"","Notes 1":"0000JLYJ","Notes 2":"0000JLYK","2nd Leg Notional":"2500000","Option Expiration Date":"","Discount Factor":"","Cost Amount":"","Cost Amount CCY":"","Index Version":"","MTM Base":"","CCY Base":"","Notes 3":"","Notes 4":"","Risk Annuity":"","Broker":"CITIUS33XXX","Counterparty Trade Ref ID":"","ID1":"generatedbyCSM","ID2":"1887196755","ID3":"1887196756","ConversationID":"1.89E+13","AssetUnderlyingTicker":"IBOXIG","AssetUnderlyingLongName":"IBOXX USD LIQUID INVESTMENT GRADE INDEX","PricingDaysGap":"0D","SwapLastResetDate":"3/20/2019","SwapNextResetDate":"6/20/2019","LastEqtyResetDate":"3/20/2019","LastEqtyResetPrice":"291.8094","IntFixingRate":"2.63263","AllinRate":"2.63263","CurrentPeriodUnrealizedAccrualStartDate":"3/20/2019","EqtyMarketPrice":"287.5959","UnrealizedReturnAmount":"36098.04893","PriorDaySwapAccrualAmt":"182.82","SwapSpotSettlementDate":"6/3/2019","ProjectedSwapAccrual":"13894.44","SwapDiscountFactor":"1","SwapNextSettleDate":"6/20/2019","PendingRealizedEqtyAmt":"","PendingRealizedFinanceAmt":"","PendingRealizedSettlementAmounts":"","PendingRealizedSettlementDate":"","TriOptimaReportDate":"6/3/2019","DivRatio":"100","SwapFinalvaluationDate":"6/22/2020","InitialEqtyPrice":"291.8094","CR01":"","INF01":"","Delta":"","Gamma":"","Vega":"","Alpha":"","Theta":"","Rho":"","CAPendingRealizedAmt":"","CAPendingRealizedCcy":"","TradeType":"OTC","Cpty_Trade_Ref_Id":"","GTM_Ref_Id":"1b5299627b2611e9824d0a4428260000","APX_Ref_Id":"","Acct_System_Id":"","USI_Id":"","UPI_Id":"","SEF_ID":"","ID4":"IBOXIG","ID5":"OTC","ID6":"","ID7":"","ID8":"","ID9":"","ID10":"","CCP_Fee":"","FCM_Fee":"","ACCRUED_INCOME_PTD_LOCAL_FIX":"","ACCRUED_INCOME_PTD_LOCAL_FLO":"0","DAYS_INT_EARNED_FIX":"","DAYS_INT_EARNED_FLO":"76","DefaultAccrualSettlement":"","DefaultPaytime":"","Calendar":"","OptionSettlementMethod":"","AccrualDelta":"548.464583","ALC_TRADE_ID":"77058404"},{"Swap Id":"410458","Description":"NYSEGB00B4K4X773/1TUSD1T","Broker Id":"CSFPGB2LXXX","Trade Date":"5/20/2019","Effective Date":"6/20/2019","Settle Date":"7/19/2017","Maturity Date":"6/20/2022","Account Abbreviation":"9539","Notional":"4220000.8","Rate":"0","Payment Frequency Description":"Zero Coupon","Initial Payment":"","Interest Payment Method Description":"ACT/360","First Payment Date":"9/20/2017","Strike Price":"","Underlying Sec":"GB00B4K4X773","Product Type":"EQS","Sell Product Type":"EQS","Dealer Trade ID":"","Currency Code":"USD","Executing Broker":"","Independent Amount (%)":"0","Independent Amount ($)":"0","ISIN":"GB00B4K4X773","Protection":"","Issuer Name":"","Option Type":"","Settlement Amount":"","Fixing Index Name":"","Fixing Term":"","Business Day Convention":"Modified Following","RED":"","Spread":"0","CapFloor Rate":"","PutCall":"","OptionBuySellIndicator":"","# of Shares/Options":"","Settlement Currency":"","Initial Price":"","Attachment Point":"","Exhaustion Point":"","Tier":"","Restructuring Event":"","Payment EOM":"","Payoff":"","Equity Underlying Identifier":"GB00B4K4X773","Equity Identifier Type":"ISIN","Exchange Code":"NYSE","Front End Protection":"","Option Trade Date":"","Option Days to Settle":"","Option Notional":"","Option Exercise Start Date":"","Option Exercise End Date":"","Option Exercise Frequency":"","MTM USD":"49019.41","MTM LCL":"49019.41","ACCRUED USD":"13894.44","ACCRUED LCL":"13894.44","Pay/Receive":"Pay","FX Rate":"","Rate 2":"0","Type 1":"TotalReturn","Type 2":"FLOAT","Notional 2":"8570.619505","Currency Code 2":"USD","Fixing Index Name 2":"","Fixing Term 2":"1T","Fixing Date":"","Fixing Date 2":"3/18/2019","Interest Payment Method Description 2":"ACT/360","Payer 1":"3472","Payer 2":"CSFPGB2LXXX","Notional XG":"","Notional XG 2":"","Arrears":"","Arrears 2":"","Payment Frequency Description 2":"Zero Coupon","First Payment Date 2":"6/20/2019","Business Day Convention 2":"Modified Following","Spread 2":"0","Underlying Type":"INDEX","Tax Rate":"","Dividend Reinvestment":"N","Payment Delay":"3D","Payment DOM":"20","Payment Delay 2":"0D","Payment DOM 2":"20","Resetting Notional":"Y","2nd Leg Currency":"USD","PV01":"","Strategy":"","Notes 1":"0000JM2X","Notes 2":"0000JM2Y","2nd Leg Notional":"2500000","Option Expiration Date":"","Discount Factor":"","Cost Amount":"","Cost Amount CCY":"","Index Version":"","MTM Base":"","CCY Base":"","Notes 3":"","Notes 4":"","Risk Annuity":"","Broker":"CSFPGB2LXXX","Counterparty Trade Ref ID":"","ID1":"generatedbyCSM","ID2":"1887197274","ID3":"1887197275","ConversationID":"1.89E+13","AssetUnderlyingTicker":"IBOXIG","AssetUnderlyingLongName":"IBOXX USD LIQUID INVESTMENT GRADE INDEX","PricingDaysGap":"0D","SwapLastResetDate":"3/20/2019","SwapNextResetDate":"6/20/2019","LastEqtyResetDate":"3/20/2019","LastEqtyResetPrice":"291.6942","IntFixingRate":"2.63263","AllinRate":"2.63263","CurrentPeriodUnrealizedAccrualStartDate":"3/20/2019","EqtyMarketPrice":"287.5959","UnrealizedReturnAmount":"35124.96992","PriorDaySwapAccrualAmt":"182.82","SwapSpotSettlementDate":"6/3/2019","ProjectedSwapAccrual":"13894.44","SwapDiscountFactor":"1","SwapNextSettleDate":"6/25/2019","PendingRealizedEqtyAmt":"","PendingRealizedFinanceAmt":"","PendingRealizedSettlementAmounts":"","PendingRealizedSettlementDate":"","TriOptimaReportDate":"6/3/2019","DivRatio":"100","SwapFinalvaluationDate":"6/20/2019","InitialEqtyPrice":"291.6942","CR01":"","INF01":"","Delta":"","Gamma":"","Vega":"","Alpha":"","Theta":"","Rho":"","CAPendingRealizedAmt":"","CAPendingRealizedCcy":"","TradeType":"OTC","Cpty_Trade_Ref_Id":"","GTM_Ref_Id":"1066dad27b3411e9824d0a4428260000","APX_Ref_Id":"","Acct_System_Id":"","USI_Id":"","UPI_Id":"","SEF_ID":"","ID4":"IBOXIG","ID5":"OTC","ID6":"","ID7":"","ID8":"","ID9":"","ID10":"","CCP_Fee":"","FCM_Fee":"","ACCRUED_INCOME_PTD_LOCAL_FIX":"","ACCRUED_INCOME_PTD_LOCAL_FLO":"0","DAYS_INT_EARNED_FIX":"","DAYS_INT_EARNED_FLO":"76","DefaultAccrualSettlement":"","DefaultPaytime":"","Calendar":"","OptionSettlementMethod":"","AccrualDelta":"548.464583","ALC_TRADE_ID":"0"},{"Swap Id":"410478","Description":"NYSEGB00B4Q2XT74/3MUSDLIB3M1T","Broker Id":"CHASGB2LDPC","Trade Date":"5/20/2019","Effective Date":"6/20/2017","Settle Date":"7/19/2017","Maturity Date":"6/20/2021","Account Abbreviation":"909","Notional":"4840000","Rate":"0","Payment Frequency Description":"Zero Coupon","Initial Payment":"","Interest Payment Method Description":"ACT/360","First Payment Date":"9/20/2017","Strike Price":"","Underlying Sec":"GB00B4Q2XT74","Product Type":"EQS","Sell Product Type":"EQS","Dealer Trade ID":"","Currency Code":"USD","Executing Broker":"","Independent Amount (%)":"0","Independent Amount ($)":"0","ISIN":"GB00B4Q2XT74","Protection":"","Issuer Name":"","Option Type":"","Settlement Amount":"-15558.97","Fixing Index Name":"","Fixing Term":"","Business Day Convention":"Modified Following","RED":"","Spread":"0","CapFloor Rate":"","PutCall":"","OptionBuySellIndicator":"","# of Shares/Options":"","Settlement Currency":"","Initial Price":"","Attachment Point":"","Exhaustion Point":"","Tier":"","Restructuring Event":"","Payment EOM":"","Payoff":"","Equity Underlying Identifier":"GB00B4Q2XT74","Equity Identifier Type":"ISIN","Exchange Code":"NYSE","Front End Protection":"","Option Trade Date":"","Option Days to Settle":"","Option Notional":"","Option Exercise Start Date":"","Option Exercise End Date":"","Option Exercise Frequency":"","MTM USD":"0","MTM LCL":"0","ACCRUED USD":"0","ACCRUED LCL":"0","Pay/Receive":"Receive","FX Rate":"","Rate 2":"0","Type 1":"TotalReturn","Type 2":"FLOAT","Notional 2":"","Currency Code 2":"USD","Fixing Index Name 2":"LIB3M","Fixing Term 2":"3M","Fixing Date":"","Fixing Date 2":"3/18/2019","Interest Payment Method Description 2":"ACT/360","Payer 1":"CHASGB2LDPC","Payer 2":"3472","Notional XG":"","Notional XG 2":"","Arrears":"","Arrears 2":"","Payment Frequency Description 2":"Quarterly","First Payment Date 2":"5/29/2019","Business Day Convention 2":"Modified Following","Spread 2":"0","Underlying Type":"INDEX","Tax Rate":"","Dividend Reinvestment":"N","Payment Delay":"3D","Payment DOM":"20","Payment Delay 2":"0D","Payment DOM 2":"20","Resetting Notional":"Y","2nd Leg Currency":"USD","PV01":"","Strategy":"","Notes 1":"0000JM3R","Notes 2":"0000JM3S","2nd Leg Notional":"","Option Expiration Date":"","Discount Factor":"","Cost Amount":"","Cost Amount CCY":"","Index Version":"","MTM Base":"","CCY Base":"","Notes 3":"","Notes 4":"","Risk Annuity":"","Broker":"CHASGB2LDPC","Counterparty Trade Ref ID":"","ID1":"","ID2":"1887196692","ID3":"1887196691","ConversationID":"1.89E+13","AssetUnderlyingTicker":"IBXXLLTR","AssetUnderlyingLongName":"MARKIT IBOXX USD LIQUID LEVERAGED LOANS TOTAL RETURN INDEX","PricingDaysGap":"0D","SwapLastResetDate":"","SwapNextResetDate":"","LastEqtyResetDate":"3/20/2019","LastEqtyResetPrice":"173.2504","IntFixingRate":"0","AllinRate":"0","CurrentPeriodUnrealizedAccrualStartDate":"3/20/2019","EqtyMarketPrice":"170","UnrealizedReturnAmount":"0","PriorDaySwapAccrualAmt":"","SwapSpotSettlementDate":"6/3/2019","ProjectedSwapAccrual":"0","SwapDiscountFactor":"1","SwapNextSettleDate":"","PendingRealizedEqtyAmt":"0","PendingRealizedFinanceAmt":"0","PendingRealizedSettlementAmounts":"0","PendingRealizedSettlementDate":"6/3/2019","TriOptimaReportDate":"6/3/2019","DivRatio":"100","SwapFinalvaluationDate":"5/29/2019","InitialEqtyPrice":"173.2504","CR01":"","INF01":"","Delta":"","Gamma":"","Vega":"","Alpha":"","Theta":"","Rho":"","CAPendingRealizedAmt":"","CAPendingRealizedCcy":"","TradeType":"OTC","Cpty_Trade_Ref_Id":"","GTM_Ref_Id":"daad1794824511e9b39b0a4428260000","APX_Ref_Id":"","Acct_System_Id":"","USI_Id":"","UPI_Id":"","SEF_ID":"","ID4":"IBXXLLTR","ID5":"XXZ2","ID6":"","ID7":"","ID8":"","ID9":"","ID10":"","CCP_Fee":"","FCM_Fee":"","ACCRUED_INCOME_PTD_LOCAL_FIX":"","ACCRUED_INCOME_PTD_LOCAL_FLO":"","DAYS_INT_EARNED_FIX":"","DAYS_INT_EARNED_FLO":"","DefaultAccrualSettlement":"","DefaultPaytime":"","Calendar":"","OptionSettlementMethod":"","AccrualDelta":"0","ALC_TRADE_ID":"77062395"},{"Swap Id":"410499","Description":"LNB1VS333/1MUSDLIB1M1M","Broker Id":"CITIUS33XXX","Trade Date":"5/21/2019","Effective Date":"6/20/2017","Settle Date":"7/19/2017","Maturity Date":"6/20/2022","Account Abbreviation":"9752","Notional":"8140000","Rate":"0","Payment Frequency Description":"Monthly","Initial Payment":"","Interest Payment Method Description":"ACT/360","First Payment Date":"9/20/2017","Strike Price":"","Underlying Sec":"B1VS333","Product Type":"EQS","Sell Product Type":"EQS","Dealer Trade ID":"","Currency Code":"USD","Executing Broker":"","Independent Amount (%)":"0","Independent Amount ($)":"0","ISIN":"JE00B1VS3333","Protection":"","Issuer Name":"","Option Type":"","Settlement Amount":"","Fixing Index Name":"","Fixing Term":"","Business Day Convention":"Modified Following","RED":"","Spread":"-0.4","CapFloor Rate":"","PutCall":"","OptionBuySellIndicator":"","# of Shares/Options":"","Settlement Currency":"","Initial Price":"","Attachment Point":"","Exhaustion Point":"","Tier":"","Restructuring Event":"","Payment EOM":"","Payoff":"","Equity Underlying Identifier":"B1VS333","Equity Identifier Type":"SEDOL(UK)","Exchange Code":"LN","Front End Protection":"","Option Trade Date":"","Option Days to Settle":"","Option Notional":"","Option Exercise Start Date":"","Option Exercise End Date":"","Option Exercise Frequency":"","MTM USD":"8508.18","MTM LCL":"8508.18","ACCRUED USD":"99.86","ACCRUED LCL":"99.86","Pay/Receive":"Pay","FX Rate":"","Rate 2":"0","Type 1":"TotalReturn","Type 2":"FLOAT","Notional 2":"10000","Currency Code 2":"USD","Fixing Index Name 2":"LIB1M","Fixing Term 2":"1M","Fixing Date":"","Fixing Date 2":"6/14/2019","Interest Payment Method Description 2":"ACT/360","Payer 1":"3472","Payer 2":"BOFAUS3DEQN","Notional XG":"","Notional XG 2":"","Arrears":"","Arrears 2":"","Payment Frequency Description 2":"Monthly","First Payment Date 2":"6/19/2019","Business Day Convention 2":"Modified Following","Spread 2":"-0.004","Underlying Type":"STOCK","Tax Rate":"","Dividend Reinvestment":"N","Payment Delay":"0D","Payment DOM":"15","Payment Delay 2":"0D","Payment DOM 2":"15","Resetting Notional":"Y","2nd Leg Currency":"USD","PV01":"","Strategy":"","Notes 1":"0000JM51","Notes 2":"0000JM52","2nd Leg Notional":"147650","Option Expiration Date":"","Discount Factor":"","Cost Amount":"","Cost Amount CCY":"","Index Version":"","MTM Base":"","CCY Base":"","Notes 3":"","Notes 4":"","Risk Annuity":"","Broker":"CITIUS33XXX","Counterparty Trade Ref ID":"","ID1":"generatedbyCSM","ID2":"1887179523","ID3":"1887179524","ConversationID":"1.89E+13","AssetUnderlyingTicker":"PHAG","AssetUnderlyingLongName":"ETFS PHYSICAL SILVER","PricingDaysGap":"-2D","SwapLastResetDate":"5/23/2019","SwapNextResetDate":"6/19/2019","LastEqtyResetDate":"5/21/2019","LastEqtyResetPrice":"14.765","IntFixingRate":"2.42963","AllinRate":"2.02963","CurrentPeriodUnrealizedAccrualStartDate":"5/23/2019","EqtyMarketPrice":"13.925","UnrealizedReturnAmount":"8400","PriorDaySwapAccrualAmt":"8.32","SwapSpotSettlementDate":"6/5/2019","ProjectedSwapAccrual":"108.18","SwapDiscountFactor":"1","SwapNextSettleDate":"6/19/2019","PendingRealizedEqtyAmt":"","PendingRealizedFinanceAmt":"","PendingRealizedSettlementAmounts":"","PendingRealizedSettlementDate":"","TriOptimaReportDate":"6/3/2019","DivRatio":"100","SwapFinalvaluationDate":"1/15/2020","InitialEqtyPrice":"14.765","CR01":"","INF01":"","Delta":"","Gamma":"","Vega":"","Alpha":"","Theta":"","Rho":"","CAPendingRealizedAmt":"","CAPendingRealizedCcy":"","TradeType":"OTC","Cpty_Trade_Ref_Id":"","GTM_Ref_Id":"661cd0447be311e9824d0a4428260000","APX_Ref_Id":"","Acct_System_Id":"","USI_Id":"","UPI_Id":"","SEF_ID":"","ID4":"B1VS333","ID5":"LSE","ID6":"14.79","ID7":"250","ID8":"","ID9":"","ID10":"","CCP_Fee":"","FCM_Fee":"","ACCRUED_INCOME_PTD_LOCAL_FIX":"","ACCRUED_INCOME_PTD_LOCAL_FLO":"0","DAYS_INT_EARNED_FIX":"","DAYS_INT_EARNED_FLO":"1","DefaultAccrualSettlement":"","DefaultPaytime":"","Calendar":"","OptionSettlementMethod":"","AccrualDelta":"24.972906","ALC_TRADE_ID":"77076441"},{"Swap Id":"410528","Description":"USBD86CY8/1MUSDLIB1M1M","Broker Id":"BARCUS33XXX","Trade Date":"5/21/2019","Effective Date":"6/20/2017","Settle Date":"7/19/2017","Maturity Date":"6/20/2022","Account Abbreviation":"9539","Notional":"1400000","Rate":"0","Payment Frequency Description":"Monthly","Initial Payment":"","Interest Payment Method Description":"ACT/360","First Payment Date":"9/20/2017","Strike Price":"","Underlying Sec":"BD86CY8","Product Type":"EQS","Sell Product Type":"EQS","Dealer Trade ID":"","Currency Code":"USD","Executing Broker":"","Independent Amount (%)":"0","Independent Amount ($)":"0","ISIN":"CA03852X1006","Protection":"","Issuer Name":"","Option Type":"","Settlement Amount":"","Fixing Index Name":"","Fixing Term":"","Business Day Convention":"Modified Following","RED":"","Spread":"0.4","CapFloor Rate":"","PutCall":"","OptionBuySellIndicator":"","# of Shares/Options":"","Settlement Currency":"","Initial Price":"","Attachment Point":"","Exhaustion Point":"","Tier":"","Restructuring Event":"","Payment EOM":"","Payoff":"","Equity Underlying Identifier":"BD86CY8","Equity Identifier Type":"SEDOL(UK)","Exchange Code":"US","Front End Protection":"","Option Trade Date":"","Option Days to Settle":"","Option Notional":"","Option Exercise Start Date":"","Option Exercise End Date":"","Option Exercise Frequency":"","MTM USD":"-193994.2","MTM LCL":"-193994.2","ACCRUED USD":"-375.06","ACCRUED LCL":"-375.06","Pay/Receive":"Receive","FX Rate":"","Rate 2":"0","Type 1":"TotalReturn","Type 2":"FLOAT","Notional 2":"52321052","Currency Code 2":"USD","Fixing Index Name 2":"LIB1M","Fixing Term 2":"1M","Fixing Date":"","Fixing Date 2":"5/21/2019","Interest Payment Method Description 2":"ACT/360","Payer 1":"MSCSUS33XXX","Payer 2":"4568","Notional XG":"","Notional XG 2":"","Arrears":"","Arrears 2":"","Payment Frequency Description 2":"Monthly","First Payment Date 2":"6/19/2019","Business Day Convention 2":"Modified Following","Spread 2":"0.004","Underlying Type":"STOCK","Tax Rate":"","Dividend Reinvestment":"N","Payment Delay":"0D","Payment DOM":"15","Payment Delay 2":"0D","Payment DOM 2":"15","Resetting Notional":"Y","2nd Leg Currency":"USD","PV01":"","Strategy":"","Notes 1":"0000JM6X","Notes 2":"0000JM6Y","2nd Leg Notional":"397640","Option Expiration Date":"","Discount Factor":"","Cost Amount":"","Cost Amount CCY":"","Index Version":"","MTM Base":"","CCY Base":"","Notes 3":"","Notes 4":"","Risk Annuity":"","Broker":"BARCUS33XXX","Counterparty Trade Ref ID":"","ID1":"generatedbyCSM","ID2":"1887197857","ID3":"1887197859","ConversationID":"1.89E+13","AssetUnderlyingTicker":"ARLZQ","AssetUnderlyingLongName":"ARALEZ PHARMACEUTICALS INC","PricingDaysGap":"-2D","SwapLastResetDate":"5/23/2019","SwapNextResetDate":"6/19/2019","LastEqtyResetDate":"5/21/2019","LastEqtyResetPrice":"0.0076","IntFixingRate":"2.42963","AllinRate":"2.82963","CurrentPeriodUnrealizedAccrualStartDate":"5/23/2019","EqtyMarketPrice":"0.0039","UnrealizedReturnAmount":"-193587.8924","PriorDaySwapAccrualAmt":"-31.25","SwapSpotSettlementDate":"6/5/2019","ProjectedSwapAccrual":"-406.31","SwapDiscountFactor":"1","SwapNextSettleDate":"6/19/2019","PendingRealizedEqtyAmt":"","PendingRealizedFinanceAmt":"","PendingRealizedSettlementAmounts":"","PendingRealizedSettlementDate":"","TriOptimaReportDate":"6/3/2019","DivRatio":"100","SwapFinalvaluationDate":"1/15/2020","InitialEqtyPrice":"0.0076","CR01":"","INF01":"","Delta":"","Gamma":"","Vega":"","Alpha":"","Theta":"","Rho":"","CAPendingRealizedAmt":"","CAPendingRealizedCcy":"","TradeType":"OTC","Cpty_Trade_Ref_Id":"","GTM_Ref_Id":"c965022c7beb11e9824d0a4428260000","APX_Ref_Id":"","Acct_System_Id":"","USI_Id":"","UPI_Id":"","SEF_ID":"","ID4":"BD86CY8","ID5":"OOTC","ID6":"0.00385","ID7":"196203.95","ID8":"","ID9":"","ID10":"","CCP_Fee":"","FCM_Fee":"","ACCRUED_INCOME_PTD_LOCAL_FIX":"","ACCRUED_INCOME_PTD_LOCAL_FLO":"0","DAYS_INT_EARNED_FIX":"","DAYS_INT_EARNED_FLO":"12","DefaultAccrualSettlement":"","DefaultPaytime":"","Calendar":"","OptionSettlementMethod":"","AccrualDelta":"-93.764506","ALC_TRADE_ID":"77056529"},{"Swap Id":"410547","Description":"USB01DFS0/1MUSDLIB1M1M","Broker Id":"MSCSUS33XXX","Trade Date":"8/2/2017","Effective Date":"6/20/2017","Settle Date":"5/23/2019","Maturity Date":"6/20/2022","Account Abbreviation":"70GB","Notional":"-360000","Rate":"0","Payment Frequency Description":"Monthly","Initial Payment":"","Interest Payment Method Description":"ACT/360","First Payment Date":"9/20/2017","Strike Price":"","Underlying Sec":"B01DFS0","Product Type":"EQS","Sell Product Type":"EQS","Dealer Trade ID":"","Currency Code":"USD","Executing Broker":"","Independent Amount (%)":"0","Independent Amount ($)":"0","ISIN":"GB0002374006","Protection":"","Issuer Name":"","Option Type":"","Settlement Amount":"-19.17","Fixing Index Name":"","Fixing Term":"","Business Day Convention":"Modified Following","RED":"","Spread":"0.4","CapFloor Rate":"","PutCall":"","OptionBuySellIndicator":"","# of Shares/Options":"","Settlement Currency":"USD","Initial Price":"","Attachment Point":"","Exhaustion Point":"","Tier":"","Restructuring Event":"","Payment EOM":"","Payoff":"","Equity Underlying Identifier":"B01DFS0","Equity Identifier Type":"SEDOL(UK)","Exchange Code":"US","Front End Protection":"","Option Trade Date":"","Option Days to Settle":"","Option Notional":"","Option Exercise Start Date":"","Option Exercise End Date":"","Option Exercise Frequency":"","MTM USD":"8886.31","MTM LCL":"8886.31","ACCRUED USD":"-39.96","ACCRUED LCL":"-39.96","Pay/Receive":"Receive","FX Rate":"","Rate 2":"0","Type 1":"TotalReturn","Type 2":"FLOAT","Notional 2":"1193","Currency Code 2":"USD","Fixing Index Name 2":"LIB1M","Fixing Term 2":"1M","Fixing Date":"","Fixing Date 2":"5/21/2019","Interest Payment Method Description 2":"ACT/360","Payer 1":"MSCSUS33XXX","Payer 2":"4568","Notional XG":"","Notional XG 2":"","Arrears":"","Arrears 2":"","Payment Frequency Description 2":"Monthly","First Payment Date 2":"6/19/2019","Business Day Convention 2":"Modified Following","Spread 2":"0.004","Underlying Type":"STOCK","Tax Rate":"","Dividend Reinvestment":"N","Payment Delay":"0D","Payment DOM":"15","Payment Delay 2":"0D","Payment DOM 2":"15","Resetting Notional":"Y","2nd Leg Currency":"USD","PV01":"","Strategy":"","Notes 1":"0000JM84","Notes 2":"0000JM85","2nd Leg Notional":"42369.4","Option Expiration Date":"","Discount Factor":"","Cost Amount":"","Cost Amount CCY":"","Index Version":"","MTM Base":"","CCY Base":"","Notes 3":"","Notes 4":"","Risk Annuity":"","Broker":"MSCSUS33XXX","Counterparty Trade Ref ID":"","ID1":"","ID2":"1887197865","ID3":"1887197866","ConversationID":"1.89E+13","AssetUnderlyingTicker":"DGEAF","AssetUnderlyingLongName":"DIAGEO PLC","PricingDaysGap":"-2D","SwapLastResetDate":"5/23/2019","SwapNextResetDate":"6/19/2019","LastEqtyResetDate":"5/21/2019","LastEqtyResetPrice":"35.515","IntFixingRate":"2.42963","AllinRate":"2.82963","CurrentPeriodUnrealizedAccrualStartDate":"5/23/2019","EqtyMarketPrice":"43","UnrealizedReturnAmount":"8929.605","PriorDaySwapAccrualAmt":"-3.33","SwapSpotSettlementDate":"6/5/2019","ProjectedSwapAccrual":"-43.29","SwapDiscountFactor":"1","SwapNextSettleDate":"6/19/2019","PendingRealizedEqtyAmt":"","PendingRealizedFinanceAmt":"","PendingRealizedSettlementAmounts":"","PendingRealizedSettlementDate":"","TriOptimaReportDate":"6/3/2019","DivRatio":"100","SwapFinalvaluationDate":"1/15/2020","InitialEqtyPrice":"35.515","CR01":"","INF01":"","Delta":"","Gamma":"","Vega":"","Alpha":"","Theta":"","Rho":"","CAPendingRealizedAmt":"","CAPendingRealizedCcy":"","TradeType":"OTC","Cpty_Trade_Ref_Id":"","GTM_Ref_Id":"18191c4c823511e9b39b0a4428260000","APX_Ref_Id":"","Acct_System_Id":"","USI_Id":"","UPI_Id":"","SEF_ID":"","ID4":"B01DFS0","ID5":"OOTC","ID6":"35.49","ID7":"36.45","ID8":"","ID9":"","ID10":"","CCP_Fee":"","FCM_Fee":"","ACCRUED_INCOME_PTD_LOCAL_FIX":"","ACCRUED_INCOME_PTD_LOCAL_FLO":"0","DAYS_INT_EARNED_FIX":"","DAYS_INT_EARNED_FLO":"12","DefaultAccrualSettlement":"","DefaultPaytime":"","Calendar":"","OptionSettlementMethod":"","AccrualDelta":"-9.99081","ALC_TRADE_ID":"77056506"}]
+15:01:09.441 [print] 
+
+Mismatch at Row :442 for Trade ID :68757160 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 442 Mismatch Column Name =Broker Id  |Expected: HSBC | Actual: MRMDUS33XXX |
+
+
+Mismatch at Row :1570 for Trade ID :71559669 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1570 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1668 for Trade ID :71559674 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1668 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1630 for Trade ID :71559677 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1630 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1569 for Trade ID :71635889 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1569 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1667 for Trade ID :71635894 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1667 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1758 for Trade ID :71635895 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1758 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1629 for Trade ID :71635897 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1629 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1714 for Trade ID :71559673 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1714 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1759 for Trade ID :71559675 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1759 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1571 for Trade ID :71831649 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1571 Mismatch Column Name =First Payment Date  |Expected: 2/23/2019 0:00 | Actual: 2/25/2019 |
+
+
+Mismatch at Row :1573 for Trade ID :71910643 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1573 Mismatch Column Name =Effective Date  |Expected: 2/28/2018 0:00 | Actual: 3/1/2018 |
+
+
+No Match Found for  Trade ID :76974070 | SEC_TYP_CD :SWAPIRS  
+ RESULT: Failed
+
+Mismatch at Row :1521 for Trade ID :73775232 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1521 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1504 for Trade ID :73799970 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1504 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :130 for Trade ID :72220379 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 130 Mismatch Column Name =First Payment Date  |Expected: 6/20/2018 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 12/20/2017 |
+
+
+Mismatch at Row :287 for Trade ID :72220380 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 287 Mismatch Column Name =First Payment Date  |Expected: 6/20/2018 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 12/20/2017 |
+
+
+Mismatch at Row :1578 for Trade ID :72227653 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1578 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
+
+
+Mismatch at Row :1673 for Trade ID :72227656 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1673 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
+
+
+Mismatch at Row :1564 for Trade ID :73362737 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1564 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
+
+
+Mismatch at Row :1763 for Trade ID :73362742 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1763 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
+
+
+Mismatch at Row :1633 for Trade ID :73362744 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1633 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
+
+
+Mismatch at Row :471 for Trade ID :76365500 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 471 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1580 for Trade ID :73775231 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1580 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :473 for Trade ID :76356277 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 473 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1719 for Trade ID :73775235 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1719 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1674 for Trade ID :73775236 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1674 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1765 for Trade ID :73775237 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1765 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1635 for Trade ID :73775239 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1635 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1581 for Trade ID :73799969 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1581 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :474 for Trade ID :76425942 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 474 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1625 for Trade ID :73799977 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1625 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1675 for Trade ID :73799974 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1675 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1766 for Trade ID :73799975 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1766 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
+
+
+Mismatch at Row :1583 for Trade ID :74183729 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1583 Mismatch Column Name =First Payment Date  |Expected: 2/2/2019 0:00 | Actual: 2/4/2019 |
+
+
+Mismatch at Row :1720 for Trade ID :74183733 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1720 Mismatch Column Name =First Payment Date  |Expected: 2/2/2019 0:00 | Actual: 2/4/2019 |
+
+
+Mismatch at Row :1721 for Trade ID :74200761 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1721 Mismatch Column Name =Effective Date  |Expected: 8/7/2018 0:00 | Actual: 8/6/2018 |
+
+
+Mismatch at Row :1723 for Trade ID :74214174 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1723 Mismatch Column Name =Effective Date  |Expected: 8/8/2018 0:00 | Actual: 8/9/2018 |
+
+
+Mismatch at Row :154 for Trade ID :74793103 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 154 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :295 for Trade ID :74793107 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 295 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :424 for Trade ID :74793108 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 424 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :260 for Trade ID :74793110 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 260 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :6 for Trade ID :74809678 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 6 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :1516 for Trade ID :71910644 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1516 Mismatch Column Name =Effective Date  |Expected: 2/28/2018 0:00 | Actual: 3/1/2018 |
+
+
+Mismatch at Row :1509 for Trade ID :72227654 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1509 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
+
+
+Mismatch at Row :1590 for Trade ID :75503637 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1590 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1797 for Trade ID :75503639 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1797 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1728 for Trade ID :75503641 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1728 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1680 for Trade ID :75503642 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1680 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1773 for Trade ID :75503643 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1773 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :472 for Trade ID :76356248 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 472 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1531 for Trade ID :75636381 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1531 Mismatch Column Name =Effective Date  |Expected: 11/13/2018 0:00 | Actual: 11/14/2018 |
+
+
+Mismatch at Row :1528 for Trade ID :75503638 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1528 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
+
+
+Mismatch at Row :1510 for Trade ID :71559670 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1510 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1503 for Trade ID :71635890 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1503 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
+
+
+Mismatch at Row :1514 for Trade ID :71831650 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1514 Mismatch Column Name =First Payment Date  |Expected: 2/23/2019 0:00 | Actual: 2/25/2019 |
+
+
+Mismatch at Row :1790 for Trade ID :75992314 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1790 Mismatch Column Name =First Payment Date  |Expected: 12/11/2019 0:00 | Actual: 6/11/2019 |
+
+
+Mismatch at Row :496 for Trade ID :76356247 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 496 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :1519 for Trade ID :73362738 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1519 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
+
+
+Mismatch at Row :566 for Trade ID :76356252 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 566 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :548 for Trade ID :76356253 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 548 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :585 for Trade ID :76356254 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 585 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :529 for Trade ID :76356256 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 529 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :497 for Trade ID :76356276 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 497 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :567 for Trade ID :76356281 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 567 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :549 for Trade ID :76356282 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 549 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :586 for Trade ID :76356283 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 586 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :521 for Trade ID :76356285 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 521 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :495 for Trade ID :76365499 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 495 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :547 for Trade ID :76365504 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 547 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :583 for Trade ID :76365505 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 583 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :528 for Trade ID :76365507 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 528 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+No Match Found for  Trade ID :76366139 | SEC_TYP_CD :SWAPIRS  
+ RESULT: Failed
+
+Mismatch at Row :498 for Trade ID :76425941 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 498 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :539 for Trade ID :76425946 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 539 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :587 for Trade ID :76425947 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 587 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :530 for Trade ID :76425949 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 530 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :64 for Trade ID :74793104 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 64 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :457 for Trade ID :76602822 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 457 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :588 for Trade ID :76626012 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 588 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
+
+
+Mismatch at Row :597 for Trade ID :76753011 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Mismatch Column Name =Notional  |Expected: ALC_EXEC_QTY * SEC_FACTOR 804080.0 | Actual: 874000 |
+ Mismatch Column Name =Settle Date  |Expected: 43546 | Actual: 3/22/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 43545 | Actual: 3/21/2019 |
+ Row 597 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name=Issuer Name Trans  |Expected: CDX EM CDSI S21 5YR PRC 06/20/2019 | Actual: ITRAXX_EUROPE_30_1 |
+ Mismatch Column Name =First Payment Date  |Expected: 43636 | Actual: 6/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 43363 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 43636 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :590 for Trade ID :76753013 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Mismatch Column Name =Notional  |Expected: ALC_EXEC_QTY * SEC_FACTOR 135424.0 | Actual: 147200 |
+ Mismatch Column Name =Settle Date  |Expected: 43546 | Actual: 3/22/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 43545 | Actual: 3/21/2019 |
+ Row 590 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name=Issuer Name Trans  |Expected: CDX EM CDSI S21 5YR PRC 06/20/2019 | Actual: ITRAXX_EUROPE_30_1 |
+ Mismatch Column Name =First Payment Date  |Expected: 43636 | Actual: 6/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 43363 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 43636 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1594 for Trade ID :76974068 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
+ Mismatch Column Name =Pay/Receive  |Expected: R | Actual: Receive |
+ Row 1594 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
+ Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =First Payment Date  |Expected: 4/16/2022 0:00 | Actual: 4/18/2022 |
+
+
+Mismatch at Row :1730 for Trade ID :76974069 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
+ Mismatch Column Name =Pay/Receive  |Expected: R | Actual: Receive |
+ Row 1730 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
+ Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =First Payment Date  |Expected: 4/16/2022 0:00 | Actual: 4/18/2022 |
+
+
+Mismatch at Row :1775 for Trade ID :76974071 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
+ Mismatch Column Name =Pay/Receive  |Expected: R | Actual: Receive |
+ Row 1775 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
+ Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =First Payment Date  |Expected: 4/16/2022 0:00 | Actual: 4/18/2022 |
+
+
+No Match Found for  Trade ID :0 | SEC_TYP_CD :0  
+ RESULT: Failed
+
+No Match Found for  Trade ID :0 | SEC_TYP_CD :0  
+ RESULT: Failed
+
+TOTAL CRDSecids Validated: 641 | TOTAL ROWS PASSED: 558 | TOTAL ROWS WITH MISMATCHES: 83|| TOTAL ROWS NOT FOUND:4|
+
+76974070,76366139,0,0,
+Option Days to Settle":"","Option Notional":"","Option Exercise Start Date":"","Option Exercise End Date":"","Option Exercise Frequency":"","MTM USD":"8886.31","MTM LCL":"8886.31","ACCRUED USD":"-39.96","ACCRUED LCL":"-39.96","Pay/Receive":"Receive","FX Rate":"","Rate 2":"0","Type 1":"TotalReturn","Type 2":"FLOAT","Notional 2":"1193","Currency Code 2":"USD","Fixing Index Name 2":"LIB1M","Fixing Term 2":"1M","Fixing Date":"","Fixing Date 2":"5/21/2019","Interest Payment Method Description 2":"ACT/360","Payer 1":"MSCSUS33XXX","Payer 2":"4568","Notional XG":"","Notional XG 2":"","Arrears":"","Arrears 2":"","Payment Frequency Description 2":"Monthly","First Payment Date 2":"6/19/2019","Business Day Convention 2":"Modified Following","Spread 2":"0.004","Underlying Type":"STOCK","Tax Rate":"","Dividend Reinvestment":"N","Payment Delay":"0D","Payment DOM":"15","Payment Delay 2":"0D","Payment DOM 2":"15","Resetting Notional":"Y","2nd Leg Currency":"USD","PV01":"","Strategy":"","Notes 1":"0000JM84","Notes 2":"0000JM85","2nd Leg Notional":"42369.4","Option Expiration Date":"","Discount Factor":"","Cost Amount":"","Cost Amount CCY":"","Index Version":"","MTM Base":"","CCY Base":"","Notes 3":"","Notes 4":"","Risk Annuity":"","Broker":"MSCSUS33XXX","Counterparty Trade Ref ID":"","ID1":"","ID2":"1887197865","ID3":"1887197866","ConversationID":"1.89E+13","AssetUnderlyingTicker":"DGEAF","AssetUnderlyingLongName":"DIAGEO PLC","PricingDaysGap":"-2D","SwapLastResetDate":"5/23/2019","SwapNextResetDate":"6/19/2019","LastEqtyResetDate":"5/21/2019","LastEqtyResetPrice":"35.515","IntFixingRate":"2.42963","AllinRate":"2.82963","CurrentPeriodUnrealizedAccrualStartDate":"5/23/2019","EqtyMarketPrice":"43","UnrealizedReturnAmount":"8929.605","PriorDaySwapAccrualAmt":"-3.33","SwapSpotSettlementDate":"6/5/2019","ProjectedSwapAccrual":"-43.29","SwapDiscountFactor":"1","SwapNextSettleDate":"6/19/2019","PendingRealizedEqtyAmt":"","PendingRealizedFinanceAmt":"","PendingRealizedSettlementAmounts":"","PendingRealizedSettlementDate":"","TriOptimaReportDate":"6/3/2019","DivRatio":"100","SwapFinalvaluationDate":"1/15/2020","InitialEqtyPrice":"35.515","CR01":"","INF01":"","Delta":"","Gamma":"","Vega":"","Alpha":"","Theta":"","Rho":"","CAPendingRealizedAmt":"","CAPendingRealizedCcy":"","TradeType":"OTC","Cpty_Trade_Ref_Id":"","GTM_Ref_Id":"18191c4c823511e9b39b0a4428260000","APX_Ref_Id":"","Acct_System_Id":"","USI_Id":"","UPI_Id":"","SEF_ID":"","ID4":"B01DFS0","ID5":"OOTC","ID6":"35.49","ID7":"36.45","ID8":"","ID9":"","ID10":"","CCP_Fee":"","FCM_Fee":"","ACCRUED_INCOME_PTD_LOCAL_FIX":"","ACCRUED_INCOME_PTD_LOCAL_FLO":"0","DAYS_INT_EARNED_FIX":"","DAYS_INT_EARNED_FLO":"12","DefaultAccrualSettlement":"","DefaultPaytime":"","Calendar":"","OptionSettlementMethod":"","AccrualDelta":"-9.99081","ALC_TRADE_ID":"77056506"}]
 14:59:01.893 [print] 
 
 Mismatch at Row :1 for Trade ID :77058404 | SEC_TYP_CD :SWAPCDS | Product Type  : EQS

@@ -1,0 +1,2082 @@
+19:15:25.013 [print] 
+
+No Match Found for  Trade ID :78466637 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466631 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466636 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466635 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466633 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466634 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466639 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+TOTAL CRDSecids Validated: 84 | TOTAL ROWS PASSED: 77 | TOTAL ROWS WITH MISMATCHES: 7|| TOTAL ROWS NOT FOUND:7|
+
+78466637,78466631,78466636,78466635,78466633,78466634,78466639,
+ for Trade ID :77395148 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 2044
+
+Mismatch at Row :2045 for Trade ID :77424956 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 2045
+
+Mismatch at Row :2080 for Trade ID :77424960 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 2080
+
+Mismatch at Row :2102 for Trade ID :77424959 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 2102
+
+Mismatch at Row :2120 for Trade ID :77424957 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 2120
+
+Mismatch at Row :2139 for Trade ID :77424958 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 2139
+
+Mismatch at Row :1997 for Trade ID :77395153 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 1997
+
+Mismatch at Row :1965 for Trade ID :77395155 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 1965
+
+Mismatch at Row :2036 for Trade ID :77673945 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.34 | Actual: 1.340000 |
+ Row 2036
+
+Mismatch at Row :2071 for Trade ID :77673950 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.34 | Actual: 1.340000 |
+ Row 2071
+
+Mismatch at Row :2093 for Trade ID :77673949 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.34 | Actual: 1.340000 |
+ Row 2093
+
+Mismatch at Row :2111 for Trade ID :77673947 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.34 | Actual: 1.340000 |
+ Row 2111
+
+Mismatch at Row :2133 for Trade ID :77673948 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.34 | Actual: 1.340000 |
+ Row 2133
+
+Mismatch at Row :1998 for Trade ID :77424961 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 1998
+
+Mismatch at Row :1966 for Trade ID :77424963 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 108 | Actual: 108.000000 |
+ Row 1966
+
+Mismatch at Row :2077 for Trade ID :78526839 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.131 | Actual: 1.131000 |
+ Row 2077
+
+Mismatch at Row :1957 for Trade ID :77673953 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.34 | Actual: 1.340000 |
+ Row 1957
+
+Mismatch at Row :1989 for Trade ID :77673951 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.34 | Actual: 1.340000 |
+ Row 1989
+
+Mismatch at Row :1995 for Trade ID :78526842 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.131 | Actual: 1.131000 |
+ Row 1995
+
+Mismatch at Row :2099 for Trade ID :78538720 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.131 | Actual: 1.131000 |
+ Row 2099
+
+Mismatch at Row :2037 for Trade ID :78105956 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2037
+
+Mismatch at Row :2072 for Trade ID :78105961 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2072
+
+Mismatch at Row :2094 for Trade ID :78105960 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2094
+
+Mismatch at Row :2112 for Trade ID :78105958 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2112
+
+Mismatch at Row :2132 for Trade ID :78105959 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2132
+
+Mismatch at Row :2134 for Trade ID :78538721 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.131 | Actual: 1.131000 |
+ Row 2134
+
+Mismatch at Row :1963 for Trade ID :78526841 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.131 | Actual: 1.131000 |
+ Row 1963
+
+Mismatch at Row :1990 for Trade ID :78105962 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 1990
+
+Mismatch at Row :2038 for Trade ID :78273611 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.1225 | Actual: 1.122500 |
+ Row 2038
+
+Mismatch at Row :2113 for Trade ID :78273613 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.1225 | Actual: 1.122500 |
+ Row 2113
+
+Mismatch at Row :2073 for Trade ID :78434405 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2073
+
+Mismatch at Row :2095 for Trade ID :78434404 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2095
+
+Mismatch at Row :2114 for Trade ID :78434402 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2114
+
+Mismatch at Row :2136 for Trade ID :78434403 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2136
+
+Mismatch at Row :1958 for Trade ID :78105964 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 1958
+
+Mismatch at Row :1991 for Trade ID :78434406 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 1991
+
+Mismatch at Row :2041 for Trade ID :78492456 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.125 | Actual: 1.125000 |
+ Row 2041
+
+Mismatch at Row :2075 for Trade ID :78492461 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.125 | Actual: 1.125000 |
+ Row 2075
+
+Mismatch at Row :2097 for Trade ID :78492460 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.125 | Actual: 1.125000 |
+ Row 2097
+
+Mismatch at Row :2116 for Trade ID :78492458 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.125 | Actual: 1.125000 |
+ Row 2116
+
+Mismatch at Row :2138 for Trade ID :78492459 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.125 | Actual: 1.125000 |
+ Row 2138
+
+Mismatch at Row :1962 for Trade ID :78492474 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.15 | Actual: 1.150000 |
+ Row 1962
+
+Mismatch at Row :1994 for Trade ID :78492472 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.15 | Actual: 1.150000 |
+ Row 1994
+
+Mismatch at Row :2042 for Trade ID :78492466 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.15 | Actual: 1.150000 |
+ Row 2042
+
+Mismatch at Row :2076 for Trade ID :78492471 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.15 | Actual: 1.150000 |
+ Row 2076
+
+Mismatch at Row :2098 for Trade ID :78492470 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.15 | Actual: 1.150000 |
+ Row 2098
+
+Mismatch at Row :2117 for Trade ID :78492468 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.15 | Actual: 1.150000 |
+ Row 2117
+
+Mismatch at Row :2131 for Trade ID :78492469 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.15 | Actual: 1.150000 |
+ Row 2131
+
+Mismatch at Row :1960 for Trade ID :78492484 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 1960
+
+Mismatch at Row :1992 for Trade ID :78492482 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 1992
+
+Mismatch at Row :2040 for Trade ID :78492476 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2040
+
+Mismatch at Row :2074 for Trade ID :78492481 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2074
+
+Mismatch at Row :2096 for Trade ID :78492480 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2096
+
+Mismatch at Row :2115 for Trade ID :78492478 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2115
+
+Mismatch at Row :2135 for Trade ID :78492479 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2135
+
+Mismatch at Row :2039 for Trade ID :78434400 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 2039
+
+No Match Found for  Trade ID :78466637 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466631 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466636 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466635 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466633 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466634 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+Mismatch at Row :1967 for Trade ID :78466649 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.32 | Actual: 1.320000 |
+ Row 1967
+
+Mismatch at Row :1999 for Trade ID :78466647 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.32 | Actual: 1.320000 |
+ Row 1999
+
+Mismatch at Row :2046 for Trade ID :78466640 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.32 | Actual: 1.320000 |
+ Row 2046
+
+Mismatch at Row :2081 for Trade ID :78466646 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.32 | Actual: 1.320000 |
+ Row 2081
+
+Mismatch at Row :2103 for Trade ID :78466645 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.32 | Actual: 1.320000 |
+ Row 2103
+
+Mismatch at Row :2121 for Trade ID :78466643 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.32 | Actual: 1.320000 |
+ Row 2121
+
+Mismatch at Row :2137 for Trade ID :78466644 | SEC_TYP_CD :CPO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.32 | Actual: 1.320000 |
+ Row 2137
+
+Mismatch at Row :1959 for Trade ID :78434408 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.118 | Actual: 1.118000 |
+ Row 1959
+
+No Match Found for  Trade ID :78466639 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+Mismatch at Row :2043 for Trade ID :78513019 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2043
+
+Mismatch at Row :2078 for Trade ID :78513024 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2078
+
+Mismatch at Row :2100 for Trade ID :78513023 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2100
+
+Mismatch at Row :2118 for Trade ID :78513021 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2118
+
+Mismatch at Row :2129 for Trade ID :78513022 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 2129
+
+Mismatch at Row :1961 for Trade ID :78492464 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.125 | Actual: 1.125000 |
+ Row 1961
+
+Mismatch at Row :1993 for Trade ID :78492462 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1.125 | Actual: 1.125000 |
+ Row 1993
+
+Mismatch at Row :1964 for Trade ID :78513027 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 1964
+
+Mismatch at Row :1996 for Trade ID :78513025 | SEC_TYP_CD :CCO | Product Type  : FXO
+  Mismatch Column Name =Strike Price  |Expected: 1195 | Actual: 1195.000000 |
+ Row 1996
+
+TOTAL CRDSecids Validated: 84 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 84|| TOTAL ROWS NOT FOUND:7|
+
+78466637,78466631,78466636,78466635,78466633,78466634,78466639,
+match at Row :749 for Trade ID :78566852 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 749 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :610 for Trade ID :78566846 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 610 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :640 for Trade ID :78566845 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 640 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :673 for Trade ID :78566853 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 673 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :696 for Trade ID :78566851 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 696 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :722 for Trade ID :78566850 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 722 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+TOTAL CRDSecids Validated: 113 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 113|| TOTAL ROWS NOT FOUND:44|
+
+77330013,77369222,77414782,77414781,77414775,77414776,77414780,77414777,77414804,77414806,77414808,77414807,77414810,77414850,77414847,77414848,77414851,77414856,77414853,77414852,77414855,77414857,77414859,77414902,77414898,77414899,77414901,77414951,77414947,77414948,77414950,77414955,77414953,77414952,77414956,77414969,77414965,77414966,77414968,77415041,77415039,77415038,77415042,77557016,
+ 1 | Actual: 1.00000000 |
+
+
+Mismatch at Row :566 for Trade ID :77379021 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 566 Mismatch Column Name =Rate  |Expected: 1 | Actual: 1.00000000 |
+
+
+Mismatch at Row :536 for Trade ID :77350672 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 536 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :236 for Trade ID :77350671 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 236 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :247 for Trade ID :77513965 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 247 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :567 for Trade ID :77513966 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 567 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :556 for Trade ID :77513971 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 556 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :237 for Trade ID :77513970 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 237 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :238 for Trade ID :77514067 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 238 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :119 for Trade ID :77514068 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 119 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :460 for Trade ID :77514072 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 460 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :402 for Trade ID :77514073 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 402 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :323 for Trade ID :77514075 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 323 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :533 for Trade ID :77514069 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 533 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :522 for Trade ID :77514074 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 522 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :549 for Trade ID :77520755 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 549 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :239 for Trade ID :77520754 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 239 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :120 for Trade ID :77625950 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 120 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :240 for Trade ID :77625949 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 240 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :324 for Trade ID :77625957 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 324 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :403 for Trade ID :77625955 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 403 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :461 for Trade ID :77625954 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 461 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :550 for Trade ID :77625951 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 550 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :523 for Trade ID :77625956 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 523 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :128 for Trade ID :78279901 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 128 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :248 for Trade ID :78279900 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 248 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :409 for Trade ID :78279904 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 409 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :465 for Trade ID :78279908 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 465 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :333 for Trade ID :78279907 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 333 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :568 for Trade ID :78279909 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 568 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :527 for Trade ID :78279905 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 527 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :524 for Trade ID :78279916 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 524 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :462 for Trade ID :78279919 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 462 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :535 for Trade ID :78279920 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 535 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :325 for Trade ID :78279918 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 325 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :404 for Trade ID :78279915 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 404 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :241 for Trade ID :78279911 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 241 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :121 for Trade ID :78279912 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 121 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :122 for Trade ID :78279923 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 122 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :242 for Trade ID :78279922 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 242 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :405 for Trade ID :78279926 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 405 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :326 for Trade ID :78279929 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 326 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :463 for Trade ID :78279930 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 463 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :557 for Trade ID :78279931 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 557 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :525 for Trade ID :78279927 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 525 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :526 for Trade ID :78376291 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 526 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :543 for Trade ID :78376295 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 543 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :464 for Trade ID :78376294 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 464 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :406 for Trade ID :78376290 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 406 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :327 for Trade ID :78376293 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 327 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :243 for Trade ID :78376287 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 243 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+Mismatch at Row :123 for Trade ID :78376288 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 123 Mismatch Column Name =Rate  |Expected: 5 | Actual: 5.00000000 |
+
+
+TOTAL CRDSecids Validated: 146 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 146|| TOTAL ROWS NOT FOUND:1|
+
+74807476,
+
+ Mismatch Column Name =Effective Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BOFAUS3DEQN |
+
+
+Mismatch at Row :1818 for Trade ID :76641465 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 2732960 | Actual: 6494318 |
+ Mismatch Column Name =Settle Date  |Expected: 02/05/2019 0:00 | Actual: 1/23/2019 |
+ Mismatch Column Name =ISIN  |Expected: DE000A168650 | Actual: XS1586555606 |
+ Mismatch Column Name =Trade Date  |Expected: 01/31/2019 0:00 | Actual: 1/18/2019 |
+ Row 1818 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: DAIMLER AG CDS 12/20/2023 | Actual: VW |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+
+
+Mismatch at Row :833 for Trade ID :76641473 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 833 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :806 for Trade ID :76641469 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 70GB |
+ Mismatch Column Name =Issuer Name  |Expected: DAIMLER AG CDS 12/20/2023 | Actual: FIATCHR |
+ Mismatch Column Name =Trade Date  |Expected: 01/31/2019 0:00 | Actual: 4/2/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =Effective Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BOFAUS3DEQN |
+ Mismatch Column Name =Notional  |Expected: 921963 | Actual: 3797245 |
+ Mismatch Column Name =Settle Date  |Expected: 02/05/2019 0:00 | Actual: 4/5/2019 |
+ Mismatch Column Name =ISIN  |Expected: DE000A168650 | Actual: US31562QAC15 |
+ Row 806 Mismatch Column Name =Rate  |Expected: 1 | Actual: 5 |
+ Mismatch Column Name =First Payment Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 6/20/2024 |
+
+
+Mismatch at Row :835 for Trade ID :76641470 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 835 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :79 for Trade ID :76641474 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 79 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :85 for Trade ID :76680719 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 85 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+No Match Found for  Trade ID :76748883 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :76748886 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :76748887 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :76748881 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :76748882 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+Mismatch at Row :1911 for Trade ID :76951045 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 9/18/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: VW |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 1663929 | Actual: 4310345 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 9/19/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS1586555606 |
+ Row 1911 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1813 for Trade ID :76951044 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 1/22/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: VW |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 763803 | Actual: 2164773 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 1/25/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS1586555606 |
+ Row 1813 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :828 for Trade ID :76951051 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 828 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :830 for Trade ID :76951048 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 830 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :799 for Trade ID :76951052 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 650855 | Actual: 3797245 |
+ Mismatch Column Name =Issuer Name  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: FIATCHR |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 4/17/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: US31562QAC15 |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 4/12/2019 |
+ Row 799 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BOFAUS3DEQN |
+
+
+Mismatch at Row :71 for Trade ID :76960145 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 71 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :829 for Trade ID :76951049 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 829 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1902 for Trade ID :76951109 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 1979166 | Actual: 4310345 |
+ Mismatch Column Name =Settle Date  |Expected: 02/25/2019 0:00 | Actual: 10/3/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS1586555606 |
+ Mismatch Column Name =Trade Date  |Expected: 02/20/2019 0:00 | Actual: 10/2/2018 |
+ Row 1902 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 12/20/2023 | Actual: VW |
+ Mismatch Column Name =First Payment Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: BNPR | Actual: BARCUS33XXX |
+
+
+Mismatch at Row :1637 for Trade ID :76951108 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 885417 | Actual: 3189000 |
+ Mismatch Column Name =Settle Date  |Expected: 02/25/2019 0:00 | Actual: 1/30/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: US651229AV81 |
+ Mismatch Column Name =Trade Date  |Expected: 02/20/2019 0:00 | Actual: 1/25/2019 |
+ Row 1637 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 12/20/2023 | Actual: NEWEBRA |
+ Mismatch Column Name=Broker Id Trans  |Expected: BNPR | Actual: CHASGB2LDPC |
+
+
+Mismatch at Row :793 for Trade ID :76951116 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 312500 | Actual: 5068965 |
+ Mismatch Column Name =Settle Date  |Expected: 02/25/2019 0:00 | Actual: 5/28/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 02/20/2019 0:00 | Actual: 5/23/2019 |
+ Row 793 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 6/20/2024 |
+ Mismatch Column Name=Broker Id Trans  |Expected: BNPR | Actual: CITIUS33XXX |
+
+
+Mismatch at Row :824 for Trade ID :76951112 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 824 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :822 for Trade ID :76951115 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 822 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :823 for Trade ID :76951113 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 823 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :70 for Trade ID :76951117 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 70 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1897 for Trade ID :77238285 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 1979167 | Actual: 4525862 |
+ Mismatch Column Name =Settle Date  |Expected: 03/13/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS1586555606 |
+ Mismatch Column Name =Trade Date  |Expected: 03/08/2019 0:00 | Actual: 9/19/2018 |
+ Row 1897 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 12/20/2023 | Actual: VW |
+ Mismatch Column Name =First Payment Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 12/20/2018 0:00 | Actual: 6/20/2018 |
+
+
+Mismatch at Row :1633 for Trade ID :77238284 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 885417 | Actual: 1593000 |
+ Mismatch Column Name =Settle Date  |Expected: 03/13/2019 0:00 | Actual: 1/29/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: US651229AV81 |
+ Mismatch Column Name =Trade Date  |Expected: 03/08/2019 0:00 | Actual: 1/24/2019 |
+ Row 1633 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 12/20/2023 | Actual: NEWEBRA |
+ Mismatch Column Name=Broker Id Trans  |Expected: BRCP | Actual: CHASGB2LDPC |
+
+
+Mismatch at Row :816 for Trade ID :77238291 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 816 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :818 for Trade ID :77238288 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 818 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :787 for Trade ID :77238292 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 312500 | Actual: 3379311 |
+ Mismatch Column Name =Settle Date  |Expected: 03/13/2019 0:00 | Actual: 5/28/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 03/08/2019 0:00 | Actual: 5/23/2019 |
+ Row 787 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 12/20/2023 0:00 | Actual: 6/20/2024 |
+ Mismatch Column Name=Broker Id Trans  |Expected: BRCP | Actual: CITIUS33XXX |
+
+
+Mismatch at Row :84 for Trade ID :77238293 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 84 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :817 for Trade ID :77238289 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 817 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1632 for Trade ID :77378985 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/03/2019 0:00 | Actual: 1/23/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: NEWEBRA |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 1180758 | Actual: 3243000 |
+ Mismatch Column Name =Settle Date  |Expected: 04/08/2019 0:00 | Actual: 1/28/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: US651229AV81 |
+ Row 1632 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :73 for Trade ID :77378986 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 73 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :91 for Trade ID :77379008 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 91 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :812 for Trade ID :77379010 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 812 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1627 for Trade ID :77379007 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 700000 | Actual: 4093952 |
+ Mismatch Column Name =Settle Date  |Expected: 03/26/2019 0:00 | Actual: 1/24/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1586555606 | Actual: DE000A168650 |
+ Mismatch Column Name =Trade Date  |Expected: 03/21/2019 0:00 | Actual: 1/21/2019 |
+ Row 1627 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: VOLKSWAGEN INTL FIN NV CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: BRCP | Actual: CITIUS33XXX |
+
+
+Mismatch at Row :1620 for Trade ID :77379013 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 700000 | Actual: 8187905 |
+ Mismatch Column Name =Settle Date  |Expected: 03/26/2019 0:00 | Actual: 1/23/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 03/21/2019 0:00 | Actual: 1/18/2019 |
+ Row 1620 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CITIUS33XXX |
+
+
+Mismatch at Row :81 for Trade ID :77379014 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 81 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :74 for Trade ID :77379018 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 74 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1612 for Trade ID :77379017 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 03/20/2019 0:00 | Actual: 1/17/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: BAHRAIN CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: BRCP | Actual: CITIUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 600000 | Actual: 8187905 |
+ Mismatch Column Name =Settle Date  |Expected: 03/25/2019 0:00 | Actual: 1/22/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS0498952679 | Actual: DE000A168650 |
+ Row 1612 Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+No Match Found for  Trade ID :77379020 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :77379021 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+Mismatch at Row :89 for Trade ID :77350672 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 89 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1607 for Trade ID :77350671 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 03/21/2019 0:00 | Actual: 11/7/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 3571429 | Actual: 800000 |
+ Mismatch Column Name =Settle Date  |Expected: 03/26/2019 0:00 | Actual: 11/8/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: DE000A168650 |
+ Row 1607 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+No Match Found for  Trade ID :77513965 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :77513966 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+Mismatch at Row :69 for Trade ID :77513971 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 69 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1598 for Trade ID :77513970 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/01/2019 0:00 | Actual: 9/14/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 1311953 | Actual: 11504729 |
+ Mismatch Column Name =Settle Date  |Expected: 04/04/2019 0:00 | Actual: 9/17/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: DE000A168650 |
+ Row 1598 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1592 for Trade ID :77514067 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/02/2019 0:00 | Actual: 9/13/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: BNPAFRPPXXX |
+ Mismatch Column Name =Notional  |Expected: 1770918 | Actual: 9250992 |
+ Mismatch Column Name =Settle Date  |Expected: 04/05/2019 0:00 | Actual: 9/14/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: DE000A168650 |
+ Row 1592 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1895 for Trade ID :77514068 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Notional  |Expected: 3797245 | Actual: 800000 |
+ Mismatch Column Name =Settle Date  |Expected: 04/05/2019 0:00 | Actual: 11/8/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1586555606 |
+ Mismatch Column Name =Trade Date  |Expected: 04/02/2019 0:00 | Actual: 11/7/2018 |
+ Row 1895 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: VW |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+
+
+Mismatch at Row :781 for Trade ID :77514072 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: P | Actual: Sell |
+ Mismatch Column Name =Notional  |Expected: 662959 | Actual: 1715390 |
+ Mismatch Column Name =Settle Date  |Expected: 04/05/2019 0:00 | Actual: 5/31/2019 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1084568762 |
+ Mismatch Column Name =Trade Date  |Expected: 04/02/2019 0:00 | Actual: 5/28/2019 |
+ Row 781 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: ARMLL |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CITIUS33XXX |
+
+
+Mismatch at Row :804 for Trade ID :77514073 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 804 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :802 for Trade ID :77514075 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 802 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :92 for Trade ID :77514069 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 92 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :803 for Trade ID :77514074 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 803 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :76 for Trade ID :77520755 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 76 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1588 for Trade ID :77520754 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/03/2019 0:00 | Actual: 9/12/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: BNPAFRPPXXX |
+ Mismatch Column Name =Notional  |Expected: 1311953 | Actual: 7556210 |
+ Mismatch Column Name =Settle Date  |Expected: 04/08/2019 0:00 | Actual: 9/13/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: DE000A168650 |
+ Row 1588 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1891 for Trade ID :77625950 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Notional  |Expected: 3797245 | Actual: 800000 |
+ Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: BMW |
+ Mismatch Column Name =Settle Date  |Expected: 04/17/2019 0:00 | Actual: 11/8/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1548436556 |
+ Mismatch Column Name =Trade Date  |Expected: 04/12/2019 0:00 | Actual: 11/7/2018 |
+ Row 1891 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+
+
+Mismatch at Row :1580 for Trade ID :77625949 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/12/2019 0:00 | Actual: 9/28/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 1770918 | Actual: 3437474 |
+ Mismatch Column Name =Settle Date  |Expected: 04/17/2019 0:00 | Actual: 10/1/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: DE000A168650 |
+ Row 1580 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :795 for Trade ID :77625957 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 795 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :797 for Trade ID :77625955 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 797 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :798 for Trade ID :77625954 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 798 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :75 for Trade ID :77625951 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 75 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :796 for Trade ID :77625956 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 796 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+No Match Found for  Trade ID :78279901 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279900 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279904 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279908 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279907 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279909 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279905 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+Mismatch at Row :791 for Trade ID :78279916 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 791 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :789 for Trade ID :78279919 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 789 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :90 for Trade ID :78279920 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 90 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :790 for Trade ID :78279918 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 790 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :792 for Trade ID :78279915 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 792 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1574 for Trade ID :78279911 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 9/27/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BOFAUS3DEQN |
+ Mismatch Column Name =Notional  |Expected: 2310345 | Actual: 5550595 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 9/28/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: DE000A168650 |
+ Row 1574 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1881 for Trade ID :78279912 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 11/26/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 5068965 | Actual: 4213158 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 11/29/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 1881 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1876 for Trade ID :78279923 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 11/26/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 3379311 | Actual: 4213158 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 11/29/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 1876 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1567 for Trade ID :78279922 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 1540230 | Actual: 9832184 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 7/16/2018 |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 7/13/2018 |
+ Row 1567 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+
+
+Mismatch at Row :786 for Trade ID :78279926 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 786 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :784 for Trade ID :78279929 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 784 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :783 for Trade ID :78279930 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 783 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :68 for Trade ID :78279931 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 68 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :785 for Trade ID :78279927 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 785 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :779 for Trade ID :78376291 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 779 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :82 for Trade ID :78376295 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 82 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :777 for Trade ID :78376294 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 777 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :780 for Trade ID :78376290 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 780 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :778 for Trade ID :78376293 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 778 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :1562 for Trade ID :78376287 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 787427 | Actual: 8367816 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 7/10/2018 |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 7/9/2018 |
+ Row 1562 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+
+
+Mismatch at Row :1871 for Trade ID :78376288 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 11/28/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 1715390 | Actual: 1685263 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 12/3/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 1871 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+TOTAL CRDSecids Validated: 146 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 146|| TOTAL ROWS NOT FOUND:26|
+
+74807476,76425827,76366140,76425840,76473822,76564810,76649182,76649181,76649180,76649186,76748883,76748886,76748887,76748881,76748882,77379020,77379021,77513965,77513966,78279901,78279900,78279904,78279908,78279907,78279909,78279905,
+Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 700000 | Actual: 4093952 |
+ Mismatch Column Name =Settle Date  |Expected: 03/26/2019 0:00 | Actual: 1/24/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1586555606 | Actual: DE000A168650 |
+ Mismatch Column Name =Trade Date  |Expected: 03/21/2019 0:00 | Actual: 1/21/2019 |
+ Row 1250 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: VOLKSWAGEN INTL FIN NV CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: BRCP | Actual: CITIUS33XXX |
+
+
+Mismatch at Row :1257 for Trade ID :77379013 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 700000 | Actual: 8187905 |
+ Mismatch Column Name =Settle Date  |Expected: 03/26/2019 0:00 | Actual: 1/23/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 03/21/2019 0:00 | Actual: 1/18/2019 |
+ Row 1257 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CITIUS33XXX |
+
+
+Mismatch at Row :938 for Trade ID :77379014 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Notional  |Expected: 230000 | Actual: 1864042 |
+ Mismatch Column Name =Issuer Name  |Expected: DAIMLER AG CDS 06/20/24 | Actual: BMW |
+ Mismatch Column Name =Settle Date  |Expected: 03/26/2019 0:00 | Actual: 9/14/2018 |
+ Mismatch Column Name =ISIN  |Expected: DE000A168650 | Actual: XS1548436556 |
+ Mismatch Column Name =Trade Date  |Expected: 03/21/2019 0:00 | Actual: 9/13/2018 |
+ Row 938 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CITIUS33XXX |
+
+
+Mismatch at Row :973 for Trade ID :77379018 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Notional  |Expected: 120000 | Actual: 1858621 |
+ Mismatch Column Name =Settle Date  |Expected: 03/25/2019 0:00 | Actual: 10/3/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0498952679 | Actual: XS1586555606 |
+ Mismatch Column Name =Trade Date  |Expected: 03/20/2019 0:00 | Actual: 10/2/2018 |
+ Row 973 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
+ Mismatch Column Name=Issuer Name Trans  |Expected: BAHRAIN CDS 06/20/2024 | Actual: VW |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1265 for Trade ID :77379017 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 03/20/2019 0:00 | Actual: 1/17/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: BAHRAIN CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: BRCP | Actual: CITIUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 600000 | Actual: 8187905 |
+ Mismatch Column Name =Settle Date  |Expected: 03/25/2019 0:00 | Actual: 1/22/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS0498952679 | Actual: DE000A168650 |
+ Row 1265 Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+No Match Found for  Trade ID :77379020 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :77379021 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+Mismatch at Row :854 for Trade ID :77350672 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Notional  |Expected: 191071 | Actual: 1604167 |
+ Mismatch Column Name =Issuer Name  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: BMW |
+ Mismatch Column Name =Settle Date  |Expected: 03/26/2019 0:00 | Actual: 9/28/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: XS1548436556 |
+ Mismatch Column Name =Trade Date  |Expected: 03/21/2019 0:00 | Actual: 9/27/2018 |
+ Row 854 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1270 for Trade ID :77350671 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 03/21/2019 0:00 | Actual: 11/7/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 3571429 | Actual: 800000 |
+ Mismatch Column Name =Settle Date  |Expected: 03/26/2019 0:00 | Actual: 11/8/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: DE000A168650 |
+ Row 1270 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+No Match Found for  Trade ID :77513965 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :77513966 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+Mismatch at Row :1000 for Trade ID :77513971 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Trade Date  |Expected: 04/01/2019 0:00 | Actual: 11/26/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 70190 | Actual: 1842105 |
+ Mismatch Column Name =Settle Date  |Expected: 04/04/2019 0:00 | Actual: 11/29/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: XS0498952679 |
+ Row 1000 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1279 for Trade ID :77513970 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/01/2019 0:00 | Actual: 9/14/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 1311953 | Actual: 11504729 |
+ Mismatch Column Name =Settle Date  |Expected: 04/04/2019 0:00 | Actual: 9/17/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: DE000A168650 |
+ Row 1279 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1285 for Trade ID :77514067 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/02/2019 0:00 | Actual: 9/13/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: BNPAFRPPXXX |
+ Mismatch Column Name =Notional  |Expected: 1770918 | Actual: 9250992 |
+ Mismatch Column Name =Settle Date  |Expected: 04/05/2019 0:00 | Actual: 9/14/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: DE000A168650 |
+ Row 1285 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :982 for Trade ID :77514068 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Notional  |Expected: 3797245 | Actual: 800000 |
+ Mismatch Column Name =Settle Date  |Expected: 04/05/2019 0:00 | Actual: 11/8/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1586555606 |
+ Mismatch Column Name =Trade Date  |Expected: 04/02/2019 0:00 | Actual: 11/7/2018 |
+ Row 982 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: VW |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+
+
+Mismatch at Row :2072 for Trade ID :77514072 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: FIATCHR |
+ Row 2072 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+
+
+Mismatch at Row :2023 for Trade ID :77514073 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9577 | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/02/2019 0:00 | Actual: 2/1/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: VW |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CITIUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 1316837 | Actual: 6061364 |
+ Mismatch Column Name =Settle Date  |Expected: 04/05/2019 0:00 | Actual: 2/6/2019 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1586555606 |
+ Row 2023 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1355 for Trade ID :77514075 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9539 | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/02/2019 0:00 | Actual: 11/16/2017 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: BCHINL |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2017 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 1089796 | Actual: 6950000 |
+ Mismatch Column Name =Settle Date  |Expected: 04/05/2019 0:00 | Actual: 11/17/2017 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1016655349 |
+ Row 1355 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2022 |
+
+
+Mismatch at Row :844 for Trade ID :77514069 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Trade Date  |Expected: 04/02/2019 0:00 | Actual: 9/27/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: VW |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 222449 | Actual: 929310 |
+ Mismatch Column Name =Settle Date  |Expected: 04/05/2019 0:00 | Actual: 9/28/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1586555606 |
+ Row 844 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :816 for Trade ID :77514074 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9810 | Actual: 7AJF |
+ Mismatch Column Name =Notional  |Expected: 181633 | Actual: 3000000 |
+ Mismatch Column Name =Settle Date  |Expected: 04/05/2019 0:00 | Actual: 3/6/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS0288783979 |
+ Mismatch Column Name =Trade Date  |Expected: 04/02/2019 0:00 | Actual: 3/5/2018 |
+ Row 816 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+
+
+Mismatch at Row :963 for Trade ID :77520755 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Notional  |Expected: 70190 | Actual: 1858621 |
+ Mismatch Column Name =Settle Date  |Expected: 04/08/2019 0:00 | Actual: 10/2/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: XS1586555606 |
+ Mismatch Column Name =Trade Date  |Expected: 04/03/2019 0:00 | Actual: 10/1/2018 |
+ Row 963 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: VW |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1289 for Trade ID :77520754 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/03/2019 0:00 | Actual: 9/12/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: GLENCORE FINANCE EUROPE CDS 06/20/24 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: BNPAFRPPXXX |
+ Mismatch Column Name =Notional  |Expected: 1311953 | Actual: 7556210 |
+ Mismatch Column Name =Settle Date  |Expected: 04/08/2019 0:00 | Actual: 9/13/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS0974877150 | Actual: DE000A168650 |
+ Row 1289 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :986 for Trade ID :77625950 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Notional  |Expected: 3797245 | Actual: 800000 |
+ Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: BMW |
+ Mismatch Column Name =Settle Date  |Expected: 04/17/2019 0:00 | Actual: 11/8/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1548436556 |
+ Mismatch Column Name =Trade Date  |Expected: 04/12/2019 0:00 | Actual: 11/7/2018 |
+ Row 986 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+
+
+Mismatch at Row :1297 for Trade ID :77625949 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/12/2019 0:00 | Actual: 9/28/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 1770918 | Actual: 3437474 |
+ Mismatch Column Name =Settle Date  |Expected: 04/17/2019 0:00 | Actual: 10/1/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: DE000A168650 |
+ Row 1297 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1359 for Trade ID :77625957 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9539 | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/12/2019 0:00 | Actual: 11/6/2017 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: BCHINL |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2017 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 1089796 | Actual: 7000000 |
+ Mismatch Column Name =Settle Date  |Expected: 04/17/2019 0:00 | Actual: 11/7/2017 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1016655349 |
+ Row 1359 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2022 |
+
+
+Mismatch at Row :2027 for Trade ID :77625955 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9577 | Actual: 70GB |
+ Mismatch Column Name =Trade Date  |Expected: 04/12/2019 0:00 | Actual: 2/1/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CITIUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 1316837 | Actual: 6678099 |
+ Mismatch Column Name =Settle Date  |Expected: 04/17/2019 0:00 | Actual: 2/6/2019 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: DE000A168650 |
+ Row 2027 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :246 for Trade ID :77625954 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: P | Actual: Sell |
+ Mismatch Column Name =Issuer Name  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: RUSSIA |
+ Mismatch Column Name =Trade Date  |Expected: 04/12/2019 0:00 | Actual: 5/13/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/4/2019 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: CITIUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 662959 | Actual: 1500000 |
+ Mismatch Column Name =Settle Date  |Expected: 04/17/2019 0:00 | Actual: 6/7/2019 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS0114288789 |
+ Row 246 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+
+
+Mismatch at Row :964 for Trade ID :77625951 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Trade Date  |Expected: 04/12/2019 0:00 | Actual: 9/18/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: VW |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 222449 | Actual: 1858621 |
+ Mismatch Column Name =Settle Date  |Expected: 04/17/2019 0:00 | Actual: 9/19/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS1586555606 |
+ Row 964 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :819 for Trade ID :77625956 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9810 | Actual: 7AJF |
+ Mismatch Column Name =Notional  |Expected: 181632 | Actual: 1600000 |
+ Mismatch Column Name =Settle Date  |Expected: 04/17/2019 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =ISIN  |Expected: US31562QAC15 | Actual: XS0288783979 |
+ Mismatch Column Name =Trade Date  |Expected: 04/12/2019 0:00 | Actual: 3/19/2018 |
+ Row 819 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: FIAT CHRYSLER AUTOMOBILE CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: MLCO | Actual: GSILGB2XXXX |
+
+
+No Match Found for  Trade ID :78279901 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279900 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279904 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279908 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279907 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279909 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78279905 | SEC_TYP_CD :SWAPCDS  
+ RESULT: Failed
+
+Mismatch at Row :821 for Trade ID :78279916 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9810 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 241379 | Actual: 1910000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 6/7/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0288783979 |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 6/6/2018 |
+ Row 821 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+
+
+Mismatch at Row :251 for Trade ID :78279919 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 1982759 | Actual: 2500000 |
+ Mismatch Column Name =Issuer Name  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: HESS |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 5/16/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: US42809HAF47 |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 5/13/2019 |
+ Row 251 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: MSCSUS33XXX |
+
+
+Mismatch at Row :853 for Trade ID :78279920 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 12/13/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: SOAF |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: GSILGB2XXXX |
+ Mismatch Column Name =Notional  |Expected: 379311 | Actual: 4850000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 12/18/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: US836205AN45 |
+ Row 853 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1360 for Trade ID :78279918 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9539 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 10/25/2017 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BCHINL |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2017 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BNPAFRPPXXX |
+ Mismatch Column Name =Notional  |Expected: 1517241 | Actual: 7000000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 10/26/2017 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS1016655349 |
+ Row 1360 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2022 |
+
+
+Mismatch at Row :2033 for Trade ID :78279915 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9577 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 2/21/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 1206897 | Actual: 2811111 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 2/26/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 2033 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1303 for Trade ID :78279911 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 9/27/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BOFAUS3DEQN |
+ Mismatch Column Name =Notional  |Expected: 2310345 | Actual: 5550595 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 9/28/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: DE000A168650 |
+ Row 1303 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :996 for Trade ID :78279912 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 11/26/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 5068965 | Actual: 4213158 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 11/29/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 996 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1001 for Trade ID :78279923 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 11/26/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 3379311 | Actual: 4213158 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 11/29/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 1001 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1310 for Trade ID :78279922 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 1540230 | Actual: 9832184 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 7/16/2018 |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 7/13/2018 |
+ Row 1310 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+
+
+Mismatch at Row :2036 for Trade ID :78279926 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9577 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 1/30/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: MSCSUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 804598 | Actual: 4011211 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 2/4/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: DE000A168650 |
+ Row 2036 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1363 for Trade ID :78279929 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9539 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 10/17/2017 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BCHINL |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2017 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 1011495 | Actual: 6400000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 10/18/2017 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS1016655349 |
+ Row 1363 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2022 |
+
+
+Mismatch at Row :253 for Trade ID :78279930 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 1321839 | Actual: 1875000 |
+ Mismatch Column Name =Issuer Name  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: F |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 6/3/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: US345370CR99 |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 5/13/2019 |
+ Row 253 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 5/29/2019 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: CHASGB2LDPC |
+
+
+Mismatch at Row :1005 for Trade ID :78279931 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 11/28/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 252873 | Actual: 736842 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 12/3/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 1005 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :825 for Trade ID :78279927 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9810 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 7/9/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 160919 | Actual: 3425287 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 7/10/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0288783979 |
+ Row 825 Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+
+
+Mismatch at Row :835 for Trade ID :78376291 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9810 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 81685 | Actual: 4024713 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 7/16/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0288783979 |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 7/13/2018 |
+ Row 835 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+
+
+Mismatch at Row :934 for Trade ID :78376295 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 128363 | Actual: 1600000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 9/14/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0288783979 |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 9/13/2018 |
+ Row 934 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :785 for Trade ID :78376294 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 11/16/2017 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2017 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 670984 | Actual: 1000000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 11/17/2017 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0288783979 |
+ Row 785 Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2022 |
+
+
+Mismatch at Row :2040 for Trade ID :78376290 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9577 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 1/31/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Notional  |Expected: 408379 | Actual: 6140928 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 2/5/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: DE000A168650 |
+ Row 2040 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :1365 for Trade ID :78376293 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9539 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 10/11/2017 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BCHINL |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2017 |
+ Mismatch Column Name =Notional  |Expected: 513449 | Actual: 7100000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 10/12/2017 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS1016655349 |
+ Row 1365 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2022 |
+
+
+Mismatch at Row :1315 for Trade ID :78376287 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 787427 | Actual: 8367816 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 7/10/2018 |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 7/9/2018 |
+ Row 1315 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+
+
+Mismatch at Row :1006 for Trade ID :78376288 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 11/28/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 1715390 | Actual: 1685263 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 12/3/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 1006 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+TOTAL CRDSecids Validated: 146 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 146|| TOTAL ROWS NOT FOUND:26|
+
+74807476,76425827,76366140,76425840,76473822,76564810,76649182,76649181,76649180,76649186,76748883,76748886,76748887,76748881,76748882,77379020,77379021,77513965,77513966,78279901,78279900,78279904,78279908,78279907,78279909,78279905,
+12/3/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 169 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :142 for Trade ID :78279927 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9810 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/23/2019 0:00 | Actual: 7/9/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 160919 | Actual: 3425287 |
+ Mismatch Column Name =Settle Date  |Expected: 05/28/2019 0:00 | Actual: 7/10/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0288783979 |
+ Row 142 Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+
+
+Mismatch at Row :143 for Trade ID :78376291 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9810 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 81685 | Actual: 4024713 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 7/16/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0288783979 |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 7/13/2018 |
+ Row 143 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+
+
+Mismatch at Row :155 for Trade ID :78376295 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9878 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Notional  |Expected: 128363 | Actual: 1600000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 9/14/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0288783979 |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 9/13/2018 |
+ Row 155 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :127 for Trade ID :78376294 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9752 | Actual: 7AJF |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 11/16/2017 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: GLCORE |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2017 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+ Mismatch Column Name =Notional  |Expected: 670984 | Actual: 1000000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 11/17/2017 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0288783979 |
+ Row 127 Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2022 |
+
+
+Mismatch at Row :115 for Trade ID :78376290 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9577 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 1/31/2019 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: DAMLR |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Notional  |Expected: 408379 | Actual: 6140928 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 2/5/2019 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: DE000A168650 |
+ Row 115 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+Mismatch at Row :105 for Trade ID :78376293 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 9539 | Actual: 70GB |
+ Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 10/11/2017 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BCHINL |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2017 |
+ Mismatch Column Name =Notional  |Expected: 513449 | Actual: 7100000 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 10/12/2017 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS1016655349 |
+ Row 105 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2017 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2022 |
+
+
+Mismatch at Row :89 for Trade ID :78376287 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Account Abbreviation  |Expected: 7AJF | Actual: 70GB |
+ Mismatch Column Name =Notional  |Expected: 787427 | Actual: 8367816 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 7/10/2018 |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 7/9/2018 |
+ Row 89 Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 6/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 6/20/2023 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: BARCUS33XXX |
+
+
+Mismatch at Row :66 for Trade ID :78376288 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Mismatch Column Name =Protection  |Expected: R | Actual: Buy |
+ Mismatch Column Name =Trade Date  |Expected: 05/28/2019 0:00 | Actual: 11/28/2018 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: 3M | Actual: Quarterly |
+ Mismatch Column Name=Issuer Name Trans  |Expected: ARCELORMITTAL CDS 06/20/2024 | Actual: BHREIN |
+ Mismatch Column Name =Effective Date  |Expected: 03/20/2019 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: CHASGB2LDPC |
+ Mismatch Column Name =Notional  |Expected: 1715390 | Actual: 1685263 |
+ Mismatch Column Name =Settle Date  |Expected: 05/31/2019 0:00 | Actual: 12/3/2018 |
+ Mismatch Column Name =ISIN  |Expected: XS1084568762 | Actual: XS0498952679 |
+ Row 66 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
+ Mismatch Column Name =First Payment Date  |Expected: 06/20/2019 0:00 | Actual: 12/20/2018 |
+ Mismatch Column Name =Maturity Date  |Expected: 06/20/2024 0:00 | Actual: 12/20/2023 |
+
+
+TOTAL CRDSecids Validated: 146 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 146|| TOTAL ROWS NOT FOUND:26|
+
+74807476,76425827,76366140,76425840,76473822,76564810,76649182,76649181,76649180,76649186,76748883,76748886,76748887,76748881,76748882,77379020,77379021,77513965,77513966,78279901,78279900,78279904,78279908,78279907,78279909,78279905,
+
