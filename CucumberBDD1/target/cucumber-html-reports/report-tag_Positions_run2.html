@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>CucumberBDD</td>
-            <td>25 Jun 2019, 16:53</td>
+            <td>26 Jun 2019, 15:10</td>
     </tr>
   </tbody>
 </table>
@@ -139,7 +139,7 @@ $(document).ready(function() {
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="222014554280">3:42.014</td>
+          <td class="duration" data-value="273110725926">4:33.110</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -182,7 +182,7 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">3:42.014</span>
+  <span class="lead-duration duration">4:33.110</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -223,7 +223,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Positions/Derma_0624.csv')</span>
   
-  <span class="lead-duration duration">0.504</span>
+  <span class="lead-duration duration">0.321</span>
 
   </div>
 
@@ -248,7 +248,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Positions/TriOptima_0624.csv')</span>
   
-  <span class="lead-duration duration">0.741</span>
+  <span class="lead-duration duration">1.560</span>
 
   </div>
 
@@ -271,9 +271,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping__POC2.csv')</span>
+  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Mapping__Positions.csv')</span>
   
-  <span class="lead-duration duration">0.013</span>
+  <span class="lead-duration duration">0.029</span>
 
   </div>
 
@@ -298,7 +298,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
   
-  <span class="lead-duration duration">5.210</span>
+  <span class="lead-duration duration">9.336</span>
 
   </div>
 
@@ -323,7 +323,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">def csv = Java.type('karate.TrowDataComparePosition')</span>
   
-  <span class="lead-duration duration">0.080</span>
+  <span class="lead-duration duration">0.444</span>
 
   </div>
 
@@ -348,7 +348,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">def js = new csv()</span>
   
-  <span class="lead-duration duration">0.024</span>
+  <span class="lead-duration duration">0.039</span>
 
   </div>
 
@@ -373,7 +373,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,&quot;CRDSecid&quot;)</span>
   
-  <span class="lead-duration duration">3:35.418</span>
+  <span class="lead-duration duration">4:21.347</span>
 
   </div>
 
@@ -398,7 +398,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print result</span>
   
-  <span class="lead-duration duration">0.020</span>
+  <span class="lead-duration duration">0.031</span>
 
   </div>
 
@@ -415,7 +415,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>16:53:02.818 [print] 
+        <pre>15:10:05.148 [print] 
 
 Mismatch at Row :2110 for Options Tradeid : 77202839  CRDSecid / ID2 :1909328301  |  Product Type CURCLOPT   |  Accno Minor   9810          Mismatch Column Name =2nd Leg Notional  |Expected: 779.375 | Actual: -467.63 |
  Row 2110

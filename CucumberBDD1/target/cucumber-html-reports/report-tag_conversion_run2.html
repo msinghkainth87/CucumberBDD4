@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>CucumberBDD</td>
-            <td>16 Jun 2019, 22:56</td>
+            <td>26 Jun 2019, 15:55</td>
     </tr>
   </tbody>
 </table>
@@ -128,18 +128,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@conversion_run2</td>
-          <td      class="passed"    >18</td>
+          <td      class="passed"    >9</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">18</td>
+          <td class="total">9</td>
 
-          <td  class="passed"    >2</td>
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td class="total">2</td>
+          <td class="total">1</td>
 
-          <td class="duration" data-value="11470030553">11.470</td>
+          <td class="duration" data-value="24606346022">24.606</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -182,7 +182,7 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">0.727</span>
+  <span class="lead-duration duration">24.606</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -221,9 +221,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversion2.csv')</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/Mock2_CCOCPO_0619.csv')</span>
   
-  <span class="lead-duration duration">0.148</span>
+  <span class="lead-duration duration">0.192</span>
 
   </div>
 
@@ -246,9 +246,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TrioptimaConversion2.csv')</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/TROWBNY-HOLDINGS-20190621.csv')</span>
   
-  <span class="lead-duration duration">0.020</span>
+  <span class="lead-duration duration">2.366</span>
 
   </div>
 
@@ -271,9 +271,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Conversion.csv')</span>
+  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Mapping_Conversion.csv')</span>
   
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.009</span>
 
   </div>
 
@@ -296,9 +296,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Transformation.csv')</span>
+  <span class="name">def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Transformation.csv')</span>
   
-  <span class="lead-duration duration">0.006</span>
+  <span class="lead-duration duration">0.009</span>
 
   </div>
 
@@ -323,7 +323,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
   
-  <span class="lead-duration duration">0.147</span>
+  <span class="lead-duration duration">4.270</span>
 
   </div>
 
@@ -348,7 +348,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">def csv = Java.type('karate.DataCompareConversion')</span>
   
-  <span class="lead-duration duration">0.017</span>
+  <span class="lead-duration duration">0.043</span>
 
   </div>
 
@@ -373,7 +373,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">def js = new csv()</span>
   
-  <span class="lead-duration duration">0.011</span>
+  <span class="lead-duration duration">0.013</span>
 
   </div>
 
@@ -398,7 +398,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,&quot;CRDSecid&quot;)</span>
   
-  <span class="lead-duration duration">0.362</span>
+  <span class="lead-duration duration">17.689</span>
 
   </div>
 
@@ -423,7 +423,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print result</span>
   
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.012</span>
 
   </div>
 
@@ -440,1000 +440,32 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>22:56:17.101 [print] 
+        <pre>15:55:45.345 [print] 
 
-Mismatch at Row :1 for Trade ID :77058404 | SEC_TYP_CD :SWAPCDS | Product Type  : EQS
-  Mismatch Column Name =Protection  |Expected: P | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 1070000.899 | Actual: 1070000.9 |
- Mismatch Column Name =Issuer Name  |Expected: BANK OF CHINA/HONG KONG CDS 6/20/2022 | Actual: NAN |
- Mismatch Column Name =ISIN  |Expected: XS1016655349 | Actual: GB00B4K4X773 |
- Row 1 Mismatch Column Name =Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Payment Frequency Description  |Expected: Q | Actual: Zero Coupon |
-
-
-No Match Found for  Trade ID :77056478 | SEC_TYP_CD :SWAPCDSI  
+No Match Found for  Trade ID :78466637 | SEC_TYP_CD :CCO  
  RESULT: Failed
 
-Mismatch at Row :3 for Trade ID :77062395 | SEC_TYP_CD :SWAPIRS | Product Type  : EQS
-  Mismatch Column Name =Account Abbreviation  |Expected: 9577 | Actual: 909 |
- Mismatch Column Name =Trade Date  |Expected: 7/18/2017 0:00 | Actual: 5/20/2019 |
- Mismatch Column Name =Fixing Term 2  |Expected: NAN | Actual: 3M |
- Mismatch Column Name =ID5  |Expected: OTC | Actual: XXZ2 |
- Mismatch Column Name =Payment Frequency Description  |Expected: Q | Actual: Zero Coupon |
- Mismatch Column Name=Broker Id Trans  |Expected: CITI | Actual: CHASGB2LDPC |
- Mismatch Column Name =LastEqtyResetPrice  |Expected: 100.8311902 | Actual: 173.2504 |
- Mismatch Column Name =Pay/Receive  |Expected: P | Actual: Receive |
- Row 3 Mismatch Column Name =Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Fixing Index Name 2  |Expected: NAN | Actual: LIB3M |
- Mismatch Column Name =Spread  |Expected: 82 | Actual: 0 |
- Mismatch Column Name =Maturity Date  |Expected: 6/20/2022 0:00 | Actual: 6/20/2021 |
+No Match Found for  Trade ID :78466631 | SEC_TYP_CD :CCO  
+ RESULT: Failed
 
+No Match Found for  Trade ID :78466636 | SEC_TYP_CD :CCO  
+ RESULT: Failed
 
-Mismatch at Row :4 for Trade ID :77076441 | SEC_TYP_CD :SWAPIRS | Product Type  : EQS
-  Mismatch Column Name =Payment Frequency Description 2  |Expected: Q | Actual: Monthly |
- Mismatch Column Name =LastEqtyResetPrice  |Expected: 100.8311902 | Actual: 14.765 |
- Mismatch Column Name =Trade Date  |Expected: 7/18/2017 0:00 | Actual: 5/21/2019 |
- Row 4 Mismatch Column Name =Fixing Term 2  |Expected: NAN | Actual: 1M |
- Mismatch Column Name =Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =ID5  |Expected: OTC | Actual: LSE |
- Mismatch Column Name =Fixing Index Name 2  |Expected: NAN | Actual: LIB1M |
- Mismatch Column Name =Payment Frequency Description  |Expected: Q | Actual: Monthly |
- Mismatch Column Name =Spread  |Expected: 82 | Actual: -0.4 |
+No Match Found for  Trade ID :78466635 | SEC_TYP_CD :CCO  
+ RESULT: Failed
 
+No Match Found for  Trade ID :78466633 | SEC_TYP_CD :CCO  
+ RESULT: Failed
 
-Mismatch at Row :5 for Trade ID :77056529 | SEC_TYP_CD :SWAPIRS | Product Type  : EQS
-  Mismatch Column Name =Payment Frequency Description 2  |Expected: Q | Actual: Monthly |
- Mismatch Column Name =LastEqtyResetPrice  |Expected: 117.6370828 | Actual: 0.0076 |
- Mismatch Column Name =Trade Date  |Expected: 7/26/2017 0:00 | Actual: 5/21/2019 |
- Mismatch Column Name =Pay/Receive  |Expected: P | Actual: Receive |
- Row 5 Mismatch Column Name =Fixing Term 2  |Expected: NAN | Actual: 1M |
- Mismatch Column Name =Rate  |Expected: 5 | Actual: 0 |
- Mismatch Column Name =Fixing Index Name 2  |Expected: NAN | Actual: LIB1M |
- Mismatch Column Name =Payment Frequency Description  |Expected: Q | Actual: Monthly |
- Mismatch Column Name =Currency Code  |Expected: EUR | Actual: USD |
- Mismatch Column Name =Spread  |Expected: 126 | Actual: 0.4 |
+No Match Found for  Trade ID :78466634 | SEC_TYP_CD :CCO  
+ RESULT: Failed
 
+No Match Found for  Trade ID :78466639 | SEC_TYP_CD :CCO  
+ RESULT: Failed
 
-Mismatch at Row :6 for Trade ID :77056506 | SEC_TYP_CD :SWAPIRS | Product Type  : EQS
-  Mismatch Column Name =Payment Frequency Description 2  |Expected: Q | Actual: Monthly |
- Mismatch Column Name =LastEqtyResetPrice  |Expected: 101.0567494 | Actual: 35.515 |
- Mismatch Column Name =Pay/Receive  |Expected: P | Actual: Receive |
- Row 6 Mismatch Column Name =Fixing Term 2  |Expected: NAN | Actual: 1M |
- Mismatch Column Name =Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Fixing Index Name 2  |Expected: NAN | Actual: LIB1M |
- Mismatch Column Name =Broker Id  |Expected: BBB | Actual: MSCSUS33XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: Q | Actual: Monthly |
- Mismatch Column Name =Spread  |Expected: 77 | Actual: 0.4 |
+TOTAL CRDSecids Validated: 84 | TOTAL ROWS PASSED: 77 | TOTAL ROWS WITH MISMATCHES: 7|| TOTAL ROWS NOT FOUND:7|
 
-
-TOTAL CRDSecids Validated: 6 | TOTAL ROWS PASSED: 1 | TOTAL ROWS WITH MISMATCHES: 5|| TOTAL ROWS NOT FOUND:1|
-
-77056478,</pre>
-      </div>
-    </div>
-  </div>
-
-        
-
-        
-  
-        
-
-      </div>
-      </div>
-</div>
-
-
-    
-
-  </div>
-</div>
-
-                  
-<div class="element">
-      <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_src-test-resources-features-KARATE-feature.html">src/test/resources/features/KARATE.feature</a>
-    </div>
-  
-  
-<div class="tags indention">
-      <b>Tags:</b>
-           <a href="report-tag_conversion_run2.html">@conversion_run2</a>
-      </div>
-
-  
-  <span class="lead-duration duration">10.742</span>
-
-
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
-    
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Validate Conversion Files</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-4" class="collapse collapsable-details ">
-    
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
-    
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-5" class="inner-level collapse collapsable-details ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/JUATConverion_0616.csv')</span>
-  
-  <span class="lead-duration duration">0.116</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Trioptima_conversion_0616.csv')</span>
-  
-  <span class="lead-duration duration">0.982</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Conversion.csv')</span>
-  
-  <span class="lead-duration duration">0.001</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Transformation.csv')</span>
-  
-  <span class="lead-duration duration">0.001</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
-  
-  <span class="lead-duration duration">2.695</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">def csv = Java.type('karate.DataCompareConversion')</span>
-  
-  <span class="lead-duration duration">0.002</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">def js = new csv()</span>
-  
-  <span class="lead-duration duration">0.001</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,&quot;CRDSecid&quot;)</span>
-  
-  <span class="lead-duration duration">6.933</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">print result</span>
-  
-  <span class="lead-duration duration">0.006</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details">
-        <pre>22:56:27.149 [print] 
-
-Mismatch at Row :3 for Trade ID :77180875 | SEC_TYP_CD :CPO | Product Type  : FXO
-  Row 3 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXCJ | Actual: CHASGB2LDPC |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :4 for Trade ID :77180871 | SEC_TYP_CD :CCO | Product Type  : FXO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 176.6 |
- Row 4 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXGS | Actual: GSILGB2XXXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :5 for Trade ID :77180880 | SEC_TYP_CD :SWPTNCDS | Product Type  : SWOCDX
-  Row 5 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :6 for Trade ID :77180884 | SEC_TYP_CD :SWPTNCDS | Product Type  : SWOCDX
-  Row 6 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1367 for Trade ID :77180869 | SEC_TYP_CD :CCO | Product Type  : FXO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 176.6 |
- Row 1367 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXGS | Actual: GSILGB2XXXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1430 for Trade ID :77180872 | SEC_TYP_CD :CCO | Product Type  : FXO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 176.6 |
- Row 1430 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXGS | Actual: GSILGB2XXXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1399 for Trade ID :77180873 | SEC_TYP_CD :CCO | Product Type  : FXO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 176.6 |
- Row 1399 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXGS | Actual: GSILGB2XXXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1821 for Trade ID :77180879 | SEC_TYP_CD :SWPTNCDS | Product Type  : SWOCDX
-  Row 1821 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1812 for Trade ID :77180881 | SEC_TYP_CD :SWPTNCDS | Product Type  : SWOCDX
-  Row 1812 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1833 for Trade ID :77180882 | SEC_TYP_CD :SWPTNCDS | Product Type  : SWOCDX
-  Row 1833 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1822 for Trade ID :77180883 | SEC_TYP_CD :SWPTNCDS | Product Type  : SWOCDX
-  Row 1822 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1813 for Trade ID :77180885 | SEC_TYP_CD :SWPTNCDS | Product Type  : SWOCDX
-  Row 1813 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1834 for Trade ID :77180886 | SEC_TYP_CD :SWPTNCDS | Product Type  : SWOCDX
-  Row 1834 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1368 for Trade ID :77184623 | SEC_TYP_CD :CCO | Product Type  : FXO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 177.78 |
- Row 1368 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1449 for Trade ID :77184624 | SEC_TYP_CD :CCO | Product Type  : FXO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 177.78 |
- Row 1449 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1431 for Trade ID :77184625 | SEC_TYP_CD :CCO | Product Type  : FXO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 177.78 |
- Row 1431 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1400 for Trade ID :77184626 | SEC_TYP_CD :CCO | Product Type  : FXO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 177.78 |
- Row 1400 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Currency Code  |Expected: USD | Actual: EUR |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1369 for Trade ID :77180865 | SEC_TYP_CD :CPO | Product Type  : FXO
-  Row 1369 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXDE | Actual: DEUTGB2LXXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1451 for Trade ID :77180866 | SEC_TYP_CD :CPO | Product Type  : FXO
-  Row 1451 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXDE | Actual: DEUTGB2LXXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1433 for Trade ID :77180868 | SEC_TYP_CD :CPO | Product Type  : FXO
-  Row 1433 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXDE | Actual: DEUTGB2LXXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1402 for Trade ID :77180870 | SEC_TYP_CD :CPO | Product Type  : FXO
-  Row 1402 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXDE | Actual: DEUTGB2LXXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1450 for Trade ID :77180876 | SEC_TYP_CD :CPO | Product Type  : FXO
-  Row 1450 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXCJ | Actual: CHASGB2LDPC |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1432 for Trade ID :77180877 | SEC_TYP_CD :CPO | Product Type  : FXO
-  Row 1432 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXCJ | Actual: CHASGB2LDPC |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1401 for Trade ID :77180878 | SEC_TYP_CD :CPO | Product Type  : FXO
-  Row 1401 Mismatch Column Name =ID5  |Expected: OTC | Actual: CASH |
- Mismatch Column Name =Broker Id  |Expected: FXCJ | Actual: CHASGB2LDPC |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :2 for Trade ID :77180798 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 940000 |
- Row 2 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :1 for Trade ID :77184602 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 3600000 |
- Row 1 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :616 for Trade ID :77180789 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 1000000 |
- Row 616 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :598 for Trade ID :77180790 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 1000000 |
- Row 598 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :642 for Trade ID :77180791 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 1000000 |
- Row 642 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :657 for Trade ID :77180792 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 1000000 |
- Row 657 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :670 for Trade ID :77180793 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 1000000 |
- Row 670 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :617 for Trade ID :77180794 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 940000 |
- Row 617 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :599 for Trade ID :77180795 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 940000 |
- Row 599 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :643 for Trade ID :77180796 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 940000 |
- Row 643 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :658 for Trade ID :77180797 | SEC_TYP_CD :OTCECO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 940000 |
- Row 658 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :600 for Trade ID :77184603 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 3600000 |
- Row 600 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :644 for Trade ID :77184604 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 3600000 |
- Row 644 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :659 for Trade ID :77184605 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 3600000 |
- Row 659 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :671 for Trade ID :77184606 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 3600000 |
- Row 671 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :618 for Trade ID :77180819 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 140000 |
- Row 618 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :601 for Trade ID :77180820 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 140000 |
- Row 601 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :645 for Trade ID :77180821 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 140000 |
- Row 645 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :660 for Trade ID :77180822 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 140000 |
- Row 660 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :672 for Trade ID :77180823 | SEC_TYP_CD :OTCEPO | Product Type  : EQO
-  Mismatch Column Name =Notional  |Expected: 200 | Actual: 140000 |
- Row 672 Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: NAN |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/11/2019 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-Mismatch at Row :448 for Trade ID :NAN | SEC_TYP_CD :NAN | Product Type  : CDS
-  Mismatch Column Name =Account Abbreviation  |Expected: NAN | Actual: 9920 |
- Mismatch Column Name =Notional  |Expected: NAN | Actual: 2000000 |
- Mismatch Column Name =Trade Date  |Expected: NAN | Actual: 4/24/2019 |
- Row 448 Mismatch Column Name =Rate  |Expected: NAN | Actual: 1 |
- Mismatch Column Name =Broker Id  |Expected: NAN | Actual: LCHLGB22XXX |
- Mismatch Column Name =Payment Frequency Description  |Expected: NAN | Actual: Quarterly |
- Mismatch Column Name =Currency Code  |Expected: NAN | Actual: USD |
- Mismatch Column Name =First Payment Date  |Expected: NAN | Actual: 6/20/2019 |
- Mismatch Column Name =Effective Date  |Expected: NAN | Actual: 3/20/2019 |
- Mismatch Column Name =Maturity Date  |Expected: NAN | Actual: 6/20/2021 |
-
-
-TOTAL CRDSecids Validated: 70 | TOTAL ROWS PASSED: 0 | TOTAL ROWS WITH MISMATCHES: 70|| TOTAL ROWS NOT FOUND:0|</pre>
+78466637,78466631,78466636,78466635,78466633,78466634,78466639,</pre>
       </div>
     </div>
   </div>

@@ -1,30 +1,30 @@
-17:43:04.065 [print] [
-  {
-    "Trade Date": "1/2/2018",
-    "Maturity Date": "11/17/2019",
-    "Account Abbreviation": "9539",
-    "Notional": "10000",
-    "ID2": "72346",
-    "Product Type": "TRS",
-    "Currency Code": "USD",
-    "Equity Underlying Identifier": "72345",
-    "ID3": "",
-    "Option Exercise Start Date": "12/29/2019",
-    "# of Shares/Options": "252",
-    "Notional 2": "10000",
-    "InitialEqtyPrice": "38.99",
-    "Executing Broker": "",
-    "Protection": "L",
-    "Pay/Receive": "Pay",
-    "LastEqtyResetPrice": "291.8094",
-    "2nd Leg Notional": "2500000"
-  },
-  {
-    "Trade Date": "1/2/2018",
-    "Maturity Date": "6/20/2024",
-    "Account Abbreviation": "9810",
-    "Notional": "100011",
-    "ID2": "72345",
+15:55:45.345 [print] 
+
+No Match Found for  Trade ID :78466637 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466631 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466636 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466635 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466633 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466634 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+No Match Found for  Trade ID :78466639 | SEC_TYP_CD :CCO  
+ RESULT: Failed
+
+TOTAL CRDSecids Validated: 84 | TOTAL ROWS PASSED: 77 | TOTAL ROWS WITH MISMATCHES: 7|| TOTAL ROWS NOT FOUND:7|
+
+78466637,78466631,78466636,78466635,78466633,78466634,78466639,
+,
     "Product Type": "TRS",
     "Currency Code": "EUR",
     "Equity Underlying Identifier": "",
