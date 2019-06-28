@@ -669,7 +669,7 @@ public class DataCompareConversion {
 
                             if(mapSource.get("SEC_CCP_IND").toString().trim().equals("CCP")) {
 
-                                String sourceBroker = mapSource.get("ALC_CLR_BRK_CD").toString().trim();
+                                String sourceBroker = mapSource.get("ALC_CLR_BKR_CD").toString().trim();
                                 String targetBroker = mapTarget.get("Broker").toString().trim();
 
 

@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>CucumberBDD</td>
-            <td>26 Jun 2019, 15:55</td>
+            <td>28 Jun 2019, 12:48</td>
     </tr>
   </tbody>
 </table>
@@ -128,19 +128,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">src/test/resources/features/KARATE.feature</td>
-          <td      class="passed"    >9</td>
-          <td >0</td>
-          <td >0</td>
+          <td      class="passed"    >4</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >4</td>
           <td >0</td>
           <td >0</td>
           <td class="total">9</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="24606346022">24.606</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="9114570444">9.114</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -172,7 +172,7 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
   <span class="name">src/test/resources/features/KARATE.feature</span>
   
@@ -192,12 +192,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">24.606</span>
+  <span class="lead-duration duration">9.114</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Validate Conversion Files</span>
   
@@ -208,15 +208,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -226,14 +226,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details ">
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/Mock2_CCOCPO_0619.csv')</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/JUATConversion_0626.csv')</span>
   
-  <span class="lead-duration duration">0.192</span>
+  <span class="lead-duration duration">3.777</span>
 
   </div>
 
@@ -244,6 +244,17 @@ $(document).ready(function() {
 
         
         
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>12:48:04.449 &gt;&gt; lock acquired, begin callSingle: C:\Users\ff717qc\Desktop\CucumberBDD4\CucumberBDD1/src/test/resources/Utility.js
+12:48:04.649 &lt;&lt; lock released, cached callSingle: C:\Users\ff717qc\Desktop\CucumberBDD4\CucumberBDD1/src/test/resources/Utility.js</pre>
+      </div>
+    </div>
+  </div>
 
         
 
@@ -256,9 +267,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/TROWBNY-HOLDINGS-20190621.csv')</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/Trioptima_conversion_0616.csv')</span>
   
-  <span class="lead-duration duration">2.366</span>
+  <span class="lead-duration duration">5.121</span>
 
   </div>
 
@@ -283,7 +294,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Mapping_Conversion.csv')</span>
   
-  <span class="lead-duration duration">0.009</span>
+  <span class="lead-duration duration">0.097</span>
 
   </div>
 
@@ -308,7 +319,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Transformation.csv')</span>
   
-  <span class="lead-duration duration">0.009</span>
+  <span class="lead-duration duration">0.017</span>
 
   </div>
 
@@ -329,11 +340,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">When</span>
   <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
   
-  <span class="lead-duration duration">4.270</span>
+  <span class="lead-duration duration">0.100</span>
 
   </div>
 
@@ -341,144 +352,120 @@ $(document).ready(function() {
 
         
 
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">def csv = Java.type('karate.DataCompareConversion')</span>
-  
-  <span class="lead-duration duration">0.043</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">def js = new csv()</span>
-  
-  <span class="lead-duration duration">0.013</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,&quot;CRDSecid&quot;)</span>
-  
-  <span class="lead-duration duration">17.689</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
-
-        
-
-        
-  
-        
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">print result</span>
-  
-  <span class="lead-duration duration">0.012</span>
-
-  </div>
-
-        
-
-        
-
-
-        
-        
   <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
-          <a>Doc string</a>
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>com.intuit.karate.exception.KarateException:</a>
       </div>
-      <div id="msg-3" class="collapse collapsable-details">
-        <pre>15:55:45.345 [print] 
-
-No Match Found for  Trade ID :78466637 | SEC_TYP_CD :CCO  
- RESULT: Failed
-
-No Match Found for  Trade ID :78466631 | SEC_TYP_CD :CCO  
- RESULT: Failed
-
-No Match Found for  Trade ID :78466636 | SEC_TYP_CD :CCO  
- RESULT: Failed
-
-No Match Found for  Trade ID :78466635 | SEC_TYP_CD :CCO  
- RESULT: Failed
-
-No Match Found for  Trade ID :78466633 | SEC_TYP_CD :CCO  
- RESULT: Failed
-
-No Match Found for  Trade ID :78466634 | SEC_TYP_CD :CCO  
- RESULT: Failed
-
-No Match Found for  Trade ID :78466639 | SEC_TYP_CD :CCO  
- RESULT: Failed
-
-TOTAL CRDSecids Validated: 84 | TOTAL ROWS PASSED: 77 | TOTAL ROWS WITH MISMATCHES: 7|| TOTAL ROWS NOT FOUND:7|
-
-78466637,78466631,78466636,78466635,78466633,78466634,78466639,</pre>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>com.intuit.karate.exception.KarateException: KARATE.feature:352 - javascript evaluation failed: Utility.replaceJsonKey(targetSheet,mappingSheet), TypeError: Utility.replaceJsonKey is not a function in &lt;eval&gt; at line number 1</pre>
       </div>
     </div>
   </div>
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">def csv = Java.type('karate.DataCompareConversion')</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">def js = new csv()</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,&quot;CRDSecid&quot;)</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">print result</span>
+  
+  <span class="lead-duration duration">0.000</span>
+
+  </div>
+
+        
+
+        
+
+
+        
+        
 
         
 

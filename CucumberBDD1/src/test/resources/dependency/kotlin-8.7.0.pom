@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.cedarsoft</groupId>
+    <artifactId>dependencies-sets</artifactId>
+    <version>8.7.0</version>
+  </parent>
+  <groupId>com.cedarsoft.dependencies-sets</groupId>
+  <artifactId>kotlin</artifactId>
+  <version>8.7.0</version>
+  <packaging>pom</packaging>
+  <name>dependencies-set.Kotlin</name>
+  <description>Contains the dependencies for kotlin based projects</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.cedarsoft.dependencies-sets</groupId>
+      <artifactId>basics</artifactId>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-test-junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

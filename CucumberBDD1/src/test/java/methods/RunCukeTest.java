@@ -33,7 +33,7 @@ import seleniumutils.methods.GlobalProperties;
 		features = {"src/test/resources"},
 		glue = {"com.intuit.karate","seleniumutils.reusablestepdefinitions", "seleniumutils.applicationlayer","seleniumutils.frameworklayer","methods"}
 )
-//Junit
+
 public class RunCukeTest {
 	@Test
     public void testParallel() {

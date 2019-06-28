@@ -1,13 +1,18 @@
-<testsuite failures="0" name="src/test/resources/features/KARATE.feature" skipped="0" tests="1" time="24.606346">
-  <testcase classname="src.test.resources.features.KARATE" name="Validate Conversion Files" time="24.606346">
-    <system-out>Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/Mock2_CCOCPO_0619.csv') . passed
-Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/TROWBNY-HOLDINGS-20190621.csv') . passed
+<testsuite failures="1" name="src/test/resources/features/KARATE.feature" skipped="0" tests="1" time="9.11457">
+  <testcase classname="src.test.resources.features.KARATE" name="Validate Conversion Files" time="9.11457">
+    <failure message="KARATE.feature:352 - javascript evaluation failed: Utility.replaceJsonKey(targetSheet,mappingSheet), TypeError: Utility.replaceJsonKey is not a function in &lt;eval&gt; at line number 1">Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/JUATConversion_0626.csv') . passed
+Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/Trioptima_conversion_0616.csv') . passed
 Given def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Mapping_Conversion.csv') . passed
 Given def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Transformation.csv') . passed
-When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet) . passed
-And def csv = Java.type('karate.DataCompareConversion') ................... passed
-And def js = new csv() .................................................... passed
-Then def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,"CRDSecid") . passed
-Then print result ......................................................... passed</system-out>
+When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet) . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: KARATE.feature:352 - javascript evaluation failed: Utility.replaceJsonKey(targetSheet,mappingSheet), TypeError: Utility.replaceJsonKey is not a function in &lt;eval&gt; at line number 1&#13;
+	at ✽.When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet) (KARATE.feature:352)&#13;
+
+And def csv = Java.type('karate.DataCompareConversion') ................... skipped
+And def js = new csv() .................................................... skipped
+Then def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,"CRDSecid") . skipped
+Then print result ......................................................... skipped</failure>
   </testcase>
 </testsuite>

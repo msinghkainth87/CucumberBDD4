@@ -345,8 +345,8 @@ Scenario: Validate Database  Access DB and MySQL Database
 
   @conversion_run2
   Scenario: Validate Conversion Files
-    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/Mock2_CCOCPO_0619.csv')
-    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/TROWBNY-HOLDINGS-20190621.csv')
+    Given def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/JUATConversion_0626.csv')
+    Given def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/Trioptima_conversion_0616.csv')
     Given def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Mapping_Conversion.csv')
     Given def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Transformation.csv')
     When def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)
