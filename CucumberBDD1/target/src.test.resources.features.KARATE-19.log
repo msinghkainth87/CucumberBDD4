@@ -1,308 +1,404 @@
-11:30:11.093 [print] 
+20:16:27.835 [print] 
 
-Trade ID :77025399 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2110 for Options Tradeid : 77202839  CRDSecid / ID2 :1909328301  |  Product Type CURCLOPT   |  Accno Minor   9810          Mismatch Column Name =2nd Leg Notional  |Expected: 779.375 | Actual: -467.63 |
+ Row 2110
 
-Trade ID :77025398 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2070 for Options Tradeid : 77202837  CRDSecid / ID2 :1909328301  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 779.375 | Actual: -467.63 |
+ Row 2070
 
-Trade ID :77025397 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1956 for Options Tradeid : 77202838  CRDSecid / ID2 :1909328301  |  Product Type CURCLOPT   |  Accno Minor   70GB          Mismatch Column Name =2nd Leg Notional  |Expected: 779.375 | Actual: -467.63 |
+ Row 1956
 
-Trade ID :77025400 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1931 for Options Tradeid : 77202836  CRDSecid / ID2 :1909328301  |  Product Type CURCLOPT   |  Accno Minor   3472          Mismatch Column Name =2nd Leg Notional  |Expected: 779.375 | Actual: -467.63 |
+ Row 1931
 
-Trade ID :77015405 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2028 for Options Tradeid : 77184635  CRDSecid / ID2 :1909139157  |  Product Type CURCLOPT   |  Accno Minor   9539          Mismatch Column Name =2nd Leg Notional  |Expected: 219.49999999999997 | Actual: 200.00 |
+ Row 2028
 
-Trade ID :77015404 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1981 for Options Tradeid : 77184636  CRDSecid / ID2 :1909139157  |  Product Type CURCLOPT   |  Accno Minor   7AJF          Mismatch Column Name =2nd Leg Notional  |Expected: 219.49999999999997 | Actual: 200.00 |
+ Row 1981
 
-Trade ID :77015406 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2063 for Options Tradeid : 77184634  CRDSecid / ID2 :1909139157  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 219.49999999999997 | Actual: 200.00 |
+ Row 2063
 
-Trade ID :77015407 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1925 for Options Tradeid : 77184633  CRDSecid / ID2 :1909139157  |  Product Type CURCLOPT   |  Accno Minor   3472          Mismatch Column Name =2nd Leg Notional  |Expected: 219.49999999999997 | Actual: 200.00 |
+ Row 1925
 
-Trade ID :77015409 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2128 for Options Tradeid : 77106563  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   9878          Mismatch Column Name =2nd Leg Notional  |Expected: 281.25 | Actual: 250.00 |
+ Row 2128
 
-Trade ID :77015408 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1977 for Options Tradeid : 77106561  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   7AJF          Mismatch Column Name =2nd Leg Notional  |Expected: 281.25 | Actual: 250.00 |
+ Row 1977
 
-Trade ID :77015410 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2060 for Options Tradeid : 77106560  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 281.25 | Actual: 250.00 |
+ Row 2060
 
-Trade ID :77015411 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1953 for Options Tradeid : 77106562  CRDSecid / ID2 :1892193136  |  Product Type CURCLOPT   |  Accno Minor   70GB          Mismatch Column Name =2nd Leg Notional  |Expected: 281.25 | Actual: 250.00 |
+ Row 1953
 
-Trade ID :77025385 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2124 for Options Tradeid : 77221772  CRDSecid / ID2 :1914775480  |  Product Type CURCLOPT   |  Accno Minor   9810          Mismatch Column Name =MaturityDate  |Expected: 2021-05-20 00:00:00 | Actual: 06/19/2019 |
+ Row 2124
 
-Trade ID :77025388 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2085 for Options Tradeid : 77221770  CRDSecid / ID2 :1914775480  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =MaturityDate  |Expected: 2021-05-20 00:00:00 | Actual: 06/19/2019 |
+ Row 2085
 
-Trade ID :77025387 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1970 for Options Tradeid : 77221771  CRDSecid / ID2 :1914775480  |  Product Type CURCLOPT   |  Accno Minor   70GB          Mismatch Column Name =MaturityDate  |Expected: 2021-05-20 00:00:00 | Actual: 06/19/2019 |
+ Row 1970
 
-Trade ID :77025386 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1935 for Options Tradeid : 77221769  CRDSecid / ID2 :1914775480  |  Product Type CURCLOPT   |  Accno Minor   3472          Mismatch Column Name =MaturityDate  |Expected: 2021-05-20 00:00:00 | Actual: 06/19/2019 |
+ Row 1935
 
-Trade ID :77025392 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2083 for Options Tradeid : 77225796  CRDSecid / ID2 :1914775472  |  Product Type CURCLOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 498.8 | Actual: 124.70 |
+ Row 2083
 
-Trade ID :77025390 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1968 for Options Tradeid : 77225797  CRDSecid / ID2 :1914775472  |  Product Type CURCLOPT   |  Accno Minor   70GB          Mismatch Column Name =2nd Leg Notional  |Expected: 498.8 | Actual: 124.70 |
+ Row 1968
 
-Trade ID :77025389 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1933 for Options Tradeid : 77225795  CRDSecid / ID2 :1914775472  |  Product Type CURCLOPT   |  Accno Minor   3472          Mismatch Column Name =2nd Leg Notional  |Expected: 498.8 | Actual: 124.70 |
+ Row 1933
 
-Trade ID :77025391 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2122 for Options Tradeid : 77225798  CRDSecid / ID2 :1914775472  |  Product Type CURCLOPT   |  Accno Minor   9810          Mismatch Column Name =2nd Leg Notional  |Expected: 498.8 | Actual: 124.70 |
+ Row 2122
 
-Trade ID :77015421 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2123 for Options Tradeid : 77225802  CRDSecid / ID2 :1914775475  |  Product Type CURPTOPT   |  Accno Minor   9810          Mismatch Column Name =2nd Leg Notional  |Expected: 726.25 | Actual: 944.13 |
+ Row 2123
 
-Trade ID :77015420 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :2084 for Options Tradeid : 77225800  CRDSecid / ID2 :1914775475  |  Product Type CURPTOPT   |  Accno Minor   9577          Mismatch Column Name =2nd Leg Notional  |Expected: 726.25 | Actual: 944.13 |
+ Row 2084
 
-Trade ID :77015424 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1969 for Options Tradeid : 77225801  CRDSecid / ID2 :1914775475  |  Product Type CURPTOPT   |  Accno Minor   70GB          Mismatch Column Name =2nd Leg Notional  |Expected: 726.25 | Actual: 944.13 |
+ Row 1969
 
-Trade ID :77015423 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1934 for Options Tradeid : 77225799  CRDSecid / ID2 :1914775475  |  Product Type CURPTOPT   |  Accno Minor   3472          Mismatch Column Name =2nd Leg Notional  |Expected: 726.25 | Actual: 944.13 |
+ Row 1934
 
-Trade ID :77015422 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :837 for Options Tradeid : 77044778  CRDSecid / ID2 :1884002059  |  Product Type EQCLOPT   |  Accno Minor   9539          Mismatch Column Name =# of Shares/Options  |Expected: 200 | Actual: 250.00 |
+ Row 837
 
-Trade ID :77015425 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :773 for Options Tradeid : 77033423  CRDSecid / ID2 :1884002077  |  Product Type EQCLOPT   |  Accno Minor   3472          Mismatch Column Name =TradeDate  |Expected: 5/23/2019 | Actual: 05/16/2019 |
+ Row 773
 
-Trade ID :77015427 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :805 for Options Tradeid : 77176668  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   7AJF          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 805
 
-Trade ID :77015426 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :805 for Options Tradeid : 77176668  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   7AJF          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 805
 
-Trade ID :77015428 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :925 for Options Tradeid : 77176677  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9810          Mismatch Column Name =# of Shares/Options  |Expected: 7529 | Actual: 8029.00 |
+ Row 925
 
-Trade ID :77015431 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :925 for Options Tradeid : 77176677  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9810          Mismatch Column Name =# of Shares/Options  |Expected: 7779 | Actual: 8029.00 |
+ Row 925
 
-Trade ID :77015429 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :875 for Options Tradeid : 77176667  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9577          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 875
 
-Trade ID :77015430 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :875 for Options Tradeid : 77176667  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9577          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 875
 
-Trade ID :77015432 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :788 for Options Tradeid : 77176675  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: 504 | Actual: 1004.00 |
+ Row 788
 
-Trade ID :77015435 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :787 for Options Tradeid : 77176669  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 787
 
-Trade ID :77015433 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :788 for Options Tradeid : 77176675  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: 754 | Actual: 1004.00 |
+ Row 788
 
-Trade ID :77015434 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :787 for Options Tradeid : 77176669  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 787
 
-Trade ID :77015436 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :896 for Options Tradeid : 77176676  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9752          Mismatch Column Name =# of Shares/Options  |Expected: 17703 | Actual: 18453.00 |
+ Row 896
 
-Trade ID :77025395 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :956 for Options Tradeid : 77176678  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: 6735 | Actual: 7235.00 |
+ Row 956
 
-Trade ID :77025393 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :955 for Options Tradeid : 77176670  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 955
 
-Trade ID :77025394 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :956 for Options Tradeid : 77176678  CRDSecid / ID2 :1887198513  |  Product Type EQCLOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: 6985 | Actual: 7235.00 |
+ Row 956
 
-Trade ID :77025396 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :955 for Options Tradeid : 77176670  CRDSecid / ID2 :1892193186  |  Product Type EQCLOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: -150 | Actual: 250.00 |
+ Row 955
 
-No Mismatches for  Trade ID:77025379 RESULT: PASSED
+Mismatch at Row :920 for Options Tradeid : 77066413  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9810          Mismatch Column Name =# of Shares/Options  |Expected: 4679 | Actual: 4929.00 |
+ Row 920
 
-No Mismatches for  Trade ID:77025380 RESULT: PASSED
+Mismatch at Row :920 for Options Tradeid : 77066413  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9810          Mismatch Column Name =# of Shares/Options  |Expected: 4754 | Actual: 4929.00 |
+ Row 920
 
-No Mismatches for  Trade ID:77025378 RESULT: PASSED
+Mismatch at Row :782 for Options Tradeid : 77066411  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: 693 | Actual: 943.00 |
+ Row 782
 
-No Mismatches for  Trade ID:77025377 RESULT: PASSED
+Mismatch at Row :782 for Options Tradeid : 77066411  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: 768 | Actual: 943.00 |
+ Row 782
 
-Trade ID :77031383 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :890 for Options Tradeid : 77066412  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9752          Mismatch Column Name =# of Shares/Options  |Expected: 14046 | Actual: 14546.00 |
+ Row 890
 
-Trade ID :77031381 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :890 for Options Tradeid : 77066412  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9752          Mismatch Column Name =# of Shares/Options  |Expected: 14621 | Actual: 14546.00 |
+ Row 890
 
-Mismatch at Row :1 for Trade ID : 77031382  Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2958 | Actual: 2963 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 1 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN |
-Mismatch at Row :2 for Trade ID : 77031382  Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2958 | Actual: 2963 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 1 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN | Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 2958 | Actual: 2963 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 2 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN |
+Mismatch at Row :950 for Options Tradeid : 77066414  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: 5407 | Actual: 5657.00 |
+ Row 950
 
-Mismatch at Row :3 for Trade ID : 77031380  Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 3327.75 | Actual: 3333.38 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 3 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN |
-Mismatch at Row :4 for Trade ID : 77031380  Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 3327.75 | Actual: 3333.38 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 3 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN | Mismatch Column Name =Description  |Expected: ETFS PHYSICAL SILVER FD | Actual: EX/BUY PHAG | Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: BUY | Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN | Mismatch Column Name =Notional  |Expected: 3327.75 | Actual: 3333.38 | Mismatch Column Name =Return Leg Price  |Expected: 14.765 | Actual: 14.815 | Mismatch Column Name =Trade Date  |Expected: 5/13/2019 0:00 | Actual: 5/13/2019 | Row 4 Mismatch Column Name =Leg1 Rate  |Expected: 0.00E+00 | Actual: 0 | Mismatch Column Name =Maturity Date  |Expected: 1/17/2020 0:00 | Actual: 1/15/2020 | Mismatch Column Name =Customer  |Expected: MLCO | Actual: BOFAUS3DEQN |
+Mismatch at Row :950 for Options Tradeid : 77066414  CRDSecid / ID2 :1887198523  |  Product Type EQPTOPT   |  Accno Minor   9878          Mismatch Column Name =# of Shares/Options  |Expected: 5482 | Actual: 5657.00 |
+ Row 950
 
-Trade ID :77015458 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :783 for Options Tradeid : 77066415  CRDSecid / ID2 :1887198541  |  Product Type EQPTOPT   |  Accno Minor   70GB          Mismatch Column Name =# of Shares/Options  |Expected: -494 | Actual: 1006.00 |
+ Row 783
 
-Trade ID :77015456 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1255 for CRDSecid / ID2 :1888979818 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1255
 
-Trade ID :77015455 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1256 for CRDSecid / ID2 :1888979824 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Row 1256 Mismatch Column Name =Price  |Expected: 89.3791047924063 | Actual: 90.240000 |
 
-Trade ID :77015457 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015453 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1244 for CRDSecid / ID2 :1888979782 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1244
 
-Trade ID :77015451 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1247 for CRDSecid / ID2 :1888979578 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1247
 
-Trade ID :77015447 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1180 for CRDSecid / ID2 :1888975813 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Row 1180 Mismatch Column Name =Price  |Expected: 289.06186588722403 | Actual: 296.000000 |
 
-Trade ID :77015452 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015454 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1107 for CRDSecid / ID2 :1888979155 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Row 1107 Mismatch Column Name =Price  |Expected: 4.3975 | Actual: 3.280000 |
 
-Trade ID :77015459 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015462 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1200 for CRDSecid / ID2 :1888975122 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1200 Mismatch Column Name =Price  |Expected: 1621.00000038375 | Actual: 1621.000000 |
 
-Trade ID :77015461 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015460 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1380 for CRDSecid / ID2 :1905085674 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1380
 
-Trade ID :77015449 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1361 for CRDSecid / ID2 :1905085340 | ID3 :  |  Product Type EQTRSWP   |  Accno Minor   4568        
+  Mismatch Column Name =MaturityDate/EQTRSWP  |Expected: 2020-01-15 00:00:00 | Actual: 01/20/2020 |
+ Row 1361
 
-Trade ID :77015446 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1664 for CRDSecid / ID2 :1887197274 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
+  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2595191.30 |
+ Row 1664
 
-Trade ID :77015445 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1621 for CRDSecid / ID2 :1887197274 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   70GB        
+  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2595191.30 |
+ Row 1621
 
-Trade ID :77015448 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :985 for CRDSecid / ID2 :1887197274 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   3472        
+  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2595191.30 |
+ Row 985
+
+Mismatch at Row :1906 for CRDSecid / ID2 :1887197274 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9878        
+  Mismatch Column Name =2nd Leg Notional  |Expected: -2500000 | Actual: 2595191.30 |
+ Row 1906
+
+Mismatch at Row :1909 for CRDSecid / ID2 :1917649769 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9878        
+  Mismatch Column Name =2nd Leg Notional  |Expected: 2795388.73 | Actual: 2500000.00 |
+ Row 1909
+
+Mismatch at Row :1648 for CRDSecid / ID2 :1917649769 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
+  Mismatch Column Name =2nd Leg Notional  |Expected: 2795388.73 | Actual: 2500000.00 |
+ Row 1648
+
+Mismatch at Row :1903 for CRDSecid / ID2 :1917649769 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9810        
+  Mismatch Column Name =2nd Leg Notional  |Expected: 2795388.73 | Actual: 2500000.00 |
+ Row 1903
+
+Mismatch at Row :1895 for CRDSecid / ID2 :1917649769 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
+  Mismatch Column Name =2nd Leg Notional  |Expected: 2795388.73 | Actual: 2500000.00 |
+ Row 1895
+
+Mismatch at Row :1660 for CRDSecid / ID2 :1917649729 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9539        
+  Mismatch Column Name =Notional for FITRSWP USD   |Expected: 2500001.0 | Actual: 2500000.00 |
+ Row 1660
+
+Mismatch at Row :1647 for CRDSecid / ID2 :1917649729 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   7AJF        
+  Mismatch Column Name =Notional for FITRSWP USD   |Expected: 2500001.0 | Actual: 2500000.00 |
+ Row 1647
+
+Mismatch at Row :1902 for CRDSecid / ID2 :1917649729 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9810        
+  Mismatch Column Name =Notional for FITRSWP USD   |Expected: 2500001.0 | Actual: 2500000.00 |
+ Row 1902
+
+Mismatch at Row :1893 for CRDSecid / ID2 :1917649729 | ID3 :  |  Product Type FITRSWP   |  Accno Minor   9577        
+  Mismatch Column Name =Notional for FITRSWP USD   |Expected: 2500001.0 | Actual: 2500000.00 |
+ Row 1893
+
+Mismatch at Row :753 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
+  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: null |
+ Row 753
+
+Mismatch at Row :741 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
+  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: null |
+ Row 741
+
+Mismatch at Row :753 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9878        
+  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: null |
+ Row 753
+
+Mismatch at Row :741 for CRDSecid / ID2 :1781603866 | ID3 :  |  Product Type INDTRSWP   |  Accno Minor   9810        
+  Mismatch Column Name =IssueCurrency  |Expected: EUR | Actual: null |
+ Row 741
+
+Mismatch at Row :2287 for CRDSecid / ID2 :1882393800 | ID3 :  |  Product Type INTRTSWP   |  Accno Minor   7AJF        
+  Mismatch Column Name =MaturityDate  |Expected: 2021-05-17 00:00:00 | Actual: 06/19/2019 |
+ Row 2287
+
+TOTAL CRDSecids Validated: 2230 | TOTAL ROWS PASSED: 1800 | TOTAL ROWS WITH MISMATCHES: 76| TOTAL ROWS NOT FOUND:354|
+
+1881715911
+1881715802
+1892193093
+876906659
+877172560
+877174342
+878754270
+875402689
+777091908
+794211015
+Options trade 981077186666
+Options trade 981077202831
+Options trade 957777186664
+Options trade 957777202829
+Options trade 70GB77186665
+Options trade 70GB77202830
+Options trade 347277186663
+Options trade 953977044831
+Options trade 953977194905
+Options trade 7AJF77044832
+Options trade 981077044833
+Options trade 957777044830
+Options trade 957777194904
+Options trade 347277194903
+Options trade 953977039996
+Options trade 953977044810
+Options trade 7AJF77044811
+Options trade 957777039995
+Options trade 70GB77044813
+Options trade 975277044812
+Options trade 987877039998
+Options trade 9752770448441
+Options trade 97527711882315
+NAN
+Options trade 770444778
+Options trade 953977233843
+Options trade 953977233870
+Options trade 7AJF77233842
+Options trade 7AJF77233869
+Options trade 957777233844
+Options trade 957777233871
+Options trade 975277233845
+Options trade 975277233872
+Options trade 981077233766
+Options trade 981077233770
+Options trade 70GB77233764
+Options trade 70GB77233768
+Options trade 975277233765
+Options trade 975277233769
+Options trade 987877233767
+Options trade 987877233771
+Options trade 77176628
+Options trade 77176630
+Options trade 77176627
+Options trade 77176629
+1880234417
+1816498470
+1888976013
+1888978921
+1888975869
+1888980174
+1888979544
+1888974610
+1839195078
+1816498396
+1816498387
+1888979083
+1888979019
+1905085933
+1839195072
+1816498384
+1816498481
+1816498445
+1887197874
+1905085314
+1916518205
+1887198087
+1887196796
+1887196672
+1887196920
+1866316628
+1887196776
+1887196898
+1887196653
+1911967758
+1863961332
+1881715952
+1713003403
+1757982264
+1624153328
+1712992227
+1713003597
+733643302
+1516700723
+1065663361
+1101343817
+1320895464
+764231981
+979063395
+742011162
+1762995043
+937363445
+918883079
+Options trade 77066456
+Options trade 77066457
+Options trade 77066459
+Options trade 77066458
+Options trade 77094619
+Options trade 77146539
+Options trade 77094620
+Options trade 77146540
+Options trade 77094618
+Options trade 77146538
+Options trade 77045167
+Options trade 77045168
+Options trade 77045166
+Options trade 77045153
+Options trade 77045154
+Options trade 77045156
+Options trade 77045152
+Options trade 77045155
+Options trade 77094597
+Options trade 77094599
+Options trade 77094598
+Options trade 77094600
+Options trade 77225780
+Options trade 77225790
+Options trade 77054365
+Options trade 77054364
+Options trade 77225779
+Options trade 77225789
+Options trade 77054363
+Options trade 77225781
+Options trade 77225791
+Options trade 77225782
+Options trade 77225792
+Options trade 77112512
+Options trade 77112514
+Options trade 77112511
+Options trade 77112513
+Options trade 77045163
+Options trade 77045162
+Options trade 77045161
+Options trade 77045164
 
-Trade ID :77015450 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015443 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015442 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015441 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015444 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027383 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027379 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027377 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027376 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027381 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027380 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027375 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027378 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027382 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027384 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027395 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027393 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027394 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027396 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015464 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015463 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015465 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015466 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027401 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027404 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027403 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027402 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015470 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015468 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015467 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015469 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015474 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015472 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015471 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015473 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015483 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015486 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015485 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015484 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015476 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015475 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015477 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015478 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027419 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027422 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027421 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027420 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015480 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015479 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015481 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015482 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027407 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027405 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027406 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027408 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027409 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027425 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027423 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027424 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027426 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027427 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027417 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027415 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027416 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027418 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027413 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027411 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027410 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027412 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77027414 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015487 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015490 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015489 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77015488 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77019910 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77019908 not found in Target sheet. RESULT: FAILED
-
-TOTAL Trade IDs Validated: 142 | TOTAL ROWS PASSED: 4 | TOTAL ROWS WITH MISMATCHES: 138|
-d in Target sheet. RESULT: FAILED
-
-Trade ID :77019914 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77019912 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77019911 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77019913 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77019918 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77019916 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77019915 not found in Target sheet. RESULT: FAILED
-
-Trade ID :77019917 not found in Target sheet. RESULT: FAILED
-
-TOTAL Trade IDs Validated: 152 | TOTAL ROWS PASSED: 4 | TOTAL ROWS WITH MISMATCHES: 148|

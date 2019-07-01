@@ -1,403 +1,335 @@
-14:12:14.984 [print] 
+20:39:43.725 [print] 
 
-Trade ID :77015402 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :442 for Trade ID :68757160 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 442 Mismatch Column Name=Broker Id Trans  |Expected: HSBC | Actual: MRMDUS33XXX |
 
-Trade ID :77015401 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015400 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1570 for Trade ID :71559669 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1570 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77015403 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025399 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1668 for Trade ID :71559674 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1668 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77025398 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025397 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1630 for Trade ID :71559677 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1630 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77025400 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015405 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1569 for Trade ID :71635889 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1569 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77015404 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015406 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1667 for Trade ID :71635894 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1667 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77015407 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015409 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1758 for Trade ID :71635895 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1758 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77015408 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015410 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1629 for Trade ID :71635897 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1629 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77015411 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015412 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1714 for Trade ID :71559673 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1714 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77015415 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015414 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1759 for Trade ID :71559675 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1759 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77015413 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025385 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1573 for Trade ID :71910643 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1573 Mismatch Column Name =Effective Date  |Expected: 2/28/2018 0:00 | Actual: 3/1/2018 |
 
-Trade ID :77025388 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025387 not found in Target sheet. RESULT: FAILED
+No Match Found for  Trade ID :76974070 | SEC_TYP_CD :SWAPIRS  
+ RESULT: Failed
 
-Trade ID :77025386 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :130 for Trade ID :72220379 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 130 Mismatch Column Name =First Payment Date  |Expected: 6/20/2018 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 12/20/2017 |
 
-Trade ID :77015419 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015417 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :287 for Trade ID :72220380 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 287 Mismatch Column Name =First Payment Date  |Expected: 6/20/2018 0:00 | Actual: 3/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 12/20/2017 |
 
-Trade ID :77015416 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015418 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1578 for Trade ID :72227653 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1578 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
 
-Trade ID :77025392 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025390 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1673 for Trade ID :72227656 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1673 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
 
-Trade ID :77025389 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025391 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :471 for Trade ID :76365500 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 471 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77015421 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015420 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :473 for Trade ID :76356277 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 473 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77015424 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015423 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :474 for Trade ID :76425942 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 474 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77015422 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015425 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1721 for Trade ID :74200761 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1721 Mismatch Column Name =Effective Date  |Expected: 8/7/2018 0:00 | Actual: 8/6/2018 |
 
-Trade ID :77015427 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015426 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1723 for Trade ID :74214174 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1723 Mismatch Column Name =Effective Date  |Expected: 8/8/2018 0:00 | Actual: 8/9/2018 |
 
-Trade ID :77015428 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015431 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :154 for Trade ID :74793103 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 154 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
 
-Trade ID :77015429 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015430 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :295 for Trade ID :74793107 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 295 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
 
-Trade ID :77015432 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015435 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :424 for Trade ID :74793108 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 424 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
 
-Trade ID :77015433 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015434 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :260 for Trade ID :74793110 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 260 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
 
-Trade ID :77015436 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015439 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :6 for Trade ID :74809678 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 6 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
 
-Trade ID :77015437 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015438 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1516 for Trade ID :71910644 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1516 Mismatch Column Name =Effective Date  |Expected: 2/28/2018 0:00 | Actual: 3/1/2018 |
 
-Trade ID :77015440 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025395 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1509 for Trade ID :72227654 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1509 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
 
-Trade ID :77025393 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025394 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1590 for Trade ID :75503637 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1590 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
 
-Trade ID :77025396 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025379 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1797 for Trade ID :75503639 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1797 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
 
-Trade ID :77025380 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025378 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1728 for Trade ID :75503641 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1728 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
 
-Trade ID :77025377 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025384 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1680 for Trade ID :75503642 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1680 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
 
-Trade ID :77025382 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77025383 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1773 for Trade ID :75503643 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1773 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
 
-Trade ID :77025381 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77031383 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :472 for Trade ID :76356248 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 472 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77031381 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77031382 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1531 for Trade ID :75636381 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1531 Mismatch Column Name =Effective Date  |Expected: 11/13/2018 0:00 | Actual: 11/14/2018 |
 
-Trade ID :77031380 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015458 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1528 for Trade ID :75503638 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1528 Mismatch Column Name =Effective Date  |Expected: 11/5/2018 0:00 | Actual: 11/2/2018 |
 
-Trade ID :77015456 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015455 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1510 for Trade ID :71559670 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1510 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77015457 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015453 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1503 for Trade ID :71635890 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1503 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
 
-Trade ID :77015451 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015447 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1790 for Trade ID :75992314 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Row 1790 Mismatch Column Name =First Payment Date  |Expected: 12/11/2019 0:00 | Actual: 6/11/2019 |
 
-Trade ID :77015452 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015454 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :496 for Trade ID :76356247 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 496 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77060507 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77060510 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :566 for Trade ID :76356252 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 566 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77060509 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77060508 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :548 for Trade ID :76356253 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 548 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77060493 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77060491 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :585 for Trade ID :76356254 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 585 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77060490 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77060492 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :529 for Trade ID :76356256 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 529 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77060494 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015443 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :497 for Trade ID :76356276 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 497 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77015442 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015441 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :567 for Trade ID :76356281 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 567 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77015444 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77027383 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :549 for Trade ID :76356282 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 549 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77027379 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77027377 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :586 for Trade ID :76356283 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 586 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77027376 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77027381 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :521 for Trade ID :76356285 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 521 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
 
-Mismatch at Row :779 for Trade ID : 77060483 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
- Row 779 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+Mismatch at Row :495 for Trade ID :76365499 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 495 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
 
-Mismatch at Row :780 for Trade ID : 77060481 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
- Row 780 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+Mismatch at Row :547 for Trade ID :76365504 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 547 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
 
-Mismatch at Row :766 for Trade ID : 77060482 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
- Row 766 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+Mismatch at Row :583 for Trade ID :76365505 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 583 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
 
-Mismatch at Row :764 for Trade ID : 77060484 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
- Row 764 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+Mismatch at Row :528 for Trade ID :76365507 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 528 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
 
-Mismatch at Row :776 for Trade ID : 77060485 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2000000 | Actual: -2000000 |
- Row 776 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Customer  |Expected: GSILGB2XXXX | Actual: ICUSUS33XXX |
+No Match Found for  Trade ID :76366139 | SEC_TYP_CD :SWAPIRS  
+ RESULT: Failed
 
+Mismatch at Row :498 for Trade ID :76425941 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 498 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Mismatch at Row :765 for Trade ID : 77060517 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Row 765 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
 
+Mismatch at Row :539 for Trade ID :76425946 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 539 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Mismatch at Row :778 for Trade ID : 77060515 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Row 778 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
 
+Mismatch at Row :587 for Trade ID :76425947 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 587 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Mismatch at Row :772 for Trade ID : 77060516 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Row 772 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
 
+Mismatch at Row :530 for Trade ID :76425949 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 530 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Mismatch at Row :767 for Trade ID : 77060518 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 207.7445 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: CDX EM CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Row 767 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
- Mismatch Column Name =Customer  |Expected: BOFAUS3DEQN | Actual: ICUSUS33XXX |
 
-Trade ID :77060461 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :64 for Trade ID :74793104 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
+  Row 64 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 9/20/2018 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 6/20/2018 |
 
-Trade ID :77060460 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77060462 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :457 for Trade ID :76602822 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 457 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77060463 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77060503 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :588 for Trade ID :76626012 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Row 588 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
-Trade ID :77060506 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77060505 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :597 for Trade ID :76753011 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Mismatch Column Name =Notional  |Expected: ALC_EXEC_QTY * SEC_FACTOR 804080.0 | Actual: 874000 |
+ Mismatch Column Name =Settle Date  |Expected: 43546 | Actual: 3/22/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 43545 | Actual: 3/21/2019 |
+ Row 597 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name=Issuer Name Trans  |Expected: CDX EM CDSI S21 5YR PRC 06/20/2019 | Actual: ITRAXX_EUROPE_30_1 |
+ Mismatch Column Name =First Payment Date  |Expected: 43636 | Actual: 6/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 43363 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 43636 | Actual: 12/20/2023 |
 
-Trade ID :77060504 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77060498 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :590 for Trade ID :76753013 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
+  Mismatch Column Name =Notional  |Expected: ALC_EXEC_QTY * SEC_FACTOR 135424.0 | Actual: 147200 |
+ Mismatch Column Name =Settle Date  |Expected: 43546 | Actual: 3/22/2019 |
+ Mismatch Column Name =Trade Date  |Expected: 43545 | Actual: 3/21/2019 |
+ Row 590 Mismatch Column Name =Rate  |Expected: 5 | Actual: 1 |
+ Mismatch Column Name=Issuer Name Trans  |Expected: CDX EM CDSI S21 5YR PRC 06/20/2019 | Actual: ITRAXX_EUROPE_30_1 |
+ Mismatch Column Name =First Payment Date  |Expected: 43636 | Actual: 6/20/2019 |
+ Mismatch Column Name =Effective Date  |Expected: 43363 | Actual: 3/20/2019 |
+ Mismatch Column Name =Maturity Date  |Expected: 43636 | Actual: 12/20/2023 |
 
-Trade ID :77060496 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77060495 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1594 for Trade ID :76974068 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
+ Row 1594 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
+ Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
 
-Trade ID :77060497 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015474 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1730 for Trade ID :76974069 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
+ Row 1730 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
+ Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
 
-Trade ID :77015472 not found in Target sheet. RESULT: FAILED
 
-Trade ID :77015471 not found in Target sheet. RESULT: FAILED
+Mismatch at Row :1775 for Trade ID :76974071 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
+  Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
+ Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
+ Row 1775 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
+ Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
+ Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
 
-Trade ID :77015473 not found in Target sheet. RESULT: FAILED
 
+No Match Found for  Trade ID :0 | SEC_TYP_CD :0  
+ RESULT: Failed
 
-Mismatch at Row :793 for Trade ID : 77060464 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
- Row 793 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
+No Match Found for  Trade ID :0 | SEC_TYP_CD :0  
+ RESULT: Failed
 
+TOTAL CRDSecids Validated: 641 | TOTAL ROWS PASSED: 573 | TOTAL ROWS WITH MISMATCHES: 68|| TOTAL ROWS NOT FOUND:4|
 
-
-Mismatch at Row :770 for Trade ID : 77060467 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
- Row 770 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :792 for Trade ID : 77060466 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
- Row 792 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :760 for Trade ID : 77060465 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
- Row 760 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :790 for Trade ID : 77060487 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Row 790 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :784 for Trade ID : 77060486 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Row 784 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :782 for Trade ID : 77060488 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Row 782 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :774 for Trade ID : 77060489 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: B INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Row 774 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :773 for Trade ID : 77060519 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
- Row 773 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :785 for Trade ID : 77060522 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
- Row 785 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :777 for Trade ID : 77060521 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
- Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
- Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
- Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |
- Mismatch Column Name =Notional  |Expected: 2500000 | Actual: -2500000 |
- Row 777 Mismatch Column Name =Leg1 Rate  |Expected: 1 | Actual: 0 |
-
-
-
-Mismatch at Row :798 for Trade ID : 77060520 SWAPCDSI  Mismatch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
+76974070,76366139,0,0,
+ch Column Name =Traded Spread  |Expected: 153.15 | Actual: NAN |
  Mismatch Column Name =Description  |Expected: ITRX EUR SUBFIN CDSI S30 5Y | Actual: S INDEX_CDS / Index CDS |
  Mismatch Column Name =Buy / Sell  |Expected: BUYL | Actual: NAN |
  Mismatch Column Name =Leg2 Index  |Expected: 0.00001 | Actual: NAN |

@@ -22,7 +22,7 @@ import seleniumutils.methods.GlobalProperties;
 
 //comment @RunWith and uncomment above import and the RunCukesTestNG class if you are running with TestNG
 
-@CucumberOptions(tags={"@conversion_run2"},
+@CucumberOptions(tags={"@conversion_run1"},
 		//Built-In report
 		//plugin = {"pretty","html:target/cucumberHtmlReport.html","json:target/cucumberJSONReportKarate.json", "com.cucumber.listener.ExtentCucumberFormatter:target/report.html"},
 		//cucumber_pro

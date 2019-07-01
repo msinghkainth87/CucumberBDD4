@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>CucumberBDD</td>
-            <td>12 Jun 2019, 15:01</td>
+            <td>30 Jun 2019, 20:39</td>
     </tr>
   </tbody>
 </table>
@@ -139,7 +139,7 @@ $(document).ready(function() {
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="33143126681">33.143</td>
+          <td class="duration" data-value="52118529014">52.118</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -182,7 +182,7 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">33.143</span>
+  <span class="lead-duration duration">52.118</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -221,9 +221,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/TrowConversion_0611.csv')</span>
+  <span class="name">def sourceSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Conversions/TrowConversion_0611.csv')</span>
   
-  <span class="lead-duration duration">0.304</span>
+  <span class="lead-duration duration">0.700</span>
 
   </div>
 
@@ -246,9 +246,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Trioptima_0611.csv')</span>
+  <span class="name">def targetSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources//Conversions/Trioptima_0611.csv')</span>
   
-  <span class="lead-duration duration">0.629</span>
+  <span class="lead-duration duration">1.062</span>
 
   </div>
 
@@ -271,9 +271,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Conversion.csv')</span>
+  <span class="name">def mappingSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Mapping_Conversion.csv')</span>
   
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">0.020</span>
 
   </div>
 
@@ -296,9 +296,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Transformation.csv')</span>
+  <span class="name">def transformationSheet = read('C:/Users/ff717qc/Desktop/CucumberBDD4/CucumberBDD1/src/test/resources/Mapping_Utils/Transformation.csv')</span>
   
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">0.015</span>
 
   </div>
 
@@ -323,7 +323,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">def targetHeaderUpdated = Utility.replaceJsonKey(targetSheet,mappingSheet)</span>
   
-  <span class="lead-duration duration">2.614</span>
+  <span class="lead-duration duration">5.651</span>
 
   </div>
 
@@ -348,7 +348,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">def csv = Java.type('karate.DataCompareConversion')</span>
   
-  <span class="lead-duration duration">0.014</span>
+  <span class="lead-duration duration">0.212</span>
 
   </div>
 
@@ -373,7 +373,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">def js = new csv()</span>
   
-  <span class="lead-duration duration">0.008</span>
+  <span class="lead-duration duration">0.025</span>
 
   </div>
 
@@ -398,7 +398,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">def result = js.compareData(sourceSheet,targetHeaderUpdated,mappingSheet,transformationSheet,&quot;CRDSecid&quot;)</span>
   
-  <span class="lead-duration duration">29.558</span>
+  <span class="lead-duration duration">44.423</span>
 
   </div>
 
@@ -423,7 +423,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">print result</span>
   
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.005</span>
 
   </div>
 
@@ -440,10 +440,10 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>15:01:09.441 [print] 
+        <pre>20:39:43.725 [print] 
 
 Mismatch at Row :442 for Trade ID :68757160 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
-  Row 442 Mismatch Column Name =Broker Id  |Expected: HSBC | Actual: MRMDUS33XXX |
+  Row 442 Mismatch Column Name=Broker Id Trans  |Expected: HSBC | Actual: MRMDUS33XXX |
 
 
 Mismatch at Row :1570 for Trade ID :71559669 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
@@ -482,24 +482,12 @@ Mismatch at Row :1759 for Trade ID :71559675 | SEC_TYP_CD :SWAPIRS | Product Typ
   Row 1759 Mismatch Column Name =Effective Date  |Expected: 2/13/2018 0:00 | Actual: 2/12/2018 |
 
 
-Mismatch at Row :1571 for Trade ID :71831649 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1571 Mismatch Column Name =First Payment Date  |Expected: 2/23/2019 0:00 | Actual: 2/25/2019 |
-
-
 Mismatch at Row :1573 for Trade ID :71910643 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
   Row 1573 Mismatch Column Name =Effective Date  |Expected: 2/28/2018 0:00 | Actual: 3/1/2018 |
 
 
 No Match Found for  Trade ID :76974070 | SEC_TYP_CD :SWAPIRS  
  RESULT: Failed
-
-Mismatch at Row :1521 for Trade ID :73775232 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1521 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
-
-Mismatch at Row :1504 for Trade ID :73799970 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1504 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
 
 Mismatch at Row :130 for Trade ID :72220379 | SEC_TYP_CD :SWAPCDS | Product Type  : CDS
   Row 130 Mismatch Column Name =First Payment Date  |Expected: 6/20/2018 0:00 | Actual: 3/20/2018 |
@@ -519,25 +507,9 @@ Mismatch at Row :1673 for Trade ID :72227656 | SEC_TYP_CD :SWAPIRS | Product Typ
   Row 1673 Mismatch Column Name =Effective Date  |Expected: 3/20/2018 0:00 | Actual: 3/22/2018 |
 
 
-Mismatch at Row :1564 for Trade ID :73362737 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1564 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
-
-
-Mismatch at Row :1763 for Trade ID :73362742 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1763 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
-
-
-Mismatch at Row :1633 for Trade ID :73362744 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1633 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
-
-
 Mismatch at Row :471 for Trade ID :76365500 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
   Row 471 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
  Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
-
-
-Mismatch at Row :1580 for Trade ID :73775231 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1580 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
 
 
 Mismatch at Row :473 for Trade ID :76356277 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
@@ -545,49 +517,9 @@ Mismatch at Row :473 for Trade ID :76356277 | SEC_TYP_CD :SWAPCDSI | Product Typ
  Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
 
 
-Mismatch at Row :1719 for Trade ID :73775235 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1719 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
-
-Mismatch at Row :1674 for Trade ID :73775236 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1674 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
-
-Mismatch at Row :1765 for Trade ID :73775237 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1765 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
-
-Mismatch at Row :1635 for Trade ID :73775239 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1635 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
-
-Mismatch at Row :1581 for Trade ID :73799969 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1581 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
-
 Mismatch at Row :474 for Trade ID :76425942 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
   Row 474 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
  Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
-
-
-Mismatch at Row :1625 for Trade ID :73799977 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1625 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
-
-Mismatch at Row :1675 for Trade ID :73799974 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1675 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
-
-Mismatch at Row :1766 for Trade ID :73799975 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1766 Mismatch Column Name =First Payment Date  |Expected: 1/5/2019 0:00 | Actual: 1/7/2019 |
-
-
-Mismatch at Row :1583 for Trade ID :74183729 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1583 Mismatch Column Name =First Payment Date  |Expected: 2/2/2019 0:00 | Actual: 2/4/2019 |
-
-
-Mismatch at Row :1720 for Trade ID :74183733 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1720 Mismatch Column Name =First Payment Date  |Expected: 2/2/2019 0:00 | Actual: 2/4/2019 |
 
 
 Mismatch at Row :1721 for Trade ID :74200761 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
@@ -672,10 +604,6 @@ Mismatch at Row :1503 for Trade ID :71635890 | SEC_TYP_CD :SWAPIRS | Product Typ
   Row 1503 Mismatch Column Name =Effective Date  |Expected: 2/14/2018 0:00 | Actual: 2/12/2018 |
 
 
-Mismatch at Row :1514 for Trade ID :71831650 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1514 Mismatch Column Name =First Payment Date  |Expected: 2/23/2019 0:00 | Actual: 2/25/2019 |
-
-
 Mismatch at Row :1790 for Trade ID :75992314 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
   Row 1790 Mismatch Column Name =First Payment Date  |Expected: 12/11/2019 0:00 | Actual: 6/11/2019 |
 
@@ -683,10 +611,6 @@ Mismatch at Row :1790 for Trade ID :75992314 | SEC_TYP_CD :SWAPIRS | Product Typ
 Mismatch at Row :496 for Trade ID :76356247 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
   Row 496 Mismatch Column Name =First Payment Date  |Expected: 12/20/2018 0:00 | Actual: 3/20/2019 |
  Mismatch Column Name =Effective Date  |Expected: 9/20/2018 0:00 | Actual: 12/20/2018 |
-
-
-Mismatch at Row :1519 for Trade ID :73362738 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
-  Row 1519 Mismatch Column Name =First Payment Date  |Expected: 6/8/2019 0:00 | Actual: 6/10/2019 |
 
 
 Mismatch at Row :566 for Trade ID :76356252 | SEC_TYP_CD :SWAPCDSI | Product Type  : CDX
@@ -817,31 +741,25 @@ Mismatch at Row :590 for Trade ID :76753013 | SEC_TYP_CD :SWAPCDSI | Product Typ
 Mismatch at Row :1594 for Trade ID :76974068 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
   Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
  Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
- Mismatch Column Name =Pay/Receive  |Expected: R | Actual: Receive |
  Row 1594 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
  Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
  Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
- Mismatch Column Name =First Payment Date  |Expected: 4/16/2022 0:00 | Actual: 4/18/2022 |
 
 
 Mismatch at Row :1730 for Trade ID :76974069 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
   Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
  Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
- Mismatch Column Name =Pay/Receive  |Expected: R | Actual: Receive |
  Row 1730 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
  Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
  Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
- Mismatch Column Name =First Payment Date  |Expected: 4/16/2022 0:00 | Actual: 4/18/2022 |
 
 
 Mismatch at Row :1775 for Trade ID :76974071 | SEC_TYP_CD :SWAPIRS | Product Type  : IRS
   Mismatch Column Name =Payment Frequency Description 2  |Expected: T | Actual: Zero Coupon |
  Mismatch Column Name =LastEqtyResetPrice  |Expected: 0.2 | Actual: NAN |
- Mismatch Column Name =Pay/Receive  |Expected: R | Actual: Receive |
  Row 1775 Mismatch Column Name =Fixing Term 2  |Expected: D | Actual: Semi Annual |
  Mismatch Column Name =Rate  |Expected: 0.00001 | Actual: 6.5 |
  Mismatch Column Name =Payment Frequency Description  |Expected: T | Actual: Zero Coupon |
- Mismatch Column Name =First Payment Date  |Expected: 4/16/2022 0:00 | Actual: 4/18/2022 |
 
 
 No Match Found for  Trade ID :0 | SEC_TYP_CD :0  
@@ -850,7 +768,7 @@ No Match Found for  Trade ID :0 | SEC_TYP_CD :0
 No Match Found for  Trade ID :0 | SEC_TYP_CD :0  
  RESULT: Failed
 
-TOTAL CRDSecids Validated: 641 | TOTAL ROWS PASSED: 558 | TOTAL ROWS WITH MISMATCHES: 83|| TOTAL ROWS NOT FOUND:4|
+TOTAL CRDSecids Validated: 641 | TOTAL ROWS PASSED: 573 | TOTAL ROWS WITH MISMATCHES: 68|| TOTAL ROWS NOT FOUND:4|
 
 76974070,76366139,0,0,</pre>
       </div>
